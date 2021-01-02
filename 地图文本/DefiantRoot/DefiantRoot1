@@ -1,0 +1,123 @@
+Not much has changed. There's quite a few places I want to visit...|next,-4|Really? I usually just zoom past the town unless I need the inn.|next,-6|We're not familiar with the area. What's good in town, Kabbu?|next,-5|North of here is a commercial district. The baker makes fantastic honey treats!|next,-4||face,-4,-5|Seriously!?|next,-5|The mayor's around here too, I should greet him when I get the chance...
+|boxstyle,3||spd,0|Come visit Isau's Clinic!|line|First consult is free!
+Welcome travelers, to Defiant Root. This town's name comes from the Big Tree's root, breaking through the Lost Sands.|next,-4,Angry|...I know that already.|next,caller|Just doing my job.
+|boxstyle,3||spd,0|Museum of the Ancients.
+Interested in that one?|prompt,map,0.5,2,5,6,@Yes,@No|
+Get to it then, you lot!
+Pick something else, then!
+|shaky|Pssst! You! You look like you MIGHT be interested in this...|next|Spicy Berries...I have some. 16 berries a pop. You IN?|showmoney||prompt,map,3.075,2,8,9,@16 berries? What a steal!,@No way!|
+|checkmoney,16,10||checkinvqtd,0,full,13||money,-16||shaky|You! Here you GO...|shaky||break||giveitem,0,2,11|
+|shaky|Fine. Don't tell ANYONE else about this!|shaky|
+|shaky|I'm running a BUSINESS here! Come back when you have MORE berries! And stay HUSH about this!|shaky|
+|shaky|Hehehe...REMEMBER! Don't tell anyone else about this!|shaky|
+|tail,-6|What the-|minibubble,@Eep!,-4|!? ...Yikes, we didn't see him there.|next,-5|Interesting spot. Shall we see what he has to say?
+|shaky|You're carrying TOO MUCH already! Get rid of some of that JUNK!|shaky|
+Maki's still gone...I'm starting to get worried. He never takes this long to complete a mission.|next,-5|I am certain he's fine!|next,-6|Or maybe he...|next,caller,Angry||boxstyle,1||shaky|SHUT UP! HE'S FINE!|break||anim,caller,Sad||end|
+Explorers for the ants, eh?|line|If you're interested in doing your usual questing or whatever, check the board over there.
+|hide||minibubble,@{wavy{Zzz...,caller||waitminibubble||end|
+Ah...the bakery in this town is the best.|next|By mixing flour with different ingredients, it's possible to create so |line|many different pastries! I must taste all of them!
+Mmm. Hey. Careful round this well here, yes? You don't wanna be falling in.
+Bandits have caused me some big trouble! If I wasn't blue...I reckon I'd be jailed by now.
+Have a good time before you head out. Best to go into a job without any regrets.
+We get a lot of bee tourists, since we're so close by. But we don't really return the favor.|next|I've been thinking of going on an adventure up there myself. But it's hard|line|to find the time...|next,-4|(Not like he's missing much...)
+Ohohoh. Welcome, welcome! This is Defiant Root's one and only museum!|next|Ancient artifacts, or historic pottery...we take pride in all of it!|next,-6|Wooow...
+Hey...welcome! What's troubling you?|next,-6|We're not sick, just passing by.|next,caller|That's okay. If you're ever feeling bad, drop by. First consult's free!
+|event,true|Hohoh! It's Morty's bed bug rental system! Welcome!|next,-5|A bed bug...rental service? Sir, what exactly do you mean?|next,caller|It's all in the name. This pillbug here is incredible, I tell ya.|next|If you're tired, he will lull you to sleep and heal you fully!|next,-6|Let's rent it, team.|next,-4|Seriously!? This sounds like a huge scam!|next,-6|B-But the pillbug...|next,caller|...Look. I don't ever do this, but if it'll earn your trust...|next|First rental's free, how's that? As soon as you sleep though, he'll come back to me.|next,-5|This is quite the interesting business model...|next,-4|Well...if the first try's free, I can't say no!|next,-6|Yes...yes!|next,caller|You won't regret it. He'll show you his super powers!|next||flag,157,true||kill,25||flag,150,true||giveitem,1,89,25|
+He'll do his best, so take care of him, okay?|next,-6|We will. Oh, we will.|next,-5|D-Don't forget we must return him...|break||event,false||end|
+|checkflag,150,27|Hey. How's the little guy doing?|next,-6|We couldn't be happier.|next,caller|Just don't hang on to him TOO long, okay?
+|showmoney|Hohoh, come back for more? It's gonna be 30 berries this time!|prompt,map,2.5,2,28,29,@Hand it over.,@Not yet.|
+|checkmoney,30,30||money,-30|Here you go!|next||kill,25||flag,150,true||giveitem,1,89,25|
+Hmm, alright. He'll be missing you until you come back!
+You got a free deal already. Don't be cheap!
+Hey...I hope you're having a good day. Please be careful, okay?
+!
+|tail,-4|Getting to the mayor's house is super weird, isn't it?|next,-6|Eh...we think it's a cute method.|next,-5|Regardless of the route, this is a great place to live in.|next|He can easily oversee the whole town from here!|next,-4|Look, all I'm saying is he could've paid for some stairs.
+Kabbu! You came to visit! Care to stay and chat?|next,-5|Mayor...thank you. I'm currently on a mission, however. I'll come back again.|next,caller|Anytime, Kabbu. Bring your friends, too!
+|tail,-6|This moth looks just as old as the rest of the museum.|next,-4|Heheh. You don't get to talk about being old!|anim,-6,WeakBattleIdle||next,-5|Vi!|next,-4|O-Oh. Sorry, I...|next,-6,Idle|Heh, it's fine. Walked right into that one.|minibubble,@Phew...,-5||breakend|
+Something seems off about this young lady.|next,-6|Hmm? ...! Her leg...|next,-4,Sad|Ah...We should probably shut up.|next,-5,WeakBattleIdle|I pray she did not hear us gossip...
+|checkflag,157,38|I must say, Morty's services were better than I expected.|next,-4|It's super useful to rest anywhere! If I was him, I'd charge WAY more!|next,-6|The idea that our dear bed bug could be rented to another bug...Team, we must keep renting at all costs.|next,-4|Uh, just remember we don't own it or anything, okay?
+What a peculiar business. What exactly is he selling?|next,-6|Only one way to find out.
+|tail,-4|Woah! That uniform is way cool!|next,-6|Hmm. Vi, does your body have room for accessories?|next,-4,Angry|Seriously? It does! I could wear twenty belts and be fine!|next,-6|Oh yeah? Prove it.|next,-4,Flustered|Fine! Let's go find a belt shop!|next,-5|Hopefully, she'll drop it when she sees the price tags...
+Wasps attacked the Ants, huh?|next|...Not my business. So long as they keep off here. Sorry.
+|tail,-4|Poor Dran...he's had it rough lately with all these bandits.|next,-5|Mhm...even though he is such a fine fellow, it's hard to escape superficial judgement.|minibubble,@...,-4||next,-6||destroyminibubble|He'll be fine. And if he's not, we can help.|next,-5,Happy|Leif, Vi...you two get more caring by the day!|anim,-4,Angry||minibubble,@Hmph.,-6||breakend|
+|tail,-4|Nope. I don't wanna talk to her!|minibubble,43,-5||breakend|
+Vi...
+|tail,-4,Angry|Great...she's here too.|next,-6|Wonder what she's up to.|next,-4|Don't know, don't care.|next,-5|Isn't Vi being a bit too mean...?
+|tail,-6|Kina's search for Maki continues...|next,-4|That's cute and all, but she better not forget her job!|next,-5|Knowing her, she's already finished. She's scary efficient|line|when making time for Maki.
+|tail,-6|Ah...we can't help but be hungry around this bug.|next,-4,Angry|No rush, Leif. You two can hang out!|next,-6|Oh? We just might order some stuff, then...|next,-5|Don't mind if we join you!
+It's quite convenient to have quest boards all throughout|line|the kingdom.|next,-6|Must be a drag to update all of them...|next,-4|Works for us, though. Completing these gives super good stuff!|next,-5|Indeed. Let's check up on them every now and then.
+That eyepatch...so cool!|next,-6|Seriously, Kabbu? Those are for covering wounds, you know.|next,-4|Yeah. Can't believe you're so insensitive!|next,-5|W-Wait, I said it was cool out of respect!
+Isau is such a relief to my eyes. She's treated many of my wounds.|next,-6|Your trip from the north sounds anything but fun.|next,-5|...|next,-4|Really though...it's not so bad to have someone else take care of you, right?|next,-6|Can't argue with that.
+|checkflag,157,51||tail,-6|Oh, dear Pibu...|next,-5|Pibu?|next,-6|We named him. Perfect, don't you think?|next,-4|That's super lazy, Leif. It's just the sound it makes! It's like a river named Pshh!|next,-6|Or like a Vi named Ugh.|next,-4,Flustered|HEY!|minibubble,@Pfft.,-5||breakend|
+|tail,-6|...|next,-5|Um, Leif? Is something on your mind?|next,-6|We want it.|next,-4|We're not getting any pets!|next,-6|We really really really want it.|next,-4|Whatever. Talk to the merchant. But I ain't helping you buy it!
+|tail,-5||event,true|Ah, it's good to be back.|next,-6|Oh yeah. You mentioned staying here back with Neo.|next,-4|That means we've been neighbors all along!|next,-5|Life truly is full of small surprises like that.|next,-6|Uh, cute. Anyways...how do we get to the Hive?|next,-4|We just keep going straight. There's a huge elevator there!|next,-5,WeakBattleIdle|I-Is it safe?|next,-4|No one's fallen off yet, so it's probably safe! Let's go get this|line|over with already!|next,-5,Idle|Venus...watch over me...|break||event,false||flag,170,true||end|
+|align,left,true||face,caller,-1|Ah, Kabbu! Good to see you. Delilah's filled me in.|next,-5|No, it's my pleasure! Thank you for everything!|next,caller|Hohoho! Don't think of it!|next,-6|You've got info on the Sand Castle, correct?|next,caller|That I do. That castle's an ancient Roach structure, rumored to be at the |color,1|northeastern corner|color,0| of the Lost Sands.|next|Mind you, that rumor's older than I am! But there IS a weird tablet in that part of the desert.|next,-4|It's the only clue we have, so... Any ideas on how to get in?|next,caller|Well, scholars say that you need |color,1|the Heaven and Earth keys|color,0| to enter the castle.|next|I've got a lead on only one of them. It's said to be...with the bandits.|next,-5|Ngh. They've been causing us enough trouble as is.|next,caller|Ask around town, someone could have a clue on their hideout's whereabouts.|next|Maybe some have heard of the other key, even!|next,-6||destroyminibubble|If Elizant wasn't lying, time is of the essence. It's time to search.|next,caller|Stay safe, you three. The sands are unforgiving to those unprepared!|next,-5|I have my team, worry not. We'll protect each other!|next,caller|I have no doubt. Even so! You've got to accept this little gift from the good old mayor!|next||giveitem,-1,45,66|
+I'll be praying for your safe return. Hopefully someone in town knows more!
+The Sand Castle? I overheard some bandits bragging about some key to it...|next|A poor lad in the commercial district is obsessed with them. |line|Try askin' him?
+Welcome! Come to see the museum, did ya?|next,-6|Actually, we'd like to ask you if you'd know anything about the Sand Castle.|next,caller|The Sand Castle? Hmm...It's Roach made, that's for sure!|next|They say there was an old Roach village near the |color,1|oasis|color,0| south of town.|next|I'm sure those old ruins hold some important things, castle or not. Shame |line|I'm too old to explore the desert alone!
+The Sand Castle? That fairy tale for kids? I heard the museum owner tell a tourist about it.
+Huh? Keys? Sorry, don't know anything.
+|boxstyle,3||spd,0|-Tools of War?-|line|These weird pins were found buried in the desert ages ago.|next||spd,0|Historians deduce that these tools were made by either roaches or giants.|next|As for their use, they might have been used as traps to keep invading troops away during times of war in these very lands.|next||spd,0|No consensus on their use or creation methods has been reached yet.|discovery,29|
+|boxstyle,3||spd,0|-The First Pot!-|line|When Defiant Root was first founded, many Termites and potter Wasps came to these lands seeking new soil.|next||spd,0|The union of those two clay artisan species made to the creation of all of Defiant Root's buildings, and our land's famous clay pots!|next||spd,0|If you are interested, please consider purchasing your very own masterfully crafted clay pot as a|line|souvenir!|next||spd,0|A perfect home decoration so you'll always remember your visit to our proud settlement!|discovery,29|
+We wanted to keep traveling...but there are rumors of lots |line|of bandits in the desert.|next|Guess we'll try to enjoy Defiant Root a bit more!
+Ouch. This bandit situation will cost us some time... At least the food here is nice!
+I've heard the bandit crisis was solved! They just up and left. Talk about great timing!
+Oho! We can finally move on with our travels!|next|But first, let's eat a bit more before leaving, this food is really nice!
+Hmm...the bandits seem to have been winding down on attacks lately.|next|My guess is that someone went up and took care of business at their hideout.|next|At least now I can worry less about having my cargo stolen.
+|minibubble,@Woah!,-4||minibubble,@Thanks.,-6||tail,-5,WeakBattleIdle|M-Mayor! This is too much!|next,caller|Take it, Kabbu. You can't say no!|next,-5,Idle|...Thank you, Mayor. We will return safely!|flag,250,true|
+Be careful when in the desert! The sands...|next,-4|Are unforgiving to the unprepared, we know.|next,-5|We will be fine, Mayor. Don't worry about us.
+So the Sand Castle was real...|next|Hopefully folks won't try to plunder it for treasures and get hurt. We should build a fence around it...
+Woah! The old stories were true! There is an ancient roach castle here!|next|Huh? Explore it? No way! I value my life!
+So the castle is not a fairy tale? I guess I should have paid more attention to my old classes.
+|tail,39,Sad|Ugh. What am I supposed to do with you now?!|next,40,Idle||wavy|M-muh muh!|wavy||next,39,Angry||boxstyle,1||shaky|DON'T YOU "MUH MUH" ME! I SEE HOW YOU KEEP LOOKING AT MAKI!|next|YOU BETTER NOT THINK OF DOING ANYTHING FUNNY OR |line|I WILL END YOU!!|next,40,Sad||boxstyle,0|M-muh! Muh muuuuh!!|shaky||next,-6|We'd best, uh, catch up with Maki soon.
+I remember Maki saying this caterpillar's name is Yin.|next,-4|Isn't Yin too old to still be a caterpillar?|next,-6|We can feel a faint magic inside of her. Don't think this is your run of the mill caterpillar.|next,-5|We need to ask Maki for more information after the mission.
+|tail,-4|Kina doesn't like Yin at all, huh.|next,-6|She's |wavy|way|wavy| too overprotective of Maki.|next,-4|Say it any louder and she'll smack us!|next,-5|A fair warning...
+I heard the Wasps attacked the Ant Kingdom...|next|I think I'll cancel my trip for the time being...
+|tail,-5|Doctor Isau! Doing well?|next,caller|Why, yes! That permit... You saw my request?|next,-6|Yep. We'd like to hear more about your miracle cure.|next,caller|You see, I've been studying Bugaria's flora and their properties |line|for many moons now.|next|I've found a combination that should heal any illness!|next,-4|Woah, that's a berry maker right there!|next,caller|Um, no. My hope is to be able to offer cheap treatment...|anim,-4,Flustered||minibubble,@WHAT!?,-4||next,-5|You are a noble soul! I will gladly lend you my strength!|anim,-4,Idle||next,caller|Heheheh. Thanks.|next,-6|We're assuming the missing ingredient's not going to be easy to get.|next,caller|Have you all heard of Snakemouth Den?|next,-6|...Yes. We're very familiar with its depths.|next,caller|Excellent! Although the white Sophie Petal I seek actually grows over the den itself, I hear.|next,caller|I haven't found a way to reach that high place.|next,-6|So we should try to get really high up?|next,-4|Leave it to us!|next,-5|With Vi's flight, there's nowhere we can't reach!|next,caller|I'll be counting on you. Don't get hurt!|flag,395,true|
+Oh, it's you kind lot. Have you found the Sophie Petal in Snakemouth Den?|pickitem,1,78,77|
+There's no rush. Please take your time looking for it.
+|checkvar,0,127,79|A-Ah, this doesn't seem to be it. Could you um, go back to Snakemouth Den?
+|removeitem,1,127||flag,396,true||face,caller,-1||face,party,caller|That silky white petal! You did it!|next,-4|Easy peasy!|next,-6|We can feel magic within it. It's sure to be what you need.|next,caller|Oh, how can I ever repay you!?|next,-5|There's no ne-|anim,-5,WeakBattleIdle|Hurk!|anim,-4,Flustered||minibubble,@Stop!,-4||next,caller||anim,-5,Idle||anim,-4,Idle||destroyminibubble|Your help was priceless! I hope this humble reward is enough.|break||giveitem,2,64,80|
+|tail,-4|...I mean, it's cool. But is it enough?|next,-5|Don't be like that, Vi!|next,caller|N-No, she's right. Your help really was priceless!|next,-6|She's always like that. Don't worry.|next,caller|Nonsense. Here, have just a little extra!|break||giveitem,-1,20,86|
+Thank you. Research's going well! I'll work hard for all sick bugs out there...
+Heard the Ant Kingdom was attacked...what has this world come to|line|be? Is nowhere safe anymore?|next|How long until this old town of us is next? |shaky|I don't want to think about this...
+The Wasps just broke through the border! What was the guard on duty doing?!|next|We have to protect the town!
+|anim,caller,Happy|...I um, heard you defeated the bandits...|next|...Thank you...Thank you very much!
+Everything's my fault, but I had no chance against 'em...|next|How will I ever face the Queen...!?
+|tail,-4,Happy|Heheheh.|minibubble,@Darn...,-5||next,-6|Unbelievable...|next,-5|T-Thank you, Isau. We hope your research goes well.|next,caller|Me too. For the sake of all bugs out there...Huh? What's this?|next,-6|Is there an issue?|next,caller|I think this petal's got some seeds in it! They're super tiny, see?|next|I'll try planting a Sophie here, too. That should save explorers a lot of trouble!|next,-4|It's gonna grow great, you're super kind!|next,caller|Heheheh. Well, let's toast to that!|break||completequest,37||end|
+|align,left,true||event,true||face,caller,-1|Kabbu! Vi! Leif! It's good to see you!|next,-5|It is always nice to be back.|next,-4|You had a quest posted up and stuff, right?|next,caller|Mhm. But you shouldn't have bothered, Kabbu! I'm sure you've got |line|more important things to do.|next,-6|Well...|next,-5|Not at all!|next,caller|...Thanks.|next,-4|Let's get on with the details! Like the reward...|next,caller|Hoho, don't worry. The mayor pays well!|next|Y'see, hosting was good and all! I didn't expect to like Whack-A-Worm so much!|next,-6|And you're seeking some thrills again.|next,caller|Yup! I really want to see someone |color,1|score a 20|color,0|!|next,-4,BattleIdle|Alright! I'll whoop em up!|next,-5|There's a nice spot near the settlement, shall we check it out?|next,caller|Oh, oh yes! Thank you so much, Kabbu!|next||move,this,8.5,6.48,12.2|I'm so |anim,-4,Angry||minibubble,@Don't push!,-4|excited!|fwait,1.5||flag,557,true||event,false||addfollower,this|
+I hope you'll like my vault! Heheheh.
+Uff. It's burning up today! I can't walk in this sun...
+Ahh, it's too hot! Isn't there an ancient fan in here!?|next,26||face,26,caller|Err...no.|next,-6|You must be Eremi.|next,caller|Ah, yup! That's me!|next,-5|How may we help you combat this heatspell?|next,-4|Leif! Freeze her up!|next,caller||hide||anim,-6,111||sound,OverworldIce||particle,mothicenormal,caller,0,1,0||fwait,1||anim,-6,0||hide|Wow! What a nice breeze!|next,-6|Mission complete.|next,-4|Pay up!|next,caller|W-Wait! It's already hot again!|next|I'm SUPER thankful, but...I need something that will last after you're gone!|next,-6|Hmm...|next,-5|Perhaps an umbrella? Or some sort of ointment to shield you from the sun's rays?|next,caller|I'll take anything, really. Please...I'm begging you!|next,-4|So much for the easy check... We'll find something, so sit tight!|next,-6|Try not to uh, work yourself up until then.|flag,571,true|
+|tail,-4|That's a cute apron!|next,-5|Leif, you quite enjoy cooking. Correct?|next,-6|When it's stuff we like.|next,-5|Perhaps you should wear a cute apron as well!|next,-6|That's...not how it works.|next,-4|You just don't wanna wear it!|next,-6|Why don't YOU get an apron then, Vi?|next,-4|Ahahaha...oh whoops, time to get back to work!
+|call,93||pickitem,0,94,95|
+Phew...did you find something for the|line|heat?
+|checkvar,0,97,96||checkvar,0,42,99||checkvar,0,167,97|This isn't really gonna help. I'm grateful you've tried, but...
+Ah...please, hurry! I'm melting!
+|setvar,1,30|Ooh! That's a fancy brand!|next,-5|This should protect you long enough!|next,caller|Mmm, it's a good bandaid, but an umbrella would've been better.|break||goto,100|
+|removeitem,1,167||flag,574,true|Wow! That umbrella's beautiful!|next,-5|It's one of a kind, but perfect for your needs!|next,caller,Happy|Hehehe. Don't I look cute?|next,-4|Super cute! Now, to seal the deal...|next,caller|You must've gone through such a hassle! I hope this makes up for it!|break||giveitem,-1,50,106|
+|call,93||pickitem,1,94,95|
+|setvar,1,15|I don't think this cube will last too long...|next,-6|This is magic ice. It never melts.|next,caller|Wait, really? Woah! Then it might help after all! Though I would have preferred an umbrella.|break||goto,100|
+|itemname,v0||tail,null||boxstyle,4|Give Eremi the |string,0|?|prompt,yesno,102,104|
+|next,-4|Nice! Now the payment!|next,caller|Alright, here it is.|break||giveitem,-1,20,100|
+|tail,-6||boxstyle,0||removeitem,0,var,0|Sorry, it's not perfect but it'll do.|next,caller|Yeah...you're right! Sorry, the heat's got me a bit cranky. I'll try it out!|next||hide||fadein||fwait,1||fadeout||fwait,1||hide|Ah, much better! Thank you so much!|next,-4|No probs! Now, to seal the deal...|next,caller|Here, this should cover the item and more!|break||giveitem,-1,var,1,103|
+|tail,-4,Happy|Thanks~!|next,caller||call,105||flag,573,true||completequest,53||setvar,52,2|
+|boxstyle,0||tail,-6|We'll see if we find an umbrella. You'll have to wait, though.|next,caller|I'm gonna try! Patience is hard when you're melting!
+I'm gonna get going now. See you|line|around!
+Oh, and take this too!|break||giveitem,2,61,107|
+|tail,-4|W-Woah! You sure 'bout giving us this much!?|next,-6|Yeah, it's a lot...|next,caller|This umbrella will last me more than 20 ointments! It's okay!|next,-5|We are grateful, miss Eremi. We hope you have cooler days ahead!|next,caller|Hehe. Thank you all so much. I'll get going now!|completequest,53||flag,573,true|
+Hello there! I hope everything is going well with you!|next|It's nice to finally be able to look around town without feeling like I'm|line|melting!
+Everything alright? I hope you're having a good day!
+Seems everything is back to normal over at the Ant Kingdom.|next|Maybe I will finally take the time to visit sometime.
+Well well, looks like the Wasp situation is over.|next|But to be honest, things are kinda boring now.
+So you three actually managed to solve the Wasp crisis. Color me impressed.|next|...If you're expecting free drinks, tough luck.
+|tail,-6|Say, the citizens of this town really enjoy that pattern on their clothing, don't they?|next,-5|Well, they're simple to weave yet appealing...I could see why it'd be a hit.|next,-4,Happy|Oh. We should open our own clothing line! With squares instead of triangles!|next,-6|No way. Circles would look way better.|next,-5|I'll keep my triangles, thank you very much.
+|checktrue,572,115||goto,108|
+Oh! That umbrella!|next|That would be really nice to protect me from sunlight! Would you mind giving it to me?|prompt,map,0,2,116,117,@Here you go!,@Nope.|
+|anim,caller,Happy||removeitem,1,167||flag,574,true||updateanim,caller|Ah! Thank you so much! This feels much better!|next|Here, take this as a token of gratitude!|break||giveitem,-1,30,118|
+Ah, alright. If you do change your mind, let me know, alright?
+Thanks for everything!
+The desert's filled with so many spikes... I wish I could fly above them.|next|If I could build some sort of giant bubble... I'd walk all over them to show them who's boss!
+Hm... Could he be...?|next,-6|You know him?|next,-5|No. I thought I did, but... Maybe it's nothing but my imagination.
+These two crossed the desert as well...|next,-4|Hope they didn't run into any bandits...
+|tail,-6|The border guard's massive...ly down in the dumps.|next,-5,Angry|Leif! How crass, to jab at her with such wordplay in her moment of weakness!|next,-4,Flustered|YEAH! Leif, you're the |shaky|worst|shaky|!|next,-6,WeakBattleIdle|Hey, it was just a joke...
