@@ -1,0 +1,49 @@
+|checktrue,411,1|What a peculiar cave.|next,-4|Huh... There's nothing here! Just a rock!|next,-6|...We can feel magic coming off this cavern. It's hiding something.
+What an incredible device! It projects images!|next,-4|I've seen a few like this in the Hive. They're really cool!|next,-6|...Can a projection reward us...?
+|tail,-4||anim,-4,Surprized|Woah! Is that a Roach!?|next,-6|It's just a projection, Vi.|next,-5||checktrue,414,3|Still, it feels so real!
+We can start the trials by talking to this very realistic hologram. Get ready, everyone!
+|boxstyle,3||spd,0|No Data Available. Please interface with the Holo-Assistant for help.
+|boxstyle,3||spd,0|
+|hide||event,156|
+|call,9|Fhrosk? Xenuakela! Xenuakela! Taraemi derante no kinoxinra!|next,-5||call,10|Ah, the Roach dialect!|next,-4,Flustered|Come on, Leif! You've gotta translate!|next,-6|Uh. This accent is really weird. Let's see...|next,caller||call,9|Deranto te daqueda ni firosk.|next||color,5|Teterande da...|next||color,5|Translation Complete.|next||color,5||anim,-4,Surprized||anim,-5,Surprized|Welcome! Welcome challengers! Welcome to the |color,1|Cave of Trials|color,5|!|next,-6||call,10|Guess we won't need to translate, then...|next,caller||call,9|Here, you can challenge many enemies you've faced before |color,1|in |line|succession|color,5|, in return for prizes and glory!|next,-4,Happy||anim,-5,Idle||call,10|Prizes!? Glory!? Aw yeah!|next,-5|This must be an ancient Roach training simulator!|next,caller||call,9|Indeed! Shall we start a test run?|next||color,5|...ERROR! No Data Available!|next,-4,Angry||call,10|Bleh. It's busted.|next,caller||call,9|-Loading Backup Assistance Message...|next||color,5|Oh, fret not, challengers!|next||color,5|All we need is a |color,1|Crystal|color,5| that has recorded any battles you have fought!|next,-5||call,10|A crystal that recorded our battles?|next,-6|It must be something that has been with us since the start... But what?|next,caller||goto,11|
+Unused
+|boxstyle,6||color,5||glitchy|
+|glitchy||boxstyle,0||color,0|
+|call,9|Do you have a |color,1|crystal|color,5| that has recorded your fights up to this point?|pickitem,1,0,true,false,12,13,5|
+|checkvar,0,27,14||color,5|This item does not possess recorded data. Please provide a |line|data-rich crystal for data reading.
+|color,5|Please provide a crystal to be able to run the trial program!
+|color,5|................Data reading completed.|line|Trial system online.|next||color,5|Please speak to me whenever you are ready to start the program or you have any questions about the system.|next,-4,BattleIdle||call,10|Alright! It's prize, glory, and uh... Holo-trainwhatever time!|flag,414,true|
+|boxstyle,3||spd,0||color,5|Cave of Trials Records:|color,0||line|Times Attempted: |var,43||line|Times Completed: |var,38||line|Current Streak: |var,39|
+|boxstyle,3||spd,0||color,5|Battle Records:|color,0||line|Battles Fought: |var,40||line|Battles Fled From: |var,42||line|Highest Damage In One Turn: |var,41||next||spd,0||color,5|Collection Records:|color,0||line|Crystal Berries Found: |cberrytotal|/50|line|Medals Found: |Medaltotal|/|maxmedals||next||checkflag,681,-11||spd,0|MYSTERY?: |var,67,pad,9,0|
+Welcome back, challengers! Are you ready to try the Cave of Trials?
+We're ready.
+Not yet.
+How does this work?
+What do we get?
+|color,5|This terminal will use your crystal's data to let you battle many foes in consecutive battles.|next||color,5|If your crystal has no data on our enemies, they will show up as silhouettes. My apologies.|next||color,5|You can only heal every 10 battles, and holographic enemies |line|award less EXP.|next||color,5|Every 10 battles completed awards a prize, and it's safe to fail.|next||color,5|So keep changing your strategy until you come out on top!
+|color,5|For each 10 completed Trials, you get special items, Medals or berries that may aid you in your journey.|next||color,5|There is no penalty for losing, so feel free to try as much as you need to win!|next||color,5|But beware, giving up before reaching a 10 battle milestone will net |line|you nothing. Try to endure until then!|next||color,5|Also, do not worry about spending your items, as they will be returned just how they were at the end of the battle! So use away!
+|color,5|Cold feet? Come back if you decide to challenge the Trial again!
+The current data does not allow for the full run of the Trial, currently the system goes up to tier |var,0|. Is this okay?
+|color,5|Very well! Let's load up the Trial program!
+Battle @VAR@ of @VAR2@, let's go!
+Congrats on making it this far! Still @VAR@ battles to go through, however.
+Do you want to keep going?
+ERROR. INSUFFICIENT DATA.|next||color,5|I am sorry. You cannot continue as we no longer have any data for new challenges!|next||color,5|Please gather more data and come back!
+Here is something for your efforts.
+|call,9|There is always next time, challengers! I do hope you return!
+Is the challenge too tough? Always keep trying new Medal combinations to see what you can do!
+Well, here is something for your efforts anyway!
+Congratulations! Here comes the next challenge!
+|color,5|Very well, here is some healing before we continue ahead!
+Continue
+Heal up (|var,0| left)
+Give Up
+You deserve something for your efforts!|next||color,5|Once you are done, check near the platform, you should find something of interest.
+You did it! Congratulations! You have successfully completed the Cave of Trials!|next||color,5|It brings me joy that I can reward you with this, take it!
+|call,9|But your journey is still far from over, my friends.|next||color,5|If you want to keep fighting, just talk to me again, and we shall begin the process once more.|next||color,5|I no longer possess any amazing rewards, but you shall still earn berries, |line|so feel free to come back anytime!
+Ah! Once more you have completed the challenge! Great job! |line|Take these to celebrate your victory!
+Would you like to start in Random Mode or Normal Mode?
+Normal Mode
+Random Mode
+Oh! Since this was the first time you beat the Cave of Trials, |color,1||sound,ItemGet1|Random Mode|color,5| is now available to add some spice in future challenges!
+Impressive! The next battle will be the last one! Are you prepared?
