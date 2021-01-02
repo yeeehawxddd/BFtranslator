@@ -1,0 +1,30 @@
+|tail,-6|Just what is Elizant up to with all these tunnels?|next,-5|It seems the Queen hopes to connect many parts of Bugaria |line|with these Ant Tunnels.|next,-4|It's gonna make clearing quests a breeze!|next,-6|Sure hope there's not an ulterior motive...
+|wavy|Phew...|wavy||wait,0.2| I've finally finished the Defiant Root pathway. Now I can |line|visit the wonderful Bee Kingdom whenever I want!|next|Shopping, the museums, the food... Ah! Why was I born as an ant?
+Stand back!|next|If I hurt you swinging this thing, I'll get in trouble with the boss.
+Hey, you're the team that brought the artifact from Snakemouth, aren't ya?|next|I'm the overseer here at the mines. We're digging tunnels across all of Bugaria to make life easier for everyone.|next|Currently only explorers can use the tunnels we've finished. We haven't opened them to the public yet.|next|We do have someone out to open them, but she's probably slacking off.|next|We're behind schedule already... I hope the Queen doesn't get mad at us again.|flag,69,true|
+This compass always points to this big crystal. Use it whenever |color,1|you want to travel back here|color,0|.|next|There's quite a few tunnels leadin' back here already, the compass will take you to them!|flag,373,true|
+|checktrue,78@79,29|Have you seen Diana? She should be giving finishing touches to the spots leading back here.|next|She's probably lazing off somewhere though... If you see her, |line|speed her up a bit.
+|wavy|ZzZzZzZzZzZzZz... 
+Metal Island... It's just so expensive! I can't even imagine what kind of bugs do business there!|next|Why does the Queen want a tunnel there? Just to save on boat fare...?
+Oi, Team Snakemouth! During the attack, a piece of the main crystal fell off. |next|We turned it into a pretty nifty tool for you! Would you mind testing it?|break||giveitem,1,37,4|
+Hmm. Rocks are simple to break through. The Far Grassland's flora was a big challenge, though.
+Great, from farmer to miner. Ugh, I wish I could just run a shop...
+T-The Forsaken Lands are so creepy. We needed a lot of escorts while digging.|next|I'm so glad we're done working there...
+|tail,-4|The miners look cool. Way cooler than they need to!|next,-6|Might as well do their job in style.|next,-5|(Should we work on our style more...?)
+|tail,-6|What's the point of holding a stop sign in the mines? Can't she just yell "stop"?|next,-5|We shouldn't assume any of the extreme dangers that come with breaking rocks!
+|hide||event,196|
+|showmoney|Hello, Team Snakemouth. I can bring you to many places, some for a small fee. Any of these sound appealing?
+Hm... I see. I shall be waiting.
+Nowhere.
+Ant City Plaza
+Patton's Hut - 10 berries
+Snakemouth Den - 5 berries
+Bugaria Pier - 8 berries
+Sorry. You don't have enough berries. Can't take you there for free,|line|that's not how things work.
+Ok. I must ask you to close your eyes, though. These routes are top |line|secret...
+Is there a need to wear a cloak inside a mine?|next,-4|It's super dusty! We should wear cloaks here too!|next,-6|Eh. We bet she just wants to look mysterious...
+Watch out! This tunnel here leads to Rubber Prison and Giant's Lair!|next|Whatever you want there, don't blame me if anything goes wrong!
+One Ant could've never done all this. That's the beauty of teamwork for you.
+Ugh. Never expected the Wasps to drill from under the castle... Our tunnels are all messed up now!|next|At least the main crystal is unharmed.
+Glad everything is fixed now! Thanks for your help!|next|Can't believe Nessa slept through all that ruckus, though. I swear she only works when no one is looking.
+We...We did it! All tunnels are complete! Diana's back, too!

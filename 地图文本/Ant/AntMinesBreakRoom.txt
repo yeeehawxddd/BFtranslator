@@ -1,0 +1,19 @@
+|tail,-4|Whew. I'm beat. Let's rest up!|next,-5|This break room's for the miners!
+Is it a good idea to dig THERE? Hope it doesn't backfire...
+|tail,-6|What's the point of holding a stop sign in the mines? Can't she just yell "stop"?|next,-5|We shouldn't assume any of the extreme dangers that come with breaking rocks!
+|tail,-4|The miners look cool. Way cooler than they need to!|next,-6|Might as well do their job in style.|next,-5|(Should we work on our style more...?)
+The Defiant Root tunnel's coming along. I'm glad it'll be next to the Bee elevator!
+Digging's gonna be easy. Setting the entrance with all that grass, though...
+A-Am I really the right one to dig at that scary place?
+I hate Metal Island. I'm not even gonna get paid enough to afford food there.
+I quit farming to mine, but maybe that wasn't the best choice...
+|anim,caller,BattleIdle||checkflag,81,10|A job well done! Thanks for the good times, y'all.|next,-6|A pleasure waking you up...|call,15|
+A job well done! It's time to rest up!|next,-6|Did we see her working anywhere...?|call,15|
+|checkflag,80,13||tail,-6|Diana's finally done. How bittersweet.|next,-5|I'll miss finding her across the world!|next,-4|I'm glad the tunnels are done, though!
+|hide||event,196|
+...Did we ever see her anywhere?|next,-6|You'd think we would have, how could we miss someone that big?
+|anim,caller,BattleIdle|Hello there! Name is Diana. First time we meet, right?|next,-4|Is it?|next,caller|Yeah, don't remember seeing you around before.|next|Anyway nice to meet ya!|next,-6|Well, what are you doing here?|next,caller|Oh, I just finished building all the tunnels around Bugaria, so I'm just resting.|next,-5|You made all the tunnels?|next,caller|Yeah, it was a hard job, lemme tell ya.|next|But it is done now, so now I'm just resting.|next,-4|Huh, neat. Thanks I guess, these tunnels are super helpful!|next,caller|No problem! Just doing my job. See ya around!
+|break||anim,caller,106||end|
+|anim,caller,BattleIdle|Oh, hey there folks! All tunnels are finally done!|next,-4|Awesome! This will make travelling a breeze.|next,caller|Indeed! It was tiring work, but the Queen seems satisfied.
+Oh yeah, thanks for giving me those berries earlier. I feel a bit bad about asking you for them...|next|So here, these should help us stay even!
+Well I'm just going to stay here and rest a while. Don't know what the next work is, but gotta be at full power for it!|next|See you around, folks!|next,-5|Enjoy your rest, Diana!|call,15|
