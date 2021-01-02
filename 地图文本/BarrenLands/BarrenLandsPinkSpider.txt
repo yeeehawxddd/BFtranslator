@@ -1,0 +1,21 @@
+|checktrue,451,6||tail,-6|Looks like we reached a dead end.|next,-5|Drat... Should we investigate or turn back?
+|boxstyle,4||spd,0|A crudely made sign stands here. There are some really badly made scribblings on it.|next||spd,0||boxstyle,3||center|pease leave items in front of hole|line||halfline|                     tanks
+|boxstyle,4|There is a hole in the wall, leave something?|prompt,map,1.8,2,3,5,@Place an Item.,@Go away.|
+|checkinvqtd,0,0,4|What do you want to put down?|pickitem,0,1,true,false,-11,5|
+|setvar,1,-1|You aren't carrying anything... 
+|setvar,1,-1||end|
+So... We can give our items to that spider?|next,-4,Surprized|She gives a LOT more berries than shops do! We're gonna get rich!
+NERO!
+Nibu!
+I-It's so cute...|next,1000,Happy||flip,1000|Team Snakemouth, thank you so much! Nero's my best friend...
+Nibu! Nibu!
+Hm? What's that?|next,-5|It seems to be holding some sort of glowshroom! Although not like the ones that guided us.|next,1000|Oh, Nero. You wandered off for this?|next,-4|Is that like, a super rare shroom?|next,1000||face,1000,-4|Not really. But I need it for my family's coming of age tradition!
+So helpful. It truly is the perfect pet.|next,1000||face,1000,-4|More than a pet, he's a real friend!|next||anim,1000,Happy|Heheheh. I can continue my journey now!|next|Although I wouldn't mind staying in the Termite Kingdom a little longer.|next,-4|Really? I can't wait to be outta there...|next,1000,Idle|There's still a few more things for me to do and see before I go back home. I want to let everyone know how wonderful this place is!|next,1000||flip,1000|Right, Nero?
+...You're right. Just saying thanks isn't enough, |face,1000,-4|so would you take this?
+I found it while looking around, and its contents are most incredible!|next,-4,Angry|A book!? Look, w-|next,-5|Of course it's enough! We wish you luck on your journey!|next,1000|We should be fine going back, so don't let us hold you back any longer.|next|Make sure to say hi if you're back in the city!|next,-6|Goodbye, Nero...
+|anim,-4,Flustered|Stop doing that, Kabbu. Books aren't worth anything!|anim,-4,Angry||next,-5|Books are priceless, Vi. I'll have you know that.|next,-6|Agreed. You could use a little bit more culture.|next,-4,Angry|If no one wants to buy it, it's worthless! Why do you think libraries|line|rent 'em!?|next,-5|...Let's get going. There's more to do.
+|shaky|Don't ignore|line|me!
+|bleep,13,1.75|I'm about to head back to the city... Will you come with me?|prompt,yesno,18,19|
+Let's go, then.|break||warp,174,-32,0,-4|
+Oh, alright.
+|tail,-4|So her friend lives all the way out here?|next,-6|Looks like it. At least she knows her path through the fog. Let's ask her to escort us whenever we want to come here.

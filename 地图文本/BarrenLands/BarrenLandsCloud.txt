@@ -1,0 +1,1 @@
+|tail,-4|Lots of chasms here...|next,-6|Well, Vi, you know what to do.|next,-4,Angry|Ugh. These gaps are too far apart! I can't carry Kabbu that long!|next,-5|Hmm... It seems these rocks are blocking the wind's flow... |next|We could use that to push us forward.|next,-6|Where is all that steam coming from, anyway?

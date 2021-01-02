@@ -1,0 +1,5 @@
+That rocky formation stands quite tall!|next,-6|It's just inviting us to climb it, isn't it?
+|call,4||checktrue,384,2||flip,1000,true||tail,1000|Witness it, my knights. The Termite Kingdom.|next,-4|...It's just a big rock?|next,-5|Think of that big rock as their Hive, Vi.|next,-6|It's more than close enough. We've just got to go north.|next,1000|With haste. Bugaria cannot wait for us to complete our mission!|discovery,41||flag,470,true|
+|tail,-4|The Termite Kingdom's just a big rock, huh.|next,-5|Think of that big rock as their Hive, Vi.|next,-6|Kinda wish we'd spotted this viewpoint while with Elizant...|discovery,41||flag,470,true|
+|boxstyle,4||spd,0|The Termite Kingdom's dome lays before you, smoke gushing out of the pipes.
+|flip,-4,true||flip,-5,true||flip,-6,true|

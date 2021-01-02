@@ -1,0 +1,3 @@
+|tail,-6|This area is much foggier than the others.|next,-5|Careful, team! We must watch closely where we walk!|next,-6|Not a place we should wander around without a guide...
+|tail,-5|Goodness! It's impossible to make out a path.|next,-4,Angry|Yeah, this area is super foggy! Nero's got WEIRD taste.|next,1000|Don't worry, everyone. Do you see those shrooms?|next,-6|They're shrooms alright.
+|tail,-5|Magic!?|next,1000,Happy||flip,1000|I'm a firefly, silly! I glow!|next,-6|Seems it wasn't a waste to bring you with us.|next,1000|Bring me to the shrooms, and they'll light up the way with hints.|next||anim,1000,Sad|Hang in there, Nero. We're coming!

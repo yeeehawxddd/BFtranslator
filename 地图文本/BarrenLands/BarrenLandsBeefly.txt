@@ -1,0 +1,15 @@
+|checktrue,19,1||checktrue,376,7|...Drat. The bridge is gone!|next,-4|Guess we can't go on, huh?|next,-6|Why don't you just carry us, Vi?|next,-4,Angry|What? No way! Let's find some other way!
+|tail,-6|Well, Vi, you finally have no choice.|next,-4,Flustered|I'm just doing it 'cuz the Queen asked me to!
+Curses. The bridge is out! However shall we cross?|next,-6|Let's look around. We've always found a way.
+I dare say you've been thwarted this once.|next,-4|Uh, yeah...|next,1000|These lands are disorienting as is. Would there be a path we missed?|next,-6|Not in this direction, from what we've seen...|next,-4|Are you uh, 100% sure?
+If only we could cross this smallest of gaps... 
+Vi.|next,-4,Sad||face,party,1000|M-My Queen?|next,1000|You shall carry us one by one across the ravine.|next,-4,Flustered|WHAT!?|minibubble,6,-6||next,-5|We've tried this approach, and...|next,1000|If it was a vast canyon I would reconsider, but there is no time.|next|Vi, this is an order. You must try.|next,-4,Angry|I can't do it alone! Just carrying Kabbu'd be hard enough!|next,-6||face,-6,-4|We'll support, Vi. Come on, try it out.|next,-5||face,-5,-6|You...can do that?|next,-6|Been practicing.|next,1000||face,party,1000|Then there is no longer an excuse! Vi, fly with haste!|next,-4|Grrr...I'm gonna be all sore... |anim,-4,Flustered|Fine, whatever! Leave it to me!|next,null||boxstyle,4||sound,ItemGet1||spd,0|Vi can now |color,1|fly|color,0|! Simply hold |button,5| and she will carry the party across short gaps!|next||sound,ItemGet0|Vi can now also use the |color,1|Fly Drop|color,0| skill in battle!
+Oh ho.
+|tail,-6|A dead end...?|next,1000|Too early to say. Let us inspect.
+|shaky|OooOOoOooOooh... So... Hungry...|shaky||pickitem,1,9,-11|
+|checkvar,0,145,10||tail,-5,instant|Uh...that's not it...
+|removeitem,1,145|......Oh...! Is that...?!|next||hide||fadein||fwait,1||transitionsort,-10||anim,caller,Idle||minibubble,12,caller||waitminibubble||fadeout||fwait,1||hide|Oh! Thank you! That saved me.|next|So my brother sent you here, huh? When I get to work, I get so pumped out and forget to eat.|next|Here, take this as thanks for saving me!|break||giveitem,2,64,13|
+This must be Yatanta's brother. Let's give him the lunch!
+|wavy|munch munch
+Well, time to finish my patrol and head back home! See you out there!|break||goto,14|
+|hide||fadein||fwait,1||kill,caller||fadeout||fwait,1||completequest,44||flag,476,true||end|

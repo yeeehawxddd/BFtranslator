@@ -1,0 +1,1 @@
+|tail,-4|Hey...that scrap has the Ant Kingdom stuff on it!|next,-6|Huh. Were these the tanks Elizant used while searching for where to settle?|next|They seem damaged. She probably abandoned them here.|next,-5|So we are walking in historic ground! What a grand honor!|next,-4|You should let that Neo guy know, right?|minibubble,@Indeed!,-5||breakend|

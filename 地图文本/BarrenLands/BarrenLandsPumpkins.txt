@@ -1,0 +1,3 @@
+Impressive. Pumpkins have managed to grow in these barren lands!|next,-4|Time for lunch!|next||checktrue,384,2||tail,1000|Well, I do quite enjoy Plumpling Pie. It has been some time...|next||goto,2|
+|gettail,321|We should reach the area if we head south from here... I hope Nero is alright...|flag,466,true|
+|tail,-6|They grow in the Golden Settlement too, yeah?|next,-5|Then this must be an act of mercy from Venus!|next,-4|It's just pumpkins, Kabbu...
