@@ -1,0 +1,50 @@
+RESERVED@a
+RESERVED@a
+Tornado Toss@Tosses the beemerang in a circular motion. Multi hit move that targets a single enemy.
+Taunt@Taunts enemies, making them focus on attacking |menu,47| for this turn.
+Icefall@Creates an ice projectile that may freeze any enemies around its impact radius.
+Fly Drop@|menu,46| will drop |menu,47| on an enemy, causing huge piercing damage!
+Under Strike@|menu,47| will dig under enemies, hitting them with a powerful flipping, piercing strike.
+Bubble Shield@|menu,48| creates a shield that negates damage for all allies during 1 turn. |menu,48| is then unable to act for 1 turn.
+Charge Up@Charges up a party member, boosting their attack the next time they strike. Stacks up to 3 times.
+Pebble Toss@|menu,47| will toss a rock, dealing 1 damage to any enemy.
+Dash Through@|menu,47| charges forward, damaging all grounded enemies with his horn. This also flips enemies.
+Secret Stash@|menu,46| heals 4 HP to an ally while curing poison with an item from her secret stash. This does not consume normal items.
+Break@Reduces an enemy's defense by 1 for 2 turns.
+Break+@Reduces all enemies' defense by 1 for 3 turns.
+Empower@Boosts an ally's attack by 1 for 2 turns.
+Fortify@Boosts an ally's defense by 1 for 2 turns.
+Needle Toss@Vi tosses some piercing darts at enemies.
+Bubble Shield Lite@|menu,48| shields an ally from all harm for 1 turn.
+Hurricane Toss@Vi tosses the Beemerang and holds it in place, ignoring 1 defense while damaging and flipping |unpauseline|an enemy.
+Boulder Toss@|menu,47| tosses a big rock at his foe. It can hit enemies near the target too!
+Revival Massage@Revives a fallen party member with 5 HP.
+Frigid Coffin@Encases an enemy in ice, with a great chance to freeze. Can only target grounded enemies.
+Charge Up+@Charges up the party, boosting their attack the next time they strike. Stacks up to 3 times.
+Empower+@Boosts the party's attack by 1 for 3 turns.
+Needle Pincer@Hits an enemy twice with needles, dealing piercing damage. Must target the first grounded enemy.
+Ice Rain@Creates a rain of icicles, capable of damaging all enemies with a chance to freeze them.
+Frost Relay@Leif and Vi take turns striking an enemy, freezing it and whacking it without mercy!
+Frozen Drill@Leif creates an ice spike while Kabbu bursts from underground, flipping an enemy with a chance to |shopline|freeze it.
+Enfeeble@Reduces an enemy's attack by 1 for 2 turns.
+Enfeeble+@Reduces all enemies' attack by 1 for 3 turns.
+Fortify+@Boosts all allies' defense by 1 for 3 turns.
+Frost Bowling@|menu,48| freezes |menu,46|, then |menu,47| tosses her at enemies. The ultimate team move!
+Heavy Strike@|menu,47| will charge up his horn for a powerful strike. Can only target the first grounded enemy.
+Sturdy@Grants 3 defense and status immunity for 1 turn, converting extra turns |pauseline|into HP.
+Beemerang Toss@|single|Press |button,5| once to toss the Beemerang, to hit far away targets and|line|retrieve items!
+Beemerang Halt@|single|Press |button,5| to toss then hold |button,5| to hold the Beemerang in place to spin things around!
+Bee Fly@|single|Hold |button,5| to fly for a short time, allowing you to cross large gaps!
+Horn Slash@|single|Press |button,5| to hit stuff with your horn, it can cut bushes and push stuff!|line|Objects that can be hit will show a |icon,223| atop the party leader's head.
+Horn Dash@|single|Tap |button,5| twice to dash forward, a strong move which can break some|line|objects!
+Beetle Dig@|single|Hold |button,5| to dig underground, so you can go under some objects, hide from enemies, and unearth hidden items!
+Freeze@|single|Press |button,5| to create an ice explosion, in front of the party, which can freeze enemies and liquids!
+Icicle@|single|Tap |button,5| twice to create an icicle which falls vertically. It can create|line|platforms on water to stand on!
+Shield@|single|Hold |button,5| to create a shield around the party, allowing you to walk on hazardous terrain and deflect enemy|line|attacks!
+Pep Talk@Kabbu will inspire a fallen ally, rallying them to continue fighting!
+Heavy Throw@|menu,46| throws the Beemerang with all her might, dealing high damage to an enemy and lowering its defense. Watch out for the rebound!
+Sharing Stash@|menu,46| will heal the entire party with items from her secret stash, healing poison and restoring 2 HP for |unpauseline|3 turns!
+Royal Decree@Elizant will inspire the party, boosting attack and defense by 1 for 2 turns.
+Cleanse@Removes all temporary charges and status effects from one enemy.
+Hard Charge@Grants maximum charge to the user at the cost of HP.
+Dash@|single|Press |button,5| twice for Kabbu to dash, letting you move faster!

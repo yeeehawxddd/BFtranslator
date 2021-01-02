@@ -1,0 +1,80 @@
+HP Plus@Increases an ally's HP by 2.@an
+TP Plus@Increases the party's TP by 3.@a
+Detector@A Medal made by Dr. H.B. Beeps if there are interesting objects nearby.@a
+Last Attack@Increases an ally's attack by 1 when low on HP.@a
+Last Stand@Increases an ally's defense by 2 when low on HP.@a
+Quick Flea@A favorite to those who know when to retreat. Makes fleeing battles a bit easier.@a
+Poison Attacker@Increases an ally's attack while poisoned by 1.@a
+Poison Resistance@Decreases an ally's chances of being poisoned by 50%.@a
+Berserker@Increases an ally's Attack by 3, but makes them unable to use Skills, Blocking, Items, Relay or to |shopline|be relayed to.@a
+Poison Defender@Increases an ally's defense while poisoned by 1.@a
+Empower@Grants |menu,48| the "Empower" skill, which boosts an ally's attack for 2 turns.@an
+Hard Mode@Boosts enemy strength, but gives you more EXP and rewards.@the
+Sleep Resistance@Decreases an ally's chances of falling asleep by 50%.@a
+Mighty Pebble@Grants |menu,47| the "Pebble Toss" skill, which can target an airborne enemy.@a
+Spiky Bod@When blocking, |menu,47| will damage enemies that touch him with his horn.@a
+Break@Grants |menu,48| the "Break" skill, which reduces an enemy's defense for 2 turns.@a
+Break+@Grants |menu,48| the "Break+" skill, which reduces all enemies' defense for 3 turns.@a
+Spy Specs@A Medal made by Dr. H.B. Allows the party to see enemy HP without spying, and spying won't spend a turn.@a
+Bug Me Not!@Defeats any weak enemy on the field upon touching them!@a
+Super Block+@Increases damage blocked with the Super Block by 1.@a
+Favorite One@Increases an ally's damage taken, but makes the rest of the party angry at seeing their friend hurt.@a
+Numb Resistance@Decreases an ally's chances of being numbed by 50%.@a
+Poison Needles@Grants poisoning power to |menu,46|'s needle skills.@a
+Strong Start@The equipped ally starts battle with an extra turn, but their exhaustion ramps up quicker.@a
+Weak Stomach@Makes any healing item also poison the equipped ally.@a
+TP Saver@Reduces an ally's TP costs by 1.@a
+Reverse Toxin@Being poisoned heals the equipped ally instead. However, it reduces defense by 1 while poisoned.@a
+Eternal Venom@The equipped ally will not heal from poison naturally.@an
+A.D.B.P. Enhancer@A Medal by Prof. Honeycomb. Increases the amount of times |line|some Beemerang skills can hit.@a
+Mightier Pebble@Grants |menu,47| the "Boulder Toss" skill, which can target airborne enemies.@a
+Hard Hits@Raises enemy attack, but doubles berry reward. |shopline|Perfect for an extra challenge!@a
+Empower+@Grants |menu,48| the "Empower+" skill, which boosts the entire party's attack for 3 turns.@a
+Life Stealer@Reduces an ally's attack by 1, but their attacks will steal life from enemies.@a
+Freeze Resistance@Decreases an ally's chances of being frozen by 50%.@a
+Shock Trooper@The equipped ally receives no damage while paralyzed.@a
+Front Support@Boost the ally at the front's defense by 1.@a
+Back Support@Boost the ally at the back's defense by 1.@a
+Enfeeble@Grants |menu,48| the "Enfeeble" skill, which reduces an enemy's attack for 2 turns.@an
+Enfeeble+@Grants |menu,48| the "Enfeeble+" skill, which reduces all enemies' attack for 3 turns.@an
+Fortify@Grants |menu,48| the "Fortify" skill, which boosts an ally's defense for 2 turns.@a
+Fortify+@Grants |menu,48| the "Fortify+" skill, which boosts the party's defense for 3 turns.@a
+Sleepy Needles@Grants sleepy power to |menu,46|'s needle skills.@a
+EXP Booster@Boosts EXP earned after battle, but reduces the party's attack by 1.@a
+Status Booster@Grants a higher chance to cause status effects on enemies with the equipped party member.@a
+Poison Touch@If the equipped ally is attacked directly while poisoned, the attacker has a chance of getting poisoned.@a
+Status Relay@When relaying, the equipped ally will transfer ALL status effects and charges to the relayed ally.@a
+Frostbite@Reflects all direct damage taken by a frozen ally to the striking enemy with a chance to freeze.@a
+Heavy Sleeper@The equipped ally won't be woken up by attacks. Being asleep halves damage, and heals more each turn.@a
+Secure Pouch@A Medal by Prof. Honeycomb. Makes enemies unable to steal items and fleeing won't drop berries.@a
+Power Exchange@Boosts an ally's attack by 1, but also reduces their defense by 1.@a
+Defense Exchange@Boosts an ally's defenses by 1, but also reduces their attack by 1.@a
+Tardigrade Shield@Grants the equipped ally the "Sturdy" skill, which increases defense by 3 and grants status immunity for 1 turn.@a
+Charge Up@Grants |menu,48| the "Charge Up" skill, which boosts an ally's attack by 1 until their next attack. Stacks 3 times.@a
+Charge Up+@Grants |menu,48| the "Charge Up+" skill, which boosts the party's attack power until the next attack. |unpauseline|Stacks 3 times.@a
+Leaf Cloak@Camouflages the equipped ally, making them be targetted less often by enemies.@a
+Random Start@The equipped ally starts battle with a random status buff/condition.@a
+Meditation@The equipped ally's "Do Nothing" command restores 1 TP as well.@a
+Electric Needles@Grants numbing power to |menu,46|'s needle skills.@an
+Block Heal@If the equipped ally performs a Super Block, they heal 1 HP.@a
+Extra Freeze@Increases the time that Leif can freeze enemies in the overworld.@an
+Heavy Throw@Grants |menu,46| the "Heavy Throw" skill, which can deal high damage to an enemy.@a
+Reflection@The equipped ally's "Do Nothing" |shopline|command |pauseline|increases |unpauseline|defense for 1 turn.@a
+Prayer@The equipped ally's "Do Nothing" command restores 2 HP as well.@a
+Antlion Jaws@Boosts an ally's basic attack, making them ignore 1 point of enemy defense.@a
+HP Core@The equipped ally recovers 2 HP every 2 turns.@a
+TP Core@The party recovers 2 TP every 2 turns.@a
+Resist All@Decreases an ally's chances of receiving bad status effects by 50%.@a
+Deep Taunt@|menu,47|'s taunt will now reduce enemies' defense by 1, but will boost their attack by 1.@a
+Miracle Matter@If the equipped ally falls in battle, they will revive after 2 turns.@a
+Victory Buzz@After a successful battle, the party will recover 4 TP.@a
+Triumph Buzz@After a successful battle, the party recovers 2 HP.@a
+Crazy Prepared@Prevents enemies from striking first out of battle.@a
+Life Cast@Skills cost HP to use instead of TP for the equipped bug but cost 1 point less to use.@a
+Hard Charge@Allows the equipped bug to use the "Hard Charge" skill, which grants maximum charge in exchange for HP.@a
+Heal Plus@Healing items used by the equipped bug will heal 1 more HP.@a
+Status Mirror@If the equipped bug gets a status effect, the caster gets that effect as well.@a
+Luckier Day@This legendary Medal made by Keifer is sure to make you feel lucky while fighting!@a
+First Plating@The first hit dealt to the equipped bug does no damage in battle.@a
+Seedling Affinity@This golden token shows your affinity to Seedlings! Increases the chances of finding special things...@a
+Berry Finder@Increases berries found after defeating enemies.@a

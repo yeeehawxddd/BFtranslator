@@ -1,0 +1,30 @@
+Ultimate Team!@Defeat a very|line|powerful foe.
+Crystal Collector@Find all Crystal Berries.
+Medal Collector@Find all Medals.
+Music Collector@Purchase all|line|Songs.
+Battle Ready@Reach the maximum rank.
+Chapter 1 Complete@Finish Chapter 1.
+Vicious Spider@Defeat the|line|Chapter 1's boss|line|in Hard Mode.
+Helping Hand@Complete all requests.
+Cooking Maestro@Find all recipes.
+Field Researcher@Fill the bestiary.
+Pro Explorers@Find all|line|Discoveries.
+Good Deed@Deliver something to someone that|line|really wants it.
+Chapter 2 Complete@Finish Chapter 2.
+The Guardian@Defeat the|line|Chapter 2's boss|line|in Hard Mode.
+Chapter 3 Complete@Finish Chapter 3.
+Heavy Duty@Defeat the|line|Chapter 3's boss|line|in Hard Mode.
+Chapter 4 Complete@Finish Chapter 4.
+Always Watchful@Defeat the|line|Chapter 4's boss|line|in Hard Mode.
+Chapter 5 Complete@Finish Chapter 5.
+The Terror@Defeat the|line|Chapter 5's boss|line|in Hard Mode.
+Chapter 6 Complete@Finish Chapter 6.
+All Geared Up@Defeat the|line|Chapter 6's boss|line|in Hard Mode.
+Chapter 7 Complete@Finish Chapter 7.
+The End@Defeat the|line|Chapter 7's boss|line|in Hard Mode.
+Plant Enchanter@Find a new|line|friend!
+Reconciliation@Help a friend|line|out.
+The Truth@Find out|line|the truth.
+Our Job's Done!@Complete the|line|game!
+A Better Bugaria@Defeat all|line|bounties.
+Gamer@Indulge in|line|electronic games!

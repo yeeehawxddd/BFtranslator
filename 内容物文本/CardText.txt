@@ -1,0 +1,92 @@
+d@1
+ATK: 1. Round win:|line|Deal 1 extra|line|damage.@1
+ATK: 2|line|Summon Inichas|line|Summon Jellyshroom@1
+ATK: 2|line|ATK +3 per|line|Venus' Buds@0.675
+ATK: 3|line|If Mothiva: ATK+2@1
+ATK: 2|line|If Zasp: Heal 1@1
+ATK: 1|line|Coin (3): Summon|line|Venus' Bud@0.9
+ATK: 3|line|If ATK (7): Heal 1@0.65
+Coin (1): DEF +2@1
+Coin (1): DEF +4@1
+d@1
+d@1
+d@1
+d@1
+Numb@1
+Coin (1): DEF +3@1
+ATK: 1|line|VS Plants (ATK +2)@1
+Lifesteal (1)@1
+d@1
+ATK: 1|line|Pierce (3)@1
+d@0.8
+ATK: 1|line|Unity (1)@1
+d@1
+d@0.75
+ATK +1 for |line|each thug|line|in play.@1
+Coin (1): ATK+1 or|line|DEF+1@1
+Lifesteal (2)|line|Empower +2|line|(Chompers)@0.7
+d@1
+Turns into a|line|random Mini|line|Boss Card.@1
+d@0.75
+ATK: 1|line|Coin (1): Numb@1
+d@1
+d@0.9
+Coin (2): Summon|line|Abomihoney@0.9
+Bots (4): Heal 1 HP@1
+DEF: 2|line|Empower +2 (Bots)@0.55
+ATK: 2|line|Empower +2|line|(Midges)@0.95
+Empower +3 (Thugs)@1
+ATK: 7@0.8
+ATK: 2|line|Numb All Attackers@1
+Empower +2|line|(Seedlings)@0.8
+DEF: 2|line|If Kabbu: Heal 3@1
+d@1
+d@1
+ATK: 1|line|Summon Krawler|line|Summon Warden@0.9
+Empower +3|line|(Spiders)@0.75
+d@1
+d@1
+d@0.7
+d@1
+Summon 2 Wasps@1
+d@0.7
+d@0.85
+Unity (2, Leafbugs)@0.8
+Unity (1, Leafbugs)@0.75
+ATK: 2|line|Leafbug (3): Numb@0.7
+Coin (2): DEF +3@1
+ATK: 3|line|If Kabbu: ATK+4@1
+d@0.8
+d@1
+ATK: 1|line|Unity (Wasps)@0.75
+ATK: 8@0.7
+ATK: 1|line|Coin (1): Summon|line|Chomper@0.8
+ATK: 2|line|If Poi: ATK + 2@1
+DEF: 1|line|If Cross: DEF+3@1
+ATK: 3|line|Empower +2|line|(Weevils)@0.75
+Empower +3|line|(Mothfly)@0.75
+d@1
+d@0.8
+DEF:1|line|Numb@1
+d@1
+d@1
+d@0.8
+d@0.8
+ATK: 2|line|If Pisci: Numb @1
+DEF: 2|line|If Cenn: DEF+4@1
+ATK: 3|line|DEF: 1@0.75
+ATK: 2|line|Coin (1): ATK +2 or|line|DEF +2@0.75
+ATK: 3|line|DEF: 3@0.75
+Win This Round@0.55
+ATK: 6@1
+ATK: 2|line|If Maki: ATK+3@1
+DEF: 1|line|If Maki: Heal 2@1
+Empower +2 (Fungi)@1
+ATK: 1|line|Setup (ATK +2)@1
+ATK: 3|line|VS Bugs (ATK +3)@1
+ATK: 2|line|Coin (1): Numb|line|Coin (1): ATK +1@0.8
+ATK: 4|line|Pierce (2)@0.9
+Coin (1): DEF +6@1
+Lifesteal (1)@1
+ATK: 4|line|Pierce: 3|line|If Delilah:|line|ATK: +1@1
+ATK: 2|line|Lifesteal: 2|line|If Stratos:|line|DEF: +1@1

@@ -1,0 +1,187 @@
+Crunchy Leaf@A dry leaf. Restores 4 HP.@A dry leaf. Has a satisfying crunch when bit. Restores 4 HP to an ally.@a
+Honey Drop@Top quality Bee Kingdom honey. Restores 5 TP.@Honey produced in the Bee Kingdom. Makes you happy, but also fat. Restores 5 TP.@a
+Spicy Berry@A blazing seed that boosts vitality! Increases MAX HP by one.@A blazing hot berry that boosts an ally's attack for 2 turns.@a
+Burly Berry@A bitter seed bursting with fuzzy feelings. Increases MAX TP by one.@A super bitter berry that boosts an ally's defense for 2 turns.@a
+Super Pepper@A rare seed full of proteins. Increases ATTACK by one.@This exotic berry burns the mouth and pumps the muscles! Permanently increases an ally's attack by 1.@a
+Iron Seed@A rare seed that makes you strong as iron! Increases DEFENSE by one.@This sturdy seed makes you tough as iron! Permanently increases an ally's defense by 1.@a
+RESERVED@@@
+RESERVED@@@
+Mistake@Why would you let this happen? Recovers 1 TP. Somehow.@Why would you let this happen? It recovers 1 TP, but don't eat it. Don't say you weren't warned.@a
+Leaf Omelet@Leaf that has been cooked up. Restores 15 HP.@Leaves wrapped in fried egg casing. Restores 9 HP |unpauseline|to an ally.@a
+Honey'd Leaf@A leaf mixed with honey. Recovers 9 HP and 6 TP.@This is definitely more honey than leaf. Restores 5 HP to an ally and 5 TP.@a
+Magic Seed@Desc@A seed which can bring upon miracles. Revives an ally with 7 HP.@a
+Clear Water@Desc@Water collected from leaves after a heavy rain. |unpauseline|Heals an ally's bad status effects.@some
+Mushroom@A mushroom. That's it. Recovers 3 HP.@A mushroom. BEYOND average. Restores 3 HP to an ally and cures poison.@a
+Cooked Shroom@Desc@Nothing like some smoking to improve a shroom. Restores 6 HP to an ally and cures poison.@a
+Mushroom Salad@Desc@It has a different, yummy texture on every bite. Restores 8 HP to an ally and cures poison.@a
+Leaf Salad@Desc@This salad is just many crunchy leaves chopped up, but it looks fancy. Restores 6 HP to an ally.@a
+Aphid Egg@An egg from a happily raised Aphid. Recovers 10 HP.@An egg from a happily raised Aphid. Make sure to eat it before it hatches. Restores 3 HP to an ally.@an
+Fried Egg@Desc@Fry the Fly came up with the frying technique. Restores 6 HP to an ally.@a
+Hearty Breakfast@Desc@Bugaria's staple breakfast. Restores 5 HP to an ally, 3 TP and cures poison.@a
+Glazed Honey@Desc@This warm honey's delicious taste is the pride of the Bee Kingdom. Restores 8 TP.@a
+Sweet Shroom@Desc@A mushroom with some honey on top. Yum! Restores 5 HP to an ally and 4 TP.@a
+Sweet Danger@Desc@While this looks AND tastes good, it is still bad for you. Restores 7 TP. At a price.@a
+Hard Seed@Desc@A really hard seed. It can't be eaten like this, but you can try tossing it at an enemy.@a
+Dotted Ball@Desc@A ball with a ladybug pattern. Maybe someone lost it?@a
+Bug Ranger Plushie@Desc@A Bug Ranger Green limited edition plush! There's only 10 of this very sought after collector's item!@a
+Danger Shroom@A dangerous, delicious mushroom. Restores 1 TP. At a price.@This mushroom is really dangerous. Unfortunately, it's super delicious. |pauseline|Restores 1 TP. At a price.@a
+Explorer Permit@@Permit that shows you are a certified exploration team under the Ant Kingdom.@the
+Cooked Danger@Desc@Cooking amplified this mushroom's taste, and danger. |unpauseline|Restores 5 TP. At a price.@a
+Coal Crystal@Desc@A mysterious crystal that seems to be made of coal, dropped by the Tidal Wyrm.@the
+Spicy Bomb@Desc@This bomb is very unstable! Toss it at enemies to cause some big damage!@a
+Poison Bomb@Desc@This bomb has been infused with dangerous toxins. Toss it at enemies to |pauseline|poison them!@a
+Queen's Dinner@Desc@Fry's masterpiece. A dinner fit for royalty. Restores 15 HP to the party, 15 TP and heals any status effect.@a
+Mushroom Skewer@Desc@Mushrooms cooked on a stick! Restores 6 HP to an ally and 3 TP.@a
+Roasted Berries@Desc@A plate of roasted berries, family serving. Restores 2 HP to the party.@some
+Abomihoney@Desc@You should never mix honey improperly! Restores 12 TP at a big price.@an
+Clear Bomb@Desc@This harmless bomb clears out ALL status effects from everyone in battle.@a
+Ant Compass@Desc@This compass always points towards the Ant Kingdom. Use it to quickly find your way back.@an
+Chomper Seed@Desc@A baby Chomper seed. Maybe a scientist would know what to do with this.@a
+Berry Juice@Desc@This berry juice's a local favorite! Restores 5 HP to an ally, and cures any status effect.@a
+Numbnail Dart@Desc@Dart coated in Numbnail sedatives. Toss it at an enemy to make it cozy and sleepy.@a
+Map of Bugaria@Desc@A map of the land of Bugaria! Check it to see where you've explored.@a
+Magic Ice@Desc@This ice cube will never melt! Toss it at an enemy to try to freeze it!@a
+Shock Berry@Desc@This high voltage berry tastes great, but really shocks your system! Restores 7 HP. At a price.@a
+Frost Bomb@Desc@A bomb colder than cold! Toss it on enemies to freeze them!@a
+Numb Bomb@Desc@This high voltage bomb's ready to go! Toss it at enemies to paralyze them!@a
+Sleep Bomb@Desc@This bomb's infused with Numbnail sedatives! Toss it at enemies to make them sleepy!@a
+Shaved Ice@Desc@This refreshing treat's just a bit TOO cold! Restores 4 HP to an ally and 4 TP. It may cause brain freeze!@a
+Aphid Dew@Desc@Dew from happily raised Aphids. Restores 4 TP and cures sleep.@an
+Honey Ice Cream@Desc@This honey flavored ice cream's a real guilty pleasure! Restores 5 HP and 10 TP. It may |unpauseline|cause brain freeze!@a
+Sweet Dew@Desc@This incredibly sweet drink will keep you up all night! Restores 9 TP and cures sleep.@a
+Ice Cream@Desc@This creamy treat is SO amazing it's worth risking a brain freeze! Restores 10 TP.@a
+Lore Book@Desc@A chunky book with the Ant Crest on its cover. Probably belongs in the Ant Palace's Library.@a
+Cold Salad@Desc@Salad made by freezing down leaves. Restores 8 HP to an ally, but it may cause brain freeze!@a
+Flower Key@Desc@This is the key to the red house in the Ant City main plaza, bought from Beette at a discount!@the
+Sun Offering@Desc@An offering for Goddess Venus shaped like the sun. It feels warm to the touch.@the
+Moon Offering@Desc@An offering for Goddess Venus shaped like the moon. It feels cold to the touch.@the
+Mothiva Doll@Desc@A doll of Mothiva, the super star! Maybe someone lost it?@a
+Wooden Crank@Desc@A wooden crank. It should fit in a slot somewhere to control nearby mechanisms.@a
+Big Crank Top Half@Desc@Half of a big wooden crank. You should look for the other half!@a
+Big Crank@Desc@A larger than average wooden crank. It should fit somewhere in the Golden Hills.@the
+Big Crank Bottom Half@Desc@Half of a big wooden crank. You should look for the other half!@a
+Abombination@Desc@A very, VERY dangerous and unstable bomb. Deals damage to |pauseline|EVERYONE, but restores |libraryline|lots of TP!@an
+Spy Data@Desc@Your logbook has been updated with spy data for|line||string,0|!@some
+Danger Spud@Desc@This dangerous, toxic yam's super sweet! Restores 1 HP to an ally. At a price.@a
+Baked Yam@Desc@Cooking this yam got rid of its toxins, making it safely delicious! Restores 7 HP to an ally.@a
+Spicy Fries@Desc@These fries will make you see red! Restores 4 HP and boosts an ally's attack for 2 turns.@a
+Burly Chips@Desc@Chips with a dash of burly berry! Restores 5 HP and boosts an ally's defense for 2 turns.@a
+Bag of Flour@Desc@A bag of flour! Use it to bake many different things. Restores 1 TP.@a
+Yam Bread@Desc@As the name says, it's bread made with yam. Restores 8 HP to an ally.@a
+Spicy Candy@Desc@This spicy candy will rev you up! Restores 5 TP and boosts an ally's attack for 2 turns.@a
+Burly Candy@Desc@This candy's actually good for you!? Restores 5 TP and boosts an ally's defense for 2 turns.@a
+Dry Bread@Desc@Defiant Root's preferred snack will leave you thirsty. Restores 3 HP to an ally and 3 TP.@a
+Nutty Cake@Desc@This cake's flavor is simply nuts! Restores 3 HP to an ally and 6 TP.@a
+Poison Cake@Desc@This cake is delicious, but...not recommended. Restores 11 TP. But really, |pauseline|don't eat it.@a
+Shock Candy@Desc@This candy's shockingly sweet! Restores 9 TP, at a shocking price.@a
+Plain Tea@Desc@Simple tea made from plain leaves. Restores 4 HP to an ally and cures any status effect.@a
+Tangy Berry@Desc@An exotic berry that isn't native to Bugaria. Restores 8 TP and cures an ally's paralysis.@a
+Tangy Jam@Desc@A jam made from a Tangy Berry mixed with honey! Restores 12 TP and cures an ally's paralysis.@a
+Tangy Juice@Desc@Juice made from CRUSHING Tangy Berries! Restores 8 TP and cures an ally's status effects.@a
+Spicy Tea@Desc@This volcanic spicy tea boosts an ally's attack for 2 turns, and cures their status effects.@a
+Burly Tea@Desc@This doctor-approved super tea cures an ally's status effects and boosts their defense for 2 turns.@a
+Frost Pie@Desc@A special pie that is best served cold. Restores 6 HP to an ally and 10 TP, but it may cause brain freeze!@a
+Heart Berry@Desc@This rare berry brings good health when eaten. Permanently increases an ally's HP by 1.@a
+Bond Berry@Desc@This rare berry somehow strengthens bonds between bugs. Permanently increases the party's TP by 1.@a
+Tangy Pie@Desc@This pie's citrusy flavor lingers for hours! Restores 4 HP to an ally and recovers 2 TP for 5 turns.@a
+Crisbee Donut@Desc@The ultimate sweet, created through Crisbee's diligent |unpauseline|practice. Restores 12 TP to the party.@a
+Tangy Carpaccio@Desc@The ultimate tangy dish, prepared with Kut's fine skills. Restores 12 HP to the party.@a
+Poison Dart@Desc@A dart coated in poison, toss it at enemies to poison them!@a
+Bed Bug@Desc@The cute bed bug Morty lent you. It looks so peaceful while sleeping... A short nap won't hurt.@the
+Succulent Berry@Desc@These juicy berries quench thirst for hours! Restores 2 HP to an ally for 3 turns.@a
+Succulent Platter@Desc@This juicy platter's great to share on a sunny day. Restores 2 HP to the party for 2 turns.@a
+Desert Key@Desc@The mayor gave you this key. It guards treasure in Defiant Root!@a
+Overdue Book@Desc@This book's been sitting on the shelf too long. It must be returned to the library!@the
+Pretty Ribbon@Desc@This pink ribbon is getting really popular! Who to give it to... @the
+Factory Pass@Desc@This keycard can open doors in the Honey Factory. Whoever lost this probably got fired.@a
+Agaric Shroom@Desc@This mushroom gives you a very short lived energy burst. Restores 6 TP, numbing the eater.@an
+Shell Ointment@Desc@4 in 5 beetles love this ointment! Gives status immunity and defense up for 1 turn. |unpauseline|Removes extra turns.@a
+Crimson Ore@Desc@This rare ore can fortify any creation, but requires immense strength to handle.@a
+Bee Hat@Desc@This bee hat is super popular at parties! The perfect souvenir!@a
+Blank Card@Desc@A card given to you by Carmina. It should allow you to face the Card Masters of Bugaria.@the
+1-Suit Card@Desc@Proof that you defeated one of the Card Masters of Bugaria! There's three left!@the
+2-Suit Card@Desc@Proof that you defeated two of the Card Masters of Bugaria! Still two left!@the
+3-Suit Card@Desc@Proof that you defeated three of the Card Masters of Bugaria! Only one left!@the
+Full Suit Card@Desc@This card proves you defeated the Card Masters of Bugaria! Use it to access Metal Island's Tournament!@the
+Heaven Key@Desc@One of the keys guarding the path to the last artifact. Symbolizes the sky.@the
+Earth Key@Desc@One of the keys guarding the path to the last artifact. Symbolizes the earth.@the
+Longleg Summoner@Desc@A spider in a capsule! Toss it to attack an enemy.@a
+Stolen Silk@Desc@This precious silk was stolen by bandits. We should find its rightful owner.@some
+Mysterious Piece@Desc@A weird stone given to you by Neolith. It should fit somewhere?@the
+Game Tokens@Desc@Tokens for the Termite Game Arcade, trade it for prizes!@|addvar,27,v1||var,1|
+Rusty Key@Desc@An old, rusty key. It seems to unlock a crooked place.@a
+Orange Horn@Desc@A broken, orange beetle horn. It is unusually sturdy, and radiates hubris.@an
+Sand Castle Key@Desc@The completed key that grants access to the Ancient Sand Castle in the Lost Sands!@the
+Ancient Key@Desc@An old key with crystals infused. Opens a door in the Ancient Castle.@an
+Big Ancient Key@Desc@A really fancy key, which unlocks the Ancient Castle's most fortified room.@the
+Peculiar Gem@Desc@A strange gemstone found in the Ancient Sand Castle. Is it connected to |menu,48|?@the
+Top Hat@Desc@A Top Hat found in the Golden Settlement. Maybe someone lost it?@a
+Crystal Fruit@Desc@A mysterious crystal shaped like a fruit, found after defeating the Seedling King.@a
+Wasp Key@Desc@This dirty key opens a door somewhere in the Wasp Kingdom.@a
+Jayde's Stew@Desc@Jayde's stew is a big hit with the prison staff! Restores 7 HP to an ally and 7 TP.@some
+Dark Cherries@Desc@Very rare berries that somehow grow underground! Some collectors will buy |pauseline|them for a high price.@some
+Cherry Pie@Desc@A deliciously expensive pie made from rare Dark Cherries. Recovers 8 HP to the party and 5 TP.@a
+Miracle Shake@Desc@A perfect blend of strong healing items. Restores 6 HP to the party while reviving fallen allies.@a
+Berry Smoothie@Desc@A most delicious blend of exotic berries! Fully restores the party's TP.@a
+Squash@Desc@A weirdly shaped berry native to the Forsaken Lands. Gradually restores 2 TP for 3 turns.@a
+Squash Candy@Desc@Candy made from squash and a lot of sugar! Restores 5 TP, and then 2 TP for 3 turns.@a
+Sophie Petal@Desc@A petal from a rare Sophie found in Snakemouth's upper level. It seems to have |pauseline|a hint of magic in it.@a
+Succulent Cookies@Desc@Delicious cookies made from Succulent Berries! Restores 3 HP, then it recovers 2 TP for 3 turns.@some
+Sweet Pudding@Desc@A simple, plain pudding. Restores 6 HP to an ally and 6 TP.@a
+Mega-Rush™@Desc@This power packed, 90% sugar drink boosts attack for 3 turns and grants a charge up! But you'll need to rest after...@a can of
+HP Potion@Desc@A.K.A. the "Aphid A-Fib"!|line|Extracting aphid cuteness has never looked |unpauseline|so humane!|pauseline|Increases an ally's Max HP by 1.@an
+ATK Potion@Desc@A.K.A. the "Not-so-funny Honey"!|line|Leave your enemies in stitches!|line|Increases an ally's attack by 1.@an
+DEF Potion@Desc@A.K.A. the "Shell Queller"!|line|Numbnail ministrations dull painful sensations.|line|Increases an ally's defense by 1.@a
+TP Potion@Desc@A.K.A. the "Berry Brew"!|line|The Economic Alternative to exploration! Permanently |line|increases the party's TP by 1.@a
+Super HP Potion@Desc@A.K.A. the "Spud Buds"!|line|A double portion of potato potion!|line|Increases the party's HP by 1.@an
+Super TP Potion@Desc@A.K.A. the "Fat-Tea"!|line|If you're not opposed to adipose...|line|Increases the party's TP by 3.@a
+MP Potion@Desc@A.K.A. the "Nano-Narcolepsy"!|line|A powernap between turns can do wonders.|line|Increases the party's MP by 3.@an
+Shady Note@Desc@A note from Reed to Tennent. You shouldn't read it if you know what's good for you.@a
+Blackest Paint@Desc@A can full of the blackest paint ever made. You can't even see light reflected on it.@a can of
+Red Paint@Desc@Rare paint extracted from Cochineals. Let's deliver it to |unpauseline|Jaune!@some
+Root Cloth@Desc@Some cloth made in Defiant Root. Deliver it to the bee in the Golden Settlement!@some
+Ant Doll@Desc@This doll's a popular Ant Kingdom souvenir. Deliver it to the bumblebee in |pauseline|Defiant Root!@an
+Eastern Doll@Desc@A weird toy from a foreign land. Deliver it to Ann in the Ant City!@an
+Mushroom Gummies@Desc@Sweet treats made from mushrooms! Restores 3 HP to the party, and cures poison.@some
+Wrapped Lunch@Desc@A lunch made with passion! Deliver it to Yatanta's brother in the Forsaken Lands!@a
+Crystal Crown@Desc@A mysterious crystal shaped like a crown. Dropped by the False Monarch.@the
+Drowsy Cake@Desc@This cake's super yummy, but puts you to sleep after eating it! Restores 7 HP to an ally and 7 TP.@a
+Leaf Croissant@Desc@Extra leaves for extra crunchiness! Restore 5 HP to one ally, 4 TP and cures poison.@a
+Package@Desc@A package from Eetl. You shouldn't see what's inside.@a
+Crystal Feather@Desc@A hypnotizing feather that makes you want to dance. Dropped by the Peacock Spider.@a
+Crystal Fang@Desc@A crystalized poisonous fang. Dropped by the Devourer.@a
+Cherry Bombs@Desc@Powerful, unstable and expensive! Toss it at enemies to deal huge damage and a random status effect!@some
+Squash Puree@Desc@Some mashed Squash, simple but good! Restores 2 TP and gradually restores 2 TP for 2 turns.@a
+Mite Burger@Desc@A burger made of fatty Termite stuff. Restores 6 HP to an ally, healing 2 more HP for 3 turns.@a
+Aphid Shake@Desc@This super nutritious savoury shake raises an ally's attack and defense for 1 turn!@an
+Mystery Berry@Desc@A weird berry native to the Dead Lands. Looks dangerous, but tastes delicious. Restores? 8HP???@a
+Small Gear@Desc@A small gear that forms part of a machine in Snakemouth's Lab.@a
+Medium Gear@Desc@A medium gear that forms part of a machine in Snakemouth's Lab.@a
+Big Gear@Desc@A huge gear that forms part of a machine in Snakemouth's Lab.@a
+Lab Card@Desc@This card provides clearance to enter rooms inside Snakemouth's Lab.@a
+Prison Key@Desc@This key opens a door in Rubber Prison. A guard probably dropped it while fleeing from the Wasps.@a
+Hustle Berry@Desc@Scientists say it's a bean. No one cares. Eating this will grant you an extra turn...next turn!@a
+History Book@Desc@A blue book found in the Rubber Prison, it says: |unpauseline|"Ahh, the kingdom of Bugaria. Many explorers gather there."@a
+History Book@Desc@A green book found in the Rubber Prison, it says: |unpauseline|"The Ant Queen and her daughters came searching for..."@a
+History Book@Desc@A yellow book found in the Rubber Prison, it says: |unpauseline|"The Everlasting Sapling! A relic that granted eternal life!"@a
+History Book@Desc@A red book found in the Rubber Prison, it says: |unpauseline|"Although it hasn't been found, many explore |unpauseline|looking for it, in |pauseline|the name of the Ant Queen."@a
+Leaf Umbrella@Desc@One of Madeleine's old umbrellas, protects the wearer from harsh sunlight.@a
+Venom Ribbon@Desc@A ribbon infused with a poisonous substance, what use could it have?@a
+Shocking Ribbon@Desc@A magic ribbon infused with shocking magic, what use could it have?@a
+Drowsy Ribbon@Desc@Just looking at this ribbon somehow makes you sleepy, what kind of use could it have?@a
+Big Mistake@Desc@Please don't.@a
+Burly Bomb@Desc@Somehow, cooking this berry reversed its effects! Toss it at enemies |pauseline|to lower their defense.@a
+Berry Jam@Desc@A thick and spicy jam made from two kinds of berries that boosts attack and defense during |unpauseline|battle for 2 turns.@some
+Bad Book@Desc@A really badly written book, why would anyone want this?@a
+Mechanical Claw@Desc@A weird metal claw found in the grasslands. What could it be for?@a
+Platinum Card@Desc@Card showing you're a platinum member of the Bank of Bugaria, increases rate of interest.@a
+Hot Drink@Desc@This boiled drink pays off later! Heals 5 HP, cures status effects, and grants a turn next turn.@a
+Hustle Candy@Desc@This candy will pump you up some time later! Restores 6 TP and grants a turn next turn!@a
+Squash Tart@Desc@A delicious and smooth tart made out of squashes. Grants increased attack and TP regeneration for 3 |unpauseline|turns.@a
+Plumpling Pie@Desc@This pie makes you feel as strong as a plumpling! Grants increased defense and TP regeneration for |unpauseline|3 turns.@a
+Danger Dish@Desc@A very, very dangerous dish filled with all kinds of toxins. Restores 2 HP to an ally, 2 TP and causes |unpauseline|poison for quite a while.@a
+Honey Pancakes@Desc@A delicious and sweet morning dish! Restores 1 HP and 6 TP to the party.@some
+Flame Rock@Desc@This piping hot rock seems to never cool down! Toss it at an enemy to set it on fire!@a
+Card Trophy@Desc@Trophy showing you conquered the Metal Island Card Tournament!@the
+Team Ribbon@@A magic ribbon that somehow increases teamwork! What use could it have?@a
+RESERVED@Desc@Desc@a

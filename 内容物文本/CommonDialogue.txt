@@ -1,0 +1,203 @@
+L.
+|anim,this,Happy||flag,349,true|Hello there! Would you like to use the Ant Storage Service?|prompt,map,2.65,3,-3,-4,-5,@I want to store!,@I want to take out!,@No thanks.|
+|checkinvqtd,0,0,-6||checkinvqtd,2,full,-7|Sure thing! What do you want to store? You can still store |getstorage| item(s).|pickitem,0,0,true,false,-10,-5,5|
+|checkinvqtd,0,full,-8||checkinvqtd,2,0,-9|Of course! What do you want to take out?|pickitem,2,0,true,false,-12,-5,5|
+Oh, okay! Have a nice day!
+|anim,this,Sad|Wait, it seems you're not carrying anything... How can I take care |line|of your stuff if you have nothing?
+|anim,this,Sad|S-sorry...I'm at my limit here. Perhaps you wouldn't mind taking |line|something out instead...?
+|anim,this,Sad|Oops...it seems you're already bursting with items!|next|I wouldn't mind carrying some of that load for you, if that is okay with you of course.
+|anim,this,Sad|W-what's this? I have checked, and checked, but I can't find your items! I'm sure I guarded them with my life...|next|...You didn't give me anything yet, did you?
+|removeitemat,0||additem,2,var,0|Thank you! I will guard it with my life.|break||checkinvqtd,0,0,-11||blank|Would you like to store something else?|prompt,map,0.7,2,-3,-5,@Yes,@No|
+|boxstyle,-1||end|
+|removeitemat,2||additem,0,var,0|Here you go! As if it was new. |break||checkinvqtd,2,0,-11||blank|Would you like to take out something else?|prompt,map,0.7,2,-4,-5,@Yes,@No|
+|menu,46|, our opponent is no amateur. Would you like to review some combat tips? |prompt,map,2,2,-14,-15,@Sure.,@No need.|
+|tail,0|Hit me up. Maybe I'll even learn something.|next,1|Listen, then. We can both perform |color,1|one action per round,|color,0| be it attacking, using an item, etc.|next|We can |color,1|power up|color,0| our attacks by |color,1|performing commands unique to each|line|move. |color,0|Watch this.|next||color,1|If I hold |button,1| long enough...I can power up my horn strike!
+|tail,0|I bet I know more stuff than you do! I'll be fine.|next,1|Alright, I shall trust you then.|setvar,11,1|
+See? We're doing great!|next,1|Don't let your guard down, |menu,46|. After our turn ends, the enemy's next!
+I know! And if I press |button,4| at the right time... 
+Pressing |button,4| a bit before an enemy hits you reduces damage received!|next|With |color,1|perfect timing|color,0|, you'll reduce|line|even more damage!
+O-ow! What the heck!?|line|You trying to kill us or something?|next,2,Angry|Hmph. If you can't handle that much, you should surrender. Go |line|home, and guard honey with your silly toy!|next,0|Toy!? Argh. Now I'm mad!|next,1|We should pay him back, tenfold!|next,0|It's time to use a |color,1|skill!|color,0||line|They're just like attacks, but you select them from the |color,1|yellow flower!|color,0||next|Skills require us to use our |icon,28,0.6| |color,1|TP (Teamwork Points)|color,0|, though.|line|So watch out for how many we have left!|next,1|We should patch your wounds too, using items from the |color,1|blue flower.|color,0||next,null||boxstyle,4|Toggle between commands using|line||button,2| and |button,3|!
+|tail,0|Holding a button? Lame. Look at this!|next||color,1|If I press |button,4| at the right time, I can power up my Beemerang!|minibubble,-22,1||break||destroyminibubble||end|
+|tail,1|Wait, everyone.|next|Now that we're a |color,1|trio|color,0|, let me share a useful technique.|next|With |color,1|turn relay|color,0|, picked from the colorful flower...|next|One of us can |color,1|lend our turn to another|color,0|.|next,2|How is that useful? It sounds tedious.|next,1|Well, for example, we could let |menu,46| attack twice to knock down flying |line|enemies.|next,0|Heh. You should let me attack three times! I'll take them all on!|next,1|You shouldn't abuse it like that, though.|next|The exhaustion will |color,1|reduce your attack power|color,0| by 1 every time you act in a round.|next,0|Grr. Fine.|next,2|Well, it sounds mildly useful... We'll try it out.|next,1|Now, on your guard!
+A...|line|beemerang?
+|tail,-4|What a weird tablet. It's written in an even weirder language...|next,-5|It seems to be ancient script.|next||gettail,2|Hmm... These letters look familiar to us. We should be able to decipher it.|next|Let us check it again.|flag,25,true|
+Ahh, the land of |color,1|Bugaria|color,0|.|next|A peaceful, prosperous place where many adventurous bugs gather.|next|Although, it wasn't always that way... 
+Lured by the promise of riches and lush fields, a young Queen visited these lands many moons ago.|next|Together with her daughters and fellow ant servants, she established Bugaria's modest first settlement.|next|Her people were happy, the Ant Kingdom flourished...|line|And yet, the Queen's dream had still not been fulfilled.|next|For she had heard of an ancient people, who safeguarded a treasure of unbelievable power.|line|It was none other than... 
+The |color,1|Everlasting Sapling|color,0|!|wait,0.1| A plant which would grant unending youth and strength to any who ate even |line|one of its leaves!|next|She searched, and searched...and searched...|fwait,0.1||line||line|Alas, she never found it.|next|She entrusted her dream to the princess, before falling into a hard-earned sleep.
+Determined to succeed where her mother did not, the new|line|Queen rallied the people together under her cause.|next|Opening the doors of the kingdom to bugs of all shapes and kinds, she attracted ambitious and skilled adventurers!|next|Her decree was loud and clear: "Find me the Everlasting Sapling, and you shall know wealth like no other bug|line|ever has!"|next|With this, The |color,1|Explorers' Association|color,0| was founded, with|line|its many members searching across the kingdom for|line|clues and treasure.|next|Even though to this day, the sapling has not been found. But every bug dreams of one day claiming it for|line|themselves... 
+...It is stronger than it looks... 
+Crud! It's too high up! If only |menu,46| was here...|next|Must I really sit here and do nothing!?
+Remember the plan! We must attack the web holding the moth captive!
+Alright! We did it!
+You got a Medal! These artifacts help you by giving different effects.|next|To equip Medals, go into the Pause Menu by pressing |button,8|, and select Medals and Stats.|next|Once there, you can equip Medals to different party members using |button,2| and |button,3| to switch who you are equipping to.|next|Medals cost |icon,109,0.4| MP to equip, be sure to check how much you have left!
+Is everyone alright?|next,-6|Did we cause the tremor?|next,-4|I guess. It was a pretty big switch.|next,-5|We must have made progress in unlocking the door. Let's keep going!
+|tail,-4|Alright! That's two switches!|next,-6|Pretty sure the door should be open now.|next,-5|Good! Let's make our way back to the door!
+C-Can I play something for you? (Songs you have purchased appear in blue, press |button,5| to cancel).|pickitem,18,0,false,false,-38,-39,7|
+H-hello. I'm really happy you came back!
+W-Want me to play something else?|prompt,map,3.75,3,-38,-38,-39,@Nah} keep playing that song.,@I'd like to hear something else.,@Stop playing.|
+|end|
+O-Ok. I'm always here if you want to hear me play.
+O-Okay. I'm going to try my best! L-Let me know if you like it.
+|showmoney|A-A new song has a first time fee of @VALUE@. Is...Is that okay |line|with you?|prompt,map,2.5,2,-38,-39,@Here you go.,@I'll pass.|
+S-Sorry, you don't have enough money...I can't play for free. |line|M-Maybe next time?
+Interested in that |string,0|?|line|How does |currency,var,1| sound to you?|prompt,map,1.75,2,-44,-45,-57,-58|
+|checkmoney,var,1,-46||checkinvqtd,0,full,-47||money,var,-,1||additem,0,var,0|Nice doing business with you! Feel free to browse around for more rare items!
+Are you sure? Well, your loss, these items aren't found anywhere else!
+|anim,this,Angry|You don't have enough! I am not lowering these prices, you either get it|line|now or lose it!|break||anim,this,Idle||end|
+I'm glad you want to buy it, but there's no space. Sell some stuff to my husband!
+Can I help you with something?|prompt,map,2.75,3,-49,-50,-51,@We'd like to sell.,@What do you do here?,@We're just browsing.|
+|checkinvqtd,0,0,-52|Sure thing! |goto,-55,keep|
+We are no more than a humble caravan trying to make a living.|next|We travel all over the land, selling different wares wherever we go.|next|Our trusty snail has been with us for generations and we intend to keep it that way.|next||goto,-48|
+It's alright. Please be sure to check our wares!
+Sorry, it seems you don't really have anything I can buy.|next|Please check our store if you intend on traveling to far lands, these |line|rare items may help during your journey.
+I can give |currency,var,10| for that|line||string,0|. Interested?|prompt,map,0.7,2,-54,-51,@Yes,@No|
+|money,var,10||removeitem,0,var,0|And transaction done!|break||checkinvqtd,0,0,-48||goto,-55|
+|checkinvqtd,0,0,-52|What would you want me to|line|take a look at?|line|(press |button,5| to cancel)|pickitem,0,0,true,true,-53,-51|
+Oh! That's a very rare|line||string,0| Medal!|next|It hurts me to part with it, but how does |currency,var,1| sound to you?|prompt,map,$0.9,3,-59,-194,-45,-57,-195,-58|
+We'll take it!
+No thanks.
+|checkmoney,var,1,-46||money,var,-,1||setprize,this||kill,caller||showmoney||giveitem,2,var,0,-60|
+Thank you! I guarantee you that you will never find this anywhere else!
+|align,front,true,2||face,caller,-1||checkflag,278,-116|Hey guys! Venus here.|next||showmoney|Have you come for healing? Just fork over |var,37| berries!|prompt,map,1.5,3,-62,-140,-63,@Heal us!,@Let's talk.,@We're good.|
+|checkmoney,var,37,-64||money,var,-,37|Here you go, some Venus special healing!|break||event,43|
+Ok then! Come see me if you need anything?
+Sorry, you don't have enough berries! Maybe next time.
+Please come by again, I'm always up for a chat.
+|tail,null||boxstyle,3||bleep,2,1,1||lore|
+|wavy|Zzz...|wavy||next,-6|Sleeping on the job... Standards have dropped.|next,caller,100|!!!!|fwait,1||end|
+Oi. I wasn't sleeping! It's called a power nap!|next,-6|Whatever you say.|next,-4|What's a miner doing all the way out here?|next,caller|It's Diana, okay? I'm here on the Queen's orders!|next|I'm finishing up the tunnel connecting the |color,1||area||color,0||line|to the |color,1|Ant Kingdom|color,0|!|next,-5|Goodness gracious, you've dug all that distance!?|next,caller|Eh. It was kind of a team effort. I just have to cut the rope, really.|next,-6|What are you waiting for, then?|next,caller|Mmmph. Honestly, I worked so hard, I'm a bit tired. I need a good rest to power through...|next|Or if I ate some berries now, I could probably get it done right now! Like |var,0|, maybe?|next,-5|Oh, maybe we could help!|next,-4,Angry||menu,47|! She just wants free food! We can just come back later and it'll be done!|next,-6|Think about it, though. It'd be nice to be able to walk back just in case.|next,-5|Hmm, we will have to think about this.|next,caller|Well, gimme a holler if you make your mind up.
+|checkflag,81,-77||tail,-6|Diana seems to hold massive strength.|next,-4|What if she joined our team? She'd punch holes through spiders!|next,-5|It's a shame. If she wasn't so commited to her job, it'd be such |line|a great help... 
+Oh hey! It's you guys! So, figured out what you want?|line||currency,var,0| for this tunnel!|prompt,map,2.6,2,-11,-72,@Here are the berries!,@We're not sure yet.|
+Oh, that's what I'm talking about!|next,-4,Angry|Those berries don't even taste good...|next,-6|We don't think her taste would be the only weird thing here...|next,caller|Oi, I'm doing you a favor, okay? Just sit and watch!
+|tail,-5|We should wait. We're on a mission right now, anyways.|next,-4|It's always best to save and wait!|next,-6|Eh. If we ever do need to come back, we could talk to her...|next,caller|Aw. Fine. Just come back and talk to me if you want me to dig... 
+Phew... All done! Thanks y'all!|break||checkvar,16,0,-74||blank||tail,-5|We're in your debt once again, Diana. Thank you.|break||goto,-75|
+|tail,-6|We might as well pay the palace a visit, since we paid for this and all...|next,parent|If you want to hop back into the palace, just talk to the guard standing |line|near the tunnel, she'll guide you there.|next,-5|Thank you, Diana. We'll be on our way.|break||goto,-75|
+|tail,parent|Well, I'm off! See you some other time, folks!
+|tail,-5|We...should wait. We cannot even pay for the service.|next,caller|Bummer. Guess I'll have to take my sweet time... 
+|tail,-4|Woah, that's a big ant!|next,-6|Really makes you want to wake her up.|minibubble,@You two... ,-5||next||destroyminibubble||end|
+Permit verified. Welcome, explorers. Would you like to access the mines?|prompt,map,1.5,2,-81,-79,@Yeah!,@Not now.|
+Very well. Please talk to me if you ever decide to go.
+Would you like to go to|line||color,1||string,0||color,0|?|prompt,map,0.5,2,-11,-11,@Yes,@No|
+|event,49|
+Cricketly's one of the members of the traveling caravan. I've heard she is|line|pretty hot-headed.|next,-4|No kidding, you can already tell by her looks!|next,-5|She does have a soft spot for her husband, though.|next|It seems we shouldn't judge people by their appearances.
+Huscada's one of the members of the traveling caravan.|next|He is always managing trades and sometimes calming his wife down.|next,-4|How did someone like him end up with a hot-headed cricket like her anyway?|next,-5||menu,46|, we shouldn't pry into other people's affairs!|next|...Even if I am curious about that too.
+There is a big lock in front of you.
+|tail,-6|The town sure got lively real quick.|next,-4|That's because the festival is awesome!|next,-5|We won't get to enjoy a night like this often. Let's make some nice team memories!
+This key doesn't fit.
+This item does nothing.
+You found a crystal berry! These are rare items sought by collectors around the world.|next|Maybe someone will trade them for rare goodies somewhere!|next|You can check how many you have in the Pause Menu.
+Shades Crystal Berry message
+|wavy|Hohohoho!|wavy||wait,0.2| Are you ready for this?
+Hmph. You are stronger than you look...|next|But have you ever seen something like this?
+|wavy|Uff...|wavy| You really know how to fight dirty...|next||anim,this,Idle|But I can fight dirty too! You better get ready!
+AYIEEEEEEEEE!!
+There is a hole. Something could fit here.
+This crank doesn't fit in this hole.
+Seriously Zasp? Get up!
+|tail,-6|Vi, you're the only Bee explorer, right?|next,-4|Huh? Uh, yeah! That I know of...|next,-6|We've been thinking it's a bit weird, to see so many Bee guards, but only one explorer...|next,-4|Look, they're not guards because they want to or anything, okay?|next|They were born to be guards, so they guard. That's it.|next,-5|That's a bit somber...|next,-4,Angry|...That's just how the Hive is sometimes.
+Howdy! Have you heard of our special Ant Storage offer for |line|the month?|next|For a limited time, we're letting you sign up for a junior account! You can store and take out 35 items for free. |wavy|For free!|wavy||anim,-4,Happy||minibubble,-102,-4||next|No more tears over having to skip that Crunchy Leaf!|next,-6|Sounds pretty good.|next,caller|Right? There's no way you wouldn't want this. I'll sign |line|you up right now!|next,-5,Happy|How wonderful. It's our lucky day!|next,-4|It sure feels nice to get cool stuff without doing anything.|next,caller|And it's done! Just talk to me whenever you want to use our |line|services!|minibubble,@Woohoo.,-6||next||destroyminibubble||end|
+It seems this is some kind of scanner... 
+|checktrue,299,-119|Most workers are surprisingly...calm.|next,-4|Well, it's not like we're getting attacked by a giant |color,1||wavy|wasp |line|spider guardian|wavy||color,0|!|next,-6|Never combine those words ever again.|next,-4|...Besides, they're used to staying here a good while.|next,-5|Even so, we do not know what caused the lockdown. We must hurry so they can evacuate!
+An intelligent machine that speaks!? What is this sorcery!?|next,-6|Has technology advanced this far so quickly?|next,-4|It's not intelligent! It only knows like, three sentences!|next,-5|This is only the start, |menu,46|. How long until three becomes thirty. And then even more!?|next|Will we be replaced by machines!?|next,-6|How would something we create replace us?|next,-4|You two seriously need to learn how to think less.
+|wavy|Free!?|wavy|
+|tail,-6,instant|Excellent. Still three to go, though.
+|tail,-5,instant|Good job, |menu,48|! We're halfway there!
+|tail,-4,instant|Woah! Only one left!
+|tail,-6,instant|We've done it.
+|tail,-6|Are you Vivi? We took your request.|next,caller|Oh, great! I really, really want to visit the Bee Kingdom...but the Queen hasn't allowed us to leave yet.|next|Did you bring me something from there?|pickitem,1,0,true,false,-108,-109|
+|checkvar,0,99,-110||checkvar,0,25,-111|That's...not what I had in mind.|next,-4,Angry|Don't get picky now. Give us the reward!|next,caller|Sorry. Can you really not bring something else?
+|tail,-6|Sorry. Nothing yet.|next,caller|Aw...I will be waiting here.
+Oh! That's really cute!|next,-4,Happy|But I'm cuter, right?|next,caller|You are! All Bees are SO CUTE!|next|...Err, thanks. Here you go.|break||removeitem,1,99||giveitem,2,21,-112|
+...That's that famous Bug Ranger doll, right?|minibubble,@It's not a doll... ,-5||next,-6|Yeah. Would that do?|next,caller|It's not a Bee, so...no.|breakend|
+I found this while digging here, but it should be useful to you.|next,-6|It'll be pretty good.|next,-5|We're glad we've made you happy!|next,caller||wavy|Hee hee...|wavy|it is so cute! I am totally wearing that once I get my leave! Thank you very much!|break||flag,257,true||completequest,34||end|
+Thank you for that hat! I really treasure it.
+|tail,-4|That's a key! One left!|next,-5|We should go back to town and ask around where the other key could be.|next,-6|Or just look around ourselves.
+|tail,-6|We've got both keys.|next,-5|We should head to the Sand Castle, then. It is at the most northeast part of this desert!
+|event,true|Hey! It's you two- err, three again!|next,-5|Venus?!|next,caller|Hee hee... Yes, that's me!|next|I decided to help you in your quest.|next,-4|Really!? You're gonna beat up stuff with us!?|next,caller|...I'm not a combat Goddess! But I CAN |color,1|heal|color,0| you up in no time!|next|...Y'know, for a small offering of|line||currency,var,37|.|next,-4,Angry|What?!|next,-6|Why would a Goddess need money?|next,caller|Listen, Aria and my followers want to thrive in life too, and they are way too dedicated to me to get other jobs...|next|So it's the least I can do for them! Besides, |currency,var,37| is nothing for |line|adventurers like you!|next,-5|Sounds like a fair deal, team. It helps us, AND Venus' followers!|next,caller|Mhm! Just shove the berries in this bud's mouth when you want some healing, alright?|break||flag,278,true||event,false||end|
+|checkflag,278,-118||tail,-6|So Venus really is all across Bugaria...|next,-4|Well, she's like a super Goddess, right?|next,-5|Indeed. That she would bless us with her healing...I'm beyond grateful!|minibubble,-192,-6||breakend|
+Is this one of Venus' flowers?|next,-6|Looks like it wants to tell us something... 
+Back to work, I see.|next,-4|Yeah, work never stops.|next,-6|We can see why you'd want to quit, |menu,46|.
+Hm. Impressive. But I tire of this game...|next||boxstyle,1||halfline||size,1.5||wavy||center|AWAY WITH YOU!|wavy|
+|hide||event,48|
+|hide||event,126|
+CRITICAL ERROR! CRITICAL ERROR!
+Mender reset complete.
+|tail,-6|That's all of 'em. A bit disappointingly easy...|next,-4|Easy money's still money! Let's go get that reward!|anim,-5,WeakBattleIdle||minibubble,@Poor things... ,-5||breakend|
+MISSING ENERGY REGULATION; OVERHEATING: 300%;|line|EM.OT. COMPONENT BROKEN.|next|REPLACE IMMEDIATELY! HELP! HELP!
+MISSING DIRECTIVE AND PURPOSE, STARTING QUOTE:|line|<WHAT AM I SUPPOSED TO DO?!?!>
+READING DATA: THREE BUGS, DETECTED AS VERY HOSTILE.|line|ASKING FOR PITY... ERROR.|next|PITY DIRECTORY NO LONGER EXISTS. PLEASE CHECK DATA INTEGRITY.
+SUBJECT FOUND: VI#@&*... ERROR, DATA IS|line|CORRUPTED. RESET REQUIRED.|next|REPEAT, RESETTING REQUIRED. PLEASE CALL MALBEE|line|FOR REPAIRS.
+THE COMMAND "reset.bug" WAS NOT FOUND IN THE CURRENT CONTEXT.|next|PLEASE INSTALL NECESSARY FILES AND RESTART YOUR MACHINE.
+Take |string,9,clamp,3.5,0.5||font,0| with you?
+What will you do with |string,9,clamp,3.5,0.5||font,0|?
+Give Ribbon
+Take Ribbon
+Take With You
+Do Nothing
+Leave |string,9,clamp,3.5,0.5||font,0| here?
+You left |string,9,clamp,3.5,0.5||font,0| somewhere else!
+...And that could happen. Let's try not to get caught.
+|event,43|
+This is a really strange cave, isn't it?|next|I can just feel something interesting is hiding here! You better look around!
+Ah, I'd been wondering what this device was!|next|A training simulator, huh? Be sure to heal up before working out!
+Ahead are the Lost Sands. There's monsters and bandits everywhere, and |line|the sand makes everything way too hot!|next|I'll try to support you as much as I can, but be careful as not even my roots can reach all of the desert.
+The area ahead seems dangerous... But if you need to heal, just leave it to me!
+So, this is where the bandits make their hideout in!|next|I can sense lots of stolen objects deep inside, be sure to return them to their rightful owners when you can!
+This castle was built by the Roaches back when they roamed freely around Bugaria.|next|Ah, it still feels like it was yesterday when they were scurrying|line|around the land trying to get stuff together!|next|I tell you, the Sapling brought a lot of blessings but also curses to them... Don't make the same mistake.
+|tail,-6|The guards in this kingdom are varied, huh. In shape and all.|next,-5|I've heard this kind of Termite holds a potent cannon in its head!|next,-4,Angry|They're BORN with a cannon? Why do Bees get like, one tiny stinger!?|minibubble,-148,-5||breakend|
+(I...I like my horn...|fwait,2||blank|and digging...)
+|tail,-6|The guards in this kingdom are varied, huh. In shape and all.|next,-4|This one seems super bulky! Like |menu,47|!|next,-5|I'm going to take this compliment.|next,-6|They seem well versed in the use of long ranged weapons, too.|next|Even if they've had peace, they're not eager to see it threatened.
+A factory inside a tree? You Bees sure know how to impress!|next|It is a bit tricky to get my roots out here, but I'm here to heal you up if you need it!
+|tail,-4|I dunno why bugs stay here. It's all sandy and stuff.|next,-6|...You know, yeah. We wouldn't make this a permanent stay.|next,-5|It's a very tightly knit community, with strong traditions!|next,-4|Can't they just do their traditions somewhere nicer?|next,-5|...I swear, Vi...
+I understand you have your reasons, but did you really really have to come wreak havoc here...?
+We'll buy all songs!
+|showmoney|T-Those new songs will cost @VALUE@.|line|Is...Is that okay with you?|prompt,map,2.5,2,-38,-39,@Here you go.,@We'll pass.|
+|checktrue,454,-156|This settlement was used by the very first Ant Queen when she first arrived in these lands.|next|...But now it's full of these weird mask-wearing bugs. What's their deal?
+Huh, the weird bugs all left. I suppose you had something to |line|do with that, right?
+|boxstyle,4||spd,0||center|Is "|string,10||font,0|" OK?
+Type in a file name!
+|boxstyle,-1||hide||jump,caller||sound,Nero||minibubble,@Nibu!,caller||waitminibubble||end|
+Oh no no, my valiant knight, do rise once more! Healing dust!
+|shaky|A-Ah! I...I yield!
+|checkflag,43,-163||checkmapflag,2,-163,true|O-oh! Hello! I'm t-traveling around to learn a few more songs...|mapflag,2,true||break||event,28|
+|hide||event,28|
+R-Real explorers are this strong!?
+Let's bail!
+|hide||overfollower,false||moveahead,-1,2,0,0,1,0||movewait,-1||hide|
+|menu,46,1|! |menu,48,1|!|next||size,1|G-GAH! No...NO! NOT AGAIN!
+...Ngh...My-my friends...|next|All because I...I wanted revenge!|next|I haven't honored my companions...I've tarnished their sacrifice!|next||menu,46|, |menu,48|...
+Because of you, I found friendship again!|next|I will defeat this monster, not for revenge...|next|But to PROTECT YOU!
+ONLY AUTHORIZED ANT PERSONNEL ALLOWED.|line|PLEASE PROVIDE ID:
+AUTHORIZATION FAILED.
+|shaky|Agh! NO! My...my ULTIMAX TANK! How could you...?!?!
+|boxstyle,4||spd,0|Ride the lift?|prompt,yesno,-174,-11|
+|hide||event,201|
+Which Ribbon?
+...Impressive...|next|But with this power, I cannot fail!
+U-urk...|next|T...Try as many times as you want...! You will never defeat me!
+|shaky|It... Can't... Be...!!
+|tail,-6|This dude's got style.|next,-5|He is very accessorized! He must be a Bee Kingdom regular!|next,-4|Bees don't really make hats, though. Maybe the glasses.|next,-5|Hmm. Fashion built from many cultures, then?|next,-6|He must be exploring around, too. 
+|shaky|W-WHAT!?|shaky| You're powering up 'cuz YIN went down!?|next||shaky|WHAT ABOUT ME!? GRRRRRR...!|shaky|
+I-It's not like that, Kina... Yin's barely an adult!
+Kina! With me!
+|tail,-6|It's back to normal for the guards.|next,-5|I must commend them! I'd need a vacation, at least!|next,-4|Paid vacation!|next,-6|They've earned their hard-worker fame, for sure.
+T-thank you! That's all the songs I know... |next|Y-You supported me all this time! S-So take this. I really appreciate you!
+|tail,-6|Riz was quite eager to start a fight. He's quite overprotective.|next,-4|Living in the wild's gotta put you on edge!|next,-5|I hope we can move past our fight and become good friends.
+Hmm... It's a bit weird to see Ant Guards so far from the city.|next,-6|With the mines, we could say they're not too far...|next,-4|Mhm. These tunnels were a super great idea!|next,-6|Guess we'll have to give the Queen credit for that... 
+The King's got his whole army up ahead! You'd best heal up!
+Kabbu... You know what's ahead, don't you? Don't be reckless, I beg of you...
+This place's daunting, isn't it? I hope my help cheers you up a bit!
+I feel so much honey! I wish I could eat it from here...
+|tail,-6|What a warm glow.|next,-5|I've never seen anything like this! Could she be one of the 10 sorcerers?|next,-4|Nah. It's a firefly! Sis told me some bugs in other regions glow in the dark and stuff.|next,-6|Ice magic sucks. We want to glow in the dark.|next,-5|For the sake of our missions, please keep the ice magic...
+Easy there.
+|tail,-6|It's Team "Not Slacker".|next,-5|Indeed. They must be thoroughly scouting this area!|next,-4,Happy|Heheh. Let's get a lead on some exciting stuff!
+|caravanmedal,-196|Sorry, that's our last one. Come back later when we get more stock!
+We'd like to see more medals.
+|destroydescbox,1|You got it. Here's the rest of our stock! (Press |button,5| to cancel)|pickitem,34,-197,-45|
+|itemname,v0,1||itemvalue,v0,1,1||showmoney|That |string,1| Medal will cost|line||currency,var,1|. Do we have a deal?|prompt,yesno,-198,-45|
+|checkmoney,var,1,-46||money,var,-,1||setprize,find,v0||showmoney||giveitem,2,var,0,-60|
+|rerollshops||end|
+What the- He healed up!
+Team... Don't lose hope!
+Not again... We can't keep up...!
+He can't keep healing forever. Keep attacking!

@@ -1,0 +1,26 @@
+Time to build your deck, select a Boss Card!
+Select your Battle Cards!|line|You can still select |var,4| card(s).
+Would you like to reuse your last used deck?
+Use Last Deck
+Create New Deck
+Would you like to save this Deck?
+Yes
+No
+Select two Mini-Boss Cards!|line|You cannot select repeats.
+Would you like to give up?
+Would you like to save this deck for future sessions?
+ROUND |var,6|
+You Lost... 
+You Won!
+Listen up. Here's the rules for |color,1|Spy Cards|color,0|.
+You play using a deck containing |color,1|15|color,0| cards. These cards come in |color,1|4|color,0| types:|line|Attacker, Effect, Mini-Boss and Boss.
+Attacker cards are quite basic. They add an amount to your Attack Counter, and are pretty cheap to play.
+Effect Cards can have many different effects. Here's a few |color,1|keywords |line|you can find in your cards:|next||color,1|Numb|color,0|: One of your opponent's Attacker cards is numbed.|line||color,1|If X|color,0|: If played alongside X card, gain an effect.|next||color,1|If Atk (X)|color,0|: Gain an effect if your total ATK reaches X.|next||color,1|Unity|color,0|: Gains ATK for every member of its tribe. Like a swarm of Midges...|next|You can check many more effects in your |color,1|Discoveries|color,0| menu.|next|You can include as many repeated copies of Attacker and Effect cards in your deck as you want.
+Now, for Mini-Boss cards. They work like Effect cards, but you can only have |color,1|2|color,0| copies in your deck. And no duplicates!
+Boss cards also work like Effect cards. Each deck can only include |color,1|1|color,0| Boss card.
+Each card has a |icon,28,0.6| |color,1|TP Cost|color,0| required to play it. You get a set |line|amount of TP each turn.|next|At the end of each turn |color,1|your TP is restored|color,0|, so go wild with your plays.
+To summarize, your deck must contain |color,1|15|color,0| cards: 1 Boss. 2 unique Mini-Bosses. And 12 Attacker or Effect |line|cards which may be duplicates.|next|Now, try building your deck.
+During a match, your cards will be shown on the left side. Your opponent's will be on the right side.|next|Mine are turned back, of course. But you can tell their type through their back.|next|I'm holding a |color,1|Mini-Boss|color,0| and |color,1|2 Attacker or Effect cards|color,0|.|next|Attacker and Effect cards share the same back. Leaves you wondering, right?|next|Use as many cards as your TP allows you to and try to win the round.|next|Whoever gets the highest |color,1|ATK|color,0| wins the round, inflicting damage to the loser's |icon,24,0.4| HP.|next|This is a bit obvious, but reduce the opponent's HP to 0 and you'll win the match.|next|What a mouthful... Let's start our duel.|next|I'll be holding back during this practice match, okay? Pick your cards |line|and give it your all!
+By the way, all cards used in a turn are shuffled back into your deck. Maybe you'll see them again!|next|That should cover everything. Let's continue!
+Hm. Well done.|next|Seems you are ready for the real thing...
+Hmph. Oh well. There's always next time.

@@ -1,0 +1,282 @@
+berry
+berries
+You found |string,1| |color,1||string,0||color,1|!
+You are carrying too many items!|line|Please pick one to throw away!
+Would you like to save?
+Yes
+No
+|color,1||noskip|Saving... Please stand by...|save,8,9|
+Save complete.
+Save failed. Please check file integrity.
+Inventory
+Medals and Stats
+Library
+Settings
+HP
+TP
+Attack
+Defense
+EXP
+MP
+No Items
+No Key Items
+No Artifacts
+No Medals
+Items
+Key Items
+Artifacts
+Medals
+Resolution
+Fullscreen
+Shadow Quality
+Texture Quality
+Downsampling
+Music Volume
+Sound Volume
+Key Bindings
+Return to Main Menu
+Exit Game
+ON
+OFF
+LOW
+FULL
+Confirm
+Cancel
+Return
+Save and Return
+Vi
+Kabbu
+Leif
+Worth |currency,var,10|
+Check and use items you have|line|collected.
+Check your stats, skills and equip|line|different Medals.
+Check information about various|line|things you've seen on your journey.
+Change the settings.
+Discoveries
+Bestiary
+Recipe Book
+Records
+Quest List
+?????
+Attack
+Skills
+Items
+Strategies
+Turn Relay
+Do Nothing
+Rotate Party
+Spy
+Flee
+Have the character do nothing until next|line|round.
+Change order of the party.|line|(Or press the party switch button on the flower select menu.)
+Tries to get information on enemies.
+Attempts to escape from battle.
+|boxstyle,4||halfline||spd,0||center|Can't escape from this battle!
+Erase
+All Enemies
+All Party
+Everyone
+|end|
+No available targets.
+Framerate
+30 FPS
+60 FPS
+Take Quest
+Open
+Taken
+Complete
+Return Without Saving
+Up
+Down
+Left
+Right
+Confirm / Jump / Interact
+Cancel / Field Action
+Scroll Faster / Switch Party
+Show / Hide HUD
+Pause
+Help
+Please press a key... 
+|size,0.75|Select a key to|line|replace.|line||line|Press F1 to reset|line|to default key|line|settings.|line||line|Only keyboard keys|line|can be changed.
+Change Key
+Select
+Logbook|line|Updated!
+Total:
+By:
+Difficulty:
+You got |string,1| |color,1||string,0||color,0|!
+Unlimited
+Moonsprout Games - 2019
+New Quest
+You got |currency,var,0|!
+Location
+Crystal Berry
+Are you sure you want to exit?
+|exitgame|
+|openpause,4|
+Anti-Aliasing
+You got |var,0| Exploration Points!
+Team Rank:
+The team gets + 1 Health Point for each member,|line|letting you survive longer!
+The team gets + 3 Teamwork Points, letting you use|line|more skills!
+The team gets + 3 Medal Points, letting you equip|line|more Medals!
+Pick a stat boost for the new rank!
+Start Game
+Language
+a
+Copy
+Delete
+Select a file to copy from.
+Select a file to delete.
+Select a file to copy to.
+Are you sure you want to do this operation?|line|You cannot undo this action.
+There was an error during the file operation.|line|Press |button,4| or |button,5| to return.
+Please wait... 
+Retry
+Reload Last Save
+Change Loadout and Retry
+Seen
+Defeated
+Please wait while file operation is in progress... 
+Wind Effects*
+|string,0| learned |color,1||string,1||color,0|!
+|string,0| got a bonus |color,1||string,1||color,0|!
+The party got a bonus |color,1||string,0||color,0|!
+|backline|Your pouch can now carry |color,1||string,0| more items|color,0|, for a total of |color,1||string,1||color,0|!
+No save files found!
+And their tale was never finished... 
+3D Outlines
+*These effects will take place on map change.
+Ingredients:
+Made by mixing incompatible ingredients.
+Made by mixing
+and
+Made by cooking
+Quest|line|Complete!
+Achievement|line|Unlocked!
+Advanced Particles*
+Use Controller
+Read More
+Medal
+Dialogue Volume
+Would you like to return to the Ant Mines?
+|halfline|You can't dig from this area.
+Would you like to return to|line||color,1||string,0|?
+Monsters roam around this area, digging from here is not wise.
+|openpause,1|
+|event,29|
+Something is obstructing this area. You can't dig here.
+Horn Help
+Crystal Berries
+You can see your current quests in the|line|Library section of the Pause Menu.
+Status:
+@'s notes:
+CHAPTER
+PROLOGUE
+A Dysfunctional Trio
+Sacred Golden Hills
+Factory Inspection
+Mysterious Lost Sands
+The Far Wildlands
+Assault on Rubber Prison
+The Everlasting Sapling
+Any Bomb
+Vsync
+Your charm has ran out!
+You can't use that here.
+Rest here?
+|event,82|
+End Turn
+Score:
+Sold Out!
+Chompy
+Space
+Board the submarine?
+Get off at |color,1||string,0||color,0|?
+this island
+this location
+Anthill Palace
+Underground Bar
+Cave of Trials
+Explorers' Association
+Bugaria Pier
+|color,1|TEST ROOM
+ABC/123/?!$
+ひらがな
+カタカナ
+Wizard's Tower
+FILE |var,0|
+Power Plant
+PRESS |button,4| TO START!
+Mite Knight
+Flower Journey
+Kart Kart
+PAUSED|line||line|PRESS |button,4| TO CONTINUE|line||halfline|PRESS |button,5| TO EXIT
+GO!
+GAME OVER
+Floor @VAR@
+Thank you for playing this demo, we hope you enjoyed it!
+DISABLED
+AUTO DETECT
+FORCE XBOX
+|size,0.65,0.75|CHOOSE MANUALLY
+Controller to Use:
+NONE
+|size,0.65,0.75|PRE-CONFIGURED
+Xbox 360
+Dualshock 4
+|size,0.65,0.75|Switch Pro Controller
+|size,0.65,0.75|Generic Controller 1
+|size,0.65,0.75|Generic Controller 2
+|size,0.65,0.75|CUSTOM BINDINGS
+Controller Bindings
+|size,0.65,0.75|Switch Joy-Con L
+|size,0.65,0.75|Switch Joy-Con R
+Poison Bite - 2 TP
+|size,0.8,0.7|Numbing Bite - 2 TP
+Drowzy Bite - 2 TP
+|rainbow|!! HIGH SCORES !!
+Press |button,4| or |button,5| to exit.
+Music After Battle
+RESUME
+RESTART
+|size,0.6,0.75|Fight Pad Pro for Switch
+THE END
+-BACKERS-
+Mash Action Commands
+FILL BAR
+|size,0.65,0.75|SEQUENTIAL KEYS
+Press a button for|line||color,1||string,0|
+Input a direction for|line||color,1||string,0|
+Analog Horizontal
+Analog Vertical
+D-Pad Horizontal
+D-Pad Vertical
+Button Style
+Pause When Unfocused
+Reset Control. Bindings
+Skip
+Speed Up
+Reset Speed
+Equipped Medals
+Audio
+MONO
+STEREO
+DUNGEON COMPLETE!
+Time Left:
+Life Left:
+✰ ♡ ♩
+i m
+Xbox Linux
+Analog Sensitivity
+Swap Positions
+Switch an ally's position with another.
+Change Ribbons
+|tab,4|
+Dig to |string,0|
+Save Location
+What would you like to do?
+Cannot save this location.
+Lot of items
+Set Seed|line||button,5| for Random
+Select Multiple

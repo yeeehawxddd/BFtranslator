@@ -1,0 +1,7 @@
+You can't enter the gate without a key!
+Open the gate?
+Spaces Left:
+Stop Wheel
+1st
+2nd
+Your inventory is full!

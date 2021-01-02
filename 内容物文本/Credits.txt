@@ -1,0 +1,823 @@
+<color="#22b14c">●Programming, Art, Modeling</color>
+Márcio Cleiton (Mar)
+
+<color="#22b14c">●Story, Character Design
+Puzzles, Game Design</color>
+José Fernando Gracia 
+(Genow)
+
+<color="#22b14c">●Music</color>
+Tristan Alric
+
+<color="#22b14c">●Sound Effects</color>
+Stefan Moser (effoharkay)
+
+<color="#22b14c">●Character Design</color>
+Sergio Leon (Oma)
+
+<color="#22b14c">●Character Design,
+Background Artist</color>
+Fuutes
+
+<color="#22b14c">●Background Artist</color>
+@Giancarlos_Soto
+
+<color="#22b14c">●UI, Prop, Icon Artist</color>
+Poppy de Raad (@pixecology)
+
+<color="#22b14c">●Production Assistant</color>
+Jeannie Park (comfymode)
+
+<color="#22b14c">●Localization Assistant</color>
+Juan Luis Fábrega
+Kevin Rosato
+
+	<color="#22b14c">-DANGEN Entertainment-</color>
+
+<color="#22b14c">●Developer Relations</color>
+Nayan Ramachandran
+Dan Stern
+
+<color="#22b14c">●PR & Marketing</color>
+Justin Pfeiffer
+
+<color="#22b14c">●Localization Manager</color>
+Dan Luffey
+
+<color="#22b14c">●Streaming Producer</color>
+Chad Porter
+
+<color="#22b14c">●Advisor</color>
+Ben Judd
+
+<color="#22b14c">●Porting Programmer</color>
+Salvador Garcia
+
+
+	<color="#22b14c">-Japanese Localization-</color>
+
+<color="#22b14c">●Translation</color>
+Nana Itoh
+
+<color="#22b14c">●Editing, LQA</color>
+Yuta Kurosawa
+
+
+
+		<color="#22b14c">-MINIBOSS BUGS-</color>
+
+<color="#22b14c">●Monsieur Scarlet</color>
+Rogus
+
+<color="#22b14c">●Carmina</color>
+CasketCat
+
+<color="#22b14c">●Riz</color>
+Jack Ecrid
+
+<color="#22b14c">●Kali</color>
+TheTragicomical
+
+<color="#22b14c">●Devourer</color>
+Julian "Gameboo" Platnar
+
+<color="#22b14c">●False Monarch</color>
+Tyler McBride
+
+
+			<color="#22b14c">-NPC BUGS-</color>
+
+<color="#22b14c">●Patton</color>
+Tad "LMTYA" Becker 
+
+<color="#22b14c">●Chef Crisbee</color>
+Sirfy
+
+<color="#22b14c">●That one Stickbug</color>
+Kyle Joseph Brost
+
+<color="#22b14c">●Isau</color>
+Imploader
+
+<color="#22b14c">●Butomu</color>
+Sanagi
+
+<color="#22b14c">●Bomby</color>
+Leigh "Tulip" D.
+
+<color="#22b14c">●Engira</color>
+Engy
+
+<color="#22b14c">●Kenny</color>
+Vincent Cipolla
+
+<color="#22b14c">●Bumble & Rebelle</color>
+Ludd
+
+<color="#22b14c">●Eremi</color>
+Meirdent
+
+<color="#22b14c">●Eophi</color>
+Joe Dunne
+
+<color="#22b14c">●Tanjerin</color>
+Carson “LightningAcorns”
+Kassie “purupurple”
+
+<color="#22b14c">●Layna</color>
+Paradoxigent
+
+<color="#22b14c">●Revees</color>
+Blarghalt
+
+<color="#22b14c">●Elom & Tekci</color>
+Saladin
+
+
+		<color="#22b14c">-MERCHANT BUGS-</color>
+
+<color="#22b14c">●Meditation Medal</color>
+Kevin Rosato 
+
+<color="#22b14c">●Succulent Berry</color>
+Isabelle Dela Torre 
+
+<color="#22b14c">●Mystery Berry</color>
+Timothy Robinson 
+
+<color="#22b14c">●Abombination</color>
+Jeffry The Triangle 
+
+<color="#22b14c">●Hustle Berry</color>
+Dirtbag 
+
+<color="#22b14c">●Luckier Day Medal</color>
+Keifer "IsABunnyNoTouch" Do 
+
+<color="#22b14c">●Heal Plus Medal</color>
+Kyle Joseph Brost 
+
+<color="#22b14c">●Tardigrade Medal</color>
+Cooper "Zzuxon" Wooten 
+
+<color="#22b14c">●Heavy Throw Medal</color>
+Gyper 
+
+<color="#22b14c">●Bedbug Pillbug</color>
+Marcos Negrete
+(twitch.tv/MissingNovice) 
+
+<color="#22b14c">●Antlion Jaws Medal</color>
+Carsf 
+
+<color="#22b14c">●Shell Ointment</color>
+Shell Game 
+
+<color="#22b14c">●Berry Jam</color>
+Terramite 
+
+<color="#22b14c">●Longleg Summoner</color>
+CoachZEvilTwin 
+
+<color="#22b14c">●Agaric Shroom</color>
+Evan Russell 
+
+<color="#22b14c">●Mega Rush™</color>
+Jake Rojas 
+
+<color="#22b14c">●First Plating</color>
+Thalia Aveline Violetpyre 
+
+<color="#22b14c">●------</color>
+Oscar "Nerdie" Thomas 
+
+<color="#22b14c">●------</color>
+Gabriella
+
+<color="#22b14c">●------</color>
+Christopher Chapman
+
+
+		<color="#22b14c">-BETA TESTER BUGS-</color>
+
+●Adam ”Wintar” Jorgensen
+●Admiral H. Curtiss
+●Alex Diener
+●Andrew "AMJZero" Jenkins
+●Andrew J Brookhart
+●Annaliese Bevan
+●Austin Noel
+●B. Hedegaard
+●Bill Schoen
+●Bladesclaw
+●Boris Bishop
+●Brandon Serpas
+●Bread-kun
+●Brendan "Dramavian" Harris
+●Chris
+●Chris Hoglo
+●Christian J Encarnacion
+●Colette "fickleheart" B.
+●David Arthur Paul
+●Daniel Miller
+●Daniel Silvestre
+●Denais Zulema
+●Dick Flowers
+●Echolotte
+●Ellie Spectacular
+●Etheus Raygius
+●Evan Russell
+●Fabián "Fruztal" Pérez
+●Garceuslegend
+●Gemini Hero
+●Giik
+●Glackum
+●GyroZ
+●Haddi Jazzaf
+●HyperMarc
+●InkyFirefly
+●Jack Yen
+●Jayden Noslen
+●Jordan Rynes
+●Justin Silvestre
+●Kai Crowley
+●Kamikaze Scotsman
+●Katelyn Ragland
+●Kenshiago
+●Kevin Hollowell
+●KoopsMagoo
+●Lillian O.
+●MagiAshley
+●Maria de Lourdes Barrios
+●Martin LaMott
+●Michael Walsh
+●Migdonio González
+●mr_yogurt
+●Nathaniel Harris
+●Nick Acheff
+●Nyon
+●Oisin Kelly
+●OldGoldie
+●Omasunner
+●Petra Goudy
+●Pillowdillo
+●RaveY
+●Remited
+●RockyDraggy
+●rs1fifteen
+●Ryekoh
+●Script_Daddy
+●Shawn D
+●Silvia de Marucci
+●snoruntpyro
+●Stephan Briggs
+●StorMyu
+●TITOtheGamingGod
+●Will Lienau
+●William DiSanto
+●WSPeople
+●Worm
+●Yihamui
+●Yoshi_Chimera
+●Zachary Welker
+●Zuro127
+
+
+		<color="#22b14c">-ARTIST BUGS-</color>
+
+●Angel Islas
+●Arrayth
+●Ashley Leong
+●Blas Armien
+●Bryant Adam Zeringue
+●Caleb Hill
+●Caleb Shealy
+●Cameron Burt
+●Chris Pelphrey
+●Christopher Lloyd Coxe
+●Cirr
+●Dangus
+●David Peryman
+●deadlinejon
+●Ernest Vallebuona
+●Gupple
+●Ian Barton
+●__J__
+●Jeremy "Jumpy" Sheehan
+●Josh "Shadyparakoopa" L.
+●Joshua Kyew
+●Jotarav
+●Justin J. Alldridge
+●Kersha Fangs
+●Marty Menor
+●Matthew Wodicker
+●Michael Beck
+●Mr. Left
+●Nathan Haugo
+●Patrick Taylor
+●Peter James Unitt the IV
+●Popgunpanic
+●Rita Huang
+●Salomón Ghitis
+●Schevene Singh
+●Scruff
+●Senpai Sensei Sama
+●Shawn Fassbender
+●Simon Jiang
+●William 'FungiGamer' Lawler
+
+
+		<color="#22b14c">-FRIENDLY BUGS-</color>
+
+●Adam Salek
+●Alaric "Mothykins"
+●Alex Harvell & Marjorie Paré
+●Andrew Walker
+●Arejaybee
+●Ashendral
+●BattedPants
+●Bevm0
+●Blissel
+●Brais Doce Sachocos
+●Charles-Olivier Magnan
+●Clint
+●Corey Barron
+●Evan McCall
+●FlyingWeasel
+●Gamekrazd
+●Hugo Magaña
+●Ivy Maiorino
+●Jacob Schuster
+●James E Werner
+●Jennifer Beetler & 
+Ab-bee Normal
+●Jesse Jones
+●Jimmy Brian Johnson
+●Jo
+●Jon "Gabu" Bar
+●Juan "Faila" Faillace
+●Justin Huber & Tyler McCardell
+●Kirk Hamilton
+●Kyris
+●LXSXL
+●Luke the Almighty
+●McBro & ToxicMadness
+●MechaGoat
+●Michael "Big Deal" Petrucha
+●Michael V. A. Costaz
+●MochaMint
+●Mukiro
+●Nathan Elders
+●Nick Driver
+●Pargon Pau
+●Patrick Yao
+●Peke
+●Rayzell Grayson
+●Richard Spiegel
+●Rho
+●Rotobit
+●Sander & Konny
+●Sophia Blue
+●Super Nerd Tim
+●Tyler Hanlin
+●Tyler Thompson
+●Yuuki Shishome
+
+
+		<color="#22b14c">-MUSICIAN BUGS-</color>
+
+●a_galvantula
+●Adam B.
+●Ainsley "Choc Ice" Sorsby
+●Andrew Taylor
+●Andy Lai
+●Appliance Tech
+●Ari Brennan
+●Ark
+●Arran Middleton
+●Aztaro Slate
+●bakubreaker98
+●Betofall
+●Bran Pls
+●Brandon Calabrese
+●Bubbafare
+●CandyHeart
+●Capitan Awesome
+●Chad Connelly Jr
+●Chris Zito
+●Christopher Smith
+●Cory Martin
+●DesertACU
+●Dr. Doom 85
+●Drake Bonagofsky
+●Emma S.
+●FrostLock
+●Gitte Gramkow Nielsen
+●HDN
+●Henry Myers
+●Hershel Lousyton
+●Hey Aleks...
+●James LaDow
+●Jason Blas
+●Joshua T Johnston
+●Juan Fernando Molina
+●Kasran
+●Kyle “Kbman” Blank
+●Lionel Ali Jackson
+●MEGAC
+●Manna P Lourde
+●Mara "IndigoBlooper"
+●Marc-André Brière
+●Marco Kim
+●MasterOfZoroark
+●Mathue
+●Matt Mulligan
+●Matt Ventura
+●Matthew Harder
+●Matthew McMahon
+●Max Freshour
+●Megnutt
+●MrSpacePan
+●Nadine
+●Nicole Seving
+●Ominashi the Star Child
+●Ozt
+●Raymond Chen
+●Ridley_san
+●Robert Lloyd
+●Ruy F. (Macoatl)
+●Ryan Cook
+●Sam Wigram
+●Samantha Lienhard
+●Santiago Ortiz
+●SeaMaid
+●Sombraling
+●sulkaritari
+●Taylor H.
+●Troy Chung
+●Ubel the Ukiki
+●Vin
+●Will "Radnar" Kilgore
+
+
+		<color="#22b14c">-EXPLORER BUGS-</color>
+
+●53xy83457
+●A "Bittersweet" L
+●A Sentient JDAM
+●Aaron Varkonyi
+●absoluteAquarian (Tau)
+●Adam DiMercurio
+●Adam Taubenheim
+●Adam Vanden Elzen
+●Adler Orr
+●Afterglow
+●Ajogamer
+●Aleks Dalgaard
+●Alex Stenzel
+●Alexander Lamontagne
+●Alexis Williams (@typedrat)
+●AlphaPenguin
+●Anders "Kaptajnen" Iversen
+●Anders S. Nordsteien
+●Andrew Sansone
+●Andrew the Red
+●Andy Bodinger
+●Andy Salisbury
+●Anon
+●Anono
+●Anonymous
+●Anthony Miller
+●Anthony Simon
+●Anubis Jones
+●AskRetroMod
+●Axton McCormick
+●Ben Emerzian
+●Benjamin Scharfenstein
+●Benn Abbot
+●Bishop
+●BismuthBorealis
+●blulizard
+●Bojan Kapor
+●Boyks
+●Braden Stevenson
+●Bradley Colangelo
+●Brian Booker
+●Bridget Tompkins
+●Bruno Pergentino
+●CJ Legato
+●CJHunter36
+●Cameron A. Bandy
+●Cameron Kennedy
+●Camren Holt
+●Carlos Perez
+●CeeBound
+●Charles Anaya
+●Charlie "PSI" Devlin
+●Chaz Thompson
+●Chelsea Maradiaga
+●Chris Bard
+●Chris Bastin
+●Chris Bruce
+●Chris Friesen
+●Chris L.
+●Chris Merrill
+●Christian Marucci
+●Claude Prince
+●Cody Benham
+●Cody J Callaway
+●Cole Fellers
+●Conner Booth-Henderson
+●Conor Fitzpatrick
+●copperpauper
+●Cyan Star Knight
+●David Serracchiani
+●Dan Juliot
+●Daniel Hudson "Outlander" 
+Newberry
+●Daniel P Owens
+●Darian Katelyn
+●David Bubeck (@sdavidle)
+●David Dachs
+●David Edwards
+●David León
+●David P
+●Devon Shimizu
+●Dewwy
+●DigiC300
+●Dominick Addison Ferger 
+(KiddFrog)
+●Donald "Kiba" Mason
+●Donald Sbabo
+●dotmd
+●DreamCloud
+●Duino D. Duck
+●Dying Cow
+●Dylan Robert Saufert
+●E
+●Earlybird
+●EarthboundHiro
+●Edward McGrogan
+●Elijah Rusca
+●Emilio V Parra
+●Eriberto Vasquez - Aeiji
+●Erik Legaard
+●Erik Nutting
+●Erin Taylor
+●Eskil A Jenssen
+●Ethan Flores
+●Eurydamas
+●Evan Squires
+●FJDpaco
+●Floop
+●Ford Anderson
+●FourthWallHammer
+●Frames Janko
+●GFG
+●Gabriel Tremblay
+●Gene Auhl
+●Geoffrey Learn
+●Gerich
+●Gero
+●GetInTheTent
+●gigafa
+●Gimanos
+●Haley Barnett
+●Harry Scheiner
+●Headless
+●Henry Greenhut
+●Highschool Discool
+●HorriblyUnoriginal
+●Horse Play
+●Hunter Scales
+●I'm Not Sue
+●Iain Macquarrie
+●IncarnateInfinity
+●JD Laclede
+●JJ
+●Jack Lawless
+●Jackson Grubbs
+●Jackson Woodruff
+●JagTheRabbit
+●James
+●James Manley-Buser
+●Jay Belfrage-Young
+●Jeff Woodruff
+●Jennifer Kratovil
+●Jeppe Ansbøl
+●Jesse Alvarez
+●Jesse Aneiros
+●Jesse Godlow
+●Jessica Jovanovic
+●Jett K. Bandit
+●Jim Youngman &
+●Julie Prestel (Yay woo!)
+●Joel D. Ross
+●Joey736n
+●John-Paul Pierce
+●Jonathan Fische
+●Jordan Kleinschmidt
+●Joshua Casiano
+●Joshua Reeves
+●Jotarav
+●Jummkopf
+●Justin Hardges
+●KappZ
+●Kataris
+●Katlyn Tennyson
+●Kevin "Disco" Lemoine
+●Kevin Vekony
+●Khalid Hassan
+●Khonjin
+●Kim Johnston
+●King Aegis
+●Kyle 'Quilliam' Nguyen
+●Kyle Jones
+●Kyle Kite
+●Kyle Labriola
+●Latiro Mazzaire
+●Leon Marsters
+●Los
+●Luis Carlos Rodríguez Solano
+●Luke Bender
+●Luke Goldfain
+●Lulu at 2
+●Luther
+●MaliceToaster
+●Marc-Andre Dagenais
+●Marcio Clei
+●Mark_M
+●Marshall Sanborn
+●Mathew LeDahl
+●Matt "Mattendo" Martin
+●Matt Frappa
+●Matthew, A Bug Enthusiast
+●Max B
+●MeleeKirby
+●Merreton
+●Michael Adams
+●Michael Eugene Baker
+●Michael Zatlin Jr.
+●mierths
+●Miguel A. Lozoya McHenry
+●Miguel Zeballos
+●Mikey McC
+●Mingthoy Sanjur
+●Mitchell deJong
+●Mix Archetype
+●Miyam2
+●Mlmiii
+●moppy
+●MrFariator
+●Muggai
+●Murray Joseph Gros III
+●Nate Lemke
+●Nicholas Guirovich
+●Nicholas Randolph
+●Nick Speranza
+●NightlyShadow
+●Nikita Colletta
+●No name
+●Nolan Sheppard
+●Nymlus
+●Omar Mejia
+●OneBuggyBoi
+●Osakasa
+●Owen Murray
+●PEPNKEK
+●Pablo
+●Patrick Hellman
+●Peter Sarikas
+●Plutoneus
+●Pogman999
+●Radek W.
+●Rafael Soto
+●Raid House and Garden Insect 
+Killer
+●Ramon Padilla
+●Rane Squires
+●Razmoo
+●RedToa
+●Ricardo Noriega
+●Ricky M Rodriguez
+●Robbie Antenesse
+●Robert Alderson
+●Robust Laser
+●Rodrigo
+●Ron R
+●Ronwald the Mantis
+●Rowan Brocklesby
+●Sam Richwalski
+●SamoaWrithe
+●SantaBark
+●Sarah Squillace
+●Scott Cooper
+●Scotty Wells
+●Sean Aben
+●Sean Gonzalez
+●Sean Ricci
+●Seth Elkanah Horvath
+●Seth Wilcox
+●Shingo Tamura
+●Shrikkanth Sreedharan
+●Sik
+●Sleiphros, Tired Fluff
+●Sleve McDichael
+●SlightlySimian
+●Smearg
+●Smonde
+●Spatulae
+●SpellCatty
+●SquidSquad
+●Sriram Cyr
+●Stag Bag Studio
+●Stonetribe
+●Succ Queen Amber
+●Swerve Booty Hammer
+●T.J. Bertino
+●Tachomba McLinskey
+●Taha Mirza
+●Tegan E
+●Terrance C
+●Thao Dinh
+●The Milkman
+●thetdw2000
+●TieTuesday
+●Tom Parsons
+●Tom Vinita
+●Tony Ha
+●Tony Rivera
+●Transglutaminsec
+●Travis Hovatter
+●Travis M. Gay (Ukuzen)
+●Trevor & Kamryn
+●Tristen Persun
+●Tyler Allen
+●Tyler Bove
+●vb
+●WhatTheKruk
+●William A. Cahill
+●William Andrew Cahill
+●William Gilbert
+●Zach Diemer
+●Zach Robinson
+●Zachary Flaherty
+●zuzu
+
+
+		<color="#22b14c">-CREDITS BUGS-</color>
+
+●Andrei Lache
+●AuraPuffs
+●Beetle is my husband
+●Brandon Tuminaro
+●Celeste Volschenk
+●Chaud314231
+●Chaz Chester
+●Elvia Chavez P.
+●Hadley Patchett
+●Juan Alejandro Rodriguez
+●Fernando Gracia
+●Gaetano "Fried" Smith
+●Gilberto Moreno
+●Kaio Amorim
+●Karla Gracia
+●Karol Gracia
+●Katherine Gracia
+●Katia Gracia
+●Krstich Luka
+●Luke Thronson
+●Maddie "ChickenHat" Duque
+●Mark Croucher
+●Matt Landino
+●Mauro Neto
+●Michael Glass
+●Nick Tricarico (NJayTea)
+●Pat Dunal
+●Pipo
+●Renato Francói Amprino
+●Rika
+●Ryan Pires
+●Skelloko
+●Stephanie Shinkle
+●Zac Emerzian
+●jort
+
+
+		<color="#22b14c">-Special Thanks-</color>
+
+To our dear families
+and friends who supported
+us when none did.
+
+To everyone in the Discord
+for being with us all the way.
+
+To Carson “LightningAcorns”,
+Leaffen and Aldelaro5
+for all your help.
+
+To Tad "LMTYA" Becker,
+for everything really.
+
+And to you, player!
