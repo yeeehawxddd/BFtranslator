@@ -1,0 +1,31 @@
+|checkflag,67,2|What an impressive view. I am glad we are enjoying it together.|next,-6|It's impressive how well the palace stood the test of time.|next,-4|...I wonder if the Hive's been remodeled, or something... 
+|hide||camspeed,0.03||camangle,-10,-10,0||camoffset,0,5,-9.5||fwait,2||hide|The castle is amazing... Isn't it?|next|Our antcestors built it, but I can't imagine where we would start if we |line|needed another anthill...|break||discovery,11||resetcamera||end|
+What an impressive view.|next||gettail,46|The Ant Kingdom was built with hard work and loyalty to the Queen.|next|This castle truly embodies that, if you ask me.|next,-5|Indeed. It's an honor to be standing here.
+|checkflag,67,4|This Ant is always here, looking at the palace.|next,-4|Doesn't she have anything better to do?|next,-6|You're one to talk.
+What is this Ant doing?|next||gettail,46|She is always staring at the castle. Leave her be.
+Oh, if it isn't Eetl. Vi and Kabbu too.|next,1000|Maki! Perfect timing!
+The news spread quickly. So, you two succeeded? You conquered Snakemouth?|next|You've made a friend, even...|minibubble,@...,-6||next,-4|You bet we did! You were all worried for nothing!|next,caller|It seems my intuition was correct. I'm quite relieved...|next|I have arranged a meeting with the Queen for you. She is expecting us right now.|next,1000|Well, since Maki is going with you, I guess it's back to work for me.|next,-5||face,-5,1000|Thank you for accompanying us, Eetl.|next,1000|No problem. Stay out of trouble, alright?
+|face,-5,caller|Well then, let us go. Lead the way!
+|tail,-6|Standing watch over the castle every day...|next,-4|Must get super boring, right? Right?|next,-5|Now, you two. All honest work is good work.|next,-6|Easy for you to say. You spend the whole day exploring.|next,-4|Yeah. I'd like to see you try being a receptionist!|next,-5|I-If it is to make ends meet...I would endure...!
+I know I'm keeping the castle safe, but I hope my friend isn't too bored waiting for me... 
+...|next,-5|Greetings, fellow guard!|next,caller|...|next,-5|Not one for words, I see... 
+Team Snakemouth!|next|Please hurry!
+I can't believe the Wasps attacked again! |shaky|Argh!|shaky||next|Just...Just what am I good for...!? What am I guarding for!?
+|hide||event,207|
+Team Snakemouth. I was hoping you would be the ones to take my request.|next,-4|What's up with Yin?|next,-6|She's become a pupa?|next,8|Ugh, yeah. After the ceremony she just...woke up like this.|next,-5|She should mature soon, then!|next,caller|I doubt it. You see, I've been researching Yin...|next|In the first place, she shouldn't have been a caterpillar for so long.|next,-6|Are you worried she'll get stuck as a pupa?|minibubble,@I wish.,8||next,caller|Yeah. But I've got a theory.|next|After you enter the |color,1|Far Grasslands|color,0|, head west and then keep walking |line|north.|next|I'll explain everything there.|next,-4|Gotcha. We'll meet up there!|next,8||wavy|*Sigh*|wavy| Don't keep us waiting, okay?
+Sir Maki, Kina and Yin!|next,-6|Yup. Let's see what's up.
+|align,right,true||face,caller,-1|Ah, you came. Let me thank you for your help once more.|next,-6|You've helped us plenty. Let's say we're even.|next,-5|You mentioned sparring back in the Far Grasslands...|minibubble,@...,-4||next,caller|One must face worthy opponents, or become rusty.|next|It'd be an honor to face Team Snakemouth's might.|next,-4,BattleIdle|Heh. You sure you wanna fight!? We took down the Wasp King, y'know!?|minibubble,@So what!?,10||anim,10,BattleIdle||next,caller,BattleIdle|It's true that I wasn't lucky enough to hold a Flame Brooch.|next,-6,BattleIdle|Hmph. Did she hurt your ego?|next,-5|E-Everyone, this is a friendly sparring match...|next,caller|...|fwait,0.2||anim,caller,Idle|Yes. A "friendly sparring match". Let me know when you're prepared |line|for it.|minibubble,@Gulp...,-5||flag,628,true||breakend|
+Would you like to spar? Be careful, though. |color,1|We won't hold back|color,0|.|prompt,yesno,13,18|
+Make sure to prepare. We're not easy opponents.
+Yin's not that annoying when you can understand her...|next||anim,caller,Angry|D-Don't tell her I said that!!!|break||anim,caller,Idle||end|
+Go...Good morning! Thanks...for h-help!
+Let us begin! Be on guard!
+A fair effort, Team Snakemouth.|next,-6|Unbelievable...|next,caller|You can challenge us again...when you feel you're up to par.
+Incredible...I must admit it, you're all incredibly strong.|next,10|Bleh...I couldn't impress Maki...|next,11|You di...did good, K-Kina!|minibubble,@...,10||next,-4|Y-You're strong too, wow!|next,-6|It was our honor.|next,-5|I...I feel like we're truly equal explorers now!|next,caller|That's one way to look at it.|next|You probably spent a lot of items in that battle...use this to replenish your inventory.
+Tch. We were so close...|next,-5|It will be an honor to let you try again, Sir Maki!|next,-6|Heh, Kabbu can be savage without noticing...|next,caller|...Here, this is for all the items you've spent.
+|tail,9|If you ever want to spar again, let us know. We've learned quite a bit.|next,-4|You got it!
+Getting to fight Sir Maki is the greatest of honors!|next,-4|Heheh. Especially after that test of his!|next,-6|We missed that test. What was it?|next,-5|Sir Maki took both Vi and I on his own, without breaking a sweat!|next,-4,Flustered|...And then he just said "you pass". Grr!|next,-6|Hm. It's payback time, then. We'll support you.
+Yin's such a good girl! ...Must we fight her?|next,-4|She's gotta learn somewhere!|next,-6|She radiates magic, too. She won't be a pushover.|next,-5|Even though she's so young...?
+|tail,-6|Seems Kina and Maki finally stopped splitting up.|next,-4|And she doesn't make the scary faces anymore!|next,-5|I'm still relieved nothing happened to Maki in the Far Grasslands...|next|The massive guilt aside, Kina would've...|wavy|*Gulp*|wavy|
+I was a fool... I haven't been taking my duties seriously.|next|I'm so glad my friend wasn't harmed... 
+This has been a great learning experience.|next|For the sake of my friend, I'll become an even stronger guard!
