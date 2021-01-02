@@ -1,0 +1,2 @@
+|checktrue,454,1|...! T-Team, I feel a great threat. Be on guard!
+|tail,-4|What was UP with that thing!?|next,-5|I struggle to comprehend how a mass of flies could behave that way...|next,-6|This tent was here before them, right?|next|We wonder if...Elizant stayed here at some point.|next,-4|This ain't fancy enough for a queen, right?|next,-6|If they were traveling, there'd be no place for too much luxury.|next,-5|Sadly, there's no real way to be sure. But it's fun to speculate.|minibubble,@Yeah.,-6||breakend|
