@@ -1,0 +1,74 @@
+|tail,-4|Still feels weird to be home...|next,-5|Despite everything, surely you're a little happy?|next,-4|Well...I did miss the honey fountain.|next,-6|We'll miss it too... 
+If you head down this path, you will reach the Residential Zone and the Balcony.
+This path leads to the |color,1|Honey Factory|color,0|. Please watch your step.
+|boxstyle,6||color,5||glitchy|Hello there! Welcome to Dr. H.B.'s lab! Your number one stop for any weird gadgets!
+|tail,-5|Goodness, what a grand welcome!|next,-6||face,-6,-4|Vi, is this normal?|next,-4,Sad||face,-4,-6|Uh, not really... @EVENT@Hold it, folks!
+|face,-6,-4|The scanner picked up something weird from one of you...|next,-4,Sad|W-What?|next,-6|Was it us?|next,caller|Most definitely.|next,-5|Is Leif okay!?|next,caller|Dearie me. We've caused a scene. Could you come with me? I'll check |line|it out ASAP.|next,-4|You sure you wanna trust her, Leif? |next,-6|Yeah. We don't have any leads right now. Nothing to lose.|next,-5|Guide the way, doctor!
+Oho! So dashing... Explorers are so interesting!
+This ball is really cute, right? I look just like Mothiva!
+Hmm...It's been so boring lately. I wish there was some gossip, at least.
+My...I've always been a bit plain. But clothing works wonders, doesn't it? Hohoh!
+Welcome, welcome! Mothiva's famous accessories are on sale! They'll bring the best out of you!|minibubble,@Doubtful.,-6||break||destroyminibubble||end|
+The Queen is the epitome of grace and beauty! Please mind yourselves around her.
+The Queen is the light that shines upon us all! Do mind yourselves around her.
+Jaune's art is...beautiful. But is art meant only to be pretty? We should explore our inner hideousness...|next,-6|Good luck getting someone to buy THAT portrait...|next,-5|At least wait till she draws it before judging!
+Heeeey! How're you liking our wonderful Hive? Have some honey,|line|it's on me!|next,-6|Thank you. We won't forget this.|minibubble,@S-So kind...!,-5||next,-4,Sad|Y-Yeah, thanks...|break||destroyminibubble||heal,tp||sound,Heal2||end|
+|flip,caller,true|Just my luck. Team Snakemouth.|next,-4,Flustered|You've got some nerve walking into the Hive!|next,caller|Hmph. Pipe down. I'm here on explorer business, just like you.|next,-6|Come to steal some more credit, we assume?|next,caller|If you expect an apology, you won't get it.|next,-5|Ngh. So you're proud of your actions?|next,caller|I don't operate on pride. I'm commited to Mothiva's rise to the top.|next|We saw an opportunity and took it. It didn't work out, but it's not the end of the world.|next|As you can see, even without the artifact, she is still respected.|next,-4,Angry|Who's gonna respect someone so petty! Bet they wouldn't if they knew the truth!|next,-5|Vi! We're not going to start badmouthing others!|next,caller,Happy|It wouldn't matter. See if they'd believe some bumbling fools over |line|the great Mothiva.|next,-6|Hmph. Look, we don't care. Can you just move it to the meeting point?|next,caller,Angry|That, I can do. Business is business, after all. My interests are |line|not petty banter with you three.|next,-4|Yeah, yeah. Just go.
+We'll notify Mothiva as well. You won't wait for long.|next,-5|See you there.
+Mothiva must be waiting, anyways. See you there.
+|tail,-4|Okay, that should be everyone. Let's go to the meeting!
+|tail,-5|We still need to find the other explorers. Let's look around.
+|wavy|Ohohoho!|wavy| Now now, there's enough Mothiva for all!
+Mothiva!|line|Mothiva!
+Ugh! How can she be so popular while being such a jerk!|next,-6|Ignorance is bliss for this crowd...|next,-5|Um, Mothiva?|next,caller|More fans? Ohoho-
+What are |shaky|YOU|shaky| dorks doing here!?
+Huh?
+Mothiva?
+Hm?
+|wavy|Aww... 
+|wavy|A-Ahahaha!|wavy| Sorry, show's over! I hope you'll join me in my next tour!
+Thanks for ruining a perfectly good tour, jerks.|next,-4,Flustered|We didn't do anything! And you're the jerk!|next,caller|Your mere presence ruins my vibe, can't you tell!?|next,-6|Maybe you can steal some of ours when we're not looking.|next,caller|Why you...|next,-5|Enough! We're not here to fight you. We have a mission, can't we cooperate?|next|We need not hog the glory. If we work together, we will all be recognized!|next,caller||wavy|Sigh.|wavy| So naive. What good is fame when shared with the likes of you?|next,-5,Hurt|U-Urk...|next,-4,Angry|Look, just go to the darn meeting point. We can settle this later.|next,caller,Idle|Hmph. I'll go, but not by your barking. See if you don't keep me waiting too long.
+And get Zasp to go too, okay? I can't be bothered after seeing you three.
+What a jerk! I really really don't get how no one sees it!|next,-5,Idle|It's a shame her defeat didn't humble her one bit...|next,-6|We'll have to be careful, we never know what they'll be planning... 
+|hide||event,86|
+|tail,-4,Flustered|It's them!|next,-5|Let's get the meeting underway. Maybe they've even repented!|minibubble,@Doubt it.,-6||breakend|
+My, these paintings are quite... unique.|next,-4|Artia really needs to add some color sometimes.|next,-6|We agree, but maybe she won't be happy if she does.|next,-5|Someone who's happy in a gray world... is that truly possible?|next,-4|You're really overthinking this... 
+|face,-5,-6|(Psst! Leif!)|next,-6||face,-6,-5|(What? Why are you whispering?)|next,-5,Happy|(Don't tell Vi, but... Doesn't that little bee look like her?)|next,-6||anim,-5,Idle|(Ohhh... yeah. She does, doesn't she? She looks so annoyed, too.)|next,-4,Flustered|You suck at whispering!!!
+Ah. Children are so pure!|next,-6||face,-6,-4|Vi is right here.|next,-4|Not in the mood.|next,-6|It's not funny if she won't react...|next,-5|Leif, you should take it easy on her while we're here.|next,-6|Fine... 
+What a nice bee. It warms my heart!|next,-6|So tall. Cheerful, too.|next,-4|Even I can't get mad at Vilma...|next,-5|I feel bad, though. All that honey for free...|next,-6|Not us. We intend to keep eating.|next,-4,Angry|How are you two not fatter!?
+|tail,-4,Happy|That scarf is so pretty!|next,-6|Mothiva's a crook, but her clothing brand is pretty high quality.|next,-4,Sad|Wait, what? Isn't it only those red balls?|next,-5|It seems any item she helped create has a small icon... Look at the scarf's corner!|next,-4|Ugh, that sucks... No way I'm going to buy it.|next,-6|You could just cover her logo up.|next,-4,Angry|Nuh uh! She ain't getting one berry from me!
+|boxstyle,3||spd,0|Out For Lunch.
+Hmm...|next,-4|What's up?|next,-5|It's nothing. I'm just thinking about clothing...|next,-6|Gonna buy some?|next,-5|No, no. I'm happy with how I look.|next|I'm not sure how to feel about others wishing to change their image...|next,-4|Bugs can do whatever they want. If they wanna wear a big hat they can do it!|next,-6|Can't say we oppose that view.|next,-5,WeakBattleIdle|You're right. It's not my place to judge others, even if I'm not going to wear clothing myself.|next,-4,Angry|Geez, it's not like you cut the scarf off of her. Stop apologizing! 
+Let's gather everyone so we can get the meeting started!
+|tail,26||face,25,-1||face,26,-1|Maybe I can sneak out and eat some more fountain honey before the meeting...|next,25|Seriously, Eri. Just stay still!
+Why would you look for me now? Don't you know my time is berries?|next,-4,Flustered|Shut up, or we'll take even longer!
+Despite everything...I must say, runt. The Hive is quite nice to be in.|next,-4,Flustered|It's nowhere someone like you should be in!
+|tail,-5|It seems only Kina is left...|next,26||face,party,26|Oh, nah! She gave us the parts. So we're good to go.|next,25|She's shameless, that's what she is!|next,caller|Then, if these are all the explorers, we shall open the throne room.|next|Be on your best behavior, for even glancing upon our Queen is a privilege.|next,27||face,party,27|Oh, of course miss guard! We adore the Queen, and would never |line|dream to upset her! |wavy|Ohohoho|wavy|!|minibubble,@!?,-4||next,-6|Are you the same Mothiva...?
+Be silent, and go in.
+|tail,18||face,party,18||face,18,-1||flip,18|Welcome, welcome! You're eyeing that |color,1|souvenir cap|color,0|, aren't ya? It's the perfect gift for Bee Kingdom lovers!|next|And this one's on sale, too - only 40 berries! Will you be its lucky buyer?|showmoney||prompt,map,2,2,48,49,50,51|
+|checkmoney,40,52||money,-40||flag,251,true|This is one purchase you won't regret!|break||giveitem,1,99,53|
+Just remember - the sale won't last forever!
+Gimme! Gimme!
+No way!
+Whoops! Sorry dears... You'll have to remember this trip with something cheaper.
+Thank you, thank you! Please visit Fashion Bee again!|break||kill,caller||end|
+|checkmoney,50,52||money,-50||flag,252,true|Thank you! Here you go!|break||giveitem,1,94,53|
+|tail,18||face,party,18||face,18,-1||flip,18|Welcome back! We have a new accessory! This precious |color,1|Ribbon|color,0| which|line|you can wear or give to your pets is on sale!|next|Now only 50 berries!|showmoney||prompt,map,2,2,54,49,50,51|
+Prof. Honeycomb and Dr. H.B. are the last bees from the old generation.|next|They sure managed to outlive even some of the new generation. Is this the power of science?
+...You'll take my request, Vi?|next,-4|Yup. Don't make a big deal out of it, ok?|next,caller|...Alright. I'm looking for the |shaky|blackest, darkest|shaky| of all paints.|next|I need it to complete my masterpiece. To challenge Jaune's reign |line|as the best artist of the Hive.|next|You sure you can handle that?|next,-4|...A job's a job. Where can I find it?|next,caller|Your soul is a dark grey... But anyways... I've heard it's with |line|someone in the Termite City.|next|He hates being around in the open, a lover of the darkness. So cool...|next,-6|Sounds like you two would get along pretty well.|next,caller|Don't speak nonsense...I simply admire him. I would meet him myself, were it not so far.|next|Get it done, Vi. The pay's good.|next,-4,Angry|Better be. It really IS far away...|flag,431,true|
+Procure the |shaky|blackest|shaky| paint from the Termite City.|next|If you don't know where to start, search the darkest parts of the city...
+...Found it yet, Vi?|next,-4|Yeah. He won't budge, though. Sorry...|next,caller|...Drat. I feared this would happen. Listen up...|next|My boyfriend lives in the Ant Kingdom. Knows his way around...|shaky|certain|shaky| groups. He'll know what to do.|next,-5|Boyfriend's a pretty vague description...|next,caller|We have...similar tastes. You will know when you see him. Now go, your pay's waiting...|next,-4,Angry|I'm charging extra for the double trip.|flag,436,true|
+My boyfriend lives in the Ant Kingdom. Knows his way around...|shaky|certain|shaky| groups. He'll know what to do.
+...Found it yet, Vi?|pickitem,1,62,63|
+|checkvar,0,139,64|...Don't waste my time.
+Don't take too long. I must reveal my next piece before Jaune...
+|wavy|Aaaaah...|wavy|so that's the blackest, darkest paint...!|next|Yes...I can feel it. It's like I'm staring at a deep abyss!|next,-4,Happy|Hope it's worth the pay!|next,caller|Jewelry is for denizens of the light. I have no need of it, after having seen such darkness...|break||removeitem,1,139||giveitem,3,35,65|
+Seems like a fair trade, the brightest object for the darkest one...|next||wavy|Hehehe...|wavy|soon, Jaune's art reign will be over and Artia's will begin...|next,-4|Yeah, I doubt that!|next,-5|I'm just glad we didn't end up in trouble for this...|completequest,43||flag,435,true|
+Soon Jaune's reign will end and my era of darkness will begin... and it's all thanks to you...|wavy|hehehe...|wavy||next,-5|...Are you sure this was alright, Vi?|next,-4,Happy|Jaune's not that easy to beat. She'll even like the competition.|next,-6|Huh...Guess you were helping out Jaune too, then.
+|shaky|GRRR!|shaky| What the heck! That's no way to treat family!|next,-6|Just what did you do to her?|next,-4,Angry|I told her she drew like a weevil.|next,-5|Vi! What in blazes! You can't just go around saying that sort of thing!|next,-6|We're assuming this is a new type of insult...|next,-4,Angry|Well, she called me stuff too! Weak, short, coward...|next|I couldn't talk about exploring without her talking down to me!|next,-5|Exploring is extremely dangerous. Many lose someone dear to a bad trip...|next|Couldn't she simply have been worried?|next,-4|Whatever.|next,-6|If you still want to fix things, we have an idea. We, uh, don't want you sad.|minibubble,@R-really!?,-5||next,-4,Sad|Y-Yeah?|next,-6|She mentioned some |color,1|red paint|color,0|, right?|next,-4|That's pretty hard to get. It's out of season or something.|next,-6|Let's get it for her.|next,-5|That is a fantastic idea!|next,-4,Idle|Y-You're right! She'd be too happy to get mad!|next|Maybe then we can have an actual conversation. |anim,-4,Angry|Hmph.|next,-5|Where could we start searching? I know little of paint.|next,-4|I dunno either, but uh... it's made in the Golden Settlement, right?|next|We could just take the tunnel and check it out when we're free.|next,-6|Then let's keep that in mind. Jaune seems to need it quite badly.|next,-4|Alright. Let's get a move on!
+A-Are you okay?|next,-4|Yup. Let's go back in whenever!|next,-6|That's a relief... Let's meet your sister properly, then.
+|wavy|Ohohoho!|wavy| My clothing line's profits are off the charts!|next|That's what helping defeat the Wasp King does to your brand!|next,-6|...Good for you.|minibubble,@Uh huh...,-4||breakend|
+It's not so bad...enjoying calm days like this alongside Mothiva.|next|Thank you, Team Snakemouth. I owe this peace to you.|next,-5|Zasp...|fwait,0.2||anim,-5,Happy|You're welcome!
+|tail,-4||anim,-4,Angry|Bleh. It feels like everyone learned something...EXCEPT Mothiva! Even |line|Zasp's cool now!|next,-6|She's probably learned something. She's just too proud to admit it.|next,-5|She DID help us cross the Giant's Lair...|next,-4|She did it for the fame! Not to be nice!|next,-5|Such shallow motives would not have been enough to face those beasts.|next,-6|You could be right...
+|tail,-6|Zasp's a cool dude. He could do better.|next,-5|Could he? He looks quite content.|next,-4|I dunno...Mothiva could be nicer to him, or something...|next,-6|Eh, it's their personal life...Let's leave them be.
+What a fluffy bee!|next,-4|Bumblebees are pretty cute. Not cuter than me, though!|next,-6|We don't dare to disagree...

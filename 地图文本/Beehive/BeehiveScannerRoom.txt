@@ -1,0 +1,3 @@
+What a peculiar room.|next,-4|This is the scan corridor. So they know we're clean or whatever.|next,-6|That's weird.|next,-4|Yup... 
+Greetings, visitors. Please hold still as we scan for impurities.|next,-5|Um, what?
+Huh.|anim,-5,WeakBattleIdle||minibubble,@What a scare...,-5||next,-4,Sad|"Huh"? You saying we're not clean or something?|next,0|It's not that...|flip,0,true|Hmm, well... Yes. Okay.|flip,0,false||next|Alright. You've been cleared to pass.
