@@ -1,0 +1,200 @@
+|tail,-6|Business is booming.|next,-4|There's so many shops, and they all sell unique items!|next,-5|We simply cannot skip going to the bakery!|next,-6|We feel there's more to this place. A little supply gathering detour won't hurt.
+|tail,-4|Hey Kabbu, is this your dad?|next,-5|What? Vi, we look nothing alike!|next,-6|You look pretty similar to us.|next,-5|Excuse me? The green hues are completely different!|next,-4|Eh... Maybe all beetles just look the same.|anim,-5,Angry||next,-6|Wow. So do all bees.|next,-4,Flustered|Hey!
+Sorry, it seems you can't afford this trade.
+I appreciate your interest in it, but you can't carry any more stuff.
+This guy seems a bit shady.|next,-4|Nah. He is one of the least shady people I've seen!
+Bah. With the way closed, I can't sell my wares.|next|Guess all I can do is wait.
+Kuku. Welcome to the poison emporium. Your number one place to get exotic toxins.|next|Kuku. If you're interested in pain, get close to its vessel and press |button,4| to call me!
+Kuku...That |string,0|?|line||currency,var,1|.|prompt,map,1.5,2,8,9,@I'll take it!,@No thanks.|
+|checkmoney,var,1,10||checkinvqtd,0,full,11||money,var,-,1||additem,0,var,0|Kuku. Thank yooou very much-a.
+Kukumph.
+Kuh? No money? No sell for you, then!
+Kuku, where will you carry that!?
+Hehehey! Welcome to Crisbee's, the best bakery in town! And uh, the only one...|regionalflag,10,true||next|Give me some stuff to bake with, and I'll try to rise to the task!|goto,13,keep|
+|prompt,map,3.5,4,14,15,16,17,76,77,78,79|
+|checkinvqtd,0,0,24|Gotcha. What're we cooking with?|flag,12,false||pickitem,0,0,true,false,20,17|
+|checkinvqtd,0,1,24|Okay, hand over the first!|flag,12,false||pickitem,0,0,true,false,18,17|
+Oh, you noticed? I practice a lot, so I have leftover pastry and ingredients...|next|So I thought it'd be nice to sell them! Just press |button,4| near 'em and |line|I'll tell you more.
+|anim,this,Sad|Oh...|anim,this,Idle|that's okay. Crisbee's always open!|break||checkflag,12,-11||additem,0,var,0||flag,12,false||end|
+|clonestring,0,1||removeitem,0,var,0||flag,12,true|Alright, just one more and we're set!|pickitem,0,1,true,false,21,17|
+Welcome to Crisbee's, I'm always happy to see you again! Wanna cook some stuff?|goto,13,keep|
+So we're cooking with |color,1||string,0||color,0|?|line|I could use the practice!|goto,22,keep|
+So we're cooking |color,1||string,0||color,0||line|and |color,1||string,1||color,0|? This'll be good|line|training!|goto,22,keep|
+|prompt,map,0.5,2,23,17,@Yep!,@Nah.|
+Huff. Okay, here it goes! Wish me luck!|break||event,3|
+|anim,this,Sad|Uh oh. There's not enough food to go around... Come back later?
+Ah...I really did try...I'm sorry.
+Heheh. Nailed it! I'm getting so much better!
+|anim,this,Idle|Come again, won't you? I'd love to keep improving!
+|anim,this,Happy|That |color,1||string,0||color,0| goes for |currency,var,1|!|line|D-Does it look any good to you?|prompt,map,1.5,2,29,17,@I'll take it!,@No thanks.|
+|checkmoney,var,1,30||checkinvqtd,0,full,31||money,var,-,1||additem,0,var,0||anim,this,Happy|Heheheh. Thank you for all your support!
+|anim,this,Sad|Um, sorry...I'd love to just give it to you for free, but I can't... 
+|anim,this,Idle|Oh, whoops. You're full of stuff right? You'll have to empty those pockets first!
+Ah, I see your eyes darting over that |string,0|.|line||currency,var,1| for it, interested?|prompt,map,1.5,2,33,34,@I'll take it!,@No thanks.|
+|checkmoney,var,1,2||checkinvqtd,0,full,3||money,var,-,1||additem,0,var,0|Thank you very much.
+Please do check my other wares.
+Hello there. If you are interested in any of my wares, just check them over there and press |button,4| on whatever you want.|next|Or we could trade some goods instead.|prompt,map,3.35,2,37,34,@We have some things to sell.,@Just browsing.|
+Ah, good old Crisbee's. It's nice to see this place again.|next,-6|Again, Kabbu?|next,-5|Mhm. On my first trip here, I would eat here every day.|next|I must say, I've heard the food's gotten even better!|next,-6|Is that so? Now we've got to taste some...|next,-4|A bee chef out of the Hive, huh... 
+|checkinvqtd,0,0,38|What do you have to offer?|pickitem,0,0,true,true,39,34|
+It doesn't seem like you have anything to offer me.
+I can buy that |string,0||line|for |currency,var,10|. Interested?|prompt,map,0.7,2,40,34,@Yes,@No|
+|money,var,10||removeitem,0,var,0|Thank you. I've been looking for this! |break||checkinvqtd,0,0,-11|Anything else?|pickitem,0,0,true,true,39,34|
+|event,true||checkvar,22,0,47|Hey there! Already back? That charm I gave you is still active.|next|Would you like me to overwrite it?|prompt,map,1.75,2,42,44,@Yes please.,@No thanks.|
+|showmoney|What kind of charm are you interested in?|prompt,map,4,5,43,43,43,49,44,@Cheapskate Charm - 10 berries,@Regular Charm - 20 berries,@Overcharmed - 40 berries,@How do charms work?,@Not interested right now.|
+|event,81||end|
+Aw. Come back if you ever change your mind, alright?|break||event,false||end|
+Sorry lovelies, without berries, I can't do anything for you.|break||event,false||end|
+Alright! Let's start then!
+Hello there lovelies! Welcome to my humble stall.|next|Here, I offer charms which can change how battles go on for you, for only a few berries.|next|I have a few different charm types, which is how long their effects will last. The more they last, the more berries they cost of course!|next|Could I interest you in any charms?|break||goto,42|
+There you go! Now you're all charmed up.|next|Who knows how it will help you out? Might even get you out of a pinch!|next|Come back later when you want more charms!
+Simple! Once you're charmed, there is a random chance my magic will activate in battle.|next|Depending on when it activates, different effects can happen.|next|Like, granting a boost of power when attacking, or increasing your toughness before an enemy attack...|next|Even recovering your HP or TP depending on what happens!|next|Charms only last a few times, however. Once they run out, you can|line|just come back and reapply them to benefit again!|next|The charm types only change how long they last, but buying in bulk can net you a nice discount.|next|So, might I interest you in any charm?|break||goto,42|
+|checktrue,370,147|Heh. With all the tourists coming back from the festival... Business will be good.
+I've heard you saved my mates from some bandits.|next|...I'm bad at this, so I'll only say it once. Thank you.|next,-4|It was no problem! Now, for a rew-|next,-5||anim,-4,Angry|It was nothing! We look forward to buying from you in the future.|minibubble,@Heheheh.,-6||break||flag,151,true||destroyminibubble||end|
+...What? I'm just enjoying some shade. Stop staring.|next,-5|S-Sorry... 
+Travelers...I can see the scars of battle on your being.|next,-4|Uh...|next,caller|Worry not, I only wish to help. I've got some powerful berries on me.|next,-6|Hmm. Just how powerful?|next,caller|These berries can boost your combat abilities when eaten.|next|You can't really share them though... You'll have to decide|line|who eats which.|next,-5|Those sound quite helpful.|next,-4|Bleh. Knowing these merchants it's gonna cost us a wing...|next,caller|You're not wrong, traveler. I'm selling an HP boosting |color,1|Heart Berry|color,0| |line|right now. 100 Berries.|next,-4,Angry|What!?|next,-6|Just think of the HP, Vi.|next,-4,Angry|Just think of the 100 berries, Leif!|next,-5|Err, we'll come back when we've decided, sir.|next,caller|Don't take too long. Who knows when they'll spoil.
+Travelers. You've come for the HP boosting |color,1|Heart Berry|color,0|? It's still |line|100 berries.
+|showmoney|Use it well, travelers.
+No problem, travelers. I hope you're back soon, before this chance |line|slips away.
+...Travelers, I made my price clear. I will not be swayed.
+I still have a few berries I can sell you, travelers. Come back later when you're interested.
+Travelers. You've come for the TP boosting |color,1|Bond Berry|color,0|? It'll be |line|100 berries.
+I do not have any more berries with me at the moment, but I might find some more in the future. Please come back some other time.
+Travelers. You've come for the Attack boosting |color,1|Super Pepper|color,0|? It'll be |line|150 berries.
+I no longer have anything that might interest you. Be safe, travelers.
+Travelers. You've come for the Defense boosting |color,1|Iron Seed|color,0|? It'll be|line|180 berries.
+|hide||event,155|
+
+It was my honor to do business with you, travelers. I hope these helped you.
+Blasted bandits...I can't forgive what they've done to her. If you see any, |line|don't be merciful.
+|tail,-6|These merchants really get around.|next,-4|Defiant Root's the best place to restock, you know? They get lots of stuff for cheap!|next,-5|You're surprisingly well informed...|next,-6|If it's about money, it shouldn't surprise you.|next,-4|Yep! In business, knowing's half the battle!
+This fellow seems to be diligently guarding this sign.|next,-4|Huh. I think I saw him when I left the Hive, but he looked a lot happier.|next,-6|It's not like we know what's going on in his life. We shouldn't be too nosy.|next,-5|B-But being nosy is a part of helping others!|next,-6|...|next,-5,WeakBattleIdle|Fine... 
+|tail,-6|That dry bread looks go-...|next,-4|Leif?|next,-5|Are you alright?|next,-6|Some sand just fell on it...|next,-4|Nothing some shaking can't fix!|next,-6|You have fun eating it. We've got standards.
+|tail,-4|So is this Ms. Amber, or another ant?|next,-6|That's a dumb question. How would she have our items if she wasn't?|next,-5|Perhaps they work in shifts, and transfer items between each other...|next,-4|So is she Amber or not!?|next,-6|Dunno.|anim,-4,Angry|
+|tail,-4|Shady mosquitos are everywhere, huh.|next,-6|Hey. The juice seller in the Golden Settlement is honest.|next,-5|Indeed. Vi, you shouldn't generalize a whole group!|next,-4,Sad|Geez, I was just saying... 
+|tail,-6|So the rumors were true. There is a master of all poison in this town.|next,-4|Err, where...no, WHEN did you hear that?|next,-6|Kut mentioned him. His ingredients carry more toxins than you could |line|imagine.|next,-5|Do we even want to ask?|next,-6|Look. We're buying these. And cooking them.|next,-4|No way! Do it with your own berries!
+|tail,-5|Ooh! The charm dancer! We simply must purchase one!|next,-6|We thought you weren't too keen on fortune...|next,-5|I've seen these work with my very own eyes. There's no luck involved.|next,-6|Uh huh... Maybe just one, then.
+|prompt,map,3.5,5,80,14,15,16,17,@We'll help you train.,76,77,78,79|
+Cook with one ingredient.
+Cook with two ingredients.
+What do you have for sale?
+Nothing.
+|hide||event,92|
+Hehehey! Welcome to Crisbee's! You're the fine ones that took my |line|request, right? What's up?|goto,75,keep|
+|align,right,true,2||flag,12,false||face,caller,-1||checktrue,187,83,true||checkregional,10,19,true||goto,12|
+|checkvar,23,0,81||checkvar,23,1,84||checkvar,23,2,85||checkvar,23,3,99|
+Hehehey! Welcome to Crisbee's! I'm ready to cook while you find that |color,1|Succulent Berry|color,0|!|goto,75,keep|
+We're almost done! Only the |color,1|Spicy Bomb|color,0| and the |color,1|Abomihoney|color,0| are left!|next|If you bring me the ingredients, I can bake them for you!|goto,75,keep|
+So I had this idea for a dish...I'm gonna need a |color,1|Spud|color,0|. Then I can make something really good! Um, probably... 
+Yes! This is perfect!
+Hmm...I don't think that'll do. |anim,caller,Idle|Please bring me the right ingredient!
+I'll get right into it. Wish me luck!
+No rush. Just drop by whenever you find one!
+Hehe! My flour really did the trick... Try it out!
+How's it look?|next,-6|Honestly? Pretty good.|next,caller|Awesome. I'm ready to step it up a little! Just a little.|next|Let's see... Try to bring me a |color,1|Succulent Berry|color,0|. I'll try to make|line|something super tasty!
+A |color,1|Succulent Berry|color,0|...It's gonna turn out awesome! You've found it?
+I'm so glad I was right... The Succulent Berry's real flavor |line|comes out when you bake it!
+I'm getting so much better... Alright. I can finally do it.|line|The forbidden recipe!|minibubble,@F-Forbidden?,-5||next|First, I'm gonna need a |color,1|Spicy Bomb|color,0| to give the dish a really nice "Boom!"|minibubble,@?,-6||next,-4,Sad|A...A bomb?|next,caller|Then I'll bake it with an |color,1|Abomihoney|color,0|! I'm so excited!|next,-4,Angry|Wait! An ABOMIHONEY!? That plus a bomb...Are you SURE!?|next,-6|We're curious, but mostly worried.|next,caller,Sad|It's, um, really risky...but the legend says it'll bring honey to a |line|new level!|next|I was really scared to try before but...I've trained so much! |line|I think I can pull it off!|next,-5|Team, let's believe in Crisbee! If we don't, why did we take that mission?|next,-4,Sad|I mean, you're right, but...|next,-6|If it's forbidden, it's probably super delicious. Let's do this.|next,-4,Flustered|Okay, geez! We'll bring it!|anim,-4,Idle| I've got a bad feeling, though...|next,caller,Happy|Oh, thank you so much! I won't disappoint you, I promise!
+Did you bring the |color,1|Spicy Bomb|color,0| and an |color,1|Abomihoney|color,0|?
+|anim,caller,Idle|But it would be nice if you could find me something else...|next|.
+With these...I'm going to cook the forbidden recipe!
+Ah, you still don't have them?|next||anim,caller,Happy|Remember, I need a |color,1|Spicy Bomb|color,0| and an |color,1|Abomihoney|color,0|! Then my ultimate recipe will be ready!
+Oh no... D-Did I mess up!?
+...I don't get it. I did everything right, I think...|next,-4,Angry|Abomihoney is super dangerous! Doesn't matter how good you bake it!|next,caller|S-sorry... I guess the "forbidden" wasn't just for show.|next,-5||anim,-4,Idle|It's okay, Crisbee. Even if it wasn't food, you cooked it to perfection!|next,-6|Shame we couldn't eat it though...|next,caller,Idle|Hmm... Wait up, okay? I'm gonna try again. Not following any old legend! This dish is all me!
+Thank you, everyone! For real now, something yummy |color,1|only |line|I can cook|color,0|!
+|tail,-5||anim,-4,Happy|This looks fantastic, Crisbee! Oh... The |wavy|TEXTURE|wavy|!|next,caller|I made some more for everyone!|next,-4|Woah...It's super yummy!|next,-6,BattleIdle|Incredible... We must have more!|next,caller,Happy|It's all thanks to your help! If you bring me a |color,1|Glazed Honey|color,0| and a |color,1|Flour Bag|color,0|, I'll make you more!|next,-6,Idle|You've earned yourself a regular.|next,-4|Heheh. You're gonna be famous in no time!|next,-5|I'll have to be careful not to eat TOO many...|minibubble,@Nuh-Uh. Give us more.,-6||next,caller|We're best friends now. Come whenever you want, and I'll bake|line|you some real tasty stuff!|breakend|
+|anim,this,Idle|Come again, besties! You make cooking so fun!
+Alright. No rush. But please bring them soon! I can't wait to get started!
+|align,left,true|...I see. You're card players, huh?|next,-6|You're quick on the uptake. Ever heard of the Card Masters?|next,caller|You're talking to the one and only.|anim,-6,BattleIdle||next,-5|A-Aren't there four?|next,caller||flag,244,true||goto,107|
+|align,left,true|You ready for this? I have no plans to go easy on you.|prompt,map,2,2,108,109,@Bring it on!,@Not yet.|
+|anim,caller,BattleIdle|Feel the sting of a pro player!|break||blank||cardbattle,this,-1,@0||tail,caller||battlewon,115||goto,110|
+|anim,caller,Idle|Tch. Don't bother me then.
+...I've lost to a rookie!?|next,-6|Your overconfidence was your defeat.|next,caller|I learned a strategy or two, I'll give you that. I, Shay, shall upgrade your card on my duelist honor.|break||event,106|
+You still need to defeat the remaining masters. But they don't |line|get any better than me, really.|next|Here's a good hint: "Someone shy, but when challenged, changes completely."|next,-5|It pains me to say there's no shortage of shyness in this kingdom. |line|Thank you for your help, however.|next,caller,Idle|No problem. If you're up for another game, just say it. I'll give |line|you a good fight.|next,-6|Hmm. Anytime, Shay.
+With this full card, no one's going to stop you from entering the Metal Island tournament.|next,-4,Happy|We did it! The prize is just within reach!|next,caller|Show the old sailor by the pier this card, and he'll give you a good discount. Beats swimming.|next,-6|Thank you. It's time to test our skills against the elite.|next,-5,Idle|Let us go. Towards Metal Island!
+|align,left,true|Up for another match?|prompt,map,2,2,114,109,@Bring it on!,@Not yet.|
+|align,left,true||anim,caller,BattleIdle|Feel the sting of a pro player!|break||blank||cardbattle,this,-1,@0||tail,caller||battlewon,115||goto,116|
+|anim,caller,Idle||anim,-6,WeakBattleIdle||tail,-6|Ngh...Strong.|next,caller|The title of card master isn't given to just anyone. Best of luck next time.
+|anim,caller,Idle|So I lose again... Here's something for your trouble. I did |line|come up with some tricks.|break||giveitem,-1,10,-11|
+I don't think you are yet ready to face me.|next,-4,Flustered|What?|next,caller|Come back later when you've done some more deeds...and I might challenge you.|next,-5|Curses. Guess we'll come back later.
+Curses! One of them hid in the well!|next,-4|Huh?|next,caller|One of those blasted bandits, of course! How dare they hide in our town... 
+Whatever you do, stay far away from the Bandit Hideout at the southeast!|next|They'll do anything for berries... even hurt others without mercy!
+The bandits have calmed down a little, but they're still a nuisance...|next|Someone must deal with them! I would do it myself, but... 
+...! You!|next,-5|Hm?|next,caller|...N-Nothing. Have you found the "thing"?|pickitem,1,0,true,false,124,125|
+... 
+|tail,-4|Hey! That guy looks familiar!|minibubble,@D-Does he?,-5||next,-6|Could this be...?|breakend|
+|checkvar,0,57,126|That's not it. Find it soon, I ain't got too much time.
+Hmph. Just find the "thing" and bring it back to me.
+|removeitem,1,57|YES! ...Err, thanks. Here's your reward.|break||giveitem,1,83,127|
+This never happened. I'll be going now.|next,-6|Don't trip on the way to that concert.|completequest,25||flag,189,true|
+|boxstyle,3||spd,0|Under renovation. Come back soon!
+Hey there! Some folk actually unearthed the old Sand Castle!|line|So I went in and got some of these |color,1|Magic Ice|color,0| cubes!|next|Do you want one? It's 10 berries for this |color,1|Magic Ice|color,0| that never melts! Great for cold recipes!|showmoney||prompt,yesno,130,131|
+|checkmoney,10,132||checkinvqtd,0,full,134||money,-10|Hoho! Thank you!|break||giveitem,0,42,133|
+|anim,caller,Angry|Ouch! Don't be so cold, will ya!
+Hey hey! You don't have enough!|next|Come on, I have to risk my life every time I go there to get more from those freak things in the castle!|next|I should ask for more berries for these... 
+Nice doing business with you!
+Wait wait! How are you going to carry it?! Sell something before you |line|buy it!
+Hrm...I can't just leave the forge. How will I get that ore?
+|align,right,true||face,caller,-1||tail,-5|Ms. Butomu? We've seen your listing!|next,caller|Is that so, noble explorers? You've found the crimson ore?|pickitem,1,0,true,false,137,138|
+|checkvar,0,98,139|Hrm. No, this will not do. You must have made a mistake.
+Hrm? Well, I'll be waiting for your fine results!
+|removeitem,1,98||anim,caller,Happy|...! Yes! This is it! You've truly found it!|next,-6|No problem.|next,caller|Pardon me, but I will get to work immediately.|next|I've been itching to finish this Medal.|break||flip,caller||goto,143|
+|tail,-4,Happy|Woah, for real?|anim,-5,WeakBattleIdle||minibubble,@It's...heavy!,-5||next,caller,Idle|Hohoh! Sorry...I thought I made it light enough for you brave folk!|next,-5|W-We'll manage. Thank you, Ms. Butomu.|completequest,22||flag,321,true|
+Hrm. I wonder what my next work shall be!
+Miss Butomu! What an honor!|next,-4|Uh, is she special? She makes Medals, right?|next,-5|Well, yes...but there are many tales of her strength. Of her journeys!|next|She'd slowly travel across the lands collecting materials, and no obstacle |line|would be a match for her!|next|They say she walked right through a boulder!|next,-6|Now that's gotta be fake...
+|hide||fadein||fwait,1||flip,caller||sound,Pickax2||fwait,0.5||sound,Pickax2||fwait,0.5||sound,Pickax2||fwait,0.5||sound,Pickax||fwait,0.75||fadeout||fwait,1||hide||goto,144|
+Hrm. Excellent! A masterpiece. Would you take it as your reward?|break||giveitem,2,77,140|
+|boxstyle,3||spd,0|Ye Ol' Blacksmithey.
+With the Wasp attack, the order for battle gear has skyrocketed! And so has my workload!|next|I hope we really don't have to fight in a war... 
+Drat. The Wasp attack will cause a dent on business... 
+Hand it over.
+Not yet.
+You took my request, didn't you?|next,-6|We did. Beat some bandits, is that it?|next,caller|Yes. These blasted bandits...I will never forgive them...|next|Please, I cannot go myself. I have my reasons. Besides, I am not equipped for it.|next,-5,Angry|Leave it to us, we will teach those evildoers a lesson!|next,caller|You have my gratitude. I need you to defeat at least 20 of them.|next|Any of them will do. Be it the dragonflies, the crickets, the ladybugs, |line|whichever.|next|Just beat them up so they stop attacking the citizens of Defiant Root!|next,-4|You got it! Just have our reward ready when we're back!|next,caller|As long as they stop attacking us... You shall receive your reward. Notify me once you've beaten 20 of them.
+Seems you still need to teach a few more bandits a lesson. Just beat 20 bandits, any of them, and I will reward you.|next,-5|It'll be good to check the Bestiary. It should hold how many we've defeated!
+|hide||event,160|
+Thank you. For everything. I am sure she is grateful too.
+You've done it, haven't you!? I can tell their foul deeds have become less frequent. Good job!|next,-5|Justice has, in fact, been delivered!|next,caller|If only I had more to give. Here's what I promised you.
+Once more, you have my gratitude. Now at least she can rest easy now.|next,-6|No problem. Take care of yourself.|next,caller|It will be much easier now. Stay safe during your travels.
+|hide||event,162|
+I'll be here for a good while, so I'll hang on to the cloth.|next|Looking forward to what you bring!
+This place is lovely. I just found some great cloth for my place!|next,-6|Would you mind showing us?|next,caller|Sure!
+Beautiful, right?|next,-5|Indeed! This must be in line with what that fine bee wanted...|next,-4|It's really cool. Where did ya get it?|next,caller|Um, right here. But it was the last one...|next,-4|You wouldn't, uh, sell it or anything right?|next,-6|We've been looking a long time for something like it.|next,caller|U-Um...|next,-5|If it's not for the money, we could trade for it as well?|next,caller|Wow, you're really serious about this huh.|next|Let me think...|next|I went to the Ant Kingdom earlier, but I didn't get to pick up anything.|next|I'd trade this cloth for a toy, or some souvenir like that?|next,-6|We can do that.|next,-4|Yeah! We live there and all!|next,caller|Really? Then this must be fate!|next|I'll be here for a good while, so I'll hang on to the cloth.|next|Looking forward to what you bring!
+So you brought me a souvenir from the Ant Kingdom?|pickitem,1,161,162|
+|checkvar,0,142,163|Um, are you sure this is from there? Not feeling it... 
+Well, if you find anything, you know where to find me!
+|removeitem,1,142||flag,443,true||align,left,true||face,caller,-1|A little ant toy! It's adorable!|next,-4|It's the cutest, right?|next,caller|Mhm. It's going to look wonderful in my room. Can't wait to tell my teammate!|next|Here. The cloth you wanted.|break||giveitem,1,141,164|
+|tail,-5,instant|Thank you so much!|next,-6|Excellent. Our goal is finally within reach.|next,-4,Happy|Let's go get that paint! Heheheh.|next,caller|It was nice to meet you!
+Can't wait to show it to my teammate! Thank you!
+Oh, what great timing! Could it be you've retrieved my precious silk!?|pickitem,1,167,168|
+|checkvar,0,108,169|No, no, no! This isn't it. How distressing!
+|tail,-5|Sorry, not yet.|next,caller|You haven't? I do apologize for jumping to conclusions. Would you please go? I need to grieve.
+|hide||removeitem,1,108||event,173|
+Ah! My baby! My handmade, extremely high-quality silk!|next,-6|It did feel incredible carrying it back here.|next,-5|Miss Kali, did you truly create such an exquisite texture?|next,caller|That's right. Silks and the wondrous items of fashion and leisure it can be woven into are my absolute |shaky|PASSION|shaky|.|next,-4|They've gotta be worth a fortune! No wonder it got stolen.|next,caller|A fortune? Hah! You cannot put a price on a masterpiece.|next|...Though I'll have you know my prices are very economical, darlings.
+This place is so cool though. I've never seen this big wheel before!|next,caller||shaky|W-Wait!|shaky| Do be VERY careful near that vase, my dear. It's a gift from a client very close to me.|next,-5||face,party,caller|Incredible. Your work touches the hearts of the wearer that strongly!|next,-6|Shame we're not too much into fashion...|next,caller|I'm itching to get back to work, so...|next|Please, let me reward you for all you've done for this shop.
+And you all seem absolutely exhausted, you poor things. Breathe this|line|in, my darlings, it should soothe and fix your wounds with ease.|next,-5|Oh! Thank you so much!
+Huh?! This smoke... I-I...
+COUGH!@EVENT@ COUGH!@EVENT@ COUGH!@EVENT@ HACK!|next,-6|@EVENT2@Vi, watch out!
+ATCHOOOO!!
+...S-Sorry. This smoke makes me really dizz-|next,caller||boxstyle,1||shaky|AAAAAAAAAAAAAAAH!!|shaky||next|That vase was a one of a kind design from...|minibubble,@Ah crud.,-6||next||anim,caller,Angry|It's shattered, ruined, |shaky|obliterated|shaky|! Oh this is the worst day of my |shaky|LIFE|shaky|!|next,-4,Sad||boxstyle,0|I...I'm sorry!|next,caller||boxstyle,1|Sorry is NOT enough! It's time to show you the consequences of touching things that do not belong to YOU!
+COUGH!|wait,0.2| COUGH!|wait,0.2| STOP IT!|wait,0.2| I SAID I'M SORRY!|next,-6||shaky|What's this smoke...?|next,-5||shaky|...N-Nghh...Vi, Leif!
+A surprise you could resist my charms, oh blue one.|next|I digress, come, my Knight, let's give these two a proper thrashing!|next,-6|Kabbu, what do you think you're doing?|next,-4,Flustered|You're gonna |shaky|BETRAY US!? OVER THIS!?|shaky||next,-5||wavy|I...can't control...my body...|wavy||next,caller|A puppet on silken strings, now... Let's begin, shall we?
+Come hither, my dear Beetle...|next,-5||wavy|Hnnnng...what...is...going...on...?|line|My...body...
+This was unnecessary. We could've replaced the vase.|next,-5,Hurt|Extremely unnecessary! Please don't control my body!|next,-4,Sad|I...I'm sorry. That smoke made me dizzy, I couldn't help it...|next,caller,Idle|...|next|...|next|...|wavy|*Sigh*|wavy| Alright. I apologize as well, my dears.|next|It was quite uncouth of me to lose my temper.|next||flip,-5||anim,-5,Idle|Let's put this behind us, hm? Water in the oasis as it were. I'll see if Butomu can fix the vase...|next,-6|Fine with us. We're too lazy to press charges.|next,-4,Flustered|I'll stay super far from the fixed one, promise!|next,-5|Despite the downward turn...we hope you make great things with that silk, Kali!|next,caller|Oh. I assure you, I can and will, my dear knight.|next|...Please remove yourselves from my shop, if you would be so kind.
+...Out.
+Oh, that Butomu's a miracle worker! Please do keep your distance |line|from this one.|minibubble,@Sorry...,-4||breakend|
+I can't believe it! My baby! My handmade, extremely high-quality silk!|next,-6|That's gotta be Kali. Excuse us, miss?|next,caller|Whatever could you want? Can't you see I'm devastated?|next,-4|We're here to help!|next,-5|You need not suffer any longer. Could you tell us what happened?|next,caller|Aah...Explorers! Please excuse me, I've been very on edge.|next|I have ample reason to believe bandits have stolen my silk!|next|Not any silk, yes? This one costs both time and many berries to manufacture!|next,-6|The bandits've really done a number on Defiant Root.|next,-5|Leave it to us! You will be able to craft again soon!|next,caller|So dashing! Please, return it before they ruin it!|next,-4,Happy|You got it. Start getting that reward ready!|flag,472,true|
+Ms. Kali's made quite a name for herself in town! Her wares are very popular.|next,-4|Eh, they're way too expensive.|next,-6|And we're already beautiful.|next,-5|Al...right?
+|anim,caller,Happy|Hohoho! Check my mecha claw out! Spiffy, ain't it?|next|A new frontier of WEAPONRY awaits! By my CLAW!
+|shaky|Where's my claw!?!?|shaky||next,-6|Woah, chill out.|next,-4|You're Engira, right? You lost that claw thing?|next,caller|Grr... Yes. Those darn Wasps! I'm sure they're responsible!|next,-5|Wouldn't one sooner blame the bandits?|next,caller|As if those uncultured criminals would know the value of MY CLAW!|next|Heck, if it wasn't the Wasps, they hired the bandits to do it!|next,-6|That's not much of a clue, is it?|next,caller|Look. It's gotta be in their kingdom, or the |color,1|Far Grasslands|color,0|.|next|If anyone can find it, it's explorers, right!?|next,-5|Worry not. We shall recover YOUR CLAW!|flag,635,true|
+|shaky|Have you found my claw!?!?|shaky||pickitem,1,189,188|
+Please...PLEASE find it...
+|checkvar,0,175,190|Does this look like a claw to you!? |shaky|Like I could wear this!?|shaky||next,-4,Sad|Uh, whoops! Wrong one...
+|removeitem,1,175||anim,caller,Happy|Yes...|shaky|YES|shaky|!!! I missed you so much!|next,-5|It fits you very well, Engira!|next,-4|Can you make us something cool with it?|next,caller|Hm. Well, it'll take a bit. But I do have this prototype...|break||giveitem,2,61,191|
+|anim,caller,Idle||tail,-6|This'll do. Thanks.|next,caller|Heheheh...If you think that Medal's good, wait until you see what I'll make with my claw!|completequest,58||flag,636,true|
+|anim,caller,Happy|Heheheh. Butomu's gonna see some real blacksmithing now!
+...My claw...Where's...where's...|line||shaky|Where's my claw!?!?|shaky|
+|checktrue,39,195||tail,-6|Nice claw.|next,-4|I don't get what's the big deal with it.|next,-5|Well, he's the blacksmith...so long as it helps him out, it's all that matters!
+|checktrue,636,196||tail,-6|Poor guy. The claw really was a big charm point.|next,-4|Is it that big of a deal? He can just get another tool, right?|next,-5|Would you so quickly abandon your Beemerang?|next,-4,Angry|...Alright, alright.
+|tail,-6|Nice claw.|next,-4|I don't get what's the big deal with it.|next,-5|Well, he's the blacksmith...so long as it helps him out, it's all that matters!
+|tail,-6|Must be rough being a Bumblebee in this heat...|next,-4|He's wearing a scarf, right? Doesn't seem like he minds.|next,-5|Now that's what I call heat tolerance...
+|tail,-4|Hey, that ice isn't melting!|next,-5|...It'd be more impressive if we hadn't met Leif.|minibubble,@Heh.,-6||breakend|
+Heh, peace has returned. It's the best time for business!

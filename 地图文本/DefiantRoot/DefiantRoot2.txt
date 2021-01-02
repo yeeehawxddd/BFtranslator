@@ -1,0 +1,40 @@
+|tail,-4|Here we are. The elevator to the Bee Kingdom. Woo.|next,-6|Gets the job done.|next,-5|If we're going up, let's make sure we don't need anything from down here.
+|hide||event,48|
+This elevator leads into the Bee Hive! Would you like to go there?|prompt,map,0.75,2,12,13,@Yes,@No|
+If you keep going down this path, you will eventually reach the |color,1|Golden Settlement|color,0|.|next|Just be careful with the monsters on the way.
+|checkmapflag,0,10,true|Welcome...to T & W's inn.|next||showmoney|It's 4 berries per bug to stay a night here. So, 12 berries for you three. Shall I...arrange the beds?|prompt,map,2.55,3,5,6,7,@Yes please.,@No thanks.,@Are you okay?,$1|
+|checkmoney,12,8||money,-12|...Thank you. Your room is in the middle. Enjoy your stay.|break||mapflag,0,true||innsleep,-2.75,0,5.85,true|
+We're... Here's always open. Come by again. 
+Oh, thank you... It's alright.|next|Some complex things happened, and I'm coming to terms with them...|next|I am grateful for your patience. Don't let it bother you.|flag,407,true|
+Sorry... You don't have enough to stay here. 
+I hope you slept well. Come again, to T & W's... 
+Did you sleep well? Thank you for staying with...us.
+It's...a long story.|next|I used to have a partner, she was a Termite.|next|The Termites have started isolating themselves, because of Elizant II.|next|All Termites were called back by the king, and she decided to check things |line|out.|next||wavy|Sigh...|wavy| We built this inn together... Will she really not come back?|next|Everytime I think about taking off her half of the sign...it's too real.
+|event,68|
+Alright. Just talk to me if you wanna go.
+|checktrue,408,25|This poor wasp... I can feel the loss in his eyes.|next,-4|Uh...so he's sad, basically?|next,-5|Indeed.|next,-6|You're dying to talk to him, aren't you.|next,-5|...No. When it's grief like this, only time can heal it. Let's not meddle.|next,-4|Kabbu?
+|checkflag,43,16||checkmapflag,1,16,true|O-oh, fancy meeting you here!|break||mapflag,1,true||event,28|
+|hide||event,28|
+Mmm. Someone actually went and jumped in the well. What to do...
+|event,true||align,right,true,1.6||face,caller,-1||anim,-4,Angry|So you've come back, Vi. On a mission, from what I can tell?|next,-4|Uh huh. Get us up?|next,caller|Sure thing. Hop on, explorers.|next,-6||face,-6,-4||face,-4,-6||face,-5,-4|We're not done talking about your issues, Vi. We're just saving it for later.|next,-4|Drop it. Seriously. I don't want to talk about it!|minibubble,19,-5||break||destroyminibubble||hide||event,68|
+Vi... 
+Lots of bandits lately... What's going on?|next|If you plan on heading out, be careful!
+Wha? The well links to the Bandit Hideout? I'll be darned...
+Wha? The well links to the Bandit Hideout? The Wasps attacked |line|the Ant Kingdom?|next|Mmm... Times are getting rough.
+|align,right,true||face,caller,-1||tail,-4|Hiya! Still looking?|next,caller|Yes. I must say, Defiant Root's got its charm as well.|next,-6|Really? The sand doesn't do much for us.|next,caller|Although it's not the most prosperous, people trade and work |line|together to endure thirst and bandits.|next|It's a historic site with a tightly knit community.|next,-5|Could this be the place you'll call home?|next,caller|...Not yet. But I hope we'll bump into each other once more.|next,-6|Safe travels.|flag,600,true|
+I hope we'll bump into each other once more.
+|tail,-6|This inn's got its smile back.|next,-4|...I'm not gonna ask for a reward this time. I guess it's fine.|next,-5|I'm happy for them... Some do get their friends back.|next,-6|It'll be okay. Let's rest up.
+|checkmapflag,0,32,true|Oh, my friends! Welcome to |line|T & W's!|minibubble,@Welcome back!,7||next||showmoney|You're getting a special deal from us. 7 berries a night!|prompt,map,2.55,3,27,28,29,@Thank you!,@Just passing by!,@How's everything?,$1|
+|checkmoney,7,30||money,-7|Cheers! The middle room's all ready for you!|minibubble,@Sleep well!,7||break||destroyminibubble||mapflag,0,true||innsleep,-2.75,0,5.85,true|
+We're always open!|minibubble,@Come again!,7||breakend| 
+Heheh. I'm so grateful we met. We're doing great!|next|I really missed my room... I left something nice for you!|next||checktrue,604,33||tail,-5|O-Oh! Thank you!|minibubble,@Nice!,-4||next,-6|Keep on trucking, you two.|breakend|
+Oh, sorry. Ship's running tight, huh... 
+I hope you slept well! You're always welcome at T & W's! 
+Did you sleep well? Thank you for staying with us!|minibubble,@Come again!,7||breakend|
+|tail,-6|It was very helpful, thank you. Stay well, you two.|breakend|
+Can you believe it? My associate's back! I'm so happy...|minibubble,@Heheh...,-5||breakend|
+Hey hey, feels like something bad is brewing in the horizon, isn't it?|next|Don't even have time to check the old well these days, been so busy.|next|Could you check it out for me?
+Samira's instrument is quite soothing. Perfect to relax on |line|a sunny day.|next,-6|We've never seen that instrument before, actually. Is it...an artifact?|next,-4|Isn't it just a rock with holes in it...?
+|flag,698,true|Explorers, the Queen has approved escorts between the Outskirts and Defiant Root. Will you ride the caravan?|prompt,yesno,38,39|
+Roger.|break||warp,57,0,0,3|
+Roger.

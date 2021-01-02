@@ -1,0 +1,11 @@
+|checkflag,260,1||tail,-6|To think this place connects to the hideout...|next,-6|It must have made their crimes that much easier to commit.|next,-4|They better lay off after that smackdown! 
+|tail,-6|So we've come to the bottom of this well for...not much, really.|next,-4|Yeah, it's just a bunch of water!|next,-5|It IS a well... 
+Tsk. Word spreads quick. You look for the ancient keys?|next|Maybe I can help you. For 30 berries, that is.|showmoney||prompt,map,2,2,3,4,@Give Berries.,@Ignore him.|
+|checkmoney,30,5||money,-30|You're a wise bunch. Here.|break||flag,239,true||giveitem,1,111,6|
+Suit yourselves.
+I don't deal with cheapskates.
+|tail,-4|Um, what's this? The key?|next,caller|The bandits lurk in the |color,1|southeast|color,0| of the desert. That's your ticket in.|next,-6|Just how do you have this?|next,caller|...|next,-5|W-Well, no matter. We'd best start planning our trip there!
+I'll be seeing you.
+|tail,-6|A curious place to set shop.|next,-5|Well, anyone who can help will do. No matter where they fancy to sit!
+That's some devotion to this well...|next,-6|Shall we visit the hideout before the shortcut's fixed?
+Hey. Stuff calmed down, so I'm checking out the well!|next|Let's see if I can patch this crack...
