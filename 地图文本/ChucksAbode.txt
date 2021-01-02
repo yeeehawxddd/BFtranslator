@@ -1,0 +1,31 @@
+|tail,-6|Hmm. So this is Chuck's Abode?|next,-4|Uh huh. I think he calls it a hut though.|next,-5|Is there really any difference?|next,-6|For someone so well spoken to make such a basic mistake...|next,-5|W-What?|next,-6|It's just such a shame.|next,-5,Angry||face,-5,-6|Stop playing games, Leif. Tell me the difference. I demand it!|next,-6|Eh, there's no time. We'll tell you later.|next,-5,WeakBattleIdle||wavy|N-Noooooooo!
+|tail,-6|It's some old bug.|next,-4|Yeah, whoever that is.|next,-5|Vi, you know fully well that's Chuck!|next|His hut has been coming along well, we should say hi.|next,-4|Before he takes a nap.|next,-6|Or he croaks.|next,-5||wavy|*Grumble.*
+Hey. It's good to see ya again. You've made a friend, too!|next,-6|We're friends?|next,-4|Of course we are!|next,-5|Indeed. After all we've been through, we can trust and depend on|line|each other.|next,-6|...We can get used to that.|next,caller|Hohoho. I'm only glad that you didn't get hurt exploring. Found any treasure?|next,-4|Yup! As expected from me!|next,caller|Now nobody can tell ya you're just a little rookie. Stay proud!|next,-5|Thank you, Chuck. Your hut is progressing nicely as well.|next,-6|The hammock looks nice to sleep in.|next,caller|Drop by anytime, and you can sleep for free!|flag,46,true|
+|checktrue,231,14|Hello there! Come for a nap?|goto,27,keep|
+Alrighty. Leif gets the hammock. The rest of you get the carpet!|break||innsleep,-3,0,1,true|
+No problem. This bug ain't goin' anywhere.
+|wavy|*Grumble...*|wavy||next,-5|Chuck, we saw your posting on the quest board.|next,caller|Oh! It's you guys. Ya did? Any luck? I'm starving!|pickitem,0,0,true,false,7,8|
+|checkvar,0,19,9|This isn't a hearty breakfast at all! That's meant to be cooked mushrooms and eggs!|next|Go visit Fry in the commercial plaza. I can't wait much longer!
+Well? Where is it? Don't leave a hungry bug waiting!
+|event,34|
+Oh, my dear goodness. It's beautiful!
+Whew. Thanks, you all. Yer always helping me out.|next|I was so desperate I ate a raw Mushroom. Never really liked them...|next,-6|No problem. The breakfast platter is one of our favorites.|next,-4|A bit too savoury for me...|next,caller|I've got a better reward for ya this time!
+That might look like a plain rock, but it packs a punch!|next|Just like me when I don't have food...|next,-5|Thank you, Chuck. It was nice to see you again.|next,caller|Be safe, now! If you ever feel tired, I'd be glad to lend my place to you!
+|wavy|*chomp chomp*
+|align,near,true||face,caller,-1|Hey hey! Are those Spy Cards you have there?|next,-6|Indeed. We are looking for the Card Masters.|next,caller|Ho ho! Been a while since someone came by to challenge me.|next,-5|Wait, really? You're a card master?|next,-4|Carmina did call him old...|next,caller|She best get her eyes checked! I fight like a young champ!|next|Back in the day, they called me the Flash Summoner!|next,-6,BattleIdle|We're eager to see the "Flash Summoner" duel.|break||flag,248,true||goto,15|
+|align,near,true||face,caller,-1||tail,caller|Really? Are you ready to face an old champ?|prompt,map,2,2,16,17,18,19|
+You'd best not think I've gotten rusty, ye hear?|next||cardbattle,this,-1,@4||tail,caller||battlewon,20||goto,22|
+Hmm. A wise choice. You'd best prepare.
+Indeed we are!
+Not yet.
+|anim,-6,WeakBattleIdle|Oho! I've still got it!|next,-4,Flustered|Come on, Leif! Just try again!|minibubble,21,-5||breakend|
+You can do it!
+Oof. Could I actually be getting old...?|next,-5|Nonsense, you fought like the best of them!|next,caller|It was good. Best I've had for a long time. I wouldn't give this to just anybody!|break||event,106|
+You've still got some Card Masters to go though, don't ya?|next,-4|Got any good hints?|next,caller|Patience, ye lot! Here's a good hint for sure: "Happy, in a bountiful village."|next,-6|Um, anything more specific?|next,caller|Card Master protocol! I'm sure ye'll find her, though.|next,-5|Thank you, Chuck.|next,caller|No problem, yer always helping me out! Come back for a rematch, will ya?|next,-6|When we settle this business. For now, we must go.
+Look at that, folks! You defeated all of us masters!|next,-6|Mhm. It was pretty fun.|next,caller|Show that card I gave ya to the gent at the pier. You'll get a good price to travel to Metal Island.|anim,-4,Happy||minibubble,@Discount!,-4||next,caller|Come back for a rematch, ye hear? Gets a bit lonely here...|next,-6|When we settle this business. For now, we must go.
+|align,near,true||face,caller,-1|Back so soon? What can this fellow help you with?|prompt,map,2.3,3,4,26,5,@We've come to rest.,@Card rematch!,@Just saying hi.|
+Can't get enough of the Flash Summoner, eh? Ready up!|next||cardbattle,this,-1,@4||tail,caller||battlewon,20||goto,30|
+|prompt,map,1.9,2,4,5,@You bet.,@Maybe Later.|
+|checktrue,231,29|Hello there! Come for a nap?|goto,27,keep|
+Hm! Spy Cards, huh?|next,-6|You know about them?|next,caller|I sure do! But I'm starvin'... Can we duel after ye do me a favor?|next|I posted a request in the old board in the city... Get that sorted out, and we can talk cards.|next|Scratch my back, and I will scratch yours!
+Good stuff, Leif! Here's a little something!|break||giveitem,-1,10,-11|
