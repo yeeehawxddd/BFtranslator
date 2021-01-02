@@ -1,0 +1,8 @@
+A hidden path inside the Power Plant's tree...|next,-4|Let's see where it leads to!|next,-6|(...What's with all these spears anyway...?)
+|tail,-5|...Eggs?|next,-4|Is this what caused the lockdown?|next,-6|What's this feeling in the air...?
+|tail,-6|A giant Midge!?|next,-5|It's overflowing with electricity!|next,-4|It's gonna pay for causing so much trouble!
+|tail,-4|There! That should do it!
+Vi! Have you found out what caused the lockdown?|next,-5|It seems like this Midge was the issue.|next,caller|I see. We will get rid of the eggs before more Midges are born.|line|Good work!|next|Allow me to reward you for assisting the Bee Kingdom!|break||giveitem,-1,40,5|
+|tail,-4,instant||anim,-4,Happy|Awesome!|next,caller|Well, we have lots to do, so let's get started!
+Phew, getting rid of those eggs was hard. How can they survive in this electrified water?
+These spears... I swear I have seen them somewhere before.|next|Could they be from...?

@@ -1,0 +1,14 @@
+It feels like just yesterday, when we crossed this gate.|next,-5|With the current Wasp situation, it's become quite fortified.|next,-4|Uh huh. It's a really big wall, too.|next,-5|...Imagine if all the sand poured out into the Ant Kingdom!|next,-6|Let's not, Kabbu.
+Halt. The passage to the |color,1|Lost Sands|color,0| is closed for the time being.|next|We are investigating a series of cases under the Queen's order. We'll open up when we're done.
+Ah, explorers. The Queen has allowed you to go through. Go on in.|next|Please do be careful, the number of bandits roaming the sands has been increasing lately.|next|To reach |color,1|Defiant Root|color,0|, keep going |color,1|northwest|color,0| to the base of the Big Tree.|next|Do NOT approach the Wasp Kingdom border to the northeast. |line|Stay clear from it!
+This Ant guards the Lost Sands gate.|next,-6|What, that's it?|next,-5|I...I don't know what else to say.|next,-4|Stop wasting time! Get a move on!
+!
+Hey hey. If you want to cross the desert, tough luck. Right now, no one can pass from this side.|next|If you want to cross, you'll have to convince the Ant Queen to give you permission.|next|HAH! Good luck with that!
+Ah, the gate opened!|next|But I can't go to the desert yet, I am still preparing for my journey.|next|If you plan on crossing the desert, keep in mind it is much bigger than it seems.|next|Everywhere you look, there is sand. Keep a mental map when you plan on crossing!
+Ouch! There's too many violent thieves in the Lost Sands nowadays!|next|How's one gonna search for treasure!? Hope this resolves soon...
+Explorers, the Queen has approved escorts between the Outskirts and Defiant Root. Will you ride the caravan?|prompt,yesno,10,11|
+That hat...would it not worsen the heat?|next,-6|Apparently, it keeps you quite cool.|next,-4|Seriously? I don't think I'd look good with one, though...
+Roger.|break||warp,60,-22,0,1|
+Roger.
+|tail,-5|The Lost Sands... It's been a while.|next,-4,Angry|They're way too huge. It's gonna take ages!|next,-6|It'd be nice if we could move just a bit faster...|next,-5|...Well, why not just run?|next|If we tap |button,5| twice with me at the front...|next,-5,116|I'll give it my all!|next,-4|Bleh... |anim,-4,Idle|Whatever gets us outta there faster.|next,-6|We'll try to keep up, Kabbu.
+Kabbu can now |color,1|Dash|color,0|! Just double tap |button,5|! Press |button,4| or |button,5| to cancel the dash!
