@@ -1,0 +1,1 @@
+|tail,-6|Fancy place for a cave.|next,-4|This has gotta be Stream Mountain!|next,-5|What an imposing name! It must be extremely dangerous!|next,-4|Nah. There's just water coming out of the side!|minibubble,@That's it?,-5||next,-6|Hm. Still, call it intuition but... We feel the need to explore it.|minibubble,@Let's do it!,-4||next||destroyminibubble||end|

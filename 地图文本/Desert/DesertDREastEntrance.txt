@@ -1,0 +1,2 @@
+Defiant Root's just ahead! A welcome sight after so much walking...|next,-6|And a break from the harsh sun.|next,-4,Happy|We should drop by the Inn and sleep in a nice bed!
+|boxstyle,3||spd,0|Watch out! Up ahead is the border with the |color,1|Wasp Kingdom!|color,0||next||spd,0|If you're looking for |color,1|Defiant Root|color,0|, head west!

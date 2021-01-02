@@ -1,0 +1,2 @@
+|checkflag,301,1||tail,-6|Tch... The bandits are partly to blame for all of the wasps.|next,-4|They just wanted money though, right?|next,-5|One must have morals, Vi. No matter the pay, their actions |line|endangered all.
+What could be locked behind the door here?|next,-6|Pretty suspicious... We could ask when we get to town.

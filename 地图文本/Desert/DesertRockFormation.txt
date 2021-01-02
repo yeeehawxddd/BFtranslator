@@ -1,0 +1,9 @@
+|tail,-6|That rock formation is impressive. It almost looks bug made.|next,-4|Was it always here? Did ya get to see it way back?|next,-6|Err...no. This is our first time here, really.|next,-5|That's a shame. I'm sure many researchers would love a glimpse |line|to the past!|next,-6|As long as it's not from us... 
+My research points to a relic being in the area, but I've hit a dead end.|next|Could there be a path I haven't noticed yet?
+...! Incredible. Team Snakemouth, this was your doing?|next,-4,Happy|Yup! All us!|minibubble,7,-6||next,caller|I simply must see what's at the top. I'll see you there!|breakend|
+This is it. The Lost Tardigrade. Legends say these bugs can live for countless generations.|next|Not that I've ever seen one...|next,-4|Weird place to put a statue, right?|next,-5|Maybe this place looked much different, and only the relic withstood |line|the test of time...|next,-4|Hey! At least we found something we can use here!|next,caller|A Medal, huh?|next|So this was a Medal covered in dust... Fascinating. I'll have to write up a|line|hefty report.|next,-5|Should we uh, hand it over?|minibubble,4,-4||next,caller|Mmmmm. Would you mind testing its properties on the field? I don't really mind if you keep it.|next|I've got the data I wanted already.|next,-6|Cool. Thanks, Hawk.|next,caller||checkflag,302,5|Well, that about wraps it up for me. I'll head back to the Hive.|next|Let's meet again.|breakend|
+|anim,-4,Flustered|No way!
+Once I am done with my research in the desert, I shall head back to the Hive.|next|May we meet again.|breakend|
+|checktrue,342,8||tail,-4|Hawk seems uh...stumped.|next,-5|Understandably. There really seems no way to climb up.|next,-6|Hmm. If we get creative, there's gotta be a way...
+You did|line|nothing...
+Alright! Let us climb to the top!

@@ -1,0 +1,1 @@
+|tail,-6|This floor is unbearable. So uneven...|next,-5,Happy|It could be fun to roll around all the hills!|next,-4,Angry|And ruin my fur? You're nuts!|minibubble,@We concur.,-6||next,-5,WeakBattleIdle|Killjoys...|breakend|

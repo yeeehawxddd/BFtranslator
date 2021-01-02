@@ -1,0 +1,2 @@
+|checktrue,417,1||tail,-6|Uh, any idea what that is?|next,-4|No clue...It's got some scribbles, though.|next,-5|The ancient language...I'm sure Neo would love to check this out later!
+|tail,-4|Whew! That was close!|next,-6|At least this will make traversing this path easier.|next,-5|It's also easier to see what these scribbles are, I bet Neo would love to investigate it!

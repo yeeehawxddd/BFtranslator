@@ -1,0 +1,9 @@
+Oh, that artifact over there looks like Kut's tools!|next,-6|It seems the ancients also sliced things.|next,-4|Ya reckon they had Beemerangs too?|next,-6|Eh, maybe? Or something cooler.|next,-4,Angry|There's no cooler weapon!
+F-Fall back!
+Woah!|next,-5|What a vicious beast!|next,-6||boxstyle,0|They really aren't making getting all the artifacts simple.|next,-4||boxstyle,1|Eep! We better stop talking, and start fighting!
+That was really close...|next,-5,Idle|We truly have come far. Good job, everyon-
+Leif!
+|shaky|NO!
+|wavy|Trjkh... wjrhn...?|wavy||next,-4|W-What the... What is this!?|next,-5,Hurt|Leif!? ...Curses, what do we-
+Tch. I wasn't fast enough.
+|shaky|Leif! LEIF!!!|shaky||next,4|There's no time! Do as I say, if you value your friend's life!

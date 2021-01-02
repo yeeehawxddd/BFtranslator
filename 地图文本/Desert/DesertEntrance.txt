@@ -1,0 +1,2 @@
+The Lost Sands...we've come back at last.|next,-4|The heat never gets any less awful...|next,-6|You traveled all through this to get to the Ant Kingdom? Separately?|next,-5|Yeah. It would've been way easier with Vi around, though!|next,-4|Heheh. Same to you.|next,-6|Well, it's nice to have a guide... Lead the way, you two.
+|common,0|

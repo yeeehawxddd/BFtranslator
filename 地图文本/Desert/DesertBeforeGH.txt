@@ -1,0 +1,1 @@
+|tail,-4,WeakBattleIdle||anim,-5,WeakBattleIdle|Water... Need...water...|next,-5|We're close to...the Hills... Hang in there...|next,-6|(We're not thirsty, but perhaps we shouldn't boast this once... )

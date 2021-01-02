@@ -1,0 +1,4 @@
+|tail,-6|This place's got a good view of the big tree.|next,-4|And the Bee Kingdom...|next,-5|It's amazing to see such a large living being!|next,-6|Makes you feel tiny sometimes, doesn't it?|next,-4,Happy|Nah. When you're at the top, you feel like the coolest bug in the world!
+We're even, so don't think I'm giving you any discounts!|next,-4,Angry|Gotcha...
+I can't thank you enough for saving us!|next||goto,-48|
+Lots of bandits showing up lately... Something's up. Be careful out there.
