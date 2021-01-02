@@ -1,0 +1,96 @@
+|checkflag,67,54|Ah, the Ant Kingdom's main plaza. It greets both tourists and citizens alike.|next|It is the bridge between the commercial area, the castle and |line|the residential area.|next|To top it off, it has many historical points such as the Inn, the Theatre and the founder statue.|next,-6|Kabbu, you should look into the tour guide business.
+|checkmapflag,0,8,true|Oh...customers. Welcome...|next|If you want to sleep here tonight, it's 3 berries a bug. So uh...9 berries? Got that much?|showmoney||prompt,map,1.9,2,2,3,@Stay here.,@Maybe later.|
+|checkmoney,9,6||money,-9||anim,caller,Happy|Really!? Then, um, please enjoy your stay! Your room is upstairs!|break||goto,46|
+Oh...|wavy|Sigh...|wavy|come again soon.
+Utter helps with the Notice Board.|next|He makes sure to keep the board in pristine shape, and to alert others of new posts.|next|I hear sometimes he helps out people himself!|next,-6|Seems like an outstanding citizen. Vi could learn a thing or two.|next,-4,Angry|I'm as outstanding as it gets!
+|checkflag,1,9|Check it out, there are some new quests available for you.|flag,2,true|
+Have you seen this place? I'm not a charity. Come back when you have money.
+|checkflag,67,56|Ah, that is the Innkeeper. The 7th owner of this inn!|next,-6|This place has seen better days. Our support would do some good.
+|anim,caller,Happy|Oh, did you sleep well? Please come back another time!
+|event,true||teleportparty,2,Center||align,left,true||face,caller,-4||tail,-4|Hey, Utter! Got any quests for me?|next||tail,caller|Why, yes I do! Looking for the quick and dirty ones, ain't ya Vi?|next||tail,-5|We would like to see any and all available ones, if possible.|next||tail,-4||face,-4,-5||anim,-4,Angry|Ugh, those are almost never worth it.|next||tail,-5||face,-5,-4|Nonsense, Vi. Helping others is its own reward.|next,-6|Oh. How noble... It's moving, really. Kinda.|next||tail,caller||face,-4,caller||face,-5,caller|Alright! I will make all quests available for you lot.|next||tail,-4|Well... Here's hoping for good rewards!|flag,1,true||break||event,false||end|
+|checkflag,1,9||checkallquests,90|No new quests right now. I'll keep you posted!|next|Anything else I can help you with?|prompt,map,0,2,13,91,93,94,none|
+Gonna take that one, huh?|prompt,map,3,2,12,13,@Yeah,@On second thought...|
+Alright. Do your best!
+No worries. Be sure to check back for anything else.
+Oh, customers... Welcome.|next||tail,-4|Heya. We've come to write a review!|next||tail,caller||anim,caller,Happy|Oh, by the Queen! Really? I am so glad you've come!|next||tail,-6|Be glad after the review.|next||tail,caller|Our standard fare is 3 berries a night.|next|So for you three, that would be 9 berries - with a free Honey Drop on|line|the house!|next|But since you're writing a review for the Inn, you can stay here for free tonight.|next||tail,-4|For free? I won't complain, but...|next||tail,-6|Trying to bribe us already, huh.|next||tail,caller|O-oh, um...|next||tail,-5|Worry not, Innkeeper. We will accept your generous offer.|next|Please make sure we have the same experience as all your guests.|next|And we will keep the price of stay in mind for our review.|next||tail,caller|Phew. Alright, then. Your room is upstairs. I hope you'll have a lovely|line|night!|next||tail,-6|We hope so, too.|next||tail,caller|Please come talk to me when you wake up, so I can get your review.|break||flag,4,true||goto,46|
+|anim,caller,Happy|G-Good morning! Did you sleep well?|next||hide||minibubble,@Hmmm...,-4||fwait,0.3||minibubble,@Hmmm...,-5,1.2||fwait,0.3||minibubble,@Hmmm...,-6,1||waitminibubble||fwait,0.3||hide||wavy|Gulp...|wavy||next||tail,-4|I slept pretty well. The Honey Drop you left was great!|next||tail,-6|We haven't had a bed so cozy in years. Or any bed, really. It was good.|next,-5|It...it was great, yes.|minibubble,16,-5||next||destroyminibubble||tail,caller|Alright! Service's still got it! I needed the confidence boost... |next||tail,-4|You're great! I can't wait to come again!|minibubble,@Mhm.,-6||next||tail,caller|Heheh. Come back anytime!|next||tail,-5|Y-yes... Of course...|completequest,1||flag,5,true||breakend|
+|wavy||size,0.55|(M-My bed|line|hurt my back...)|halt|
+|event,true||align,left,true||flag,6,true||wavy||face,caller,-1|Sob... Sob...|wavy||next||tail,-5|Excuse us, fine lady. Is everything alright?|next||tail,caller||wavy|No! N-no|wavy|, it's not. I've been trying to play in the theater for so long...|next|And I felt like I could f-finally do it... But now Mothiva's so popular...they only want her.|next|They said I'd never be as good as her... And now I don't know what to do, or how to make money.|next||tail,-4|So what? If someone says you can't do something...|next||face,-5,-4||face,-6,-4|You prove them wrong! |anim,-4,Flustered|And they'll beg for forgiveness!|minibubble,@Vi!,-5||next|If you enjoy it...just play! Just do what you can! Who needs that dumb theater!?|next||tail,caller|Y-You're right!|next||anim,-4,Idle||face,-5,caller||face,-4,caller||face,-6,caller||hide||anim,caller,101||fwait,2.2||hide||anim,caller,Idle|I just need to get fans of my own! Um...I'm hoping you'll be my first!|next|If there's any songs you like, I can play them for you. P-please bring berries and come hear me play soon!|next||destroyminibubble||hide||move,-4,7,null,6,1,1,0||move,-5,8.5,null,5.35,1,1,0||move,-6,5.85,null,5,1,1,0||movewait,-4||movewait,-5||movewait,-6||tail,-5||face,-6,-4||face,-5,-4|Vi|face,-4,-5|, that was fantastic!|next,-6||face,-4,-6|You being so uplifting... We must say we're surprised.|next,-4||anim,-4,Angry||face,-4,-5|I was just being honest! You don't have to make such a big deal about it!|next,-5|I assure you you've made a big difference today!|next,-4|Yeah, whatever...It's all up to her now, you know?|next,-6|She'll be fine. Let us drop by later and see what she can do.|break||event,false||end|
+|checkflag,6,19||tail,-4|Samira's been doing good.|next,-6|We do pay well.|next,-4|Geez, it's not just that. Other bugs come to hear her play too!|next,-5|Heh. I hope she gets a big following soon.
+I...I don't know who this bug is. But she seems very distressed, so we should speak to her.
+|checkflag,67,56||tail,-4|I think this is Ant Guard...seven?|next|Ant Guard number four used to occupy this post, but management |line|must have switched them around.|next,-5|She probably won't have an issue with us, well behaved as most of us are.|next,-4|I heard that!
+|checktrue,648,88|This Ant...I've never seen her before!|next|Or maybe I have? She seems to have no characteristics to make her stand out.|next||tail,-6|How tactful.|next,-4|That's Janet, Kabbu. Remember?|next,-5|By the holy spikes of Venus! I forgot Janet!|next,-6|So cruel, Kabbu. So cruel.|next,-5|I...I must go apologize... 
+This is a Pillbug.|next|Its tiny, round and docile nature makes it a very popular pet.|next||tail,-6|A pet, huh...|next||tail,-5|Pillbugs are also obedient, and simply adorable!|next||tail,-6|Maybe we could...|next||tail,-4|Don't even think about it. We're not getting one!
+Oh, Ann! She grows every time I see her!|next|She's such a great bug - she listens to all my stories without |line|complaining!|next||tail,-6|That sounded really sad.|next||tail,-4|We're not being...too mean to Kabbu, are we?
+|tail,-4|Tod's growing big and strong! |next,-5,Happy|He's such an adorable kid!|next,-6||anim,-5,Idle|So small. To think we looked like that, once.|next||tail,-5|You must've been cute as a baby, Leif.|minibubble,25,-4||next||face,-5,-6|I can easily imagine a small, grumpy, sleepy Leif.|next,-6,BattleIdle||face,-6,-5|...And you must have been a chubby whiner, Kabbu.|break||destroyminibubble||end|
+I'm not walking into this one.|fwait,1.5||blank|I must preserve my cute|fwait,1.5||blank|baby image!
+|hide||minibubble,@Pibuu!,caller,0.5||waitminibubble||end|
+|hide||event,28|
+!
+Ahh...everyone's so on edge now.|next|I should've moved near the Golden Path Tunnel, like that hermit...
+|tail,-6|You're Tod, right? We've taken your request.|next,caller|Really!? Did you find my ball in the tunnel!?|pickitem,1,0,true,false,31,32|
+|checkvar,0,25,62||checkvar,0,24,33|Aww...that's not it! Please hurry... Mom will be SUPER mad|line|if she finds out I lost it!
+Aw darn. Please hurry...Mom will be SUPER mad if she finds out I lost it!
+You really found it! Thank you! Mom won't get angry now...|next|Please don't tell her I went out by myself, either, pretty please?|next|Here, have this for helping me out!|break||giveitem,2,12,35|
+|tail,-6|Now, stay out of trouble. Don't worry your mother.|next,caller|I promise... Thanks again!|next,-5|Heheh. What a nice kid.
+|tail,-4|Alright! Another good deed, another reward!|next,-6|Now, stay out of trouble. Don't worry your mother.|next,caller|I promise... Thanks again!|next,-5|Heheh. What a nice kid.|removeitem,1,24||completequest,4||flag,52,true|
+Hey! You're explorers, right?|fwait,0.1||line|That's so cool! Someday, I want to be an explorer too!|minibubble,@Adorable!,-5||anim,-5,Happy||breakend|
+Hey, wanna hear something neat?|line|If you hold down |button,6|, you can scroll through some menus faster!
+It's a good day. Let's keep it that way.
+|boxstyle,3||spd,0|FOR SALE.
+|tail,-6|Ah, the inn founders.|next,-5|Indeed. We owe these cozy beds to them.|next|They'll be happy to know that every new owner took care of the inn with equal passion.|next,-6|Say, why do you think that is?|next|How they could work just as hard for something they didn't create?
+If you ask me, I think it's not about being the founders.|next|They probably shared the same ideals, that's all.|next,-4|You two are getting all sappy. Sounds like nap time!|next,-5||wavy|Yawn...|wavy| Maybe I am a bit tired...|next,-6|Shall we call it a night?
+A portrait of the inn's founders.
+The first settler's statue... It's nice to see this hasn't changed. Got a nice coat of paint, too.|next,-4|Hmm, isn't it weird? I heard the Queen led everyone here.|next|How come she didn't make a statue of herself?|next,-5|Apparently, the Queen was heading in a different direction when this ant got lost.|next|Rather than abandoning it, she decided to return with her people |line|to find the ant.|next|When they finally regrouped... They were standing in this very soil.|next,-4|Huh. So this whole town was built thanks to a clumsy ant?|next,-6|Life works in mysterious ways.|next,-5|The first Queen was extremely humble. Even if that ant hadn't |line|gotten lost...|next|I'm sure she would have wanted this statue. It resonates with the people.|next,-4,Happy|Meh. When I rule the world, every street will have my cute face in it!|next,-6|...Goodbye, Your Majesty.
+The statue of the First Settler.|line||line|"The Ant we thank for discovering this land."
+I wish I could just make Fry cook Honey for dinner every night...|next,-6|Mmm. Agreed. Maybe we should give him two honey drops instead of one.|next,-4|D-Don't do that! It's dangerous!|next,-5|What harm could some more honey do?|next,-4|Look. Don't ask me. Just don't do it.
+|createitem,0,1,-15,7.65,11.7,-1||mapflag,0,true||innsleep,-13.6,6.81,14.16,true|
+Agh! What the... 
+Uh, sorry. I think I'm a bit too old for the Bug Rangers...|next,-5,Angry|Pardon me!? Justice cannot be outgrown!|next,-6|...Ignore him, he can get very sensitive.
+|tail,-6|It's one of the Termites that sailed in with us.|next,-5|Seems like he has taken a liking to the inn! Business must be getting better.|next,-4|Hm...He looks rich doesn't he? I figured he'd want a fancier place!|next,-6|It's not like there's anywhere else to stay...
+Ah, Kabbu. Yo-
+I can feel it! The potential for this small inn to become a grand hotel!|next|So many things to invest in first, though...
+|event,true||tail,1000|Where are you going? The Queen|line|is waiting for us.|break||hide||overfollower,false||move,-1,0,null,18,1,1,0||movewait,-1||event,false||end|
+|tail,1000|We mustn't keep the Queen waiting.
+Ah, the Ant Kingdom's main pla-|next,1000|We mustn't keep the Queen waiting.|next,-5|... 
+|tail,1000||minibubble,60,-6|Alright, everyone. The palace is through that |color,1|gate|color,0| ahead.|next,-4|Let's hurry it up, then! It's big reward time!|next,-5|Ready to go, Leif? You seem |line|a bit pale.|next,-6||destroyminibubble|You don't need to worry. Let's go... 
+No time for that! We have to head to the castle!
+Oooh! Visitors!|line|Are you interested in the plays at the theater?|next,1000|No time. Let's head to the castle for now!
+|tail,-6|Sorry about that.|next,-5,Happy|Heheh! Well now...|anim,-5,Idle|Leif, after all you've gone through, you must be famished!@EVENTCOMMANDS@...Welp, he ain't the only one!|next,-5|We should grab something to eat.|next,-6|Yeah. It would also be a good time to prepare for the trip, would it not?|next,-4|Yup! And the commercial area is right over there!|next||flip,-5||end|
+|tail,-5|Indeed, and it's got it all! Medals, Items, and even a Chef! |next,-6,Idle|With all that's been going on, a little shopping wouldn't be the worst.|next,-4|Just go easy on the budget.|next,-4,Happy|Anyways, let's go hit up Fry for some food!
+(It's...|line|the same...|fwait,2.5||blank|...but different...|fwait,2.5||blank|Even the walls|line|look older...)
+|event,true||tail,-6||anim,-6,WeakBattleIdle|...Please. We need to eat.|break||hide||overfollower||move,-1,0,0,-9,1,1,0||movewait,-1||end||event,false|
+W-whoa, is that a green Bug Ranger plushie?! Can I really have this?!|next,-5,Angry||menu,46,2|! GIVE IT BACK!|next,-4|Hee hee hee!|next,caller|Aw man, what a bummer!
+|tail,-5|We can check this out later. Let's hurry to the castle.
+Looks like the city is already mostly back to normal. We still have |line|a lot of work to do, though.
+...Town looks more than fine...|anim,-4,Flustered|Did that poser lie to us!?|next,38||face,party,38||anim,-4,Angry|No. I can feel something is off. We must hurry to the Queen.|next,39||face,38,39|I shall accompany you. I do wish to talk to the Queen about the situation as well.|next,38|Yes, I shall escort you.|next||flip,38|Team Snakemouth, please join us whenever you are ready.
+...I have this uneasy feeling...|next|Something bad is going to happen.
+Hey...do you feel that?|next|...I-I need to go back to the castle... Something weird is happening.
+So the Wasps attacked again!?|next|Well, at least this time the city wasn't destroyed...
+Hey Kabs! You've been out.|next,-5|I'm sorry Ann, I don't get to babysit you much anymore do I?|next,-4|I can't imagine Kabbu babysitting!|next,-6|We can. Oh we can.|next,caller|Look at this cool thing I bought! I saved up all my allowance!
+What an adorable souvenir! It carries the warmth of the Ant Kingdom!|next,-4|......|next,-6|......|next,-5|Hm?|next|...! W-Wait, you two can't be-|next,-6|That's a pretty cool toy. You wouldn't uh. Sell it back, right?|next,caller|What? No. It was the last one in the shop!|next,-4|W-What if we got you a cooler toy!?|next,caller|Kabs, your friends are weird.|next,-5|Please excuse them. They, um, really need it.|next,caller|The only place that makes cooler toys is Metal Island.|next|No way I could ever afford going there...|next,-4,Angry|Ugh. That's where the boat at the ferry takes you to, right?
+It's like one bajillion berries.
+But the Wasps sunk it... 
+Welp... Let's find out how to get there without going broke.
+We probably can get there using the submarine! Let's go!
+Still, if we get a toy from there, you'd consider it?|next,caller|Yeah! It'd be a super fair trade!
+Welp... We'll just have to wait till a way to get there shows up.
+The only place that makes cooler toys is Metal Island.|next|No way I could ever afford going there... 
+|hide||event,162|
+Huh? You found a super cool toy?|pickitem,1,80,81|
+|checkvar,0,25,48||checkvar,0,143,82|Um...I wouldn't call this "cool". Try again?
+Not yet? Aw... 
+|flag,442,true||removeitem,1,143||align,left,true||face,caller,-1|W-woah...It's so soft! So |shaky|HIGH QUALITY!|shaky||next|Touch this petal. |shaky|TOUCH IT!|shaky||next,-4,Happy|Pretty cool, right? You wanna trade?|next,caller|Heck yeah! Thank you so much!|break||giveitem,1,142,83|
+|tail,-6,instant|Please take care of it. It's more expensive than we want to admit.|next,caller|I'll treasure it forever!|next,-5|Now we can bring this toy to our fellow bumblebee in Defiant Root!
+This toy is awesome! Thank you very much!
+|tail,-4,Happy|Heheheh...We're the best!|next,-6|Don't let the praise get to your head, Vi.|next,-5|Team...thank you once more.|next,-4|You've said thanks like a billion times already, stop!|next,-5||anim,-4,Idle|Err, right. Sorry....|next,-6|You don't have to say sorry either.|next,-5,Angry|Alright, fine! I'm coming out and saying it then! I have a request!|next,-6|What's up?|next,-5,WeakBattleIdle|Last time we visited the |color,1|Wild Swamplands|color,0| it was, um, most unpleasant.|minibubble,@Yeah...,-4||next||anim,-5,Idle|B-But could we go there once more?|anim,-4,Surprized||minibubble,@HUH!?,-4||minibubble,@Huh?,-6||next|I would like to...visit my friends.|anim,-4,Sad||next|And to let them know of our triumph.|next,-4|...Alright. Yeah. We can do that!|next,-6|Count on it, Kabbu.|next,-5|Do you two have any requests as well?|next||checkflag,445,86||checkflag,533,87||tail,-4,Idle|Nah. We're fine.|next,-6|Yeah. You've helped us enough. Let us pay you back.|next,-5,Happy|...Let's go, then!
+|tail,-4,Sad|Um, well...I still haven't fixed stuff with sis.|next|I uh, I've gotta apologize!|next,-5|Curses, I forgot!|next||checkflag,533,87||tail,-6|You've both helped us a lot already. We'll help you do these.|next,-4,Happy|Alrighty! Then it's our next mission! Let's go!
+|tail,-6,WeakBattleIdle|...Truth be told, it'd be nice to look into our past a bit more.|next||anim,-6,Idle|We've got to find out what the Sand Castle's crystal was for.|next,-4|Oh, yeah!|next,-5,Happy|We've got our missions, then. Team Snakemouth, let's solve these!
+|tail,-6|Janet's power was not something we anticipated.|next,-4|She's gotta be mad rich to get to the tournament, too...|next,-5|Even the most humble looking can hide such surprises!
+Hey, Leif. Hope we get to play again sometime.
+No new quests! ...And there haven't been any for a while. |line|You helped a lot of bugs, huh?|next|Make sure to let Eetl know!
+|takeopenquests,92|Well, ok! Make sure to read them in your quest log, alright?
+Looks like we don't have any open quests right now, but I will tell you if we do get any!
+Nothing, thanks.
+We want to take all open quests.
+...I hope the statue gets fixed soon. It's depressing to look at...

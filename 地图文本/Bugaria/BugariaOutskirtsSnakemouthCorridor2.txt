@@ -1,0 +1,2 @@
+There are spiked bushes everywhere.|next|I should be able to cut through these with ease.|next,-4|Just watch yourself. I don't want to patch you up if you get hurt!
+|boxstyle,3||spd,0|Want to know more about the enemies you're fighting?|line|Don't forget you can |color,1|Spy|color,0| using the |color,1|Strategies|color,0| menu during battle!

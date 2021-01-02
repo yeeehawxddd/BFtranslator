@@ -1,0 +1,3 @@
+|tail,-4,Sad|Everything is...|next,-5|Come, Vi! We must press on!
+... 
+|tail,4|This is MY stage! How dare you even get near it!?|next,6|You dare oppose us!?|next,5|Don't underestimate him, Mothiva!|minibubble,@I know!,4||breakend|

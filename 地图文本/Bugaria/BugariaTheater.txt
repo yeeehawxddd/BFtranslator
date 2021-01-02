@@ -1,0 +1,67 @@
+|tail,-6|Ain't this place fancy.|next,-4|A bit too fancy. It's straight out of the Bee Kingdom. Yuck.|next,-5|You know, Vi... for someone who cares so much for treasure, you dislike most high-class establishments.|next,-4|It's just too pretentious! Use money to eat good food, or go on a trip!|next|I hate when bugs use money just to look important!|next,-6|Ah, Vi. You're not too bad after all.|next,-4|What's that "after all" supposed to mean?|next,-5|Just take the compliment, Vi. Just take it.
+Fuzzo's part of the traveling caravan that comes through|line|Bugaria.|next,-4|What's he doing here anyway?|next,-6|This place will fill up with fancy folk. Maybe he is selling expensive items.|next,-5|We should speak to him, perhaps he has something of use.
+|tail,-4|Hehe. Chubee's always traveling and looking for good stuff, huh.|next,-6|And she's one impressive eater.|next,-5|It makes me happy to see you have other friends, Vi! 
+|tail,-4|Woah, Chubee's an actress!?|next,-5|It seems she holds many talents, aside from eating!|next,-6|If she's as good at acting as she's eating, this should be good. 
+|event,true||align,right,true||face,caller,-1|Heh. You look like smart bugs.|next,-6|Some of us are.|anim,-4,Angry||face,-4,-6||next,-5|Can we help you?|next,caller||face,-4,caller|Heh heh. Sure you can. I've got an offer you just can't beat.|next,-4,Idle|Gold? Some legendary berry?|next,-6|Perhaps a powerful Medal?|next,caller|Heh heh. Take a look... at THIS!|break||event,35|
+|tail,-5|...!|break| Is...is THAT...!?|next,caller|Indeed it is, you bunch. This is a |color,1|LIMITED|color,0| print edition of the |color,1|Green Bug Ranger|color,0|!|next|Only |color,1|10|color,0| of them were ever made!|next,-4|Eh. It's alright, I guess.|next,-6|...Bug Ranger?|next,-5|P-please, esteemed merchant... name your price!|next,-4,Angry||face,-4,-5|Oi, Kabbu!|next,caller|Heh heh. For you, how about 40 berries?|next,-5,Hurt|Hngh! A bit steep...|next,-4,Angry|...Kabbu, if you spend all the berries we made in Snakemouth here, I'll never forgive you.|next,-5,Hurt||face,-5,-4|......|next,-6|Kabbu.|next,-5,Idle|D-Don't worry, you two.|next|I shall save up and buy it myself.|next,-4,Idle|Fine. It's your own money.|next,caller||face,-5,caller||face,-4,caller|Heh heh. I will be waiting.|flag,57,true|
+|align,right,true||face,caller,-1|So? Still up on my offer? 40 berries for that limited edition Green Bug Ranger plushie!|showmoney||prompt,map,2.5,2,7,8,-57,-58|
+|checkmoney,40,9||money,-40|Heh heh. Nice doing business with you.|break||giveitem,1,25,10|
+Heh heh. This offer won't last forever, mind you.
+Sorry friend, no money no sell. That's how business works.|next|I'm already cutting a lot of profit from this item just for you!
+|flag,58,true||event,36|
+|anim,-5,Happy|Hehe.|next,-4||face,-4,-5|Well? Are you happy now?|next,-5|I am happy beyond words!|next,-6|We don't see the appeal of this doll.|next,-4,Idle||anim,-5,Idle||face,-4,-6||face,-5,-6|You've been missing out!|next,-6|...Sorry for being so |wavy|uncultured|wavy|.|next,-5|They're just actors, but they inspire young bugs all over the land. Even |line|in the north!|next,-6|The power of propaganda.|next,-4|They're good, alright? And sometimes they do reruns at |line|this theater!|next,-5|Say, Leif. Next time they're in town, we can all go watch them!|next|Maybe you will take a liking to the Blue Ranger!|next,-4|No way! Yellow Ranger is the best!|next,-6|...Heh. Thank you. It sounds like a fun time. We'll take you up on that.|next,-5,Happy|(...Heheheh. It's so soft.)
+I am done here. If you want more deals in the future, meet me wherever the caravan travels to.
+Oh, hey Vi! Had a good festival?|next,-4,Happy|Yup! We got some good treasure too!|next,-6|Are you here to see the play?|next,caller|Heheh. Something like that... Bugaria's full of talent, isn't it!?|next,-5|Indeed! Although theatre is under appreciated.|next,caller|Yup...Anyways, let's go grab a bite later, Vi.|next,-4|You got it!|flag,62,true|
+Heheh. Hope the play gets sorted out soon...
+|boxstyle,1||shakecamera,0.1,0.25||sound,Wam,-1,1.1,0.6||shaky|OH, BUGLIET. YOU SHINE SO BRIGHTLY...|shaky||next,-5||boxstyle,0|Hello, what are yo-|blank||tail,caller||boxstyle,1||sound,Wam,-1,1.1,0.6||shakecamera,0.1,0.25||shaky|OH BUGMEO, YOU DAZZLE ME SO!!!|shaky||next,-6||boxstyle,0|Heh, yo-|blank||tail,caller||boxstyle,1||sound,Wam,-1,1.1,0.6||shakecamera,0.1,0.25||shaky|BUT WHY THEN, MUST FATE COME BETWEEN US!?|shaky||next,-4||boxstyle,0|As much as I want to keep this going, we should probably just go.
+|tail,-4|Oh, I know this guy. It's M.M.!|next,-6|That's not a real name, is it?|next,-4|Nah, but no one knows who he really is!|next|No one has seen him without his mask!|next,-6|Half of his face is visible...|next,-4|That part is a mask too!|next,-6|What?|next,-5|Unbelievable! I must go rip the mask off myself!|next,-4|No! You're staying right here with us!
+|flip,caller,false||teleportparty||align,right,true||tail,-4|Hey, Chubee!|next||face,caller,-4||tail,caller|Vi, you're going to participate?|next,-5|Miss Chubee, you're the actress mentioned in the post?|next,-6|A fierce eater, and also a talented performer...|next||tail,caller|It's nothing! You'll all do great! We just have to rehearse!|next,-6|No audition? |next,caller|M.M.'s a bit desperate...|next,-5|We can start as soon as you are ready.|next,-4,BattleIdle|Let's do it!|break||event,39||end|
+W-Wait Vi, you've gotta be careful.
+V-VI! WATCH OUT!!!
+..........
+|wavy|Sigh.|wavy| W-Well, I think we're ready.|next|People are coming in, I believe in you!|next,-6|Hopefully that won't be misplaced faith...|next,-5|Let us do our best. This play carries a lot of people's efforts!|next,-4,Idle|And we're actually getting paid. Let's do this!
+|face,caller,-1|Ya ready to go?|prompt,map,0.7,2,23,24,@Yes,@No|
+|event,40|
+Audience's getting impatient. Don't take too long!
+Once upon a time, there laid a kingdom in a desert with an immense |line|oasis.|next|Travelers from all over the world wished to visit. For its clear water |line|and its beautiful ruler.|next|The princess would greet all who came with smiles and hospitality.|next|It was so, how an evil prince fell in love... 
+I cannot leave my people. They are my pride, my joy!|next||gettail,138|Oh, how I wished for thee to make this easy.|next|You have left me no choice!
+No... Stop, stop!
+No... The kingdom...! How dare you! I will never love you!|next||gettail,138|You say that now, Princess.|next|You will forget these lands when you witness all I rule over!
+Halt, you fiend! You will sully the princess no longer!|next,-4|Yeah! Uh, give her back!|minibubble,30,-5||next,-5|W-We will stop you!
+|wavy|(She forgot her lines...!)
+|anim,this,Idle||shaky|Minions!|shaky| Get rid of these pests. We have places to be.
+The crowd went up and left.
+Alright, let's kick their butt!|minibubble,34,-5||next,-6|You freakish beasts, you dare stand between us and the princess!?|next|You chose poorly. Prepare yourself!
+|wavy|Sigh... 
+H-Help me! Somebody save me!
+Curses! That villain escaped with the princess.|next,-5|Whatever shall we do now? How will we face the people!?|next,-4|We will get her back! After them!
+The unlikely heroes left their loved homeland behind, with the princess|line|in their heart.|next|The journey was long, and the desert unforgiving... 
+|shaky|Water... Oh gods, guide us to water...|shaky||next,-6|Do not complain! Our suffering is slim, compared to what the |line|princess faces.|next,-4|Ugh, I bet she's getting treated real nice.|minibubble,39,4||break||destroyminibubble||end|
+|shaky|(V-Vi! What are you doing?!)
+Oh, bandits! We are in such trouble!|next,-6|Out of our way, scoundrels. We have no time for thee.|next,-4,BattleIdle|Yeah! Or face my beemerang! I mean, blade!|next||gettail,57|Nyehehe. You shouldn't have come to the desert...|next||gettail,58|...In such expensive clothes!|next,-6,BattleIdle|Your greed knows no end... Prepare yourself!
+...They fled...?!|minibubble,42,4||next,-6|Uh.......Oh, this battle has given us such renewed strength!|next|We must reach our liege with haste!
+|shaky|Security!
+T-Too strong!|next||gettail,57|Let's get outta here, boss!
+We are saved! Honey!|next,-4,Happy|It's our lucky day!|next,-6,Idle|Eat quickly, for there is no time to celebrate.|next|We must reach our liege with haste!
+Let me go already, you monster!|next||gettail,138||boxstyle,0|Even with all my riches, with the grandeur of my land...|next|You would still reject me!?
+Stifling heat and frigid nights were no match for the knights' spirit. They reached the prince's lair with fire in their eyes.|next|And now, it was time to take back what they had lost... 
+Oh, the evil prince. He is so scary and imposing!|next,-4|Hey! Give the princess back!|next,-6|You will pay for your crimes!|next,4|My knights! You've come to my aid!|next||gettail,138||boxstyle,0|Why... Why must fate work against me?
+Very well. I shall end thee, and take all I want by force!
+No...I can still fight!|next|I will show you my true power!|next,-6|No... We are too drained from the fight!|next,-5|Is this the end for us...?|next,-4,BattleIdle|Hey, I can still fight!
+AAAAAAAAAAAA-|fwait,0.5||end|
+Huh?
+What?
+Wait... 
+Uhh... 
+|shaky|Mommy!
+Wah... 
+|shaky|N-No!|shaky| It's...ruined...
+...|next,-5|We... we're sorry.|next,caller|...I made up some excuse with the owner...|next|They'll let us try again tomorrow, thankfully.|next,-4|C-Chubee...|next,caller|Let's rehearse again, okay? We can do it!|next||flip,caller|(...I hope... )
+That is for kidnapping me, you cruel tyrant!
+WOOOOO!
+Oh, my knights...I thank you for all you have done.|next|In the name of my mother, the Queen...I grant you the highest honors.|next|To stay by my side as right-hand bugs, as we restore our kingdom.|next,-6|It was all for you, Princess.
+|tail,-4,Happy||showmoney|Nyehehehe. Thanks, Chubee.|next,caller|Honestly, a lot of people are asking for an encore.|next|Guess I'll stay till they're bored!
+Heheh. I knew I could count on ya! It went great!|next,-6|It went way better than great.|next,-5|I didn't really like my role, but I managed.|next,-4,Happy|It was super easy. Now, for payment...|next,caller|It's a bit weird to be paying Team Snakemouth! Heheheh...|break||giveitem,-1,30,62|
+|wavy|Oooh!|wavy| Team Snakemouth, our heroes! I've prepared a special play just for you! Would you like to sit and watch it?|prompt,yesno,65,66|
+You will not be disappointed! BEHOLD!|break||event,204||end|
+I hope you make time to watch it soon! I worked quite hard on it!

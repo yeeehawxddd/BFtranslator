@@ -1,0 +1,3 @@
+|tail,-4,Sad|Oh no! The palace!|next,-5|We must hurry!!!
+|shaky|I couldn't...protect...|shaky|
+...|next,-5|Save your strength! We'll take care of this!

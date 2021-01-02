@@ -1,0 +1,7 @@
+|checkflag,138,2||tail,-6|Hmm...the route to the Lost Sands.|next,-4|What's got you thinking, Leif?|next,-6|Eh, not much. We're just glad to see they've built a bridge.|next|We used to have to hop on a bunch of small rocks. Seems the river's swept those away.|next,-4|Woah, that sounds super fun!|next,-5|Personally, I'm grateful it was built when I came to the Association!
+|boxstyle,3||spd,0|North: Lost Sands.|line|East: Metal Lake, Bugaria Pier.|line|West: Ant Kingdom.
+|tail,-6|Hmm...the route to the Lost Sands.|next,-4|What's got you thinking, Leif?|next,-6|Eh, not much. We're just glad to see they've built a bridge. Even though it's raised.|next|We used to have to hop on a bunch of small rocks. Seems the river's swept those away.|next,-5|Personally, I'm grateful it was lowered when I came to the Association.|next,-4|I wonder why it's up now, though... 
+Ah, geez! How does this bridge work!? Where's the worker?
+I hope we cross soon. These Underlings don't play nice at all!
+Woah, thanks!|next,8|Mhm. We were stuck here for a while.|next,-4|It wasn't much!|next,7|We'll get going now. See you in Defiant Root!|next,-5|Be careful, now!
+|tail,-4|It's Gen and Eri!|next,-5|They seem stuck. Let us find a way for all of us to cross!

@@ -1,0 +1,46 @@
+...We did it.|next,-6|Frankly, it's a bit surreal.|next,-4|It was a super, super long mission...|next|But we saved everyone! Heheh, being famous too doesn't hurt!
+|tail,-6|The Queen's gone all out with this celebration, has she not?|next,-5|It's great to see such a joyous mood in town!|next,-4|Heheh. All we've gotta do is go get our super reward!
+You can keep a secret, can't you?|next,-5|...Just this once.
+Seems I missed a ton while traveling. I'm Mar. Thanks for |line|protecting my hometown.
+Being in prison was hard...I'm gonna sleep for 3 months after this.
+You're my heroes! Won't you sign my scarf?
+Yer m-my he-|shaky|*burp*|shaky| HEROES so uh...|next|I wrote you a s-|shaky|*burp*|shaky|song! CHECK THIS O-|shaky|*burp*|shaky||next||hide||fademusic,0.1||fwait,1||anim,caller,100||sound,Mandolin||fwait,18.2||anim,caller,Idle||music,Field6||hide|...|shaky|*burp*
+|hide||minibubble,@Effo!,caller,0.5||waitminibubble||end|
+Hah. All these? Just a few contracts I brought from work. For fun!
+You took good care of the place, Vi. And of our land. Thanks!|next,-4,Happy|Heheh. It was nothing!
+|hide||minibubble,@Pibuu!,caller,0.5||waitminibubble||end|
+Hey! Thank you for everything! Let's enjoy the party!
+No one's going to watch a play on such a MONUMENTAL day!|next|I shall sit back and enjoy the show from backstage this once.
+|tail,24|Wow! You two are my idols!|next,25||face,25,24|Naturally. Word of my skill was sure to spread.|next,21||face,21,24|Hahahaha! Kut, you must polish your social skills, too!
+|anim,caller,Happy|Today's gonna be such a business boom! Thanks for all your patronage!
+T-Thanks for always encouraging me! I hope my songs helped you too!
+|tail,-4|Woah! Everybody's here!|next,-6|Many of the people we helped are here...|next,-4,Happy|It's pretty nice, huh.|next,-5|This is what I meant, Vi. Helping others truly becomes a reward!
+|tail,5|I overheard some guards...It seems our kind may walk this land again soon.|next,17|I'm...so relieved...|next,18|Seeing the world was great, but nothing beats coming home.
+I've never seen such variety of bugs! What an opportunity to market the Termacade!
+After both invasions, I'm glad to see the peace.
+|tail,22|I've gone out of stock! There's too many visitors!|next,23|Hahaha! That's a good problem to have, ain't it?|next|Thanks for your patronage too, Team Snakemouth.
+Everyone! I'll run off to the palace ceremony soon.|next|I just wanted to be the first to say you're awesome!|next,-4|Aww...|next,-5|Thank you, Chubee!|next,-6|You're awesome, too.
+Oi. There was a party for the strongest, right?|next|Nothing here, though!
+I've been storing a special item for you...my super big thanks!
+|tail,-4,Angry|Oi! Get out of our house!
+Thank you for making Bugaria a safe place!
+Team Snakemouth!|fwait,0.2||anim,caller,Angry| You inspire me to be super brave!
+|tail,34||face,34,33||face,33,34|Nothing like a ceremonial duel!|next,33|Heh. Shame Arie couldn't make it...
+|anim,caller,Happy|You young'uns did it! You've come so far!|next,-5,Happy|Hehe. Thanks, Chuck! Enjoy the feast!
+Heheh. Nero's having tons of fun! This is a splendid final stop!
+|hide||sound,Nero||minibubble,@Nibuu!,caller,0.5||waitminibubble||end|
+Hey, don't worry about the quests today! Have fun!
+|tail,36||face,36,57||face,57,36|Wow... The Ant Kingdom is beautiful!|next,57|Traveling the sands is safe now, thanks to Team Snakemouth!
+|tail,39||face,39,40||face,40,39|Whoops, I left my lunch...|next,40||wavy|*Sigh*|wavy| ...It's fine. They're handing out food later.
+I knew the Bug Rangers would save us! Oh my gosh!|next,-6|Err, thanks for believing in us.|next,caller|You've gotta have some party stew later!
+Dark Cherries...make strong items. But expensive...
+Wow, you didn't tell me you were a real super hero!
+Hehehe...She's so happy now. I thank you, once more.
+|anim,caller,Sad|I...I'm so glad you're fine!|next,-4|You worry way too much!
+You travelled the seas to defeat the enemy? You're brave...or nuts!
+|hide||minibubble,@Poppy!,caller,0.5||waitminibubble||end|
+Look, I'm your fan. Got lots of leisure time, too. |next|But this party's making me late for breakfast...|next|...|shaky|What do you mean it's lunch time!?|shaky|
+So sleepy...so hungry...zzz...
+Phew. I'm just glad life's gonna go on as usual...
+|tail,-6|And miss the party? No way we'd leave now.
+|bleep,5,2.5|Uncle Iron Seed! I was told there was a party for the strongest...|next|But Tanjy's not here! And he's the strongest bug I know!|next,-5|......|next,-6|Let it go, Kabbu.

@@ -1,0 +1,71 @@
+|tail,-4|Woah. I'd never actually seen the pier up close before!|next,-6|Up close, Vi?|next,-4|Mhm. You can kinda see it from all the way up in the Hive...|next,-5|It must be exciting to see those far off lands!|next,-4|I mean, kinda... But after Snakemouth, I ain't too fond of the|line|water.|next,-6|Say the word, and we'll freeze the whole ocean.|next,-5|N-Now, it's enough to just tread carefully... 
+|boxstyle,3||spd,0|Come in! Eat the best seafood at the Pier Stop!|line|Now serving Roasted Berries!
+|boxstyle,3||spd,0|BUGARIA PIER SPECIAL OFFER:|line||color,1|Metal Island Round Trip!|color,0||next||spd,0|Previously |color,1|500|color,0| berries per bug, now only |color,1|100|color,0| berries per bug!|line||line||color,1|LIMITED TIME ONLY!|color,0|
+Hm. You look disappointingly poor. But I'll ask out of decency...|next|Would you three fancy traveling to |color,1|Metal Island|color,0|? 300 berries for the round trip.|goto,15,keep|
+Running the quest board's so boring. I miss staring at the |line|sea from our boat!
+I've tailored my very own floatation device! Now I won't sink, |line|even if it rains!
+With these gadgets, I can put my face underwater and look around.|line|Someday, I'll see the sea's hidden mysteries!
+It's a shame, but they've run out of tea. Oh, the flavor a leaf and some water can bring forth... 
+Bugs be thinking of the sea as some vacation nowadays. They best watch out, cuz it don't play around... 
+|tail,-6|We meet again...|next,-4|He really is everywhere!|next,-6|Hope you won't mind if we stay for a snack.
+That device looks quite fascinating! I won't lie, I feel the|line|need to try it on...|next,-6|It looks like it'd fit you just fine. Maybe you should ask.|next,-4|No way! His horn would slice through it!|next,-5,WeakBattleIdle|...! I didn't consider that...|next,-6|You sliced through his hopes, Vi.|minibubble,@Oops...,-4||breakend|
+|tail,-4|These ants are nuts! Who even wants to go into the water!?|next,-6|Agreed. It's nuts.|next,-5|I'm not saying I want to swim, but... Isn't there a thrill to overcoming |line|our insect limitations?|next||anim,-5,Angry|To break through the limit, to explore frontiers we never dreamed of reaching!?|next,-4|Nuh-uh!|anim,-5,Hurt| I wanna stay dry!|next,-6||anim,-5,WeakBattleIdle|There, there. It's gonna be okay, Kabbu.|next,-5||wavy|Siiiiiiigh.|wavy|
+That poor sailor...|next,-6|What do you reckon happened to him?|next,-4|Dunno... It's just the sea.|next,-5|I feel like it'd be best if we didn't try to figure it out. It could be most unpleasant.
+|checktrue,370,32||tail,-4,Angry|Grr...|next,-5|Err, Vi?|next,-4|How can they charge so many berries for a boat ride? It's insane!|next,-6|We thought you hated the water, Vi.|next,-4|You don't get tired on a boat. And it's way less tiring than flying to an island!|next,-5|The boat must be quite expensive to maintain...|next,-4,Flustered|I don't care! It's too many berries!|next,-5|Guess we'll have to save up, or wait for a better deal.
+|tail,-6|This bug's fashion sense is impeccable.|next,-4|What about me?|next,-6|You're doing just fine.|next,-4,Angry|Oi, just say I look good!
+|showmoney||prompt,map,3,2,16,17,@Let's go!,@That's too expensive!|
+|checktrue,245,19||checkmoney,300,20||money,-300||goto,21|
+Psh. Don't waste my time then.
+Hm! Card Players, eh? Actually managed to defeat the Masters?|next|Very well. 90 berries the round trip to |color,1|Metal Island|color,0| for the three of you!|goto,15,keep|
+|checkmoney,90,20||money,-90||goto,21|
+What?! No money, no trip! Get out of here!
+...That's all berries accounted for. Hop on! Our destination: Metal Island!|break||flag,419,true||event,107|
+Well, here we are. If you ever want to head back, you know where to find me.
+|wavy|M-my boat...|next|The Wasps sunk it... 
+We had just received reports that the Wasps were sinking ships. But by the time we arrived they'd left.|next|At least there were no casualties.
+Darn...I was just about to test my new flotation device... but I am not going in the water with the Wasps around!
+Well, I suppose the sea mysteries will have to be left to another time.|next|There are Wasps all around Metal Lake. They all headed towards Rubber Prison.|next|I hope Metal Island is fine.
+These blasted Wasps... thinkin' they own the sea...|next|The sea never forgives.
+I'd rather be out at sea than here, but now is one of the few times I actually want to stay here.
+Yer feel like taking that request?|prompt,map,0.5,2,30,31,@Yar,@Nay|
+Do it and do it right will ya!
+Got cold feet, eh?
+|checktrue,419,33||tail,-4|Yikes, they really did sink his ship.|next,-6|We have some regrets. It would've been nice to ride on it.|next,-5||goto,34|
+|tail,-6|It seems they really did sink his ship.|next,-4|Even if it was super overpriced, it was an awesome ride! It didn't deserve this!|next,-5||goto,34|
+We must take down the Wasp King in the name of everyone, even this poor sailor!
+Y-your Majesty! You have returned!|next,elizant|Indeed. That was an experience like no other...|next,-5||face,elizant,-5|I-I'm glad we've all made it.|minibubble,@S-Same...,-4||next,-6|It was surprisingly sturdy.|next,scientist|So this is Bugaria. It's greener than I'd heard of.|next,girl1|The sunlight is so warm...|minibubble,36,girl2||next,owner|And the breeze so heavenly!|next,elizant|It is my pleasure to welcome you to our land.|next,-6|What's our next step, then?|next,elizant|I will escort our allies to the city, as part of our deal.|next|Wedge, was it?|next,scientist|Yes, Queen?|next,elizant|I trust the royals have briefed you on your task.|next,scientist|Yeah. I'll try to fix the sunken ship! Guess I'll sightsee later...|next,elizant|Team Snakemouth!|next,-4|Ready to go!|next,elizant|You are to take the Subaquatic Maritime Neotransport, and head towards |color,1|Rubber Prison|color,0| immediately.|next,-6|By ourselves?|next,elizant|When the ship is fixed, we'll send reinforcements. But we're at risk of being|line|sunk again. We have no time anyway.|next|Please, wreak as much havoc as you can. Clear a path for us.|next,-5,BattleIdle|Very well! My horn's eager to deliver justice to those rascals!|next,elizant|Err, yes. Deliver as much justice as possible.|next|I have a small gift for you.|break||giveitem,-1,100,37|
+Too warm, though... 
+|anim,-4,Happy||minibubble,38,-4|I believe this will help you gather supplies.|next,-6|It's more than enough. Thanks.|next,elizant|We're at the crux of this long chapter of history. Spare no dime in your preparations.|next,-5|Leave it to us! Together we'll triumph!|next,scientist|I'm all fired up too! I'll start work right away!|next,elizant|We're all counting on you.|next|...Good luck, my friends.
+Yahoo!
+Woah! That crazy ship is yours?|next|Looks a bit weird but pretty sturdy, it should be able to survive the Wasps!
+Well... No time to lose! I'll fix the ship and bring reinforcements to Rubber Prison ASAP.|next|Go on ahead, and soften them up before we get there!
+Heyo! Nice ship you got there! Never saw one like it.|next|Guess this means you can get to Metal Island for free, eh?
+|tail,-6|That gear... Are you by chance Eetl's friend?|next,caller|Hm? Aye. Why? Somethin' happen?|next,-5|Heheh. Surprise! Sir Eetl's got something for you!|pickitem,1,43,44|
+|tail,caller||checkvar,0,25,45||checkvar,0,149,46|You sure that's right...?
+|tail,caller|Huh? Alright then.
+Woah, I didn't know Eetl had this on him!|next,-5|WHAT!? E-Excuse me, not that!|next,caller|Awww...
+Ah! He got the thing, finally.|next,-4|What is it!? A super rare Medal!?|next,caller|Just a part to improve my gear. You gotta thank Eetl for me.|next,-6|...Why'd he make such a big deal out of it, then?|next,-5|What matters is it's been delivered safely!|next,-4|What matters is the reward, Kabbu. The important part!|next,caller|This should 'bout cover the walk. Thanks to you too.|break||flag,481,true||removeitem,1,149||giveitem,2,71,47|
+|tail,-6|We don't see why you'd want to go underwater but...good luck with your gear.|completequest,49|
+|checktrue,350,41||checktrue,347,25|Thanks for dat aye, good luck out there!
+Hello there! Welcome to Pier Stop! Nice day we're having, huh?|goto,52,keep|
+Hello there! Welcome to Pier Stop! Sure we are having hard times now, but you can always stop here to eat!|goto,52,keep|
+Hello there! Welcome to Pier Stop! I'm glad everything is over, so back to business we go!|goto,52,keep|
+|next|What can I get for you today?|line|There's a Roasted Berries special, and some freshly squeezed juice too!|showmoney||prompt,map,0,3,54,55,53,@Roasted Berries - 10 Berries,@Berry Juice - 8 Berries,56|
+We are always open for business! Come back anytime!
+|checkmoney,10,57||checkinvqtd,0,full,58||money,-10|One order of Roasted Berries coming right up!|break||giveitem,0,34,59|
+|checkmoney,8,57||checkinvqtd,0,full,58||money,-8|Alright! Here it is, the best freshness!|break||giveitem,0,39,59|
+Nothing, thanks!
+Woops! Sorry, seems you're a bit short on cash. We will be waiting your next visit, though!
+Uh oh! Looks like you can't carry anything else! We are always open, so|line|come back later!
+Thanks for stopping at Pier Stop! We hope to see you again soon!
+Phew. Managed to rebuild the ships. Hope everything goes well in Rubber Prison.
+Hmph. Might as well take this opportunity to retire...
+|tail,-6|Pier food's got a certain something.|next,-4|It's, uh, saltier?|next,-5|It must be something in the area's water, perhaps?|next,-6|As long as we don't get food poisoning, it's fine.
+|tail,-6|What's this...uh... We don't really know how to describe it.|next,-5|It's a steering wheel, Leif!|next,-6|...A what?|next,-4|It's to drive boats around in the water!|next,-6|...Hmm. Even when you explain it, it's hard to imagine how it works.|next|Back then, boats were way simpler.|next,-4|Well, you DO have to study a lot to drive a boat...|next,-6|We feel quite outdated...|next,-5|Keep your head high, Leif! There's so much to discover in this pier!|next,-4|Yay...learning...|discovery,49||flag,654,true|
+|boxstyle,4||spd,0|The complex gadget used to control a boat's direction.
+I...I can't abandon the sea. Retirement was too boring...|next|Someday...Someday I'll rebuild my dear ship!
+|tail,-6|The Wasp King's been toppled, but it won't bring his boat back...|next,-5|That is the reality of conflict...but he hasn't given up!|next,-4|If it's his dream, he'll get to sail again!
+Now that there's peace, I can say it again! I want to go out into the sea!
+The sea's claimed vengeance on those darn Wasps. Now we can |line|sail again.|next,-6|(The sea didn't do anything...)
+Woah! That crazy ship is yours? I hope I can board one of them someday!
+How fortunate that Wedge's so efficient!|next,-6|And enamored with Bugaria.|next,-4|And super fired up!|next,-6|Oh, he's blushing. He must have heard us...

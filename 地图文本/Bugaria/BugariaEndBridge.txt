@@ -1,0 +1,28 @@
+Everyone here has supported our journey...|next,-6|We couldn't have done it alone, that's for sure.|next,-4|And that's ok! When you work together you can do cooler stuff!|next,-6|...You've matured, Vi.|next,-5|Four bees' worth!|next,-4,Happy|...Thanks.
+Are you ready for the ceremony?
+|tail,16||face,16,-4||face,17,-4|You really did it!|next,17|Sorry we couldn't help more... We owe you! 
+|tail,16||face,16,-4||face,17,-4|We really did it, Team Snakemouth!|next,17|I think we're like, better explorers thanks to you!
+|tail,14||face,14,-4||face,15,-4|The kingdom is safe. What a relief!|next,15|We, uh, couldn't have done it without you...Thanks.
+|tail,15||face,14,-4||face,15,-4|We did it! ...I think we all need a vacation.|next,14|Hahah! Nonsense. We must work together to keep the peace!
+Kabbu, everyone...I've always known you would do great things!
+The Roaches live!?|anim,caller,Flustered| I've got so much research to do!
+Not surprising you'd help us, after the factory.
+Say, Leif. With the factory and this solved, need an examination?|next,-6|Let's, uh...let's say we figured it out.
+The professor's being really nice today! Phew...
+...The professor didn't let me play Spy Cards with the others...|next|Being professional sucks sometimes...I-I mean! Thank |line|you so much for everything!
+...I feel quite calm. Thanks, runts.|next|Honestly, at my age it feels like it's not my problem...but it's nice to see things turn out fine.
+The Bee Kingdom...all kingdoms owe you. Please accept my humble thanks.
+All kingdoms...and my family are safe thanks to you. Words aren't enough.
+You should've told us you were protecting all of us!|next|Hehehe...I'll bake you a cake later. Make sure to come eat it!|next,-6|...Hehe. Yeah, Muze. That sounds great.|anim,-5,Happy||anim,-4,Happy|
+Woah! My uncle's SO COOL! EXPLORERS ARE AWESOME!|next,-6|Ah, um...thanks.|anim,-5,Happy||anim,-4,Happy|
+Greatness runs in the family, eh?|next|You gotta tell us about yer adventures sometime! How about |line|over our next dinner?|next,-6|You got it, pops. Hope you're ready for a long one.|anim,-5,Happy||anim,-4,Happy|
+Let's relax, shall we? There's a good mood today.
+...|next,-5|Mothiva, thank you for helping us!|next,caller|...! O-|wavy|Ohohoho!|wavy| It was nothing!|next|.....|anim,caller,Angry|.....|anim,caller,Hurt|.....|anim,caller,Idle||next|Thanks.|anim,-4,Surprized||anim,-5,Surprized||anim,-6,BattleIdle|
+Venus insisted on coming to thank you...I must keep her hidden!
+Aria worries too much! ...Thanks for helping everyone out!
+Ellie's so happy today! It's all thanks to you nice kids!
+Vi, Kabbu, Leif. The Bee Kingdom extends its utmost honor and gratitude.|next|Vi...you've made me so proud! You've opened new frontiers for |line|all Bees!|next,-4,Happy|A-Ahahaha...Yeah! I really did!|next,caller|I hope you'll come visit more often, my dear child.
+|anim,caller,Happy|Vi...you're the best explorer ever, you know that?|next,-4|I'm gonna need a huge painting! From the most talented artist in the Bee Kingdom!|next,-4,Happy|When can you start making it?|next,caller|Ahahaha! Oh gosh, Vi! Go to your ceremony already!
+My people are free...I will never be able to thank you enough.|next,-6|You don't need to, it was the right thing to do.|next,caller|So humble! Please, I hope you'll visit our Kingdom now that the dust's settled.
+|tail,-5|...Umm...|next,caller|...Let us start anew after the ceremony, yes?
+We couldn't quite transport Layra to the ceremony...|next|But she sends her regards. I do, as well!

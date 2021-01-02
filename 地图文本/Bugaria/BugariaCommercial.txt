@@ -1,0 +1,162 @@
+|tail,-4|This is the commercial area, the best area of them all!|next|There's a Medal Shop, a Chef...|next|And Madame Butterfly's store! No other store can compare!|next||tail,-6|Commerce excites you too much, Vi.|next||tail,-4||checktrue,140,158|Heheh. And there's a little something else. But I can't |line|tell you what it is!|next||tail,-5|I suddenly feel like leaving no stone unturned... 
+We're clearing out this lot. Then, someone will be able to purchase it |line|and build on it.
+Yes
+No
+|checkflag,140,26|An entrance to a shady place. I am uneasy doing business there.|next||tail,-4|Don't worry, you have me here, don't you?
+Welcome to my humble shop.|line|Do you need something?|prompt,map,2,3,9,12,11,6,7,8|
+I want to buy!
+I want to sell!
+Nothing really.
+If you wish to purchase something, stand in front of the item you desire |line|and press |button,4|.|next|You can do that by yourself, can't you?
+|string,0|?|line|I can buy that for |currency,var,10|.|line|Do we have a deal?|prompt,map,0.7,2,19,18,2,3|
+Fine. It's not like I got my hopes up...
+|checkinvqtd,0,0,13|Sure, what do you wish to sell?|pickitem,0,0,true,true,10,18|
+|wavy|Ahahaha|wavy|...You're not carrying anything. Please don't waste my time.
+That's |anstring,var0| |string,0|.|line|It costs |currency,var,1|.|line|Will you take it?|prompt,map,0.7,2,16,18,2,3|
+Color me surprised! You don't have enough berries! Return when you can afford it, please.
+|checkmoney,var,1,15||checkinvqtd,0,full,17||money,var,-,1||additem,0,var,0|Here you go. Do enjoy its quality!
+How do you pretend to carry this? I'll hold it for you, so make some space in your bag.
+Very well. Call me if you're interested in something else.
+|money,var,10||removeitem,0,var,0|Here are your berries.|checkinvqtd,0,0,20| Do you want to sell something else?|pickitem,0,0,true,true,10,18|
+Looks like you don't have anything else I can buy. Come back some other time.
+|tail,-4|Merab's the owner of the Medal shop! He traveled everywhere for his collection!|next||tail,-6|Which he is now selling at high prices.|next||tail,-5|Indeed. It's surprising that he would part with his possessions, but I won't judge.|next|After all, these will be quite useful on our journey.|next,-4,Happy|Travel, treasure, and power! Now that's the life!
+This is Madame Bu-|fwait,0.2||blank||tail,-4|It's Madame Butterfly! She's got the best prices in the whole kingdom!|next||tail,-5||wavy|Ahem.|wavy||next||tail,-4|Oh, sorry. I always get excited when I come here.|next|Everything's so cheap, and Madame Butterfly's so pretty!|next|I bet she's super rich, too...|next||tail,-6|Everyone has a role model.|next||tail,-5|Indeed. Let's make sure to shop here for what we need.
+It's weird to see a Miner Ant out in the surface.|next,-4|I wonder what they'll build here.|next||tail,-6|Maybe a house for us.|next||tail,-5|This is the commercial area, Leif. That is unlikely.|next||tail,-4|Details. A house is just what we need!|next||tail,-5|...I'm just going to end the conversation here.
+|tail,-4|This is Fry, the fly!|next|Most chefs live in the royal castle, but he chose to work here.|next|Though, I don't get it. He could make more profit at the castle.|next,-5|He probably just wants to see his fellow, common bug smile.|next,-6|There has to be more to it than that...|next||tail,-4|What matters is I'm really hungry. Let's get him to cook for us!|next||tail,-6|We could go for a Mushroom Salad.|next,-5|Hmm, a Cooked Shroom would do me good.|next||tail,-4|What's with you and shrooms? Aphid Omelette all the way!|next,-5|Let's make sure we have the proper ingredients, first.
+|tail,-4|This is Amber, an Ant working for the Item Storage Association!|next,-6|That bag looks really heavy.|next,-5|Ants can carry many times their weight. It is quite inspiring.|next,-6|Such strength... Perhaps we were born as the wrong bug...|next,-4|You don't get to complain, you can shoot ice!|next,-5|Please, do not fight in front of Lady Amber. Her work is stressful enough already.
+Hm. A weird cover on a shady place. I wonder what is underneath.
+|event,true||align,right,true,2.2||tail,-5|Hmm? What is this place?|next,-4|Heheh. Check THIS out!|next||hide||minibubble,@{wavy{Knock knock...,caller||waitminibubble||tail,caller|Entry Code.|next||tail,-4|2 - 4 - 0 - 5!|next||tail,caller|Last month's code is no longer valid after...|wait,0.2|the incident. Please |line|use the new code.|next||tail,-4||anim,-4,Flustered||shaky|WHAT!?|shaky||next||tail,-6|That was great, Vi.|next||tail,-4||face,-4,-6|Shut it!|next||face,-4,caller|Hey! Let me in! It's me, Vi! |anim,-4,Angry|Ask Shades about me or something!|next||tail,caller|There's no one here, unless you know the code. Scram.|next||tail,-5|This place seems...shady.|next||hide||minibubble,129,caller||waitminibubble||hide|Excuse me, what is this place?|next||tail,caller|...! Vi, you brought others with you!?|next||tail,-4||anim,-4,Flustered|Ha! So you do know me! Open up now! Or I'll tell everyone about this place! Seriously, I'll |shaky|RUIN|shaky| you!|next||tail,caller|Try it, Vi. You won't last a night after you do.|anim,-4,Sad||minibubble,@E-Eep!,-4||next,-5|Seriously, what is happening here?|next,caller|If you know what's best for you, you better stay away. All of you.|next,-6||face,-6,-4|Well, that was a fun detour. |line|Thanks for the good time, Vi.|next,-4|Hmph...I guess we'll have to find the new code somewhere.|next|Maybe someone we help out comes here too!|next,-5||face,-5,-4|Err...sure. But let us not get too sidetracked.|flag,8,true||break||event,false||end|
+Ah, Team Snakemouth! So you were the ones that took our request?|next,-5|Indeed, Levi. What seems to be troubling you?|next,21|Err... Are you sure about this, Levi? This IS pretty dangerous...|next,20||flip,20|Celia, Kabbu and the others have found enough artifacts to prove |line|their skill.|next,-4||flip,20|Heheh. You tell her. What's the job? |anim,-4,Happy|Pays well?|next,21|Oh, it's worth the trouble.|next,20||anim,-4,Idle|The situation is...we're after this criminal known as |color,1|Monsieur Scarlet|color,0|.|next|Every now and then, he posts requests in the board asking for help...|next|And then preys on the well-meaning explorers, |line|draining their life force!|next,-6|Yikes. We expected a petty burglar, or something of that sort.|next,21|Sadly not. He's even the reason why the old tunnel to the Golden |line|Hills is abandoned!|next|He's caused us a lot of trouble.|next,-5,Angry|This fellow sounds most vile. We would be honored to help you bring justice!|next,20||anim,-5,Idle|We've gathered enough intel to confidently say his hideout is in that|line|old tunnel.|next,-4,Angry|Really? How can someone hide in a straight hallway?|next,20||anim,-4,Idle|If you offer us your help to catch him, it will become clear.|next|...Please. He is not someone we can apprehend alone.|next,-6|We'll do it. It sounds like being frozen over would do him some |line|good.|next,-5|Leave it to us, comrades.|minibubble,@Mhm!,-4||next,20|What a relief! You're truly a team one can rely on.|next,21||anim,-4,Idle|Sheesh. At least wait until the mission's over to praise them!|next|We'll be going to the tunnel now, okay? Meet us there, and we'll begin |line|the operation!|next,-6||destroyminibubble|We'll see you there.
+|size,0.5|The request was for|line|all explorers, though.|fwait,1|
+Scram.|anim,-4,Angry|
+|hide||event,77|
+|hide||event,61|
+|flip,caller,true||align,right,true,2||checkregional,1,54,true||regionalflag,1,true|Are you ready for the chow of your life? Bring me ingredients, and I will make you some chow!|next|Chop chop, come on, let's get messy! Give me what you want to cook!|goto,55,keep|
+|anim,this,Happy||checktrue,587,144|Hello, hello! Interested in some Medals? How can I help you today?|prompt,map,0,4,35,36,-199,37,@What are you selling?,@How do we use Medals?,-195,@We're good.|
+Medals! Those great things you see on display! They are really useful!|next|By equipping them, you can get many effects, from simple stat changes to new moves and challenges!|next|You can equip them on anyone in your team, so mix and match for different effects!|next|I change up my stock now and then, so be sure to check out often!
+Easy! You can press |button,8| and equip them under the Medal menu!|next|Medals require MP to equip, and each Medal requires a different quantity of it. Your |icon,109,0.4| MP is shared across your team.|next|Some Medals can be equipped to different teammates, others affect |line|everyone at once!|next|Make sure to use |button,2| and |button,3||line|to switch who you are equipping to!|next|Please try out multiple Medal combinations to triumph in any situation!
+Very well! Please browse my wares! Stand near them and press |button,4|!
+|anim,this,Happy|That's a fine |string,0| Medal!|line|I am charging |currency,var,1| for that one.|line|Can I wrap it up?|prompt,map,0.7,2,39,40,2,3|
+|checkmoney,var,1,41||money,var,-,1|Alright, take it on a great adventure!|break||removebadgeshop,0,var,0||kill,caller||giveitem,2,var,0,42|
+|anim,this,Idle|Oh. Well, don't shy away from checking out the rest of my stock!
+|anim,this,Idle|Sorry, can't sell those any lower, all of them are precious!
+Please check for other wares you might want!
+|checkinvqtd,0,0,45|Ahahah! Show me what you got!|flag,12,false||pickitem,0,0,true,false,46,44|
+|anim,caller,Angry|That's no fun, is it? Come back later, little fries. I'll be here when your stomach cries out! |anim,caller,Idle|Ahahaha!|break||checkflag,12,64||additem,0,var,0||end|
+|anim,caller,Angry|Hey wait, you don't have enough ingredients! How do you expect to eat|line|your chow if you have nothing?!|break||anim,caller,Idle||checkflag,119,82||end|
+So, |anstring,0| |color,1||string,0||color,0|?|line|You sure? No refunds!|prompt,map,2.63,2,48,44,49,50|
+W-We'll pass... 
+Watch a master do his work!|break||event,3|
+Give me my chow!
+I've changed my mind.
+Here it is, a masterwork! Eat up, small fry!
+|anim,caller,Angry|Well well, you gave me bad quality ingredients! Not much I could salvage |line|with this!
+|anim,caller,Idle|Come back later when your stomach growls again! Ahahahaha!!
+Hey hey! Back for more? What can I get for you?|goto,55,keep|
+|flag,12,false||checkflag,41,60||prompt,map,5,3,43,61,44,58,59,47|
+Ah... Cooked Danger. The most exquisite of dishes...|next,-6|Aren't those poisonous?|next,caller|To someone such as I, poison is nothing.|next,-6|Hmm. We will have to try one as well...|next,-4|Uh, no. We really shouldn't.
+|tail,-4|This Beetle's always at Fry's. He eats pretty much anything...|next,-6|Ah, a true gourmet. We may have things in common.|next,-4|Yeah. You're both weirdos, alright.|next,-6|... 
+Let us cook with one ingredient.
+Let us cook with two ingredients.
+|prompt,map,2.5,2,43,44,@Here is my stuff!,47|
+|checkinvqtd,0,1,45|Oh! We've got some hungry bugs! First ingredient, now!|flag,12,false||pickitem,0,0,true,false,62,44|
+|clonestring,0,1||removeitem,0,var,0||flag,12,true|Second ingredient, now!|pickitem,0,1,true,false,63,44|
+So, |color,1||string,1||color,0| and|line||color,1||string,0||color,0|?|line|You sure? No refunds!|prompt,map,2.63,2,48,44,49,50|
+|end|
+I just moved here, and it's been scary getting to know everyone...|next|M-Maybe I should press |button,9| near the townsfolk to learn a bit more about them?
+|tail,-4|Geez, Mun's still in the same spot as always.|next,-5|Still gossiping, huh.|next,-4|Yeah, that can't be a good look!|next,-6|You two can't talk... 
+|goto,random,68,69,70,71,72|
+Cooked...or with honey...both are different...|wavy|zzz... 
+Skewing...a balance between two different, yet similar things...|wavy|zzz... 
+A big seed...can be served for a trio...|wavy|zzz... 
+Wrapping some leaves with eggs...|wavy|zzz... 
+Mushrooms go well with honey...|wavy|zzz... 
+What is this bug doing here?|next,-6|It's cute sleeping like that...|next,-4|Uh. Well... Fry isn't complaining, so I guess we can just leave him here.
+|tail,-6,instant|We didn't quite think this through...|next,-6,WeakBattleIdle||face,-6,-5||shaky|...We're...not going to make it...too hungry...|shaky||next,-4|...|next,-5||face,-5,-6|L-Leif, hang in there!|next,-4|...|next,-6|To be defeated this way...after all we went through...|next,-5,105||shaky|LEEEEEIF!!!|shaky||next,-4,Flustered||face,-4,-6|Fine! Fine, I'll help! Stop being so dramatic!|face,-4,caller|
+Here, Fry. Cook this up!|next,-6||face,-6,-4|We're...saved...!|next,-5,Idle||face,-5,-4|Vi... You had this on you the whole time?|next,-4,Angry||face,-4,-5|...Look. Emergency rations are important, okay?|next|And this seemed like an emergency, so...|next,-6,Idle|Vi...Thanks.|next,caller|Hahahaha! What amazing friendship! I'll put everything I have |line|into this dish!
+|tail,-6|Hmm... This looks really tasty. Thanks.|next,-4|Can't explore on an empty stomach!|next,-5|It's nice to be able to share like this... 
+|tail,-4|Glazed Honey is just the best! It's honey, but even better!|next,-5|Mmm... A bit sweet for my taste.|next,-6|We'll eat anything, really... Except a Mistake.
+|tail,-5|Ah... Nothing like a plain smoked shroom. Healthy, yet filling...|next,-4|It's such a boring meal though... Needs some honey!|next,-6|We're just grateful to have a full stomach at this point. Thanks.
+|tail,-6|Ah... Our favorite. Fate has smiled upon us.|next,-5|The textures work so well together!|next,-4|...A bit too savoury. We shoulda put honey in it!
+|anim,-6,WeakBattleIdle||anim,-5,WeakBattleIdle||tail,-6|Tsk... We are desperate. We have no choice...|next,-5|Ngh... For the sake of the mission, we must eat...|next,-4|(Poor them. I'll just eat some of my secret stash later!)
+|anim,-6,Idle||anim,-5,Idle|Huff... We feel just like new. Literal ages since we ate something. |line|And we get hungry real fast, so...|next,-5|We'll definitely eat here again. It's been nice to share.|next,-4|Sounds good. But it's time to get back to the mission!|next|We've gotta go south, to the Golden Settlement! Off we go!
+|flag,119,true||event,3||end|
+I hope we haven't made Levi and Celia wait too much...|next,-6|Let's start this meeting, then.
+Team Snakemouth! You're good to go. Follow us when you please!
+Hey hey hey! You lot took my request, right?|next|Alright, let's get to the chase. I had an idea for the ultimate dish...|next|Combining |color,1|the most sweet thing|color,0| with |color,1|the most tangy feeling|color,0|...|next|It will surely be something out of this world!|next|I need two dishes not found anywhere else, which together |line|will contain these qualities!|next|Once you have found them, bring them back to me! The reward will be well worth it! Hahaha!|flag,196,true|
+|align,right,true,2|Hey hey! Did you bring the ingredients? Or are you here to cook?|prompt,map,5,4,87,43,61,44,@We're here for the request.,58,59,47|
+|hide||event,92|
+Oho! Down to business, eh? Well, did you bring the two ingredients?
+Hmph! Let's stop wasting time and get those ingredients!
+...You don't have them! Remember, I need the |color,1|Sweetest thing|color,0| and the |color,1|Tangiest flavor|color,0| to cook my best dish!|next|Bring me those 2 ingredients and I will get down to it!
+Ohoho! You actually did it! I am impressed!|next|Those ingredients are perfect for this ultimate dish!|next|Let's get right into it!
+Welcome to the |color,1|Termacade|color,0|.|next|You are new players, aren't you? Since this is our grand opening, here is something to get you started.|break||var,1,15||giveitem,1,110,93|
+|removeitem,1,110|You can check how many tokens you have in the |color,1|Key Item Menu|color,0|.|next|Have fun in the Termacade.|flag,351,true||discovery,42|
+Please enjoy your time in the Termacade and have fun.
+|boxstyle,3||spd,0|The Termite Kingdom is proud to bring the |color,1|Termacade|color,0| to the Ant City!|next||spd,0|Come play fun games to earn tokens, which you can use to trade for unique prizes! Only here, at the|line|Termacade!
+Hello! Welcome to the Termacade's Exchange Counter! How may|line|I help you today?|showmoney||showtokens||prompt,map,2.5,4,97,98,120,100,@Buy Tokens.,@Exchange Tokens.,@Just came to talk.,@We're fine.|
+Sure thing! Each token costs 3 berries. How many are you looking to buy? (Press |button,5| to cancel.)|numberprompt,0,3,101,100|
+Here is a list of all our prizes! Press |button,4| to pick something or |button,5| to cancel!|pickitem,26,0,true,false,99,100,5|
+|event,121|
+I hope you have a great time here at the Termacade!
+|checkvar,0,0,100||var,1,3||addvar,1,v0,*||var,0| token(s) will cost |currency,var,1|.|line|Shall we do the transaction?|prompt,yesno,102,100|
+|checkmoney,var,1,103||money,var,-,1||addvar,27,v0||showtokens|There you go! Your token total is now |var,27|!|next||goto,100|
+Uh oh... Sorry, seems you're short on berries!|next|Please have a nice day here at the Termacade!
+First timers? Please talk to our associate outside to get started at the Termacade!
+|tail,29||face,29,-1||face,party,29|Is it your first time here? Please talk to our associate outside before you get started!
+|tail,29||face,29,-1||face,party,29||checkflag,351,105|Are you interested in playing |color,1|Mite Knight|color,0|?|line|It is 25 tokens for a playthrough!|showtokens||prompt,map,0,3,109,110,115,@{menu}5{,@{menu}6{,160,$1|
+|tail,29||face,29,-1||face,party,29||checkflag,351,105|
+|tail,29||face,29,-1||face,party,29||checkflag,351,105|
+|checkvar,atleast,27,25,111||addvar,27,-25||showtokens|Have fun!|next||face,party,caller||showtokens,null||dungeongame||goto,141|
+That's alright! Please check out our other games!
+Oops! Sorry, you don't have enough tokens! Please, talk to |line|my sister to buy some!
+Uh oh! You will get it next time! Here are some tokens for playing!|break||giveitem,1,110,113|
+|showtokens|You now have |var,27| token(s)! Thank you for playing with us at the Termacade!
+Welcome to the Termacade! I can help you with any questions regarding our games! How can I help?|prompt,map,0,3,115,138,100,160,161,@We're fine.|
+In |color,1|Mite Knight|color,0|, you'll help the Termite Knight reach the top of |line|the tower!|next|Use |button,0| |button,1| |button,2| and |button,3| to move around! |next|If you hold down |button,4|, you can raise your shield to block enemy attacks and move without turning!|next|To attack enemies, just press |button,0| when in front of them! You'll earn points for beating them!|next|You can drink |color,1|potions|color,0| to heal up when it gets rough! But most importantly...|next|Find the |color,1|Gold Key|color,0| in every floor to unlock the way upwards!|next|If you get lost, just wait a bit. A |color,1|compass|color,0| will show up to help!|next|Try to clear the game fast, and without taking damage. That's the |line|recipe for a HIGH high score!|next||goto,100|
+Sorry! You don't have enough tokens for that prize!|break||goto,100|
+Sorry! That item is sold out!|break||goto,100|
+That |string,0| costs |var,0| tokens!|line|Would you like to trade for it?|prompt,yesno,-11,100|
+Alright! Here you go!
+|termacadecheck,147,149||checkvar,59,2,149||checkvar,59,1,150|Ah! Sorry! I can't talk during work hours... Come back after getting a high score?|break||goto,100|
+Oh, oops! Looks like you can't carry anything more! Please make some room before you trade for this item!|break||goto,100|
+Ahaha! Here it is! The ultimate dish!
+This is something |color,1|only I can cook!|color,0||next|Just bring these ingredients back here and I will make as many as you can eat!|next|Thank you very much for this!
+Ah! You look like you like collecting Medals. Lemme tell |line|you something...|next|Ever picked up a resistance Medal and thought "Pfft! I can just block. I don't need them!"|next|Well, they actually have a hidden effect! If you have them equipped and eat an item that causes a status effect...|next|Let's just say the results of that experiment should be obvious, huh?
+What a fanatic! Some bugs truly live to equip Medals!|next,-4|Medals ARE awesome! Wish they were cheaper, though...|next,-6|Costing a bit less MP wouldn't be the worst, either.
+Hah! I just bought this armor, equipped some Medals and ranked |line|up three times...|next|Who's tough now, Seedlings!? |shaky|COME GET SOME!|shaky|
+|checktrue,345,156||tail,-4|Pfft. Who boasts about beating up Seedlings? A little kid could do it!|next,-6|That armor looks cheap, too. Oh lord.|next,-5,Angry|Could you not be this judgmental?
+I...I'm not made for fighting, you see? So I keep losing berries running from scary things...|next|It may just be me, but...the scarier the monster, the more berries I end up |line|dropping...?
+|wavy|Knock...
+Poor fellow. It must be rough being so preoccupied while traveling.|next,-6|That's what explorers are for. Post an escort quest, or something.|next,-4|But then you have to pay a reward!|next,-6|As opposed to dropping berries all over Bugaria?|anim,-4,Angry||minibubble,@Fair.,-4||breakend|
+Stop! These items are not yours!
+Huh!? You're saying we're liars!?|next,e2|Explorers don't lie! You should check again!|next,amber|I know how to do my job! Don't you dare try to swindle me!
+|shaky|T-Team Snakemouth!|shaky||next,-5|What is the matter here!?|next,eri|They're trying to steal Amber's items!|next,e2|We're not! Look at our permit!
+Would a Maki-Approved team EVER lie for some cheap items?|next,-6|...That permit's fake.
+What'd ya say!?|next,-4|Uh, really?|next,-6|It's missing its crystals. Haven't you noticed? This is obviously some cheap imitation.|next,-5|Thieves, and a farce to boot!? You will answer for your crimes!|next,gen|Whew, good thing you're here. We had no idea...|next,e1,BattleIdle||anim,e2,BattleIdle|To heck with it! We'll just take these by force!
+Drats. We let them get away.
+Oh, thank you. I can't do enough to repay you.|next,-5|Pay no mind to it, Ms. Amber. Your services are already most helpful.|next,gen||face,party,gen|This is bad. They'll just come back and harass someone else!|next,eri|We have no idea where they'd flee to, though...|next,-4|Their permit's fake, right? Maybe they'll try to steal a real one?|next,gen|We'll check out the area near the Association, then!|next,-5|We shall as well. Let's get them with haste!
+In |color,1|Flower Journey|color,0|, you control a little Bee looking for pollen!|next|You've gotta avoid Wasps and logs by flying with |button,4|!|next|You'll slowly earn score as you play, or you can collect |color,1|flowers|color,0|!|next|The more you get in a row, the better your score gets!
+|tail,29||face,29,-1||face,party,29||checkflag,351,105|Are you interested in playing |color,1|Flower Journey|color,0|?|line|It is 10 tokens for a playthrough!|showtokens||prompt,map,0,3,140,110,138,@{menu}5{,@{menu}6{,161,$1|
+|checkvar,atleast,27,10,111||addvar,27,-10||showtokens|Have fun!|next||face,party,caller||showtokens,null||beegame||goto,142|
+|face,party,29||battlewon,112||goto,143|
+|goto,143|
+Did you have fun? You got |var,0| points this playthrough... That's |var,1| tokens! Here you go!|break||giveitem,1,110,113|
+Well well! Looks like you bought everything I had! You sure are great|line|Medal collectors!
+|hide||scorecheck||end|
+|align,left,true||face,caller,-1||tail,-5|We meet again, friend! ...May we ask your name?|next,caller|Oh, hey there. It's Kenny. You're Vi, Kabbu and Leif, correct?|next,-4|Heheh. Word gets around!|next,-6|We're surprised it took you this long to reach the Ant Kingdom.|next,caller|It's quite cozy, and bustling. Many cultures come together here.|next,caller|But before you ask, I don't think I'll stay here either.|next,-6|It's a long search, huh.|next,caller|Everywhere I've been to is wonderful. I just wish to see more.|next,-4, Happy|Well, let's meet up again later!|flag,601,true|
+|checkmapflag,0,150,true|Wow! You've beat a high score, huh? You're a real "gamer"!|next|I wonder if you can beat the other game's highscore too!|mapflag,0,true|
+You're the ULTIMATE GAMER now, but we hope you still enjoy the Termacade! 
+|checkmapflag,0,148,true|Woah! You've crushed all records! I crown you the ULTIMATE GAMER!|next|They told me to give you this code..."|color,1|HARDEST|color,0|"!|next|They said it was to input in a menu, or something...|next|Anyways! I hope it was fun, it'd make our job really worth it!|mapflag,0,true|
+I wonder if you can beat the other game's highscore too!
+Some say it's the journey, not the destination. What's my destination, |line|though...?
+|tail,-6|They sure hired the, uh, peppiest Ant for this job.|next,-4|You can't sell games with a frown!|next,-5|M-Maybe she's really happy! Just...on the inside?
+The Termacade is incredible! This is the power of science!|next,-4|Eh, it's no Honey Factory.|next,-6|Does the Factory have GAMES, Vi?|next,-4|W-Well...|next,-6|Termacade wins. Time to go for a high score.
+I...even with all this armor...I couldn't help...
+Hohoh! Now that peace's returned, my quest to become the SEEDLING SLAYER starts anew!
+|checktrue,555,157||tail,-6|We're not to kick an Ant when she's down...|next,-4|Yeah. At least she tried to help...|next,-5|(I-I'm so proud!)
+|tail,-4|Pfft. Who boasts about beating up Seedlings? A little kid could do it!|next,-6|That armor looks cheap, too. Oh lord.|next,-5,Angry|Could you not be this judgmental?
+Heheh. And there's THAT place for even more business!|next,-5|Hopefully we can do most of our business out in the open...
+You bought ALL Medals!? I've been waiting for someone like you...|next|"|color,1|MYSTERY?|color,0|" is the code... |next,-4|Huh?|next,caller|You'll have to figure it out on your own...
+About Mite Knight.
+About Flower Journey.

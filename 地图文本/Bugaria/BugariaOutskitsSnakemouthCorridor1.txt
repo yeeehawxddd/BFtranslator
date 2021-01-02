@@ -1,0 +1,2 @@
+I've grown quite fond of this area. It's just so scenic!|next,-4|Well, at least when it's not raining.|next,-5|It's a good thing rain is so uncommon. It gives us ample |line|time to prepare.|next|Let's enjoy the view while we're here.
+|boxstyle,3||spd,0|Hey! Like attacking up close? Annoyed when an enemy is out of|line|reach?|next||spd,0|Ask a friend who can fly or toss something at it to bring it down!|line|Press |button,6| to switch positions in battle and attack!
