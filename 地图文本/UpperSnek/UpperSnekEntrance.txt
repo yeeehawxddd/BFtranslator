@@ -1,0 +1,6 @@
+|checktrue,517,2||tail,-4,Angry|Seriously? A door behind the door?|next,-5|Whatever is in here, the Roaches sure wanted to keep it hidden.|next,-6|......
+|checkflag,650,3||tail,-5|Neo was right! This place must hold clues to your past, Leif!|next,-6,Hurt||goto,4|
+|checktrue,532,5||tail,-6,Hurt||wavy|Msetr jantgb vi?|wavy||next,-4|Woah. You alright? There's gotta be some important stuff in there!
+|tail,-5||flag,304,true|The stone worked! This place must hold clues to your past, Leif!|next,-6,Hurt||goto,4|
+|face,-5,-6||face,-4,-6||wavy|Rhskg, bbtukdertan wfdyik.|wavy||next,-4|Uh, yup! Ready to go in?|next,-6||wavy|Nje trahbj...|wavy||next,-5|Err, is that a yes?|next,-6||wavy|...Rik?|wavy||next,-4,Flustered|Oi, isn't this lasting way too long?|next,-6,WeakBattleIdle|...|next|...S-Sorry. You're not wrong. The place's intense.|next,-5|Let's prepare properly. A place this well guarded must have its own set of dangers.|next,-4,Idle|Hopefully a treasure or two, too!|next,-6|What matters is finally finding our answers...|flag,304,true|
+|tail,-6|Must we truly come back here?|next,-4|It'll be quick, ok? It's just to make sure we didn't miss anything.|next,-5|You can wait for us here, Leif. Do not force yourself.|next,-6|It's not that big of an issue. Let's not stay too long, though...

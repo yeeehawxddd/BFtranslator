@@ -1,0 +1,4 @@
+Such a colossal facility's been hiding in plain sight...|next,-4|Well, the trapdoor was a pretty good distraction.|next,-6|The artifact kept explorers distracted, too.|next|But we're here now. Time to unearth this place's secrets.
+|boxstyle,3||spd,0|Containment Offices ahead.|line|Wear protective equipment at all times.
+|boxstyle,3||spd,0|"These crystals store incredible amounts of data. We can study subjects even if they expire..."
+Even though these crystals preserve data...that is not true immortality, is it?|next|We can't latch onto the sapling anymore. We must find a way to|line|become eternal on our own...!

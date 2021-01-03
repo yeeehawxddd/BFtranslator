@@ -1,0 +1,3 @@
+|boxstyle,3||spd,0|"The test subjects damaged the power core, so we've gotta rely on the backup generator. Make sure to direct power to the pipes."
+Hmm. Through crystals and bio-organisms, we've channeled frost and|line|blight magic.|next|If we could create thunderous spells as well, it would bolster our productivity!
+|tail,-6|The "test subjects" sure caused the roaches a lot of trouble.|next,-4|The roaches caused the subjects a lot of trouble too...|next,-5|Even so, they refused to stop their research...

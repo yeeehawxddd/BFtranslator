@@ -1,0 +1,3 @@
+|tail,-4|What's this place supposed to be?|next,-5|Is that a containment cell...?|next,-6|The water's moving with a lot of force. Maybe we can use it to find our way inside.
+|boxstyle,3||spd,0|"wE cANT feEl oUr L,e,g.nmm,S.sN........"
+|boxstyle,3||spd,0|"Subject ZB-43 is displaying disturbing behaviour. I'll go check it out personally."

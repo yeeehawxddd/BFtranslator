@@ -1,0 +1,11 @@
+|tail,-6|Qerjlsk rbaljae..."Who goes there...Intruder!"|next,-4|It's a real language, huh. I thought you were just mumbling and stuff.|next,-5|Of course it is. No one can mumble that creatively!|next,-6|(They sure know how to take the edge off things.)
+|wavy|Rfkajen twhan nmethfkd na.|wavy||next,-5|(...I'm starting to worry.)
+|halfline|GRLRWARRFGGH!!!
+|shaky|Mjarkhs!!!|next,3|Grlfhank ytreikunb!!!|shaky||next,-4,Surprized|W-What the heck!?|next,-5|A Bee...and a Beetle!? In this place!?|next,-6,BattleIdle|...
+Sueska, trghjnbm ruhaakjn!|next,2|Qerjlsk? |shaky|...Rbaljae!!!|next,3|RBIJLENLJ!!!|shaky||next,-5|Leif, you...you get them?|next,-4,Idle|That language, is it...|next,-6,BattleIdle|They won't listen. Ready up!
+This is wrong. It feels way wrong!|next,-6,WeakBattleIdle|What could this mean? Why can we understand them...!?|next,-5|Don't jump to any conclusions! We...we must delve deeper, and find the truth.|next,-6|...Right. Let's move on.
+That's a super huge gap. Even if I carried ya, doubt we'd make it...|next,-6|Mmm... We have an idea.
+We're lucky its a lake, and not a pit.|next|Maybe we can shoot the magic downwards.
+Nice!|next,-5|Er, is it safe?|next,-6|They'll probably melt out. We'll have to be quick.|next,-4,Happy|Not a problem!|break||hide||fwait,0.5||tail,null||goto,9|
+|spd,0||boxstyle,4||sound,ItemGet1|Leif can now create icicles! Press |button,5| twice to create an icicle that will fall downwards!|next||spd,0||sound,ItemGet0|Leif can now also use the |color,1|Ice Rain|color,0| skill in battle!
+|boxstyle,3||spd,0|Non roaches, stay out.|line|This is your first and final warning.
