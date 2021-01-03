@@ -1,0 +1,58 @@
+|checktrue,555,56||tail,-4|So bugs do live here! I was wondering where they stayed.|next,-6|Well, it's no Hive. But these are pretty cozy.|next,-5|I wouldn't mind a longer stay, when we find all the artifacts.
+|boxstyle,4||bleep,2,1,1|There is a diary on the desk. Read it?|prompt,map,0.5,2,2,-11,@Yes.,@No.|
+|boxstyle,3|Day X:|line|I am not sure if I believe in this story about Venus...|next|I have always heard of her, but I have never seen her.|next|Maybe this is nothing but superstition, but I feel I must |line|follow my mother's footsteps.|next||boxstyle,4|Continue reading?|prompt,map,0.5,2,4,-11,@Yes.,@No.|
+Phew. It sure was a day of hard work. Couldn't move the rock...|next||anim,caller,Happy|But tomorrow is a new day, and I will try again!
+|boxstyle,3|Day XY:|line|What have years of training been for?|next|I still don't believe in Venus, even if the village does.|next|And they say I'll be the next priestess? If I left the hills, maybe |line|I could find a new purpose.|next|Even so, I feel something calling to me, from the top of the hills.|next|If nothing there convinces me, I'll take my leave.|next||boxstyle,4|Continue reading?|prompt,map,0.5,2,5,-11,@Yes.,@No.|
+|boxstyle,3|Day XXY:|line|I saw her.|next|Venus. She truly does exist! And she is so beautiful...|next|I am not worthy of being her servant, after so many years |line|full of doubt!|next|Mother... As the new priestess, I shall spread the goodwill of Venus to all.|next|I hope one day, I feel deserving of having met her.
+Some Chompers waltzed on down from the hills recently. I threw some Numbnail Darts at 'em, but they didn't |line|do nothing!|next,-6|No problem. Who needs sedatives when you've got ice?
+|tail,-4|All moths look so different from each other...|next,-5|Indeed. Leif, using your wings as a robe is quite unique!|next,-6|Well, Father did it all the time. We ended up copying him.|next,-5|I see. Your father must have looked very cool too!|next,-4|You could start a fad!|next,-6|Eh. It'd be no fun if everyone did it.
+What a fascinating, adorable creature!
+|tail,-6|Madame's gotta be the only merchant taking a break.|next,-4,Happy|Hey, everybody needs a holiday!
+A fitting stage for a duel of this caliber!
+Heheh, I won't lose!
+|align,left,true||face,caller,-1|Are those... You're Spy Card players, eh?|next,-6|That we are. You too?|next,caller|Heehee! Yup! I'm one of those cool Card Masters!|next,-6,BattleIdle|Just who we were looking for. Will you duel us?|next,caller|Wow, you're so eager! I can't say no to that!|break||flag,249,true||goto,13|
+You ready to get things rolling, then?|prompt,map,2,2,16,17,14,15|
+You're on!
+Not yet.
+Time to rumble!|next||cardbattle,this,-1,@5||tail,caller||battlewon,19||goto,18|
+Aw. Tell me when you're ready then!
+Wow, you won! And I don't lose too much, let me tell ya!|next,-6,Idle|You had us by the ropes, um...|next,caller|Heheh, that's Arie to ya. It's my joy to upgrade your card!|break||event,106|
+|anim,-6,WeakBattleIdle|Good duel, eh? Maybe next time you'll win.|next,-6|Tsk... 
+My card master hint is: |line|"Taking shade, always cool."|next,-4|That could mean anything!|next,caller|You'll figure it out, I'm sure!|next,-5|Still, thank you. We are closer to the tournament goal.|next,caller|By the way, Leif, if you ever want to play again, just drop the word, eh?|next,-6|Hopefully soon. But for now, we'll be on our way.
+The card's filled up! You're ready for the tournament!|next,-4,Happy|About time!|next,caller|Show the full card to the old sailor at the pier, he'll give you the tournament fare!|next,-6|We'll do our best. For the card master's reputation, too.|next,caller|Good luck, Leif! Oh, and, if you ever want to play again against me, just drop the word, eh?|next,-6|Hopefully soon. But for now, we'll be on our way.
+|align,left,true||face,caller,-1|Hey there, Leif! Up for another match?|prompt,map,2,2,23,17,14,15|
+Alrighty! Let's go!|next||cardbattle,this,-1,@5||tail,caller||battlewon,19||goto,24|
+Beat again! It was too fun. Won't you take this?|break||giveitem,-1,10,-11|
+Can't wait for the festival to start. My friend's coming over!
+|tail,-4|She's so...beeish.|next,-6|It's not like she does it on purpose.|next,-5|Nature loves to play tricks with our eyes. Although it sure enjoys the bee aesthetic.
+|checktrue,684,55||checkflag,139,28|So he came from a far-off land...|next,-6|Any idea of which?|next,-5|I've heard of one region where bugs look like seeds and berries.|next,-4|I've heard of that place too! Err, in fairy tales?|next,-6|So those tales could be real...|minibubble,@...We should go there someday.,-6||break||destroyminibubble||end|
+|tail,-4|Woah, that's a huge Tangy Berry!|next,-6|No, Vi. That's a beetle...quite a cute one.|next,-5|It's wonderful to see so many different bugs at the festival!
+|tail,-4|Wonder what game they're playing.|next,-5|I do not know, but it is intense!|next||anim,-5,Angry|She just summoned another monster! What a combination!|minibubble,@Off we go...,-6||next||destroyminibubble||end|
+|align,right,true||face,caller,-1||wavy|Huuuu...|wavy||minibubble,@Yeouch...,-4||next,-5|By the spicy berries of the land...your horn!|next,-6|We're guessing that rock did this to you.|next,caller||wavy|H-Huuuu...|wavy||next,-4,Angry|Oi. You've gotta tell us what happened, or we can't help!|next,caller|H-Hu. F-Fine. I'll tell ya.|next|I was gonna break the rock to be the strongest! But then my horn broke.|next|It doesn't hurt or anything but, some bandits nabbed it. I can't heal it!|next,-6|What could bandits possibly do with your horn?|next,caller|D-Don't ask me. But I need it. Or I can't break the rock!|next,-5|That should be the least of your worries!|next,-4,Idle|Look. Just leave it to us. We'll get it back from the bandits!|next,-6|Try not to break anything else until we return.|minibubble,@Huuu...,caller||next||destroyminibubble||end||flag,273,true|
+|wavy|Huuuu...|wavy||pickitem,1,0,true,false,33,32|
+My horn is orange like me, okay? Sniff... You've gotta find it!
+|checkvar,0,112,34|T-That's not it. My horn is orange like me, okay? Sniff... 
+|anim,caller,Angry||event,true||hide||sound,PingShot||deathsmoke,caller,2||fwait,0.5||hide||removeitem,1,112|Yay! You really got it! I'm all patched up now!|next,-5|Alright. Now, you should definitely rest!|next,caller|I'm gonna go do it. I'm gonna break the rock!|minibubble,@W-Wait!,-5||next||destroyminibubble||hide||fadein,0.05,999,kill||flag,274,true||event,false||end|
+It's always sad when friends leave after visiting... 
+See, I told you I could break the rock!|next||anim,caller,Angry|Now I'm gonna look for new things to break!|next,-5|...Please don't.
+Oh! Rangers! Fancy seeing you here!|next,-6|Jayde? What are you doing here?|next,caller|After you knocked out Fuff, I decided to follow the Queen's steps |line|and leave for a bit.|next|This place is really nice isn't it? I think I'll set up here.|next,-4|What, like a shop?|next,caller|My stew shop! You guys liked it so much...I think it can be a success!|next,-6|You've got that right.|next,caller|I'll give you a special Ranger Discount, so buy a lot!|next,-4||anim,-4,Happy|Woohoo!|next,-5||anim,-5,WeakBattleIdle|W-We're not...!|next,caller|You don't have to say anything! I'm just glad to help in your travels!|flag,461,true|
+|showmoney|Rangers! Come for some stew? It's 25 berries, just for you. Hero discount!|prompt,map,0,2,39,40,@Yes please!,@No thanks!|
+|checkmoney,25,41||checkinvqtd,0,full,42||money,-25|All done! Have a feast!|break||giveitem,0,120,43|
+Aw...well. I'll be around. Come by anytime if you want some!
+Oh, sorry. I can't go any lower, even for you...
+Ah! You can't carry anything else. Maybe I could...keep any of your |line|old hero items?
+You can come back anytime, my heroes!
+|align,right,true||face,caller,-1||checktrue,86,45|This festival brings everyone together. For a night, we live |line|in true peace.|break||goto,52|
+This festival brought everyone together. For a night, we lived |line|in true peace.|break||goto,52|
+|align,right,true||face,caller,-1|Hey. I missed this place. Didn't you?|next,-6|The Golden Settlement does have a very serene mood.|next,caller|I think after seeing the world, this is the place I enjoy the most.|next,-4|You just needed to make sure, huh.|next,caller|Yup. It made me happy to see you around, too.|next,-5,Happy|It was nice seeing you too!|next,caller|I know this comes out of nowhere, but I want you to have this.|flag,603,true||break||giveitem,1,52,50|
+Time to settle in and enjoy my new home.
+Nothing like resting after some fixing.
+|tail,-6|...Took him long enough to move around.|next,-5|Are you...upset, Leif?|next,-6|Uh, no. But we do wish he'd done his job sooner.|next,-4,Happy|Leif's upset!|next,-6,BattleIdle|Knock it off.
+|anim,-5,Idle||tail,caller|I just feel...grateful for having met you.|next,-4,Happy|T-Thanks! We should give you something back, uh...|next,caller|Haha! Don't worry. You've given me plenty.|next,-6|You're a cool one. Ask us if you need anything.|next,caller|I will. I wish you the best in your own journeys!
+See, I told you I could break the rock!|next||anim,caller,Happy|Now I'm gonna look for new things to break!|next,-5|...Please don't.
+To be honest, I'm still searching for a place I can live peacefully in.|next|Maybe we'll meet again, you seem like you know where you're going.|flag,598,true|
+|event,true||tail,19,instant||face,18,19||face,19,18||anim,18,Happy||anim,19,Happy||bleep,5,2.5|Yay! I found Tanjy!|minibubble,@So his horn grew back...,-6||next,18|Yay! Cerise found me!|next,-5|Oh. So that's who "Tanjy" was.|next||anim,-5,Happy|Glad they found each other in the end!|next,-4,Angry|I thought it was obvious.|next,18,Idle|Why'd you come find me anyway?|next,19,Idle||bleep,5,2.5|Oh, right! I was supposed to take you back to the east where everyone else is right away.|next,18|Oh! Well, I'm much stronger now, so I can head back. But which way's east again...?|next,19||bleep,5,2.5|Uhhhh...|next,-6||destroyminibubble|Oh no. They're both not too smart. Should we help them? We could see their homeland for ourselves...|next,-5,WeakBattleIdle|Let's...not.|next,-4|Yeah.|break||event,false||flag,684,true||end|
+|tail,18,instant||face,18,19||face,19,18|East is...to the...left...?|next,19||bleep,5,2.5|My left?|next,18|No, I think it's my left.|next,-4,Flustered||shaky|THE RIGHT! IT'S TO THE RIGHT!|shaky||next,18||face,18,-4||face,19,-4|Oh? Mine, or yours?|next,-5,WeakBattleIdle|How did these two even walk to Bugaria by themselves...?
+|tail,-6|We're very glad that Tanjy's horn healed...and these two reunited safely.|next,-5|I...I still don't know how that's even possible.|next,-4|Maybe he just ate a bunch of Tangy Berries.|next,-5|Okay, but where did he get so many? They're rare and expensive.|next,-6|Maybe he has a stash of them in his house.|next,-4|That explains why it's boarded up like that.|next,-5|But that doesn't explain how he got so many in the first place!
+Ahh... You know, now that everything's over...|next,-4|We should build a vacation house!|next,-6|Isn't that a bit much? We're not THAT rich...|next,-4|We get the hero discount! We should try it out!|next,-5,Happy|Hehehe... I'm so excited!
+|tail,-6|Jayde's settling here, huh.|next,-5|It's good to see she'll be out of harm's way.|next,-4|What we should see is if she's still selling that stew!

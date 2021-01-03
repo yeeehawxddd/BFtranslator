@@ -1,0 +1,168 @@
+|tail,-4,Happy|It's the farms! It's so cool to see everything first hand!|next,-5|Indeed. The big tree overseeing it is quite the spectacle too. |fwait,0.15||anim,-5,Happy|I didn't take you for an agriculture enthusiast, Vi.|next,-4,Idle|I'm not. But I sure like food... They work hard to make it easy for us!|next,-6|You okay there, Vi?|next,-4,Angry|What!? Can't I ever be grateful for anything!?
+|hide||camspeed,0.03||camangle,20,0,0||camtarget,1||camoffset,-1,0.5,-25||fwait,2||hide|The cochineals are so cute...|next,-6|The aphids don't fall behind...|break||resetcamera||discovery,12||end|
+|tail,-6|Oh... The aphid farms. It's a joy to be here. This girl has the right idea.|next,-4|They're really cute, aren't they!? Shame we can't own one.|next,-5|We could always get an adorable pillbug. Team Snakemouth's mascot!|next,-4,Happy||anim,-5,Hurt|No.
+|hide||minibubble,@Aphee!,caller,0.5||waitminibubble||end|
+|tail,-6|This cute aphid... Did it escape the farm?|next,-5|Heheheh. It seems to be giving this guard some company.|next,-4|Hmm...|next,-5|I'm sure it's fine.|next,-6|We are grateful to be able to see it up close... 
+|boxstyle,3||spd,0|HONEY FACTORY POWER PLANT AHEAD.|line|=Only Authorized Bugs Allowed=
+|anim,caller,Happy|Whew, having to work during the festival is something else. I can't wait |line|to be done!|break||anim,caller,100||end|
+|anim,caller,Happy|The best part about being a collector's the free Berry Juice|line|when my shift ends!|break||anim,caller,100||end|
+Hey. Feel free to look around, but don't make too much of a fuss!|next|It's the last shift before the festival... So we've got to be efficient!
+Hey. Feel free to look around. We're always proud to show off |line|our work!
+The harvest this festival has been amazing. Thank you so much, Venus!
+|tail,-4|It must be rough picking up berries all day...|next,-6|Ants are extremely strong, are we right?|next,-5|Indeed. Objects even I would find heavy are quite manageable for them.|next,-6|Then, this job must be like child's play to them.|next,-4|This went from worst job to best job pretty quick...If you're an ant, at least.
+|checkflag,88,13||tail,-6|Venus seems to be held in high regard, even though the workers haven't seen her.|next,-5|We made a promise, so we are bound to not tell...|next,-4|It's better this way, right?|next||anim,-4,Happy|There's no point to faith if you know for sure!|next,-6|That's...surprisingly deep, Vi.|next,-4|Heheheh!
+|tail,-6|Venus seems to be held in high regard, even by the workers.|next,-5|There's no real proof of her existence, but the land is prosperous |line|without fail.|next,-6|Blind faith... It must be nice being able to live so carefree.
+I don't mean to judge, but is this ant doing anything?|next,-6|Management must have some value, don't you think?|next,-4|Standing around all day, giving orders? |anim,-4,Happy|Maybe I should be a manager!|next,-5|Those poor workers... 
+The power plant is strictly off limits. Stay clear of it...and of Aphee.
+Ah! Explorers. We've been waiting for you.|next|May Venus guard you as you investigate the power plant.
+|anim,caller,Flustered|The tech in this settlement is mesmerizing!|fwait,0.12||anim,caller,Idle| Thank you all. I wouldn't |line|have made it here without your help!|next,-5|We would do it all over again, Neo.
+Vi|face,-4,-5|, Leif|face,-6,-5|...Thank you.|next,-6|What for?|next,-5|For helping me protect Neo. I am very glad to see him safe.|next,-4,Happy|Oh, I forgot to ask Neo for a reward!|next,-5|...|next,-4,Sad|I...I was kidding! Just kidding, okay!?|minibubble,@Heh.,-6||breakend|
+|tail,-6|Hmm. A lone bee, guarding a huge door.|next,-5|Well, she is not truly alone. That aphid is keeping her good company.|next,-6|It's truly adorable. Maybe we'll pet it.|next||anim,-6,WeakBattleIdle|...!!!|next,-4|Wow. That's a super death glare she gave ya, Leif.|next,-6,Idle|Guess we'll settle for watching from afar.
+Oh heck! They locked the windmill too early! I can't end my shift without storing these berries!|next|They're heavy even for me...I won't be able to spin the crank long enough!
+Oh! You opened the windmill! Thank you!|next,-4|No problem. Got anything for us?|next,-5|Vi, y-|next,caller||checkinvqtd,0,full,23|Here is something for your trouble!|flag,91,true||break||giveitem,0,23,22|
+Thank you so much! I'll be able to enjoy the festival now!|regionalflag,10,true|
+|tail,26|I'd give you something...but it seems you can't carry any more stuff... 
+|tail,27|Hawk. The aphids are still the same as last year!|next,28|Indeed, professor. It seems our trip won't bear fruit in the end.|next,27,Angry|The Queen keeps saying I should come here, but every time I do I lose precious research time!|next||boxstyle,1||anim,27,Hurt||size,1.2||line||shaky||shakecamera,0.1,0.15|HACK |wait,0.1||shakecamera,0.1,0.15|COUGH |wait,0.1||shakecamera,0.1,0.15|COUGH!!|shaky||minibubble,128,28||next||anim,27,Idle||destroyminibubble||end|
+|tail,-4|Those berry baskets look so heavy...|next,-6|Kabbu, you should try carrying one of them.|next,-5|Heh. No need. I have successfully done so before.|next,-6|Really? Commendations are in order, Kabbu.|next,-4|Yeah. Sometimes I forget you're pretty strong!|next,-5|(I chose wisely, not mentioning the ensuing back pain!)
+Hey, folks. I wanted to try entering the eating competition, but I don't think my old stomach's going to keep up... 
+|tail,-6|So tall...|next,-5|I imagine you're not used to that feeling, Leif?|next,-6|We've got to admit we aren't. Not to this magnitude.|next,-4,Angry|Bleh. It's all the same to me. Why is everybody else so tall!?|next,-6||face,-6,-4|More like, why are you so short?|next,-4,Flustered||face,-4,-6|You wanna fight, Leif!?|next,-5|(Never mention height ever again.)
+We have all the competitors if one of you join, but you should still |color,1|talk to the other contestants|color,0| to know them before we start.
+|hide||event,71|
+|tail,-6|See you in the ring, wasp.|next,caller|...You're as good as finished.
+|tail,-6|So Zasp is an explorer? He's a bit antagonistic.|next,-5|Not all explorers are like us. Some are in it only for fame and riches.|next,-4|Uh, yup. Nothing like us! In no way at all!
+|event,true||align,right,true,true|Heyyy! You've come for the eating competition?|next,-6|Mhm. We can't wait to show our eating prowess.|next,-5|Don't let Leif's slim figure fool you...|next,caller|Heheh, coo-...!!! Oh! Oh my gosh! You're that bee!|next,-4,Angry|Uh... What?|next,caller|You're Vi, right!? Some people were talking about you! Short |minibubble,@Uh oh...,-5|and with attitude... It must be you!|next,-4|Yeah. I'm short, so what? |anim,-4,Flustered|What do you want!?|next,caller|Hehe. Easy there! I'm Chubee, your number one fan!|next,-4,Sad|What?|next,caller|The first explorer bee, who conquered Snakemouth and survived|line|being dragged by the river!|next|I have no idea why the other bees aren't freaking out!|next,-4|...!|flip,-4|...?|flip,-4| U-Um...|next,-6||face,-6,-4|(Psst. She wants to be your friend, Vi.)|minibubble,@(O-Oh!),-4||anim,-5,Happy||next,-4,Happy||destroyminibubble||face,-6,caller|Uh, Yeah! That's me! The greatest one and only bee explorer!|next,caller||anim,-5,Idle|Wooow! You're even cooler than I thought!|next,-4,Idle|So you don't think exploring's silly? I'm not too good at art or anything...|next,caller|No way! It's cool to see bees trying new things!|next|Me, for example...I'm going to travel all around Bugaria. Go to |line|lots of events and meet all sorts |line|of bugs!|next,-4,Happy|That's awesome!|next,-6|Let us make this competition the highlight of your trip. Least we can |line|do for Vi's friend.|next,caller|Oh, you're on! I'm not going to lose!|next,-4|We won't lose either! Do your best, Chubee!|next,-5|Making unexpected friends, healing the spirit... This must be thanks to Venus too!|next,-6|Uh, probably not. But let's go get that offering.|flag,94,true||break||event,false||end|
+|tail,-6,Happy|Do your best, Chubee.|next,caller|Sure thing! Let's chat later, when it all calms down.|next,-4|That'd be nice. It's a promise!
+|checkflag,94,88||anim,-5,Happy|It's great to see you make friends, Vi!|next,-6|Mhm. Even got a smile out of us...|next,-4,Happy|Heheh. I'm too busy being happy to get upset! I just hope we keep bumping into her!
+|checkflag,93,36||checkflag,94,28|We have everyone for the eating competition, are you ready to start?|prompt,map,2,2,57,58,@Ready!,@Not yet.|
+The eating competition for an |color,1|offering|color,0| will start soon, when we |line|have |color,1|three contestants|color,0|.|next|So far we only have one, unless some of you want to join.|next,-4|Well, I'm not joining! I can eat, just not fast...|next,-5|I, uh, will skip. Don't need any more weight...|next,-6|We'll do it. We're pretty hungry.|next,-4|Already!?|next,caller|Well, we still need one more to start. Maybe you can find a willing participant?
+Hohoh! Come to try some |color,1|Wacka-a-Worm|color,0|? It's 15 worms|line|for the prize!|prompt,map,2.5,3,39,38,40,@I'm ready!,@How to play?,@No thanks!|
+Easy! Every year these pesky worms keep making holes in the |line|aphid farms!|next|Your goal is to get rid of all of them by hitting them before they escape!|next|If you get close to them, they hide away, so you have to hit them from afar!|next,-6|Sounds like a job for you, Vi.|next,-4|Alright! Time for some Beemerang action!|next,caller|You've got a minute to reach the goal! And don't worry about the worms, they're too stubborn. They'll keep coming back for more!|next||goto,37|
+Alright! Let's get things rolling!|break||event,54|
+Well, this is your only chance to get the offering!
+|tail,-4|Ugh. It's her.
+Oh geez...I came all the way here...|next|But these plebs really can't compare to the Bee Kingdom... 
+|tail,-4|Grr!!!|next,-6|Well, she's rude.|next,-4,Angry||face,-4,-6|She? Most bees are like that. They're so stuck up!|next,-5|Vi, I never did ask. Have you any beef with your kingdom?|next,-4|...A little. We just don't get along. They tried to stop me from exploring because it was "dangerous".|next||anim,-4,Flustered|They're annoying, okay? Being an explorer is way better! Who wants |line|to be stuck in the Hive forever!?|next,-6|So you're an outcast amongst your own people.|next,-4,Angry|You don't have to say it like that, but I guess.|next,-6|We do understand how it feels, though.|next,-5|Stop. |face,-6,-5|You're no outcasts! You're equally incredible within this team!|next,-4,Idle|Heheh. You're too corny, Kabbu.|next,-6|Agreed. Don't you get embarrassed saying stuff like that?|next,-5|No. I am serious. I won't let my friends feel like outcasts!|next,-6|...Thanks.|next,-4|Yeah...thanks, Kabbu.|next,-5,WeakBattleIdle|Oof. Now I'm actually embarrassed!|fwait,0.1||anim,-5,Idle| But I digress. |next|We have a festival to enjoy. |line|It's our mission!|next,-6|You're right. Let's go make some new memories.|minibubble,160,-4||breakend|
+|anim,-4,Angry|Oh, only |var,1|? That's too bad! Maybe next time?
+Oho! |var,1|! You sure showed those worms who's boss!|next,-4,Happy|They didn't know who they were messing with!|next,parent|Hohoho, that's right! Here you go, lass. You've earned this!|break||giveitem,1,55,46|
+|tail,-6|Not bad, Vi. Not bad.|next,-4,Idle||face,-4,-6|Mhm. I never knew a mission could be so fun!|next||checkflag,101,87||tail,-5|We've got both offerings now... We should head back to Aria!|next,-6|Thanks, team. The festival was pretty fun after all.|next,-5,Happy|And it's not even over yet! Let's go, everyone!|next,-6|(Muse... If only we could have come together. Watch over us.)
+Are you up to another round? You won't get an offering, but you sure will get berries!|prompt,map,2.5,2,39,81,@Yeah!,@No thanks!|
+Ahem! One moment, young lady!
+|tail,-4,Angry|Huh? What's your deal?|next,caller|That |color,1|boomerang|color,0| you have there, where did you find it?|next,-4,Sad|...I uh, I bought it?|next,caller,Angry||boxstyle,1||shaky|...|fwait,0.1||anim,-4,Surprized||anim,-5,105||anim,-6,BattleIdle||shakecamera,0.1,0.15|YEAH, RIGHT! YOU STOLE MY AUTOMATED DRONE BOOMERANG PROTOTYPE DIDN'T YOU, |line|YOU THIEF!?|next||anim,caller,Hurt||line||size,1.2||shakecamera,0.1,0.15|COUGH |wait,0.1||shakecamera,0.1,0.15|COUGH |wait,0.1||shakecamera,0.1,0.15|HACK |wait,0.1||shakecamera,0.1,0.15|COFF!|shaky||next,-6,Idle||anim,-5,Idle||face,-6,-4||boxstyle,0||size,1|Vi, look what you've done.|anim,-4,Angry||next,-5|One moment, please! Vi is no thief. There must be a misunderstanding!|next,caller,Angry|Don't stick your horn where you ain't asked, you green stinkbug!|face,-5,caller||anim,-5,Hurt||next,-4,Angry||anim,-5,WeakBattleIdle|I didn't steal anything, okay? I bought it in the Ant Kingdom!|next,33||face,-6,caller||anim,-5,Idle|Professor, please watch your temper. |fwait,0.15|Doesn't she seem to have |line|mastered the A.D.B.P. quite well? |line|She could be useful.|next,caller,Idle|Useful!? How could this... Wait. |line|Yes, I'm a genius!|next|Listen up, you rascal.|line|You can keep that prototype.|next|...If you help us gather data and with some upgrade testing. You can't say no!|next,-4|This is what I get for buying from Shades... |fwait,0.5|Fine.|anim,-4,Happy| Upgrades sound cool, |line|anyways!|next,caller|Hawk! |face,32,33|Give her prototype the |color,1|Halt Upgrade|color,0|!|next,33|Of course, professor.
+This will take just a moment.
+Professor, I've successfully upgraded the A.D.B.P.|next,-6|Doesn't seem like you did anything.|next,32||face,-6,32||face,-5,-6|Hmph! As if you'd know real science! The Halt Upgrade allows you to |color,1|hold|color,0| the prototype after you throw it!|next,-6||face,-5,32||face,-6,32|Do physics work that way?|next,-4|Shush, Leif. That's awesome!|next,32|Listen up! You just hold |button,5| after you toss it! That will hold the prototype in place until you release |button,5|.|next|The kinetic energy generated by the Halt should be able to |color,1|spin things around|color,0|.|next,-6|That is literally impossible.|next,caller||face,caller,-6|In any case, we hope you'll aid with our research when you can.|next|For example, why not test the halt on that crank over there?
+Go on! Try the prototype halt on that crank!
+If you have forgotten how to perform the Halt, all you have to do |line|is hold |button,5|after a throw.
+Great job! Even a half-wit like you can use the Halt, it seems.|anim,-4,Angry||minibubble,@Hey!,-4||next,caller|Another tip for you. If you hold then release the prototype, it will |color,1|come back in the same direction it came from in a straight line|color,0|.|next|It can even go a bit beyond the starting point!|breakend|
+Please excuse the professor's behavior. She only wants the |line|best for her research items.|next|Take good care of that prototype.
+|spd,0|Your |color,1|Beemerang|color,0| has been upgraded!|next||spd,0||sound,ItemGet0|Vi can now use the |line||color,1|Hurricane Toss|color,0| skill in battle!
+|event,57|
+Get ready soon or we will start without you.
+Welcome to this year's eating competition.|next|The rules are simple: Mash |button,4| to eat as fast as you can. Whoever finishes their plate first is the victor!|next|Here are this year's competitors:
+From the Hive, Chubee!|minibubble,161,-4|
+|destroyminibubble|From the Ant Kingdom! Leif!|minibubble,162,-4|
+|destroyminibubble|And Zasp! Who's come from a land far from Bugaria.|minibubble,131,-4|
+With that, we are ready to begin! Give it your all, for the Goddess Venus!|next|Ready... Set... 
+Eat!
+Stop! We have a winner!
+|anim,-6,WeakBattleIdle|This year's winner is... Chubee!|next,-6|Well fought, Chubee...|next,23||flip,23|Same to you, Leif!|next,caller||flip,23|Congratulations. Here is your reward.
+This year's winner is...Leif!|next,23|Well fought, Leif!|next,-6||face,-6,23|You were a worthy rival.|next,caller||face,-6,caller|Congratulations. Here's your reward.|break||giveitem,1,56,68,-6|
+Consider joining us next year!|next,-6|We may, judge. We may.
+|tail,-6|Sorry. We never expected Chubee to be so powerful.|next,-5||face,-5,-6|Do not worry. But how should we proceed? That offering is essential |line|for our festival plan.|next,-4||face,-5,-4|Um, Chubee's my friend, right? Maybe we can trade with her!|next,-6,Idle|A non violent plan? Impressive.|next,-5|It's worth a shot! We've got nothing left to lose.|next,25||flip,-4,false||flip,-5,false||flip,-6,false|Oh, Leif was it? There's a runner up prize. Don't forget it!|next,-6|Yay, participation prize... Thanks.|break||flag,102,true||giveitem,2,24,70,-6|
+|tail,-5|D-Defeat is also a precious memory. Stay strong, Leif!|next,-6|Yeah, yeah. Let's go.
+|tail,-5||face,-5,-6|Nicely done, Leif! You've done it!|next,-4|You've got one heck of a stomach!|next,-6|Thanks. It was a piece of cake really. This festival was good, not gonna lie.|next,-5|Leif, it's not over yet. You're going to have even more fun!|next,-6|We'll try, Kabbu. We'll try.|next,-4|Heheheh.|next,-5||face,-5,-4|You've made a friend too, Vi. This festival is wonderful!|next,-4|Geez, Kabbu. You should have some fun too!|next,-5|I'm having the time of my life! No worries.|next||goto,99|
+|wavy|Urp... I failed her... What a disgrace...|wavy||anim,-4,Happy||minibubble,@Mwahaha!,-4||next,-6|Have some class, Vi. He fought valiantly.|next,-5|Let's leave him alone for now...|next||destroyminibubble||end|
+The competition has finished. See you next year!
+|checkinvqtd,0,0,127|Hey! You found some Berry Juice at the stalls?|pickitem,0,0,true,false,75,76|
+|checkvar,0,39,77|Close, but not quite! I'm sure you can find some!
+Don't give up. I'm sure you can find some!
+|removeitem,0,var,0|Now that looks delicious! Promise's a promise, Vi. |line|Here you go!|break||giveitem,1,56,78|
+|tail,-4|Thanks Chubee! You really helped us out!|next,caller|No problem. Let's have some Berry Juice together when you're less busy!|flag,101,true||next||goto,99|
+|checkflag,102,80||tail,23|See ya around, folks!
+Heyyy, Leif! You got me really good!|next,-6|Not at all. It was very close.|next,caller|They gave me this, but I don't really want it. Here you go, pal!|next,-4,Happy|Woah, thanks Chubee!|flag,102,true||break||giveitem,2,24,79|
+Alright! Maybe next time!
+Hey hey! You got |var,1| worms, so you get |currency,var,0|!
+Feel free to try again!
+No worms? Sorry, can't give ya anything!
+We're back to work now that the festival is over!
+|event,true||align,left,true,2||flip,caller,false||tail,-5|Mayor! It is good to see you!|next,caller|Hohoh! Hey, Kabbu. You seem to be well back on your feet!|next,-6|Mayor? Of where?|next,-5|This is the |color,1|Defiant Root|color,0|'s mayor. He graciously hosted me when I got lost in the desert.|next,-4|You're just full of wild stories you haven't told us, huh.|next,caller|I wouldn't say wild...Kabbu is such a good bug! Come visit at the Lost Sands when you can.|next|Right now I'm hosting this year's |color,1|Whack-a-Worm|color,0|! It's an honor, really.|next|Come talk to me to give it a shot, eh? You can even win an |color,1|offering|color,0|!|next,-5|That we will!|flag,104,true||break||event,false||end|
+|tail,-5|We still need one more offering...|next,-6|Hopefully, it'll be as entertaining to get as this one.
+This must be another contestant in the eating competition...|next,-6|Let's introduce her to the future winner.|next,-5|Careful, Leif. Arrogance can lead to defeat.|minibubble,@As if...,-6||next||destroyminibubble||end|
+|anim,-4,Angry|I guess I should just skip next year's festival... 
+|checkflag,94,91||tail,-6|You know, Vi. Not all bees are like this. Surely you know that?|next,-4|Yeah, at least there's Chubee.
+|tail,-6|You know, Vi. Not all bees are like this. Surely you know that?|minibubble,@...,-4||anim,-4,Angry||next||destroyminibubble||end|
+|tail,-5|So the mayor is hosting this year...|next,-4|Every year there's a new host, right?|next,-6|Why not just keep the same host every year?|next,-5|Well, they've given a lot of reasons but I think it's just so they can enjoy the festival the following year!|next,-6|That's surprisingly reasonable.|next,-4|I hope they're getting paid, at least!
+|tail,-6|This bee, we've heard of her while eating at Fry's. He mentioned a bee with an incredible palate.|next,-5|She must be a true gourmet, if she's even hosting a competition!|next,-4|You should just go say hi or something!|next,-6|No. We are not worthy yet.|next,-5|(Leif is acting strange, Vi.)|next,-4|(Just let him be a weirdo sometimes...)
+|tail,-4|I hate to admit it...but Hawk looks really cool!|next,-6|A Moth born with those colors, working with a bee... Life really |line|is strange.|next,-5|He's even a bit similar to you, isn't he, Leif?|next,-6|Smart and handsome... Yes, we can see the resemblance.|next,-4,Angry|Ugh. Can't you take a compliment like a normal bug!?
+|tail,-4|Woah, that bee is really cool!|next,-6|That's a Moth, Vi.|next,-4|N-No way! Although I guess that explains it...|next,-5|Don't worry Vi, you are plenty cool yourself!|next,-4,Happy|Flattery will get you everywhere!
+|tail,-6|Now THAT'S an old bee.|next,-5|Leif! Could you not be so rude to the elderly!?|next,-4|I mean, she's pretty old. I feel like I've seen her somewhere before, too...|next,-5|Just be nice to the elderly!
+|tail,-6|The professor that Vi stole from's |line|quite old.|next,-4,Angry|I |wavy|DIDN'T|wavy| steal the Beemerang!|next,-4,Idle|...She IS pretty old, though.|next,-5|Let's hold our end of the deal and help her out. She needs all the help she can get.|next,-4|She upgraded the Beemerang, so we do owe her a bit... And I pay all my debts!
+|event,true||align,right,true,true|Heyyy! I really gotta say, Leif, you had me worried!|next,-6|Hmph. Spare us your sympathy. We were completely defeated.|next,caller|Heheh. No need to be so serious!|next,-4|Say, Chubee... About that offering.|next|We're on, um, a mission! And we really need both offerings.|next|Do you think you could trade with us?|minibubble,@So polite!,-5||next,caller|Trade, huh? Sure! I didn't enter for the prize, anyways.|next|How about some |color,1|Berry Juice|color,0|? I saw a stall selling some!|next,-4|We're on it! Berry Juice coming up super quick!|flag,105,true||break||event,false||end|
+|checkflag,96,100||tail,-5|We've got both offerings now...we should head back to Aria!|next,-6|Thanks, team. The festival was pretty fun after all.|next,-5,Happy|And it's not even over yet! Let's go, everyone!|next,-6|(Muse...if only we could have come together. Watch over us.)
+|tail,-5|We still need one more offering...|next,-6|Hopefully, it'll be as entertaining to get as this one.
+Hmm. This truly is the beautiful land I envisioned. I am fated to set up shop here soon! 
+|tail,-6|What nice robes.|next,-4|Maybe he's a magic bug too!|next,-5|You mean sorcerer?|next,-4|Whatever. I hope he's a magic sohrceror!|minibubble,@Oh dear.,-6||next||destroyminibubble||end|
+|tail,-6|What nice robes.|next,-4|He looks so magical!|next||face,-4,-6|Hey, Leif. Maybe you need a robe too!|next,-5|You're RIGHT! Leif, with a sorcerer robe!|next,-6|Um, no. We'll keep our look.
+|event,true|So you've come. Want your fortune read, am I right?|next,-6|How did you...|next,caller|Know? |anim,-6,WeakBattleIdle|It's all been foretold! Well, most things. I think.|next,-4||anim,-6,Idle|Woah. S-so you can see the future?|next,caller|Parts of it, yeah. And I can show where stuff is to you! For a price.|next,-5|Humbug. I refuse to believe this.|next,-6|Huh. Why not? It'd be so useful...|next,-5,Angry|If the future is set in stone, we don't control our fate! I simply disagree!|next,-4|So you CAN hate stuff, Kabbu!|next,caller||anim,-5,Idle|Now, now. No need to argue. Just try my services! If it works, everyone wins!|next,-6|Sounds good to us.|next,-4,Happy|Yeah! We can get lots of treasure!|next,-5||flip,-5|(It working is what would worry me most.)|flag,123,true||break||event,false||end|
+Ah, I foresaw your arrival!|line||size,0.5|(Kinda...)|size,1||next|For a small fee, I can help you find what you need.|line|Now, what could I find for you?|showmoney||prompt,map,0,4,-11,-11,-11,107,@Crystal Berries - 5 berries,@Lore Books - 10 berries,@Rare Medals - 20 berries,@Nothing} thanks.|
+Very well. Let us begin!|next|@EVENTCOMMANDS@|anim,caller,100||wavy|Ahh...hama hama...chaka chaka...|next|Show me what I want to see...|wavy||next||boxstyle,1||anim,caller,101||shaky||line||halfline||size,2|AH CHAAAAA!
+I'll be waiting for our fated reunion.
+Ah yes, today you'd be low on money. Don't worry, good things are coming!
+|call,152||next||goto,144|
+|call,151||next||goto,144|
+I saw...something of interest...|next|Someplace in |string,0|...Yes. Look for anything that catches your eye there.
+...I apologize. I was unable to find anything you haven't found yet.|next|As I knew it'd happen, I will give your berries back!|minibubble,@(Phew...),-4|
+|call,151||next|It is for sale in a stall somewhere in the Ant Kingdom... Yes, that's where you will find it.
+|call,151||next|It is for sale in a shady place...somewhere in the Ant Kingdom... Yes,|line|that's where you will find it.
+|call,151||next|Some white mantis holds it...he awaits for you to give it. Yes, that's where it is.
+|call,151||next|The traveling caravan that comes by...they have it for sale. Yes, that's where it is.
+|call,151||next||goto,126|
+|call,152||next|It is actually very close by... You just have to approach certain things from a different angle... 
+O-oh! How did you get back here?|next|Well, if you want me to try to find things you have not found yet, please talk to me from the front of the desk.|next|...Here, to commemorate my fated scare.
+Please refrain from doing it again, though.|next|Even though I was expecting it, it really gave me a scare... 
+If you want me to find something for you lot, talk to me from across the desk.
+|call,152||next||goto,126|
+|boxstyle,3||spd,0|Have you lost something? Or are you looking for something?|line|Whatever it is, I can find it!
+|call,151||next||goto,145|
+|call,152||next||goto,145|
+Someone in |string,0||line|holds it... Maybe they will give it to you if you talk to them or do some request...
+They should sell Berry Juice in some stall in the main area, look for it there!
+Deep breaths, professor.
+Goodness, it's impressive to see Chuck walk all the way over here.|next,-6|Bet his legs felt super young when he heard about the festival.
+It's nice to see others play Whack-a-Worm. Ain't any |line|good at it myself.
+|wavy|BOOOO!!!|halt|
+Kabbu can now use the |color,1|Pep Talk|color,0| skill in battle!
+Cochineals aren't only beautiful creatures, they come with many benefits.|next|Many of the Bee Kingdom's clothing is dyed with their help.|next||checktrue,437,134||end|
+|align,right,true||face,caller,-1||tail,-6|That's, uh, cool.|next,-4|Oh yeah. Is paint made that way too?|next,caller|Some colors, yes. Like this exquisite red paint I bought at the festival.|next|Hard to get this time of the year.|next,-5|M-Miss! We have been searching far and wide for that paint!|next,caller|Have you? None of you seem like you know the way of the brush.|next,-4|It's, um, a gift! For Jaune!|next,caller|Ah, yes! She would certainly put this paint to good use.|next|But I'm afraid I can't part with it. I had a special duty for it.|next,-4,Flustered|N-Name the price!|next,caller|It's not about the money! I'm decorating my chambers...|next|I thought of drawing on its walls.|next,-5|If you won't sell, would you consider a trade?|next,caller|Hmm...|next,-6|This is very important for us, too.|anim,-4,Idle||minibubble,@Yeah!,-4||next,caller|There is one thing.|next|I do love the Defiant Root's work and their patterns.|next|If you could get me some of their fine building cloth, I would consider giving you the paint.|next,-4|Got it! Just uh, please don't use the paint yet! We'll be back!|next,caller|Best of luck. It'd be a win-win for everyone, wouldn't it?|next,-6|Alright. Let's hunt it down when we can.|flag,438,true|
+I do love the Defiant Root's work and their patterns.|next|If you could get me some of their fine building cloth, I would consider giving you the paint.
+Ah, I've been waiting. Have you got the cloth?|pickitem,1,137,138|
+|checkvar,0,141,139|Now, I'm sympathetic. But I will only trade for Defiant Root's cloth.
+Not yet I assume? Come soon so I can give you the paint.
+|removeitem,1,141||flag,444,true||align,right,true||face,caller,-1|Oh yes! Feel it... So soft. The patterns flow through me!|next,-6|Uh, glad you liked it.|next,-4|Time for your end of the deal!|next,caller|In a hurry aren't you? You should appreciate art a bit more!|next,-5|Indeed. Or at least Jaune's...|next,-4,Angry|Whose side are you on!?|next,caller|But I won't delay you, I'm very grateful after all. Here.|break||giveitem,1,140,140|
+I hope she likes your gift.|next,-4,Sad|...Me too.
+Thank you for the cloth, good luck with your adventures.
+Ah, you're the ones that took the investigation request, right? Go on right in.
+So a giant Midge was causing the issues? At least it wasn't a Wasp or something like that.
+Somewhere in |string,0|...|line|Yes. That's where you will find it.
+Somewhere in |string,0|...|line|It is buried under the ground. Yes, that's where it is.
+|call,151||next|In some fancy entertainment place in the Ant City... Yes, that's where you will find it.
+|call,150||next||goto,144|
+|call,150||next||goto,145|
+|call,150||next||goto,126|
+I saw...a Lore Book...
+I saw...a Medal...
+I saw...a crystal berry...
+Hey. Not many explorers around after the festival... Could it be you saw my request?|next,-6|Yup. Three Clear Waters, right?|next,caller|You'd save my abdomen if you fetch them for me!|next|I'll tend to my other duties until then. I'm counting on you!|flag,483,true|
+Hey! Did you bring me some Clear Water?|pickitem,0,155,156|
+|checkvar,0,12,157|Maybe you confused me with someone else? I'm looking for Clear|line|Water.
+Oh. Don't mind me then...
+|removeitem,0,12||addvar,49,1||checkvar,49,3,158|You're the best! Do you have more?|pickitem,0,155,156|
+Huff. That's just what I need. Thanks for the help.|next,-6|No problem.|next,caller|Will this Medal be a good enough reward? It's only caused me trouble...|break||giveitem,2,47,159|
+|tail,-6|We do need a good nap, so...it's fine. Thanks.|next,caller|Alright then. Time to get back to work!|flag,484,true||completequest,50|
+And have tonsa fun!|halt|
+Good luck!|halt|
+You too!|halt|
+It gets kinda lonely right after the festival...Oh well, time to work!
+How dashing! She's...like a bee Knight!|next,-4,Angry|What're you gushing all over her for!? I'm way cooler!|next,-6|Right, Vi... 
+
+
+

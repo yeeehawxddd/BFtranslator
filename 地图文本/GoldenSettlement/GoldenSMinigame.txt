@@ -1,0 +1,20 @@
+|checktrue,276,8||tail,-6|That's a big field.|next,-5|It seems some activity is conducted here. Let's investigate.
+|flip,caller|Ugh. Where are the customers? Been a while since anyone came! I might have to close down at this rate.|next,-5|Uh, excuse us...|next,caller||flip,caller|What is it?! Can't you see I am-|next|Wait, are you...customers?!|next,-6|Depends. What do you do here?|next,caller|Oh, welcome! Welcome to the Whack Farms!|next|Here, we play a popular game called |color,1|Whack-A-Worm|color,0|!|next,-4|Oh, that's the game we played at the festival!|next,caller|Yeah. The festival hosts it sometimes, but here you can play |line|whenever you want!|next|It's 10 berries for a try, and depending of your score you can win|line|quite a few berries or items back!|next||flag,276,true||goto,2|
+|showmoney|So...are you interested in playing |color,1|Whack-A-Worm|color,0|? It's 10 berries |line|for a try!|prompt,map,2.625,2,4,5,@We will give it a try!,@No thanks.|
+|boxstyle,3||spd,0|Welcome to the one and only Whacka Farms! Here you can play Whack-A-Worm to win berries!|next||spd,0|Get over 25 worms for a special prize!|line||line|Current Highscore: |var,32|
+|checkmoney,10,6||money,-10|Alright! Please get in the arena so we can start!|break||event,54|
+Ugh. Alright. If you ever change your mind, just come back.
+Wait... You have no money! Come on, help me out here!
+What? You didn't hit a single one?!|next,-4,Angry|I just...wasn't feeling like it.|next,caller|Well, no refunds! Come back later if you want to give it a |wavy|REAL|wavy| try.
+|tail,-4|We can replay the worm thing here again!|next,-5|I can't help but feel sad for the poor worms.|next,-6|The Mayor said they like it, so...|next,-5|Does that make it alright to just keep hitting them...?
+Well, look at that! You got |var,1| worms!|next,-4,Happy|Hehe! What do we get?|next,caller|Here is something for your efforts.
+Thank you for playing, come back again!
+Woah! You hit over 25! That's a really hard feat!|next|It's not 30 worms, but still super impressive!|next,-4,Happy|Ha! It was nothing for me!|next,caller|Here you go, this is a special prize!
+|tail,-4|She didn't realize she was trapped?|next,-6|Good for her. We'd have gotten antsy.|next,-5|No point in bringing it up now...but isn't it depressing?|next|To be accustomed to not having clients...|next,-4|W-Well, we could help her out a bit...
+|tail,1000|This place is beautiful! I didn't know of it!|next,-6|It was, uh, obstructed.|next,-4|Sit back and watch, mayor. Imma get that 20!
+|tail,-6|Doesn't the mayor like this game too much?|next,-4|Don't you enjoy eating way too much?|next,-6|Why are you bringing that up...?
+You really did it! I thought...I thought it was impossible!|next,-4|Heheh. It was nothing, for real.|next,caller|Thank you, you've brought a real good time to this tired old bug!|next,-5|I hope this repays my debt to you, even slightly...|next,-6|Vi's the one who did everything, so...|next,caller|You never owed me anything, calm down!|next|Now, let me give you a proper reward!
+I'm so excited! Knock it out of the park!
+|tail,-4,Sad|...A key?|next,caller|Hoho! You'll have to check near my house to see the treasure it guards!|next,-4,Happy|Really? Awesome! Thanks for the business!|next,-4,BattleIdle|If I get 30, do you pay double!?|next,-6|We'll, uh, get going now.|next,caller|Hahahaha! That's alright. I've got to go get some work done too!|next|See you in Defiant Root!
+Ah, so close to the 20...You just have to try again!
+T-Thirty worms...30!!!|next,-4|Heheheh.|next,caller|..."|color,1|MOREFARM|color,0|".|next,-6|What was that?|next,caller|A special code. For a special "menu".|next,-4,Angry|THAT'S the reward!?|next,caller|When you figure it out, it's worth it...|next,-5|How mysterious...|next,caller|Oh, and take these, too!
