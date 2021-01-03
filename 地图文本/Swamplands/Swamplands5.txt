@@ -1,0 +1,3 @@
+|tail,-4|There's a lotta weird machines around...|next,-6|It almost seems like they built them randomly.|next,-5|Some of them seem to be damaged...|anim,-5,Angry|Probably by that monster...!
+|tail,-5|(Everyone, lower yourselves.)|next,-6|(What's the matter?)|next,-5|(Just listen to me and do it!)|anim,-4,Sad||minibubble,@(Eep!),-4||breakend|
+T-That thing was huge...|next,-5,Angry|That shape... It must be that cursed beast!|next,-4,Sad||face,-4,-5|You mean the one that...|next,-6|Look, it seems to not have noticed us. With some luck we'll |line|avoid it, Kabbu.|next,-4|Yeah, we'd better get a move on!|next,-5|(Avoid it? ...No, this time I'll...)

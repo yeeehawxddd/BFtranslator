@@ -1,0 +1,1 @@
+|anim,-5,Angry|Accursed rocks! Move out of my way!|next||wavy|HRRRGAH! TEIYAH! HYAAAAH!|wavy||next,-4,Surprized|S-Should we worry?|next,-6|Just make sure we don't slow him down.

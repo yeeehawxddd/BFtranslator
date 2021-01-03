@@ -1,0 +1,10 @@
+|tail,-4,Happy|Alright! Let's hop on the lilypads!|next,-5|Hm? I thought you would hate the risk of falling into the water!|minibubble,@We do.,-6||next,-4,Idle|Just trying to make things fun...|breakend|
+|call,3|Seb!|next,caller|Milady! I am deeply sorry for abandoning you once again...|next,1000|I'm relieved you're safe... But must you keep causing me so much trouble!?|next,caller|M-Milady! Please... How can I make up for this mistake?|next,1000|Hmm... When we return home, you shall make me your legendary delicious treats!|next,caller|I will not let you down!|next,1000||face,party,1000|Thank you once again, Team Snakemouth! I am in your debt once|line|more!|next,-4,Happy|No problem! You can repay it now, if you wanna.|minibubble,5,-5||next,1000|It's a bit dangerous here. Would you visit me at my residence?|next|I live just next to the Explorers' Association.|next,-6|Gotcha. Let's leave this dreadful place, then.|next,1000|I'll make sure Seb does not get lost again. Don't mind us!|next,caller|I will follow your every step!|next,1000|See you later, Team Snakemouth!|call,4|
+Seb's here! Let us get him to safety!
+|event,true||teleportparty||move,1000,33.5,2.4,4.3||align,left,true||face,caller,-1||movewait,1000||face,1000,caller||tail,1000|
+|break||hide||fadein||fwait,1||flag,390,true||removefollower,76||loadmap||fadeout||fwait,1||event,false||tail,null||boxstyle,4||blank||spd,0|Head back to the Ant Kingdom?|prompt,map,0,2,7,6,@Yes,@No,none||end|
+*Grumble*
+|event,false||end|
+|warp,16,-2,0,2|
+.
+|gettail,76|Seb dear, are you in here? Wait for us!

@@ -1,0 +1,18 @@
+|checktrue,336,16||tail,1000|That's a nice bridge. Given the ones who built it. Time to cross!
+...! Curses! We must cross quickly!|minibubble,@Hmm?,-6|
+N-No! Wait!
+Phew. That was another close call! Good thing I can-
+IYAAAAAAA!
+|wavy|Ugh...|wavy|this hasn't been our year.|next,-4,Flustered|No kidding...! |anim,-4,Sad|Everyone's fine?
+Maki! Where's Maki!?
+Over here!
+Team Snakemouth! I'm here!|next|...Tch. I hurt my leg... 
+|anim,-5,Angry||shaky|WE HEAR YOU MAKI, HANG IN THERE!!!|shaky||next,-6||boxstyle,0|Yikes. I know he has to hear you, but...|next,-4,Flustered||boxstyle,1|SHOULD I FLY OVER THERE!?|minibubble,@Ugh.,-6|
+It's okay... I'll wait here! Help Kabbu and Leif reach me too!
+|anim,-5,Idle|You've heard him! We must rendezvous with haste! Let's |line|look for another path!|next,-6,BattleIdle|Just wait till we find 'em. Revenge will be cold.|next,-4,Angry|Uh, right. Time to search!
+Kabbu's Dash is now the |color,1|Horn Dash|color,0|! Tap |button,5| twice to activate a rock destroying dash!|next||sound,ItemGet0||spd,0|Kabbu can also now use the |color,1|Dash Through|color,0| skill in battle!
+These don't look like they'll budge.|next,-4,Angry|Ugh, we're stuck already!? This is bad.|next,-5,Angry|Ngh... Grr...|next,-6|Uh, Kabbu?|next,-5||boxstyle,1||shaky|...GRRRRAAAAAAAAH!!!
+|wavy|Huff... Huff...|wavy||minibubble,15,-6||next,-4|W-Were you always this strong?|next,-5,Angry||face,-5,-4|We must save Maki. We cannot let anything happen to him!|next,-6|Well, yes. But how did you...|next,-5,Idle|When I remember how it felt to be left alone... My helplessness here|minibubble,@Hey.,-6|...I get so angry I can crush anything!|next|So let's go. We must hurry!|next,-4,Flustered|Oi, what's all that hopelessness talk!?|next,-6|Everything's always worked out fine. Why are you so frazzled?|next,-5,WeakBattleIdle|A-Aah, it's, um...|next,-4,Sad|Just tell us! We'll get it!|next,-5|...|next,-5,Idle|...Very well. I will tell you the truth.|next|I've spoken enough of how dreadful this place is.|next|In my hometown, it is regarded as a graveyard of naive explorers who drowned before they noticed...|next,-5,WeakBattleIdle|My master, my friend Bit and I...|next|We wanted to see Bugaria's vast and beautiful kingdom. |next|Despite many warnings, and to avoid the Wasp Kingdom, we crossed this swamp.|next,-6||anim,-4,Sad|You can't mean...|next,-5,Angry|It...it speaks for itself, doesn't it!? I'm...I'm the only one who made it!|next,-5,WeakBattleIdle|Even though I was the rookie, they...made sure I would...|next,-6,WeakBattleIdle|K-Kabbu...Why would you hide this from us?|next,-4,Flustered|Y-Yeah.|fwait,0.2||anim,-4,Sad| You're always telling us you'll help us!|next,-5||flip,-5|...I...There was no need.|next||anim,-4,Sad|The pain of that journey...I wished to bury it. To overcome my regrets in a new life.|next|Alas, I find myself back here. Haunted!|next,-4|I-It's gonna be ok, Kabbu! We're gonna cross it together!|next,-6,BattleIdle|...Yeah. No one's getting left behind. We'll save Maki and get out.|next,-5|(...Just crossing...is not enough! I...I wish to...)|next,-4|K-Kabbu... Come on, say something!|next,-5,Angry||face,-5,-4|...Y-You're right! We will best this cursed land together!|next,-6,Idle|It's a promise. Let's watch each other.|next,-4|You got it! Team Snakemouth's ready to go!|next,-5,Idle|Vi, Leif...thank you. Let's go!|next|(And I'm sorry...)
+Okay then.
+|checktrue,359,17||anim,-5,Angry|There is no time! We're pressing on!
+|tail,-4|They could've repaired the bridge or something...|next,-6|That'll take time. But we know how to get around.

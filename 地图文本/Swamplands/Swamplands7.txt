@@ -1,0 +1,1 @@
+|tail,-6|...We can't figure out what they were thinking.|next,-4,Angry|Yeah. Why all this stuff? Just build a bridge!|next,-5|Given what they did to us, maybe they just don't like|line|bridges much?|next,-6|Whatever. There's plenty of droplets and enemies around. Let's|line|see if we can press all these|line|buttons.
