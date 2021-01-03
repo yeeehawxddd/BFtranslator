@@ -1,0 +1,7 @@
+|checktrue,532,5||tail,-6||anim,-6,WeakBattleIdle|S-Something's up ahead... We're not sure if we should go...|next,-5|Have courage, Leif! Your answers could be at hand!
+|boxstyle,4||spd,0||glitchy|Guardian: M-001 "Mars"|line|Age: 361|line|Status: Stable
+|boxstyle,4||spd,0||glitchy|Guardian: V-012 "Venus"|line|Age: 358|line|Status: Stable
+|boxstyle,4||spd,0||glitchy|Guardian: P-183 "Pluto"|line|Age: 34|line|Status: Stable
+|boxstyle,3||spd,0|"Stop now? Preposterous. We're about to create something above the gods...!"
+|tail,-6||anim,-6,WeakBattleIdle|We'd prefer if we didn't return|minibubble,@...,-4||minibubble,@...,-5| to that room...|breakend|
+Leif... You're here, aren't you? I hope you find your answer.
