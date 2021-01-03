@@ -1,0 +1,16 @@
+Ah, the Golden Hills! I have heard many stories about this place.|fwait,0.2| They say Goddess Venus keeps this area in pristine weather!|next,-6|Where are all these leaves falling from, anyways?|next,-4|Just look up! That's the Bee Kingdom's tree!
+|boxstyle,3||spd,0|WARNING! DON'T JUMP ON THE FLYTRAPS!|next||spd,0|Use the safe line express to reach the Settlement!|line||line| - Golden Hills Tourist Center|next||spd,0||size,0.8|(PS: In case the safe line is out of commission, please wait until an associate|line|comes to escort you.)
+|tail,-6|Wouldn't you know. This guy does his job.|next,-4,Angry|It's always after we've done things the hard way!|next,-5|Let's make sure other explorers don't have to!
+|hide||event,91|
+Hey.|next,-5|Hello, esteemed technician! We saw your listing on the quest board.|next,caller|Cool.|next,-5|...Err, yes. Cool.|next,-6|So uh...|minibubble,@...,-4||next,caller|Here they come. Keep 'em busy while I fix this, okay? 
+|tail,-4,BattleIdle|Alright! Smackdown time!
+You're doing good.|next,-6|This is great stress relief, we must say.
+|anim,-5,WeakBattleIdle||anim,-4,WeakBattleIdle||anim,-6,WeakBattleIdle|Almost done.|next,-5|Huff... Huff... Don't give up, everyone!
+All done. Thanks. Here.
+|tail,-4,Happy|Alrighty. This was totally worth it!|next,-5|Phew...I'm only glad everyone came out of this well.|next,caller||goto,11|
+|tail,-6|Cool bug, that one.|next,-5|You two are a bit alike, aren't you?|next,-6|Whatever could you mean?|next,-4|Heheh... Well, let's get going, yeah? Unto the next mission!
+Feel free to use the cable car by using those cranks.|next|Ride to the top. It'll be worth it.|next,-6|Thanks.|next,caller|Well. I'm off. See ya.
+Ride the Cable Car?
+Go Up
+Go Down
+Don't Ride
