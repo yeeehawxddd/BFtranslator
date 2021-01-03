@@ -1,0 +1,7 @@
+|tail,-4,Angry|Yay...so many books...|next,-5|This Tarantula is quite well read! There's a few classics in here!|next,-6|Oh, we've been meaning to read this one. "World Round Pastry".|next|Maybe if we don't take it outside, he won't mind?|next,-5,Angry|Absolutely not! We can't risk it!
+|face,-6,-4|A library? We expected something a bit more, er...evil.|next,-4,Angry|Bleh. I hate when the treasure turns out to be books.|next,-5|This must be someone's residence! We're...we're trespassers!|next,-6|Shh. Relax. We've just gotta get out before-
+|anim,-4,Surprized||anim,-5,Surprized||anim,-6,BattleIdle|BLIMEY! WHAT IS THAT NOISE!?
+What the- What are you folks doing here!? This is a private domicile!|next|...I should've patched up that ditch...|minibubble,5,0||next|Get outta here, aight? Or I'll kick you out myself!|next|And don't you |shaky|dare|shaky| touch any books! I'll track you down!
+|tail,-4,Sad||anim,-5,WeakBattleIdle||anim,-6,Idle|W-Was that a spider?|next,-6|Seemed more like a friendly neighborhood Tarantula.|next,-5|We...we could've gone to prison...|next,-6|Guess we'd better get out before he calls explorers on us.
+|wavy|*Grumble Grumble*
+|boxstyle,3||spd,0|"I've found the perfect potion recipe! But blimey, everything's so spread across the land! ...Ahh, I'm too lazy..."

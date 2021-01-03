@@ -1,0 +1,2 @@
+|tail,-4|Wow! Look at all the flying books!|next,-6|Weird, we can't feel any magic here. The Tarantula must not use any crystals.|next,-5||checktrue,450,1|I understand your awe, but the door is locked! We'll...have to ask for help.|minibubble,@Gulp.,-5||breakend|
+He must be one of the 10 sorcerers! What an honor! To think we'd trespass his property...|next,-4|Eh, we're helping him out. So it's okay!|minibubble,@Right.,-6||breakend|
