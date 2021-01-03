@@ -1,0 +1,4 @@
+|tail,-6|Security is tight... Is that not a bit weird? Surely it's not because of us.|next,-5|Bandits have the most low of reputations. It makes sense many |line|would come to stir trouble with them.|next,-4|Shh. You want em to hear us!?
+|tail,-6|Hostiles ahead.
+|anim,-4,Angry|Oi oi... 
+|tail,-4,Angry|Grr...I can't really smack 'em without the Beemerang.|next,-5|It'd be wise for us to avoid being found again. We'll have to sneak our way through|anim,-4,Angry||minibubble,@Boooring.,-4|, until we find our items.|next,-6|Lead the way, Kabbu.

@@ -1,0 +1,6 @@
+|checkflag,11,3||tail,-4|Lunch time's over, huh.|next,-6|We should be able to snoop around properly now.
+Those wasps be getting on my nerves!|next,2|Hmph. They act so invincible... Didn't they fail their assault on|line|the Bee power plant?|next,3|Don't worry. Boss can handle 'em. We've just gotta hang in there!|next,1|As if the Boss wasn't busy enough... 
+So that's what happened at the factory...|next,-5|Shh! Valuable information, true... But we must not be found out!|next,-4|I don't think the Beemerang's gonna be in a cafeteria. Let's look elsewhere!
+|tail,-4|A cafeteria?|next,-6|Their chef isn't the most refined. We see a mistake or two.|next,-5|Sometimes, one has to eat what's available...|minibubble,@Poor them.,-6||breakend|
+Hey hey! Time out! I'm not here to fight. I'm just a humble cook. Please don't disturb me.
+|tail,-4,Flustered|A bandit!|next,-6|Chill, Vi. He doesn't seem to want to fight.|next,-5|Indeed. We can't just go around hitting everyone!|next,-4,Angry|Hmph!

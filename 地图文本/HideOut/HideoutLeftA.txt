@@ -1,0 +1,1 @@
+|tail,-4|Wait. Isn't the desert hot? There shouldn't be any water drops!|next,-5|Actually, most of the desert's water is underground.|next,-6|So if anything, there should be more droplets here?|next,-4|The world needs less water, more honey!
