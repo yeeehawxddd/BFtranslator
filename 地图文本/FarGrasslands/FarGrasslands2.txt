@@ -1,0 +1,2 @@
+|checktrue,336,1||tail,-4,Angry|It's way too messy in here! I can barely make out the road!|next,-6|It's not like there's a town nearby. We're just plowing|line|through the wildlife.|next,1000|The Ant Kingdom and its outskirts took a long time to tidy up. It makes you appreciate the workers more.|next,-5|We've taken them for granted...!
+|tail,-4,Angry|It's way too messy in here! I can barely make out the road!|next,-6|It's not like there's a town nearby. We're just plowing|line|through the wildlife.|next,-5|All the more reason to watch our every step!

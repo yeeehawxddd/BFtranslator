@@ -1,0 +1,11 @@
+|checktrue,336,1||tail,-6|The path seems to split. Anyone's got a guess?|next,1000|No need to take chances. If we keep moving north, we'll get there.|next,-5|(It's nice to have someone more reliable... )|anim,-4,Angry||minibubble,@I heard you!,-4||breakend|
+|tail,-6|The mission being done for, it wouldn't hurt to explore this|line|area a bit more.|next,-5|Just watch your step. The monsters are still dangerous!
+|boxstyle,1||shaky|Halt!|shaky| Who goes there!? This is private property! |shaky|LEAVE!|shaky|
+|boxstyle,0|We've gone a bit off-track. We shouldn't disturb this settlement...
+|boxstyle,0|Woah, chill out. We're just walking around...|next,caller||boxstyle,1|I won't say it twice! I'll protect this land... Get |shaky|OUT!|shaky|
+You've got it all wrong!
+Sorry. We'll leave!
+|tail,-5||boxstyle,0|Excuse me! We come in peace! We're simply exploring the f-|next,caller||boxstyle,1|I warned you! If you won't leave, I'll drive you out!|next,-4,Angry||boxstyle,0|Whatever! You're probably hiding treasure or something!|next,caller||boxstyle,1||shaky|I KNEW IT! POACHERS!|shaky||minibubble,8,-6||next,-4,Sad||boxstyle,0|W-Wait, we're not poachers!|next,caller||boxstyle,1||shaky|HRAAAAAAGH!
+Way to go, Vi...
+|shaky|N-No, the village...|shaky||next,-5|Listen! We truly meant you no harm!|next,-4,Flustered|Y-Yeah, sorry!|next,caller,Idle|...|next|Then, you're not poachers?|next,-6|Nope.|next,caller|...|next|My...my bad. It's been tense with so many Wasps about.|next,-4,Angry|Do we look like Wasps!?|next,caller|It's only my family and I here. We don't see many others...|next|I assumed the worst. My bad.|next,-5|It's alright. Forgive us for the smacking!|next,caller|What DO you want, then?|next,-6|Uh, we really just wanted to look around. Maybe help a bit?|next,-4,Idle|For a price!|next,-5|Definitely nothing evil!|next,caller|...Well, ok.|next|I'll let my family know of your arrival. Please don't disturb us, though.
+W-where did you |shaky|POACHERS|shaky| come from?!|next|My village... What did you do to it?!|next,-4,Sad|We didn't do any-|next,caller,BattleIdle|SILENCE! YOU WILL NEVER GET AWAY WITH THIS!

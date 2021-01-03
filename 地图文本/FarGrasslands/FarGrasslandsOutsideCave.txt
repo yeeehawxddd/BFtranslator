@@ -1,0 +1,6 @@
+|checktrue,336,1||tail,-5|This must be... Tch.|next,-6||face,-6,-5|Kabbu...?
+To think all these areas are connected... we are lucky the Wasps|line|never took advantage of this.|next,-6|Well, no way to know if they did.|next,-4|No point in thinking about it!
+...You're going to the village? I'll go with you, just in case...|prompt,yesno,3,4|
+Alright then, let's go. No funny business.|break||warp,144|
+Suit yourselves.
+Riz Tattle

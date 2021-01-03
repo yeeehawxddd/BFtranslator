@@ -1,0 +1,7 @@
+|tail,-4|Shadiest place in a while, huh.|next,-6|Can't say we're not curious.|next,-5|I'd rather we focus on the mission... but surely a small|line|detour would not hurt?
+|call,4|STAY AWAY
+|call,4|NO SOLICITORS
+|call,4|GET OUT
+|boxstyle,3||spd,0||center|
+|checktrue,546,6||tail,-5|A tower, in this wild place?|next,-6|Let's break in.|next,-4|Aw yes! We're on the same page!|next,-5,WeakBattleIdle|I-Isn't it private property!?|flag,546,true|
+|boxstyle,3||spd,0|An imposing tower stands tall amongst the wilderness...

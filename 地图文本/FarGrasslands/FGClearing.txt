@@ -1,0 +1,14 @@
+|checktrue,609,12||checktrue,608,13||tail,-4,Angry|...There's nothing here!|next,-5|Hm...is this truly a dead end?|next,-6|We can feel some faint magic in this place... But there is nothing we can do now. Let's return later then?
+Thanks for meeting me here. I'll explain when you're ready...are you?|prompt,yesno,5,6|
+Hurry up... I want to get out of here...
+-
+-
+|hide||event,207|
+I understand. Come back when you are ready.
+So what's the big plan?|next,3|Yin brought me here once. I believe it's where she was born.|next|She may have been waiting to come back to mature...|next,-6|Is there any basis for that?|next,caller|...Well, no. But trust me on this one.|next,-5|That we will. But why did you require our assistance?|next,-4|Yeah. You made it here all by your-|fwait,0.2||anim,-4,BattleIdle|Aw crud!|next,3,BattleIdle|For I suspected this might happen!
+You could've told us before!|next,4|Maki, explaining his plans? Please...|next,3|Not now, Kina!|next,-6|They were probably attracted by the energy Yin's giving off.|next,3|Don't let them get near Yin! We must protect her until she pupates!|next,-5|Team, let us stop them!
+Oof. Seems we managed to ward them off.
+...|next|...Ma...M-Maki...!|next,3|Yin, you know my name?|next,4|Oh, great. She can |wavy|talk|wavy| now...|next,2|N...Nice to me...meet you!|next,-5,Happy|A-Aww! Nice to meet you too!|next,3|Thank you, Team Snakemouth. You helped me keep her safe.|next,-4, Happy|Yin's our friend too! It's fine!|next,-6|She's got quite potent magic...wonder what'll come of it.|next,2|Ma...magic!|next,4|...Well...back to the castle with us. Right, brother?|next,3|Not yet. First, let me reward you for everything you've done.
+|tail,-5,Surprized|S-Sir Maki! These items are...|next,3|About the least I could give you, don't worry.|next,-6||anim,-5,Idle|We'll make good use of them.|next,3|Is that so? Well, we've been looking for |color,1|sparring|color,0| partners.|anim,-4,Surprized||anim,-5,Surprized||next,-4|Huh? Like...fight you for real?|next,4|Yeah. Brother needs some real challengers!|next,3||anim,-4,Idle||anim,-5,Idle|If you're interested...you know where to find us.|next,-6|Uh, not really. You're always moving around...|next,3|...The Ant Palace's bridge.|next,-5|W-We'll think about it!|next,2|By...by-bye!
+|tail,-6|We'd always felt some magic here, but...|next,-4|Didn't expect it to be cuz of Yin, right?|minibubble,@Mhm.,-6||next,-5|I do wonder where Yin's parents went, though...?|breakend|
+Sir Maki's here. Let us help Yin out however we can!
