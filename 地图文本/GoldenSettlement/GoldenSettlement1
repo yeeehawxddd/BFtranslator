@@ -1,0 +1,193 @@
+|tail,-6|We can kind of see the hype behind the Golden Settlement.|next,-4,Happy|I know, right? It's such a good place to visit!|next,-5|And on top of its beauty, the settlement provides many items|line|this region needs.|next,-6|Beautiful, AND useful... We have a high respect for this place.
+|anim,caller,Happy||checkmapflag,1,27,true||wavy|Heyyyy!|wavy| You look...thirsty.|next|You wouldn't care for some sweet Berry Juice, made right here in the Golden Settlement?|next||showmoney|It's just 9 berries... Pretty please?|goto,26,keep|
+|checkmoney,9,5||checkinvqtd,0,full,4||money,-9|Ohohoho! You'll love it!|next||giveitem,0,39,6|
+|anim,caller,Idle|Aww. Alrighty. Come back when you need to quench your throats... 
+|anim,caller,Idle|Oh... Where are going to hold this juice? Free up some space, m'kay?
+|anim,caller,Idle|Sorry darlings. Nothing comes for free!
+Let me know if you want some more!|mapflag,1,true|
+...Go away.
+|tail,-6|Who's hiding behind this bush, though?|next,-4|S-Shh! He will hear us!
+|checkmapflag,0,13,true|Hello! Welcome to the Sunset Inn!|next||showmoney|Our fare is 3 berries per bug, so if you are interested in spending the night, it will be 9 berries for you three!|prompt,map,1.9,2,10,11,@Stay Here.,@Maybe Later.|
+|checkmoney,9,12||money,-9|Great! That's 9 berries accounted for! I hope you have a good night!|break||mapflag,0,true||innsleep,-17.1,6.41,13.41,true|
+Alright! Please do consider us in the future!
+Oh! I'm sorry, you do not have enough berries...|next|Please do consider us in the future, though!
+Did you sleep well? I hope you consider returning in the future!
+Are you sure you're up for that task?|prompt,map,3,2,15,16,@Yeah,@On second thought...|
+Do it right, and don't cause trouble for me.
+Stop wasting my time then.
+Seriously, Aria! Open the way!|next,13||boxstyle,0|The way to the hills is sacred. I will not sully it for any reason.|next,14|Please, won't you reconsider? The wasps could beat us to the punch!|next,13|They tried. They failed. I will not waver in my conviction.|next,15,Idle|They...failed?|next,13|I dealt with them, yes.|next,14|Ngh. As rushed as we may be, if there's no danger, I don't think we'll manage to skip the festivities.|next,15|Bummer. Guess we'll have to relax, for once!|next,13|The way to the hills will open |color,1|after the festivities are concluded.|color,0||next|Not sooner, not later. You must wait.
+That's that, huh...|next,-4|You heard her! Relaxing is the mission!|minibubble,@...,-6||next,-4|That goes double for you, Leif. Let's check this place out!|next,-6||destroyminibubble|Alright, alright.|next,-5|The main event starts at night time. Let's talk to Aria when we're ready.
+Oh? Are you here for the festival? It should start as soon as the sun sets.|prompt,map,2.5,2,-11,20,@Keep exploring.,@Wait for nightfall.,none|
+|event,52|
+Welcome to the Sunset Inn!|next|Unfortunately we are booked full due to the festival! I apologize for the incovenience!
+I'd really prefer to just get the job done, but... We have to respect the traditions of other kingdoms, I guess.
+Intel states the artifact may lie at the top of the Golden Hills, although the way only opens the day after the festival.|next|We have little choice but to wait. I will be glad to relax with you, comrades.
+|checkflag,141,25||tail,-4|Hey, guys...|next,-6|Hm?|next,-4|Doesn't she kind of look like Shades?|next,-5|Goodness... You're right!|next,-6|It IS pretty uncanny...|next,-4|Heheh. I'll have to bother Shades about it later!
+|tail,-4|Hey, guys...|next,-6|What?|next,-4|How do you think she walks? That looks heavy...|next,-5|Vi! There are things you must never ask!!!
+|prompt,map,2,2,2,3,@Sure!,@No thank you.|
+|showmoney|Oh! Back for more? Just 9 berries for some delicious Berry Juice!|goto,26,keep|
+A stag Beetle! How nostalgic...|next,-6|There aren't many of these in Bugaria.|next,-5|My homeland's bustling with them! And many other Beetles.|next,-4|Like a Kabbu kingdom, huh.
+I heard Mothiva was here...but it seems I missed her!|next|I wonder where her next show will be.
+|tail,-4|It's Mothiva! She is super popular!|next,-5|Even I have heard of her from my homeland, it is such an honor to be here near her in person!|next,-6|We don't see what makes her special.|next,-4|Lighten up, Leif. Even YOU can enjoy some good music!|next,-6|Eh, we'll listen to a few more and let you know...|next,-5|I wonder if she'd sign my wing... 
+|wavy|♪ The light reflected in your eyes...! ♪|wavy||next,-5|Oh dear! Mothiva is giving a live concert! Everyone, we mustn't interrupt!|next,caller|(Those three... Hmph!)
+|checkflag,85,116||tail,-4|Hey, it's that merchant that hangs around town!|next,-5|He travels with the caravan, doesn't he? Although he seems to be alone...|next,-6|He's probably the lone agent of the team... 
+Tch. This bee is irritating...|line|She keeps leading me on, but won't buy anything!|next,-4|She's the worst. I wouldn't take her money at all.|minibubble,180,-5||breakend|
+Mmm... This place's stuff is pretty good. But it's just not |wavy|Bee Kingdom|wavy| quality, you know?|next,-4,Angry|Let's go have fun somewhere else.
+Vi, you seem to have some beef with this bug.|next,-4,Angry|Annoying, arrogant, smug... She's everything I hate about the |line|Bee Kingdom!|next,-6|You're acting like all bees are like this. What about you?|next,-4|I'm an exception. End of story!|next,-5|(Vi...)
+|tail,-4|Samira's come to the festival too!|next,-5|It's inspiring to see her put in the legwork to achieve her goals.|next,-6|Yeah... Hopefully business will be good during the festival.
+|checkflag,86,38|Kut is quite the skilled chef...|next,-4|But his attitude sucks!|next,-6|Normally we'd avoid him out of principle, but...|next|His food is actually a grade higher than Fry's...|next,-5|I'm inclined to agree, regrettably.|next,-4|Eh. You know how it is. If you're really good, you can act however you want!|next,-6|Let's make sure to prepare some Sweet Dew, at least.
+Kut is quite the skilled chef...|next,-4|But his attitude sucks!|next,-6|Normally we'd avoid him out of principle, but...|next|His food is actually a grade higher than Fry's...|next,-5|I'm inclined to agree, regrettably...|next,-4|Eh. You know how it is. If you're really good, you can act however you want!|next,-6|Let's make sure to get some good festival food, at least... 
+|flip,caller,true||align,right,true||flag,12,false||checktrue,186,168||checkregional,1,78,true||regionalflag,1,true|Hey, folks. Come for some exquisite, gold rank food?|next|Hand me some quality ingredients over... I'll cut through your expectations.|goto,79,keep|
+|clonestring,0,1||removeitem,0,var,0||flag,12,true|Next!|pickitem,0,1,true,false,76,72|
+Witness it! A life of skill and mastery put to use!|break||event,3|
+Here. You've never tasted a dish of this caliber, I'm sure.
+Tch. Not even I could have salvaged such a foul combination... 
+Levi is formidable. I do have a question though.|next|Ladybugs have been very supervised after |wavy|that|wavy| incident.|face,-6,-5||minibubble,179,-6| Levi, |line|however, seems free to move about.|next,-4|Isn't that just because of Celia? She's probably keeping an eye on him.|next,-6||destroyminibubble|They seemed to be friends. You believe she's merely the Queen's |line|informant?|next,-5|We have no way to know, unless we ask them.
+We really owe Celia. She was a big help against the wasps.|next,-4|Eh, they weren't that tough. We woulda been fine!|next,-6|That's easy to say, when they did half the work... 
+Feel free to take a seat, there's a show going on.
+The show's finally over, but you're still free to hang out.|next|If you're here for requests, check the board near the counter.
+Hmm...|next,-4|What's up?|next,-5|I was once told the bartender of this settlement was an energetic mantis lady.|next|Suffice to say, this fellow cannot possibly be her.|next,-4|Who knows, maybe she quit or something...|next,-6|...Have you all noticed how nosy we get sometimes?
+|tail,-6|An acolyte, huh. It's so unusual to see someone so deep into their faith.|next,-5|Well, of all places, the Golden Settlement worships a very specific|line|Goddess.|next,-4|And it's worked out pretty good for them!|next,-5|Indeed. It's not too uncommon to see devout followers around.|next,-6|Every place has a different culture, huh.
+It's always nice to catch the festival. The food is always great!
+I kind of miss visiting the farms, but I guess there's nothing to be done about it.
+|wavy|Sigh|wavy|. Did they really think these two would do anything? I want to enjoy the festival too... 
+|anim,this,Idle|Interested in that |string,0|?|line|I'm selling it for |currency,var,1|!|prompt,map,2,2,54,55,@I will take it!,@Just browsing.|
+|checkmoney,var,1,57||checkinvqtd,0,full,56||money,var,-,1||additem,0,var,0|Here you go!
+Ok. Just tell me if anything interests you!
+Oh. You don't have enough space to carry it... 
+|anim,this,Angry|...Please come back when you actually have money.
+|anim,caller,Idle|Hello! Welcome to the Golden Emporium! Golden Hills' best general|line|supply store! What can I help you with?|prompt,map,3,3,59,60,55,@We're here to buy!,@We've come to sell.,@Just checking.|
+That's easy! Just stand near whatever you want and press |button,4|!|next|That way I can prepare the item for your purchase.
+|anim,caller,Angry|...Sorry, I am not interested in buying stuff. If I were to, I'd go out of business!|next||anim,caller,Idle|Please consider purchasing something instead! Check out what I|line|have to offer over the shelf!
+|tail,-4|Ugh. This guy.|next,-6|What's wrong with him?|next,-4,Angry|He won't buy our stuff! It's beyond rude!|next,-5|Vi, you DO know the shopkeepers have no obligation to buy our items, right?|next|This is a plentiful area, they are probably overstocked more than anything else...|next,-4|Whatever. I'll go sell to the caravan. They know a good deal |line|when they see it!|next,-6|(Poor caravan...)
+Miss Amber's come to the festival too!|next,-6|She's from the Storage Service... Pretty sure she's here for work.|next,-4|That sucks, having to work on the festival...|next,-5|Let's make sure to honor her sacrifice by making good use of |line|the service.
+Yay! It's my first festival! Everything looks so awesome!
+|tail,-4|You know...I was about her age when I came to my first festival.|next|Everything was so much cooler than the boring Bee Kingdom! It really made me want to see the world!|next,-6|We haven't given you enough credit, Vi. Even you can get quite pensive.|next,-4,Angry|Let's just enjoy the festival, okay?
+I try to make it to each festival. Even the classic Leaf Salad can become more exciting with Kut's skilled hands.
+|tail,-6|It's that gourmet from the plaza...|next,-4|Yup. Anyways, let's go.|next,-6|Can't we stay a bit? We wanted to drink some Aphid Dew together...|next,-5|Leif, you've made friends without us noticing!|next|I'm...I'm so proud!|next,-6|"Friends" may be a bit too strong a word... 
+|tail,-4|Huh, I didn't know ladybugs could have orange wings.|next,-6|Yeah, we didn't know bees could be explorers either.|next,-4|...|next,-6|...|next,-5|I-It's a joke, V-|blank||tail,-4,Happy|It better be.
+Having guards around watching the ladybugs fouls the mood a bit.|next,-6|Why, exactly, do they need supervision?|next,-4|I think it had to do with them stealing a bunch of stuff. I'm not |line|too sure, though.|next,-5|I remember seeing a book about this, it'd be good if we could research more.|next,-6|Yeah. We have no choice but to catch up with history... 
+Oh, it's nice to see Bub again.|next,-6|Again?|next,-5|Well, yes. I ran into him back in the Lost Sands, and we had some nice talks.|next|Nothing too out of the ordinary. But back then, it was nice to be able to chat.|next,-4|Well, don't let us stop you from saying hi or anything.|next|Just don't take TOO long!
+|tail,-5|Incredible. The view from this balcony is breathtaking!|next,-4|Yeah! It's the best thing about Sunset Inn! Totally worth the price.|next,-6|It's alright. The Venus statue is really well made, don't you think?|next,-4|I think it's a bit creepy. It doesn't have a face or anything...|break||checkflag,88,84||blank,-5|Vi, Aria and our team are the only ones who have seen the Goddess Venus.|break||goto,85|
+|tail,-6|What a happy innkeeper.|next,-5,Happy|It really makes you want to stay, doesn't it?|next,-4|It makes me wonder how she's not bored... 
+Hmph. Fine.|break||checkflag,12,-11||additem,0,var,0||end|
+|checkinvqtd,0,0,80||flag,12,false|Alright. Show me it.|pickitem,0,0,true,false,75,72|
+|checkinvqtd,0,1,80|Oho! First one then!|flag,12,false||pickitem,0,0,true,false,40,72|
+So...this |color,1||string,0||color,0|.|line|Is that it?|goto,77,keep|
+|color,1||string,0||color,0| and |color,1||string,1||color,0|?|line|You're ready for me to cook them to perfection?|goto,77,keep|
+|prompt,map,0.8,2,41,72,@Yes!,@No!|
+Back for more? What will it be this time?|goto,79,keep|
+|prompt,map,3,3,73,74,72,171,172,173,$2|
+Nice try funny folk. I can't cook with nothing!
+Come again, when you're ready for more high cuisine.
+Come again when your ideas are more...palatable.
+|boxstyle,4|A nice view of Venus' Statue.
+|blank,-5|Vi, no one has seen the Goddess Venus. It would be sacrilegious to paint her face!|break||goto,85|
+|blank,-6|Say, Kabbu. You're not a worshipper or anything, are you?|next,-5|Not quite. I just like being well informed of the places I visit.|next,-4|I bet you went into the palace library to read all about this place, didn't you?|next,-5|...M-Maybe.|next,-6|Cute.|next,-5|Hmph. Let us go back to enjoying the view.
+I wish I could join the festival, but I have to stay open. |wavy|Sigh.|wavy|
+Everyone's busy at the festivities, so I don't have much I can offer besides some basic services.|next|What are you interested in?|goto,100,keep|
+|checkinvqtd,0,full,94||showmoney|Here is what I am selling, take your pick:|prompt,map,3.25,4,91,92,93,90,@Spicy Berry: 20 berries,@Numbnail Dart: 10 berries,@Magic Seed: 30 berries,@Not interested.|
+|checkinvqtd,0,0,97|Sigh. Fine. What do you have to offer? Press |button,5| if you change your |line|mind:|pickitem,0,0,true,true,98,90|
+Harump! Maybe someone else will do business with me.
+|checkmoney,20,95||money,-20|Hehe! Here you go!|break||giveitem,0,2,96|
+|checkmoney,10,95||money,-10|Hehe! Here you go!|break||giveitem,0,40,96|
+|checkmoney,30,95||money,-30|Hehe! Here you go!|break||giveitem,0,11,96|
+Hey hey! Your inventory is full! Get rid of some of that stuff before you buy.
+Sorry folk, no money, no sell. Those prices are already really low.
+Nice doing business with ya.
+Hey, you tryin' to pull my leg? You ain't carrying anything!
+|string,0|?|line|How does |currency,var,10| sound to you lot?|prompt,map,1.25,2,99,90,@Deal!,@No thanks.|
+|money,var,10||removeitem,0,var,0|Here it is. |checkinvqtd,0,0,-11|Anything else?|goto,100,keep|
+|prompt,map,2,3,88,89,90,@I want to buy.,@I want to sell.,@Nothing} thanks.|
+It's time for the festivities! No one's gonna be sleeping tonight, I bet!
+Well, she's passionate.|next,-5|Thank you, Venus. For watching over us...|next,-6|Kabbu, you're praying too?|next,-5|Er, I felt the need. We should be respectful of their tradition.|next,-4,Happy|Didn't you hear? Feast and laugh! Now THAT's a way to show respect!|next,-6|We should probably gather the two offerings. They sounded pretty important.|next,-5|Let's look for them as the festivities ensue. They may help us complete our mission.|next,-4,Idle|Uh, right. The mission. Yup. I'm on it!
+|event,true||tail,-6|No way we're leaving. This finally got interesting.|break||hide||move,-1,0,0,-13,1,1,0||overfollower,false||movewait,-1||event,false||end|
+Friend, if you keep drinking so much Berry Juice, your skills will be compromised!|next|Although it's hard to stop, when its flavor is so amazing!
+Stop worrying. I'm going to be fine, no matter how much juice |line|I drink!|minibubble,@That won't end well...,-6||breakend|
+The |color,1|Golden Festival|color,0| has begun!|next|Oh Goddess Venus, who watches over us, and ensures a bountiful harvest without fault...|next|We congregate to share our gratitude. May it reach your roots |line|and bring you joy.|next|And when the |color,1|two offerings|color,0|, held by our esteemed guest hosts, are brought to me...|next|The final ceremony will begin.|next|Now feast! Laugh! All in good faith! Let's make this one more |line|festival to never forget!
+|wavy|Zzz... No... The artifact...|wavy|
+|wavy|Zzz... I told you... To not... Drink...|wavy|
+These two... They partied too hard.|next,-6|Leaving all the work to us... Shameful.|next,-4|Heh. It also means all the glory!
+Vi|face,-4,-5|, Leif|face,-6,-5|...Thank you.|next,-6|What for?|next,-5|For helping me protect Neo. I am very glad to see him safe.|next,-4,Happy|Oh, I forgot to ask Neo for a reward!|next,-5|...|next,-4,Sad|I...I was kidding! Just kidding, okay!?|minibubble,@Heh.,-6||breakend|
+Hey, everyone! I've heard only acolyte Aria can perform the ritual |line|ceremony. I can't wait to study it!
+Oh, I'm so not a party enthusiast...|next|But I've heard the ceremony involves |wavy|glorious combat|wavy|! It gets me so pumped and ready for violence!
+|tail,-6|That's some admirable neck fluff.|next,-5|It must be so comfortable, falling asleep with it around the neck!|next,-4|It's so impractical! My fluff is way better!|next,-6|Don't get jealous, Vi.|next,-4,Angry|I'll never be jealous of any other bee.|minibubble,@(So bitter...),-5||next||destroyminibubble||end|
+The final ceremony will begin when |color,1|the two offerings|color,0| are brought |line|to me. Please enjoy the festival until then.
+The festival can be pretty tiring... Feel free to take a seat and rest.
+|tail,-4|Hey, it's that merchant that hangs around town!|next,-5|He travels with the caravan, doesn't he? He seems to be striking a deal...|next,-6|It's more like he's trying to strike a deal. Really trying.
+This inn's incredible... It was worth the trip all by itself!
+The view from the balcony is really good. It soothes the soul a bit, I think.
+|tail,-6|So if we give Aria the offerings, we can get through to the Golden Hills?|next,-5|Indeed. It's been quite the festival, but we should get ready and go meet her.|next,-4|Let's go get that treasure!|flag,97,true|
+|checkregional,11,130,true|The offerings... I can sense them. You've brought both?|next|You would wish to start the ceremony, then?|prompt,map,2,2,121,122,@We're ready.,@Not yet.|
+Very well. Only three may perform the ceremony. Two bugs holding each blessing, and I.|next,-6|So one of us will have to sit this out.|next,-5|Well, we owe the offerings to you two. You should go!|next,-4|No way, you haven't had any fun! You're going!|next,-5|Vi...! Thank you!|next,caller|So, who will participate in the ceremony?|regionalflag,11,true||goto,129,keep|
+Very well. Take your time to prepare yourselves.
+|tail,-4||optiontovar,0|Alright! Let's do it!|next,-6|Fine by us. Do your best.|break||event,58|
+|tail,-6||optiontovar,0|Well then. We'll have to do our best.|next,-4, Happy|Go have fun, Kabbu!|break||event,58|
+Oh, Goddess Venus.|next|May this ceremony please you and grant us a bountiful harvest for this following year...|next|May our battle shake the earth, and bring joy and dance to your roots!|minibubble,190,-5||breakend|
+Now that's my style of ceremony!
+This may be some good stress relief.
+Now, let us spar for the Goddess!
+|prompt,map,3,3,123,124,122,164,165,@Let us think about this.|
+So? Have you decided?|goto,129,keep|
+That was a fierce battle. I am sure Venus enjoyed it.|next,-5|Respected acolyte, have we earned passage to the Golden Hills?|next,caller|It is all up to the Goddess.|next|Oh Venus... If you enjoyed our display, please grant us passage |line|to the |color,1|Golden Hills|color,0|!
+The path has opened. Beyond this point, lies the sacred |color,1|Golden Hills|color,0|.|next,-4|Woah! It opened all by itself!|next,caller|Whatever is your business there, Venus has granted you passage.|next,-4,Happy|W-Well, whatever! We did it! That artifact will be ours in no time!|next,-6|Soul: Relaxed. Passage: Open.|line|Mission success, we'd say.|next,-5|Let's tread carefully, team. We're heading into sacred ground. It won't |line|be as simple as it seems.|next,-6|It would have been nice to get some sleep... But we can do it.|next,-4|No worries. We beat Snakemouth, right?|next,-5|Heh, indeed. Let's go!
+May Venus grant you what you desire.
+Hmm. We've made quite the profit. I guess we should thank Venus too... 
+Welcome to the Sunset Inn!|next|The festival is over, but we are still fully booked! We are incredibly sorry.
+Ohohoho! I deserve only the best food after such a show!|next,-5|Oh dear, Mothiva's having dinner! We shouldn't interrupt...|next,caller|(Those three... Hmph!)
+|tail,-4|Wow... It's Mothiva! She is super popular!|next,-5|Even I have heard of her from my homeland, it is such an honor to even be near her!|next,-6|What exactly makes her so special?|next,-4|She's explorer by day, performer by night!|next,-5|Mhm. Most bugs struggle being successful, but it comes easily to her.|next,-6|We'll give her music a try sometime, maybe... 
+|tail,50||face,50,-1||face,51,-1|Oh no! We missed the festival!|next,51|We shouldn't have taken that nap before heading out... 
+Incredible! Such an interesting culture! Thanks for helping me study it!
+|wavy|Oooh!|wavy| You fought so well, Green Ranger!|next,-5|G-Green Ranger!? Dear me, if only...|next,caller|Hehehe. I hope you'll fight again next year!|next,-6|Someone's got a fan.|minibubble,@Heheh.,-5||anim,-5,Happy||next||destroyminibubble||end|
+|tail,-6|This ain't a good look for the association...|next,-4|How much Berry Juice did they drink to fall asleep so hard!?|next,-5|Let's, um, give them some privacy.
+|wavy|Nghh... Nooooo... The artifact...|wavy|
+|wavy|Celia... Stop kicking that rock...|wavy|
+Oh no... They've missed the festivities!|next,-6|How depressing. Even we have to admit it was pretty awesome.|next,-4|There's always next year, right?|next,-5|Indeed. It could become team tradition!|next,-6|...Sounds nice.
+Kut's cooking is simply on a whole other level. Even with a plain Hard Seed, he can make miracles.|next|Don't get me started on the explosive power he produces mixing it|line|with Spicy or Burly berries... 
+Hey, watch it! I know everyone wants to see Mothiva, but no pushing!
+Must be tough having to work as Mothiva's guard.|next,-4|Everyone wants her autograph!|next,-5|We're lucky that as an exploration team, we can have access!|minibubble,@Yay.,-6||next||destroyminibubble||end|
+|checktrue,92,149||tail,-6|What a look. Way to make a first impression.|next,-4|He doesn't look like he can eat much...|next,-5|Let us introduce ourselves!
+|tail,-6|So you've seen this bug before?|next,-5|I wouldn't say we're friends, but I do know him.|next|He holds a pretty high ranking amongst explorers... I don't know who his teammate is, though.|next,-4|He better watch out. Our team's gonna take that spot!
+|hide||event,69|
+|tail,-4,Angry|Hey, Zasp.|next,caller|Hmph. Hello, Vi.|next,-6|Friend of yours, Vi?|next,-4|Fat chance.|next,-5|Zasp is a fellow explorer. We met in the association.|next,caller|Congratulations on the expedition. I assumed we wouldn't meet again, |line|given you almost drowned.|next,-4|Oh, thank you |wavy|kindly|wavy| for your concern. So glad to surpass|line|your expectations.|minibubble,@Pfft.,-6||next,-5|Err, what do you say we start on a good limb this time?|minibubble,@You wish.,-4||next,caller|I'm too busy to hold grudges. Fine by me.|next|I'm here to represent my team in the eating competition. The winner gets an offering, so it is my aim to win.|next|I just wanted to relax a little before it, is all.|next,-6|Is that so? However, we must say you're going to lose.|next||anim,-6,BattleIdle|In an eating competition... We won't be bested.|next,caller,Happy|Hahahah! Try your luck. I'll see you in the ring.|next,-4||anim,caller,Idle|Grrr! You better beat him, Leif!|next,-5|(Can't we just get along...)
+If it ain't Team Snakemouth. I'm |color,1|Zasp|color,0|, part of the Explorer's Association. I've heard of your expedition.|next,-4,Happy|Heheh, really? We did super well, didn't we?|next,caller|Did you now? Heard you got pulled out of a river, half dead.|fwait,0.15||line|Pretty embarassing, if you ask me.|anim,-5,WeakBattleIdle||minibubble,@Oof...,-5||next,-6|We already dislike you.|next,-4,Angry|You got a problem, wasp?|next,caller|It's Zasp. And no, I'm too busy to be petty.|next||anim,-5,Idle|I'm here to represent my team in the eating competition. The winner gets an offering, so it is my aim to win.|next|I just wanted to relax a little before it, is all.|next,-6|We must say you're going to lose, Zasp. Horribly.|next||anim,-6,BattleIdle|In an eating competition... We won't be bested.|next,caller,Happy|Hahahah! Try your luck. I'll see you in the ring.|next,-4||anim,caller,Idle|Grrr! You better beat him, Leif!|line|We'll show him embarassing!|next,-5|(Can't we just get along...)
+You met Venus, didn't you? She sent me a request to keep the Golden Hills entrance open for you.|next|You must've done very well to receive her approval.
+|checkflag,132,160|Hmm...|next,-4|What's up, Kabbu?|next,-5|I may have been too quick to judge them...|next,-6|You're still on about that?|next,-5|Just because they aren't what I see in an explorer doesn't invalidate their work...|next,-6|If you feel that bad, just go apologize again.|next,-5,Angry|Very well. I will face my sins!|minibubble,@He did it!,-4||next||destroyminibubble||end|
+Hey! Team Snakemouth!
+We will stick around until the festival ends, then we will head |line|out for the Lost Sands.|next|See you there!
+We did come to the settlement a while ago to gather info on the artifact.|next|All we know, though, is that it rests on top of the hills. No one besides Aria and a few selects ever made it there, from what we gathered.|next|If you perform the special ceremony with Aria, you will be granted access. That's the only chance to get the artifact.|next|Maybe this year's lucky bugs will be you?
+|hide||event,75|
+Hey! You're Team Snakemouth, aren't you?|next,-4,Happy|That's us!|next,58|Nice! We're fellow explorers too. Ever heard of us?|next,-5|Given what I've heard... Are you Stratos and Delilah?|next,58||anim,-4,Idle|Yep, that's us! I'm Delilah, and this big guy's Stratos.|minibubble,@Mhm. Nice meeting ya.,57||next,-5|You're known as "Team Slacker", correct? Famous for never finishing missions?|minibubble,@Not even one?,-6||next,57|No mission's interesting for long enough. Why bother finishing them?|next,-5,Angry|And you still call yourselves explorers?|next,58|Of course! We love exploring! No place's outta reach!|anim,-4,Happy||minibubble,@Nice.,-4||next,57|We're more like informants, ye? For the other explorers.|next,58|We gather intelligence about tough quests so other teams can do them. |line|Nice deal, ain't it?|anim,-5,Idle||next|We're looking into the fabled |color,1|Sand Castle|color,0| in the corners of the |line|Lost Sands!|next,57|After the festival, we'll resume our search. This'll be a good time to unwind.|next,-6|Looks like "slacker" ain't quite the name for them.|minibubble,192,-4||next,-5|So that's how things were...|next,58|Let's meet again on the road, yeah? Maybe we'll meet at the desert!|minibubble,@Mhm.,57||next||destroyminibubble||end|
+That gigantic beetle, and a mosquito. Hmm... Could it be...|next,-6|Your friends, Kabbu?|next,-5|Not quite.|next,-4|We should say hi. They look really strong!
+Ugh... We drank too much juice last night, so we couldn't get moving.|next,48|We couldn't even watch the last ceremony...but we heard you made|line|it into the hills!|next,47|I assume you've found the artifact?|next,-4|That's right!
+I'm so jealous! That's two important artifacts you snagged from everyone |line|else!|next,47|Great job! We should head back to the Ant Kingdom at once! The Queen will be very pleased.
+Heheh! We're doing great!|next,-5|Come now Vi, let's go to the Ant Kingdom.|next,47|We will go on ahead to notify the Queen and prepare an audience.|next|If you don't want to walk all the way back, you should go through the |color,1|Ant Tunnels|color,0|.|next|There should be one just outside the settlement.|next,48|Don't leave the Queen waiting!
+Kabbu and Vi
+Kabbu and Leif
+You came. I'm very grateful.|next,-5|It was our pleasure, Acolyte. You look well... What seems to be the issue?|next,caller|I'll be brief, to not waste your time. I'm planning on giving the Goddess an incredible offering.|next,-4|An offering? Like a LOT of berries?|next,-6|Goddesses don't need money. Bet it's a bunch of food.|next,caller|That is correct.|next,-6|It is?|minibubble,@Seriously?,-4||next,caller|I wish to give Her a banquet worthy of one as great as She is.|next|I have prepared several dishes, that I have. But I'm missing...something grand. |next,-5|What sort of dish are you looking for?|next,caller|It's hard to say. Something I cannot simply buy would be excellent...|next,-6|We could ask Fry, Kut or Crisbee to make something. Their specialty, perhaps?|next,caller|I've heard the chef Fry has been planning his "masterpiece".|next|The Goddess would be overjoyed to taste something that divine!|next,-4|So uh... You think she'll give us something for it?|next,caller|Of course. Venus is generous, kind and loving. If you make her happy, she will reward you.|next,-5|Fry's masterpiece... We'll do our best to get it for you, Aria. |next,caller|You have my thanks, Team Snakemouth. I'll be waiting here for you.|next,-6|Let's make sure to make one for us too, Kabbu.|flag,185,true|
+Did you bring it?|pickitem,0,0,true,false,182,181|
+|checktrue,195,169|Ah. You're the ones that took the request, right?|next|I need a |color,1|Tangy Berry|color,0| to cook my newest idea.|next|However, they are really rare. It's rumored that only |color,1|Golden Seedlings|color,0| |line|carry them.|next|If you ever find one, bring it back to me. And I will cook you my greatest dish!|flag,195,true|
+You're back. Did you find a |color,1|Tangy Berry|color,0|? Or are you here to cook?|goto,170,keep|
+|prompt,map,3.5,4,174,73,74,72,@We're here for the request.,171,172,173|
+Give one ingredient.
+Give two ingredients.
+Not interested.
+|checkinvqtd,0,0,80||flag,12,false|Alright then. Hand it over.|pickitem,0,0,true,false,175,72|
+|checkvar,0,77,176|Hey... That's not a Tangy Berry! Don't try to pull my leg here!
+|flag,194,true||flag,192,true||flag,12,false|Hmm! You actually found one!|next|Alright then, leave it to me!|break||event,3|
+Here it is... My magnum opus!
+This is a dish |color,1|only I can make|color,0|.|next|Just bring me a Tangy Berry, and I shall prepare it for you, free of charge.|next|Thank you very much for this.
+(That incident?)
+Vi?
+|tail,-5|We don't have it yet...|next,caller|Please bring it whenever you find it.
+|checkvar,0,32,183|...|next,-4|Uh...|next,caller|This isn't grand enough for Venus.|next,-6|Sorry, we'll get back on it.
+|removeitem,0,32|...|next,-5|...So?|next,caller|...Yes. I can tell that this dish is something worthy of giving to Venus.|next,-4|Nice! So we just have to deliver it to her, right?|next,caller|Indeed. We must venture to the top of the hills and deliver it to Her.|next|You go on ahead, I shall catch up in a bit.|next,-5|Alright. See you at the top.|flag,393,true|
+Please go on ahead, I will catch up with you in a bit. Venus awaits at the top of the hills.
+Thank you for that, Venus really enjoyed that gift.
+Wow, the moon shines with a splendid light! Is this because of Venus?|next|I've seen so many wonderful things on this journey, haven't I, Nero?
+|goto,-159|
+Wo-Wow! That bee's such a looker...!
+This fellow lives in the Ant Kingdom, does he not?|next,-6|Dunno. Sweet hat, though.
+It's a battle!?|halt|
+|tail,-6|What a warm glow.|next,-5|I've never seen anything like this! Could she be one of the 10 sorcerers?|next,-4|Nah. She's a firefly! I heard some bugs in other regions glow in the dark and stuff.|next,-6|Ice magic sucks. We want to glow in the dark.|next,-5|For the sake of our missions, please keep the ice magic...
+They're living |line|the dream!
