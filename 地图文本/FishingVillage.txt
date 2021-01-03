@@ -1,0 +1,20 @@
+|checktrue,509,1|To think we missed this settlement during our mission! It's a nice place.|next,-4|That's why exploring's fun! There's secrets everywhere!|next,-6|They seem a bit wary... Have we intruded?
+This is a soothing place. Could have gone without the harsh welcome, however.|next,-4|That's why exploring's fun! You get to meet lotsa weird people!|next,-6|(...She's changed, hasn't she?)|minibubble,@(Yeah.),-5||breakend|
+Hm? Riz there didn't raise a ruckus? Well, hello...
+It's a perfect day to fish for worms, ain't it?
+W-Who're you? Where's my brother...?
+Bro always protects us! But he's gotta look for food, too. I hope he's not too stressed...
+...You seem like good folk, but I'm watching you. We've worked too hard for our peace.
+Heya... You're from the big sand city, right?|next,-5|Well, no. But we've been there, young lass.|next,caller|Really!? Is it true there's a big sweet maker!?|next,-6|There's a baker. Same thing, probably.|next,caller|Cool! You know... Bro brings us food every day, even if dad fishes.|next|But it's super salty... I wish I could eat some sweets. Like a Nutty Cake!|next,-5||minibubble,8,-4|Say nothing more, you precious child! We'll get it!|addquest,51,1||flag,510,true||breakend|
+Well, for like |line|10 berries...
+You got the cake? The super Nutty Cake!?|setvar,0,-1||pickitem,0,10,10|
+|checkvar,0,73,11|You didn't? ...Aww...
+|removeitem,0,73|Yay!!!|next,6||face,6,-1|Oi, what's that!? What are you giving my sister!?|next,-4|Chill out. It's just cake.|next,caller|Super yum cake!|next,6|......Cake?|next,-5|You don't know what cake is?|next,6|Err, no. Not really.|next,-6|Preposterous. Here, try some.|next,6|W-Woah... Incredible!|next,-4|Sweets are the best!|next,caller|Hehehe...Thanks! I got to share with bro, too!|next,6|I'll have to go into the city and get some for father...|next,caller|Oh! Here is something I found earlier! You can have it!|break||giveitem,3,41,12|
+Thanks! Can't wait until next time I eat it! Yummy!|completequest,51||flag,511,true|
+...
+...Ah! You found me!|next|Please don't tell anyone I am here. Take this.|break||giveitem,2,74,15|
+Keep this a secret, please.|flag,575,true|
+It seems this is actually a small village!|next,-6|They seem a bit wary... Have we intruded?
+|checkflag,509,16||tail,-4||anim,-4,Flustered|Fishing SUCKS!|next,-6||anim,-4,Angry|How rude. You have no concept of patience.|next,-5|Indeed. Fishing soothes the soul, and even provides food!|next|My master and I used to sit long hours just to fish and chat...|next,-4,Sad|...I uh, respect that. But it won't make me like fishing...
+UNUSED
+|checkflag,509,16||tail,-4|How can she be so cheerful? You can't do anything in here.|next,-5|Well, there's fishing...|next,-4|...Exactly!|next,-6|She's probably never seen a proper city, so she's happy with what she knows.|next,-4|...Does it really work that way...?
