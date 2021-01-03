@@ -1,0 +1,4 @@
+|tail,-4|Today's been full of action, huh.|next,-6|Our legs are starting to feel the strain.|next,-5|I'm glad we've made it though the swamplands. Please, let's not push |line|ourselves too hard.|next,-4,Happy|You got it, Kabbu!
+|call,-166||tail,-4,instant|Huh. It's super quiet in here.|next,-6|They must not be patrolling past here too thoroughly. Yay.|next,-5|Huff... Alright, team. This is a good spot to rest. We can proceed when we're ready.|next,-4,BattleIdle|Less guards means whack 'em time!|next,-5,WeakBattleIdle|You know I'd rather we be cautious...|next,-6|And you know how we are. Let's give it to 'em.|minibubble,@Sigh...,-5||flag,368,true||breakend|
+|boxstyle,3||spd,0||center|Prison ahead, keep it clean!
+|backline||boxstyle,3||spd,0||center|Food storage, keep locked!|line|Remember to keep the vents closed!

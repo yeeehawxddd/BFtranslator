@@ -1,0 +1,24 @@
+|checktrue,555,1||tail,-6|Fancy...and empty around here.|next,-4,BattleIdle|We can charge straight ahead!|next,-5|Let's be careful. Even if they haven't noticed us yet, this is too convenient...
+|tail,-6|It's bustling around here.|next,-4|Well, there's lots to do!|next,-5|It seems we cannot enter their residential area anymore.|next|Given the state it was in, it may need some repair...
+|align,right,true||face,caller,-5|Ah, it's my heroes!|next,-6||checktrue,461,9|Hey, Jayde. Looking good.|next,caller|With the crisis over, I can follow my passion! Selling stew!|next,-4|What, like a shop?|next,caller|My stew shop! You guys liked it so much...I think it can be a success!|next,-6|You've got that right.|next,caller|I'll give you a special Ranger Discount, so buy a lot!|next,-4||anim,-4,Happy|Woohoo!|next,-5||anim,-5,WeakBattleIdle|W-We're not...!|next,caller|You don't have to say anything! It's my way of thanking you for everything!|flag,461,true||flag,643,true|
+|showmoney||align,right,true|Rangers! Come for some stew? It's 20 berries, just for you. Hero discount!|prompt,map,0,2,4,5,@Yes please!,@No thanks!|
+|checkmoney,20,6||checkinvqtd,0,full,7||money,-20|All done! Have a feast!|break||giveitem,0,120,8|
+Aw...well. I'll be around. Come by anytime if you want some!
+Oh, sorry. I can't go any lower, even for you...
+Ah! You can't carry anything else. Maybe I could...keep any of your |line|old hero items?
+You can come back anytime, my heroes!
+We see you've come back to your homeland.|next,caller|Yup, nothing beats home! ...When it's at peace, anyways.|next,-4|You gonna keep selling stew? It's super good!|next,caller|Yup. It really is my passion!|next,-5|It will be our pleasure to keep eating it!|next,caller|Hehehe. Help yourselves, my heroes!|flag,643,true|
+Hngh, now that everything's over, we should probably tell her...|next,-4|And lose the discount!? No way!|next,-6|Kabbu. At this point, we're actual heroes. Is there a point?|next,-5,WeakBattleIdle|It's a matter of principle...!
+Those prisons held so many innocent...I hope we can make amends.
+The usurper left our structures very uncared for. It will take time to make |line|them presentable.
+|tail,-4|So what's Wasp culture like?|next,-6|Y'know, we're not sure...|next,-5|Because they've been closed off for so long, I figured they were very violent...|next,-4|Doesn't seem like it, right?|next,-6|Hopefully we can learn more about them, now that there's peace.
+Queen Vanessa would be most pleased to see you!
+We owe you so much...but do behave in front of the queen!
+|tail,-6|Seems our intruding didn't hurt their relationship.|next,-5|I'm so relieved! If I was the cause for a breakup, I...|next,-4,Happy|...'d apologize a lot. Right?|next,-5,WeakBattleIdle|...Yes.
+The royal halls are some good stuff. Hopefully we can get a house soon, though.
+Mmm...I'm glad sis is doing fine.|next|I gotta start thinking of moving, though. Can't be a third wing forever!
+Let's be patient, Rebelle. We'll live together soon!
+We can only let you access these halls for now...but make yourselves comfortable.
+The usurper caused unmeasurable damage to our community. We must stay united if we're to recover.
+|wavy|Hehehe.|wavy| They let me in...! I can hang around Wasps all day!
+I'm glad peace has come to the Wasp Kingdom. Otherwise, I'd...worry for her.|next,-6|Hopefully she doesn't get thrown into prison again...

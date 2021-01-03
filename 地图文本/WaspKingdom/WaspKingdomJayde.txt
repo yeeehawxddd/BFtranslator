@@ -1,0 +1,15 @@
+The Wasp Kingdom is like one big complex. But I'm surprised there's |line|a cleaner's room...|next,-4|Even villains gotta clear the dust!|next,-6|Hopefully she won't mind picking up after the knocked down guards.
+Huh! Oi! Who are you!? How did you get in here!?
+It's nice to get spoken to for a change...|next,caller|...!|minibubble,@?,-5||next|...!?!?|minibubble,@Uh.,-4||next|W-Wait! Are you THE Bug Rangers!? Oh Queenie!|next,-5||destroyminibubble|P-Pardon me?|next,caller|Yeah! Just look at the poster!
+It's such an honor, wow!|flip,caller| Finally someone's heard my pleas!|next,-4,Angry|Pleas? What'dya mean? You're the ones attacking everyone!|next,caller|Not me. I'm just a cleaner. Everyone's gone super nuts lately after|line|the Queen went missing...!|next|I've kinda just rolled with the punches. Better than getting thrown |line|into a cell.|next,-6|You're saying the Wasp Kingdom's changed under the King?|next,caller|You've looked around, right? Everything's so unkempt... Everyone's just focused on fighting!|next|Dunno where he came from, but he sure messed stuff up fast!|next|...You'll help, right? You're the Bug Rangers!|next,-5|...Um, yes! Yes we will! On our honor!|minibubble,@Right.,-6||next,-4,Idle|To help, we uh...need an ancient artifact! Got any of those?|next,caller|Oh, no way they'd give anything useful to me. You'd have better luck asking the King himself.|next|Here, this should help ya.
+|tail,-6,instant|(We can't believe this is working...)|next,-5|Hang on tight, miss! We will restore your kingdom!|next,caller||wavy|Aaaaah!|wavy| You're all so cool!|next,-4|Heheheh, yeah! You'd better have a reward ready when we do!|next,caller|I'll give you some of my famous stew for free!|next|Or I would but, uh, I'm in a tight spot now. Economy's bad...|next|But you'll get a super HERO discount!|next,-4,Angry|...Eh, I'll take it.|minibubble,@A snack wouldn't hurt.,-6||next,caller|Name's Jayde. I can't believe my dream's coming true! Make yourselves at home, rangers!
+Rangers! How can I help?|prompt,map,2,3,6,7,8,@Talk,@Rest,@Nothing|
+You're a big inspiration, you know?|next|Wasps are strong, so if a little Bee can be a hero... Maybe I can too!|next,-4,Angry|You saying I'm little?|next,caller|Um. Whoops!|minibubble,@Heh.,-6||next,-5|Your faith in us won't be misplaced!|next,caller|I really hope so. I need to see the Queen again... To thank her for this pendant and all.|next|It'd be so unheroic to not be able to!
+My bed's the comfiest! You won't regret it!|break||resetregion||innsleep,-0.5,0,-1,true|
+If I can help AT ALL, just let me know!
+That's one of my |string,0|s.|line|For my heroes, only |currency,var,1|!|prompt,map,3,2,10,11,@We will take it!,@Just checking.|
+|checkmoney,var,1,13||checkinvqtd,0,full,12||money,var,-,1||additem,0,var,0|I'm so honored!
+No problem. I'll uh, manage somehow!
+Oops! No room left in that pouch!
+Sorry, rangers. Can't go any lower than that... 
+|tail,-6|(We're surprised you'd lie to her, Kabbu.)|next,-5|(It's an emergency! And it makes her happy, so...)|next,-4,Happy|Woah! This stew's super good!

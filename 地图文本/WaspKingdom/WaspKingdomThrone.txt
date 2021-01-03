@@ -1,0 +1,33 @@
+|checktrue,370,9|This seems to be the throne room.|next,-4|Well, yeah! You can see the throne right there in the middle!|next,-6|The artifact should be around here, let's look around.
+|boxstyle,1||shaky|HYEHEHEHEHEH!|next|I won't let you take another step!|shaky||next,-5||boxstyle,0|...Who's there!? Show yourself!
+|boxstyle,1|Hmph! Hear me and hear me well!|next|I am the cruelest! The most cunning! You face |shaky|General ULTIMAX!|shaky||line|The crusher of rebellions!
+|shaky|Hyehehehe!|shaky| You cretins thought you could enter these halls without my noticing!?|next|We have been watching your every step!|next|And here I was! Waiting for you to come for my grand entrance!|next,-6|Your entrance was absolutely, what's the word... Yeah, lame.|next,caller|Insolent! |shaky|Peasant! COMMONER!|shaky||next|I shall teach you how we deal with outsiders here in the Wasp Kingdom!!|next,-4|Just get out of the way! We're in a hurry!|next,caller|As if I'd let you take even one more step...!
+TROOPS! TO YOUR GENERAL!
+Tch. We've lost the element of surprise!|next,-4|Look. Just hand over the artifact and you'll save yourself a whooping!|next,caller|Fools! The artifact is only for our great king to behold!|next|Even now he enjoys its splendor, safe within his chambers... You are not to disturb him in any way!|next,-6|Your king feasts and rests while your kingdom crumbles. Have you no obligation to your people?|next,caller|All who serve the king are well cared for. Traitors don't deserve a thing!|next,-5|Hng. We cannot afford to debate our enemy. Let's clear the path to the artifact!
+|boxstyle,2||shaky|N-No! My troops! How dare you!?|shaky||next,-4,Flustered||boxstyle,1|Ugh, just shut up already!|next,-6||boxstyle,0|This is getting tiresome. Get 'im, Kabbu.|minibubble,@As you wish!,-5||breakend|
+Let's get the artifact back!|next,-6|The King should be in the next room. Let's go.
+|boxstyle,1||shaky|T-this is not the last you have seen of me!|next|Next time... Victory will be on ULTIMAX'S SIDE!|shaky||next,-4,Angry||boxstyle,0|Just shut it!
+|checktrue,555,17|The King must be in the next room. Let's get the artifact and leave without fighting if we can.
+HYEHEHEHEHEH!
+General Fuff!|next,caller|NOT MY NAME!|line|And you're too late! Our attack at the Ant Kingdom may have failed the first time...|next|But the second time, with you lot and that sword guy out of the way...|next|Our glorious King will finally take all the artifacts!|next,-5,Hurt|Curses! We won't be able to get back in time!|next,-6|We played right into their hand...!|next,-4,Flustered|Grrr! Get out of the way!|next,caller|Gladly! Not like you can do anything to stop us now!
+No time to waste! Let's meet up with Maki and rush to the Ant Kingdom!
+|wavy|Hmmmph!
+|tail,-4,Happy|General guy turned out to be a pushover.|next,-5|As if we needed more distractions... let's just get the artifact|line|and make our exit.
+You fell for our trap! I cannot help but |shaky|LAUGH!|shaky|
+Team Snakemouth! What's wrong? Did you find the artifact?@EVENT@Maki! We have no time! We must go to the Ant Kingdom right now! You see... 
+This room brings back memories, although not very pleasant ones...|next,-4,Happy|It's ok. We can make better ones now!|next,-6|Ever the optimist...but we agree.
+Queen Vanessa has retaken control of the kingdom.|next,-6|We may never know how the Wasp King just hypnotized everyone...creepy stuff.|next,-4|Well, everyone's back to normal, right? It's all that matters!
+Team Snakemouth...I owe you and all the kingdoms a great debt.|next,-4|Nah. You saved us with the Flame Brooch!|next,-5|Speaking of...we've come to return it.
+|tail,caller|You're too kind. I was fully prepared to entrust it to you.|next,-6|It's the Wasp Kingdom's heirloom. Not something for us to own.|next,caller|...Thank you. But it could still prove useful in your journey.|next|Might you protect it just a bit longer? There's no rush.|next,-5|Queen Vanessa...! Very well. You can count on us.|next,caller|You've reminded me... This isn't much, but please accept it in the name of our recovering Kingdom.|break||giveitem,-1,150,21|
+|tail,-4,Surprized|W-Woah! |fwait,0.2||shaky|WOAH!!!|shaky| |fwait,0.2||anim,-4,Happy|T-Thanks!|next,-6|Good luck with everything, Queen. You've got your work cut out for you.|next,caller|I'll be alright. And I know I can count on you if anything happens.|next,-5,Happy|Indeed! Don't hesitate to come to us!|flag,644,true|
+Make yourselves feel at home. You've got my sincere gratitude.
+The Wasp Kingdom's working closely with our people to exchange information.|next|Although, truth be told, we're benefitting way more from it...
+|tail,-6|We're glad our rulers' words weren't empty. The roaches have found where to settle.|next,-4|Who WOULDN'T wanna take 'em in!? They're the long lost bugs!|next,-5|Well, when you put it that way...
+...I would like to apologize for everything. I hope you'll find |line|I'm a reasonable bug.|next|And thank you, Leif. For only freezing me, and not something worse...
+Team Snakemouth! The queen's friends are our friends!
+|tail,-4|I can't get used to them being all nice now...|next,-6|Eh, give it time. Took us some to get used to you too.|anim,-4,Angry||anim,-5,Happy|
+|tail,-4|Fuff's a pretty chill guy, huh.|next,-5|Hopefully we can leave General Ultimax behind, and work together from now on.|next,-6|He doesn't seem to resent us, thankfully.
+|hide||event,212|
+I do not recognize this fellow...|next,-4|Maybe he was out doing stuff while the King attacked.|next,-6|What a day to miss out on...
+The Wasps have endured their own hardships. Our people have much in common...
+|align,right,true||face,caller,-1||face,7,-1||face,party,8||tail,8|Team Snakemouth. I received a report that Roy's quest was taken...|next,caller||face,party,caller|I heard you saved my people... Thank you.|next,7|And our people, as well. You will always have our gratitude.|next,-5|I-It was nothing!|next,-4|Come on, it was really something!|next,-6|...How can we help?|next,caller|Our botanists have been working together...|next|We're ready to test planting crops in the Dead Lands.|next,-6|Is it a good idea?|next,caller|One day, the Dead Lands could be filled with life...|next|There's no way I'll give up on that dream.|next,-5|...Count on us!|next,-4|Yeah! It's gonna work for sure!|next,7|With the trials you've faced, I have no doubt you'll be safe.|next,caller|Shall we go, then? We're headed towards the cold behemoth's entrance.|break||flag,703,true||addfollower,this||end|

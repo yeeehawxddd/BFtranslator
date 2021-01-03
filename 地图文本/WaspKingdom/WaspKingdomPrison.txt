@@ -1,0 +1,15 @@
+|tail,-4|Is this a prison? It's huge! Like, the bandits would be super jealous.|next,-5|It's worrying for a Kingdom to need such an extensive holding space...|next,-6|Don't we know some of them? Did they get snatched during the invasion?|next,-5|I'll do my best to help us reach them!
+|tail,-6|We wouldn't be surprised if she hasn't even noticed she's a prisoner.|next,-4|She's uh, dedicated. But she's not dumb. She sure knows.|next,-5|As if her life wasn't hard enough, she's being judged by you both... 
+Even these two have ended up here...|next,-6|Well, they'd been traveling a lot. This is like a sponsored trip.|next,-4|Ugh. You'd have to pay me to get me to come back.
+|tail,-4|Why's a Wasp in prison?|next,-5|The best way to know is to ask the fellow, I believe.
+|tail,-6|She sure looks glad to be here.|next,-4|She's nuts!|next,-5|Even if she's glad, we must save her!
+|tail,-4,Angry|That's just cruel! You can't leave people without food!|next,-6|He's not gonna win any best king awards, for sure.|next,-5|We've got to solve this issue quickly...!
+|wavy|Ah... Someone... So... Hungry...|wavy||next,null||checkinvqtd,0,0,-11||boxstyle,4||spd,0|Give the ant something to eat?|pickitem,0,11,12|
+|wavy|Hehehehe...|wavy|I got thrown here on purpose. |wavy|So many Wasps~!|minibubble,@(Help...),3||breakend|
+Everyone's gone nuts. Even my best friend wouldn't listen to me...|next,-6|So they threw you in here?|next,caller|Mhm. It's so frustrating... 
+|tail,5|I'm just glad we're in the same cell.|next,6||face,6,5|Yeah, mate. Together, we'll get through anything!|minibubble,@Hnngh...!,-5||breakend|
+Y-You saved me. Thank... You...
+|hide||event,215|
+|boxstyle,0||tail,-5||spd,-1|(...We're sorry...)
+|boxstyle,0|...! Y-You saved me. Thank... you...|next,-6|The king will pay.|next,-5|Rest, poor soul. You will be freed soon!|next,-4|...|next,-6|Nothing to say, Vi? A request, perhaps?|next,-4|Nah. Let's go, team!|flag,661,true||anim,-5,Happy|
+|boxstyle,0||tail,-4,Angry|(Uh, no! We can't give THAT!)
