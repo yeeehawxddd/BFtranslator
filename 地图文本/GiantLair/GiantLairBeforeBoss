@@ -1,0 +1,23 @@
+|checktrue,555,1|A machine that can produce flames...the giants could create |line|such dangerous things.|next,-6|It could burn down all of our kingdoms in no time...|next,-4,Sad|O-Oi! Focus on what we've gotta do!
+|tail,-6|The Wasp King may be beat, but these lands are still pretty dangerous.|next,-4|We're just gonna check on the tree, right? Let's do it fast!|next,-6|Yeah. We don't want the flames starting up again...
+We can't leave our comrades behind. We have to turn off this flame somehow...
+|tail,-4,Angry|...Nothing happened!|next,-5,Idle|There must be something else we missed...|next,-6|Let's look around, then.
+I-I knew scouting was dangerous, but...thank you for saving me.
+|tail,-4|He picked the wrong scouting shift, huh.|next,-6|It's not every day a mad king blitzes through an ancient fiery land.|next,-5|Yet he scouts knowing it was possible! Commendable!
+Team Snakemouth. Right until the end, I must keep asking you to place yourselves in danger...|next,-6|Don't worry. It's nothing we can't handle.
+Everyone's counting on us. We must turn down those flames!|next,-6|Easier said than done...
+No harm will befall this Roach. Count on us.
+This place sucks. But it's nice to fight with Maki, you know?
+|shaky|H-Help...
+|tail,-5|Are you alright!?|next,roach||shaky|That monster...he put the place on fire and rushed through the flames...!
+|tail,Zasp,Angry|Through the flames!? That's...|next,-6|Even our Bubble Shield couldn't pull that off...
+|tail,roach||shaky|Ngh... The sapling...|shaky||next,maki|Save your strength. Everything's fine now!
+|tail,mothiva|Ugh. You just had to say that, didn't you.|next,elizant|Everyone, protect this Roach!|next,-4|I was just waiting for you to say it!
+|tail,roach|I-Incredible...! You took out the constructs so fast!|next,-6|They were like those in the Sand Castle...|next,roach|They're usually harmless, but that monster's appearance riled them up...|next,zasp,Angry|As if that wall of flames wasn't enough trouble.|next,elizant|We'll have to find a way to cross, or shut them off.
+|tail,Mothiva,Angry|Even MORE of them!?|next,roach|W-What did we even do to them...|next,maki|Team Snakemouth. My Queen. Leave these to Kina and I.|next,zasp|Trying to hog all the glory, eh?|next,kina|Stop being annoying. We need you to turn off that fire!|next,elizant|Team Mothiva. Team Snakemouth. I will remain to assist Maki in defending the village.|next,roach|A-A Queen will do that for us!?|next,-5|A-Are you sure? We could stay as well!|next,elizant|Time is of the essence. I need your teams to quell those flames!|next|Make haste! Bugaria is counting on you!|next,-6|We'll be back before you know it.|next,-4|Yeah! Let's go!|next,mothiva,Idle|Try not to slow us down. |wavy|Ohohohoho!
+|anim,caller,Angry|It couldn't hurt the Queen to trust me more!|next,-4|Yeah, yeah. Just do your job until we're back!
+Even protecting this Roach is quite the ordeal, due to the strength of these beasts...|next,-6|Keep Mothiva in check. We won't take long.
+W-We did it! Besting those fierce flames by hitting a switch...|next,-4|Alright! Let's go meet up with the others!
+|tail,mothiva|Oh my. You didn't take as long as I expected you to.|next,-6|Whatever. Queen Elizant, how is the Roach?|next,elizant|We sent him home when the flames were doused.|next|There were many "constructs", but we defeated all of them.|next,-4|Nice job!|next,kina|The Wasp King's gotta be up ahead for real now.|next,maki|Hearing he crossed those flames by himself... I'm still quite shocked.|next,yin|Muh!|next,-5|Everyone, we must not falter. With our combined might, we are Bugaria's hope!|next,elizant|Well spoken, Kabbu. It's time for the final battle!|next,-4|Heheh. He's got no chance if we're all together!|next,-6|Yeah. Even Mothiva should be able to help out a little.|next,mothiva,Angry||wavy|EXCUSE ME!?|wavy||next,zasp|Don't doubt it. We'll pull our weight.|next,elizant|Everyone. Let's go!
+Even after the commotion, the constructs are still too hot.|next|Guess they won't be calming down for a while.
+|tail,-4|He still wants to scout after all that!?|next,-6|It's not like ANOTHER mad king's gonna come through.|next,-5|Yet he scouts knowing it's still possible! Commendable!
