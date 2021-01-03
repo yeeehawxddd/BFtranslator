@@ -1,0 +1,68 @@
+|tail,-6|This is it. The Card Master tournament.|next,-4|Bring out your strongest cards!|next,-5|You've got our support, Leif!
+Ugh. What a disgrace. Even with all the money that flows here, they still haven't fixed this hole in the wall.|next|I can't stand this, it feels like anything can just crawl out of there!|next|Maybe I should take my business elsewhere.
+...Begone.|next|Unless you are a champion, you and I have zero business between us.
+Ah, you there, green lad. You are a northerner as well, aren't you?|next|I haven't been back to the homeland in decades. I wonder if life is better there nowadays.|next,-5|...
+Oh, new meat? Great. The current competition was starting to get stale.|next|Here we hold down the |color,1|Spy Cards Championship|color,0|.|next|You probably already know that since you managed to defeat the Card Masters.|next|Let's cut to the chase. If you win the tournament, you can get many, many berries.|next|You will have to fight 3 battles in a row with the same deck. No changing in between.|next|Only one of you can participate, however. So decide who it will be.|next,-5|Hm. Who should play then?|next,-4|...Uh, Leif. Duh!|next,-6|Mhm. We are ready to start whenever.|next,caller|If you are ready, just say the word. Don't leave our sponsors waiting.|flag,646,true|
+|showmoney|Are you ready to start the card tournament? The entry fee is 25 berries.|prompt,yesno,6,7|
+|checkmoney,25,12||money,-25|Let us start then.|next||hide||event,210|
+Then don't waste my time!
+Oh, new players?|next|Don't get in my way then. I will win, you hear! That reward is |shaky|MINE!
+Woah, woah! Everyone here is so serious! Can't we all just calm down|line|and relax? It's just a game!
+Howdy folks! New to the game? Me too!|next|My grandpa used to be the best Spy Cards player there was! He never lost a single battle!|next|Before he retired, he gave me his deck, something he has been building for years! And with this...|next|Watch me, gramps! I will win using this special deck!
+Heh. No one's going to expect |shaky|THAT|shaky| card in my deck!
+...Listen. This is already the cheapest fee I can do. Either |line|pay up or get lost.
+Welcome once more, to the Spy Cards Championship! Today, eight competitors will fight and try to reach|line|the top!|next|Here are today's competitors...
+From this side, Leif the moth, from the Ant Kingdom. Let's see who he will be facing this time...
+From the other side... The mysterious, the charming, the one and|line|only, Carmina!
+From the other side... A nomad Bee with exotic power! Ritchee!
+From the other side... A deckbuilding innovator! Johnny!
+From the other side... His bonds brought him this far! Bu-Gi!
+From the other side... A good sport, win or lose! Serene!
+From the other side... A pained soul with a battle forged deck! Kage!
+From the other side... Um...Janet? It's JANET!
+I brought you into the scene...But I'll crush you nonetheless!
+Hmph. You're my opponent? A shame for the spectators...
+You better get ready! My deck's unpredictable!
+For grandpa... I'll defeat you!
+Let's have a good match, alright?
+You will feel true despair...when you face my cards!
+Oh, hey. I'll do my best, so you do too.
+Good showing. Let us play again.
+...As expected. Out of my sight.
+You didn't see it coming, eh?
+GRANDPA! I DID IT!
+That was so fun! Let's go again!
+You lack hatred, if you're to defeat me...
+Hey, you tried. It was a good try.
+...The potential I saw in you was true. Good game.
+|anim,this,Hurt|WHAT!? HOW...HOW DARE YOU SULLY MY RECORD!!!
+|anim,this,KO|Aww, that worked out better in playtesting...
+|anim,this,KO|N-No...everyone...I...
+|anim,this,KO|Aww...What a good game. Shame it had to end!
+|anim,this,KO|...Tch. Have I not suffered enough to earn victory?
+Oh. Hey, you're pretty good. I'll try again later.
+And now... Let's start the fight!
+Amazing! Leif made it to the next stage!|next|Here are the current standings...
+This is the final battle! Who will take the prize? Place your bets now!|next|A refresher of the current standings!
+INCREDIBLE! WHAT SKILL! THE WINNER IS...LEIF!!!!|flag,78,true|
+You gave the crowd the show of a lifetime!|next|Here's your prize, Spy Card champion!
+We hope you'll come again, and show off your skills!
+What a shame. If you want to try and make a comeback, you know where to come to.
+Show's over! Let us meet again!|next,-6|We could see ourselves coming back quite a bit.
+You beat me once, but I will never give up! 
+Oh, champion~ Don't you want to take a seat?|next,-6|Well, not really.|minibubble,@...,caller||breakend|
+|anim,caller,Hurt|...! Don't speak to me.|next|Your deck is |shaky|GARBAGE|shaky|. You're a |shaky|FLUKE!|shaky||minibubble,@Yikes.,-6||breakend|
+I've come up with this crazy tech! You'll see next time!
+Hehe, you're really good. Let's give it our all next time!
+...Hmph.
+...Tch...Do I not have enough hatred...!?
+|tail,-6|This Ladybug has suffered so much... We can feel it.|next|We must not let our guard down. That pain's carried over to his deck.|next,-4|It's just cards!
+|tail,-6|It seems we're not the only ones with a lot of support.|next,-5|Everyone here fought hard for their spot. It won't be easy!|next,-4|You've got this, though! No problem!|next,-6|...It seems our support may just be the best in the hall. 
+|tail,-6|We hope to match with her in the tournament. What a good aura.|next,-4|Is it really ok to be so relaxed?|next,-5|Some battle for glory... She seems to only want a good match!
+|tail,-6|We admire creativity, but...there is a beauty in playing optimally.|next,-4|If you're trying to win, you can't waste time showing off!|next,-5|This coming from you, Vi?|next,-4,Angry|Oi! I always try my super best!
+|tail,-6|What a poisonous aura...toxic, even.|next,-5|I do get a feeling of condescension...|next,-4,BattleIdle|It's gonna make winning much sweeter!
+|tail,-5||anim,-5,WeakBattleIdle|Someone traveled all the way from the north...to watch a card game...|next,-6|Kabbu? What's wrong?|next,-5,Idle|N-Nothing...|minibubble,@Huh...,-4||breakend|
+|tail,-6|He's got class, we'll give him that.|next,-5|In a high-end establishment, even the staff must look the part.|next,-4|I bet the outfit cost more than the ride here...
+|tail,-4|This guy's right to be mad! We pay way too much for the wall to be cracked!|next,-5|Ngh...For some reason I...want to see what's under it!|next,-6|Okay...?
+|checktrue,647,67||tail,-6|How rude.|next,-4,Angry|Who does she think she is!?|next,-5|We'd do well to not pay her dismissiveness any mind...
+|tail,-6|...Hmph.|next,-4|Now that you won she's all over you, huh.|next,-6|...Let's go. 

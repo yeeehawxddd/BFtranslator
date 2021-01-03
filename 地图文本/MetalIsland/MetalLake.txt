@@ -1,0 +1,3 @@
+|tail,null,instant||bleep,@-5|W-We're really underwater...|break||blank||faketail||bleep,@-4|Y-Yep...!|break||blank||faketail||bleep,@-6|At least we're, um, safe as long as we are in the submarine. Let's keep going.
+|tail,null,instant||bleep,@-5|Rubber Prison...|break||blank||faketail||bleep,@-4|Let's come back after we drop off Elizant!
+|tail,null,instant||bleep,@-5|We need to drop Elizant at the Outskirts Pier!

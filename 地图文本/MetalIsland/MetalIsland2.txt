@@ -1,0 +1,35 @@
+I've never seen such a massive inn!|next,-6|Bugs travel across the sea just to stay here... Could it be that great?|next,-4|We won't know if we don't stay, right?
+|boxstyle,3||spd,0|For Ant Kingdom Explorers Only!|line|Head to the end of the hallway for a quick tunnel to the Ant Palace!
+|checkmapflag,0,7|...Welcome to the Metal Hotel.|next||showmoney|One room for three costs 40 berries for the night. It includes a hand-made dish by the one and only|line|Master Slice.|next|Are you interested in spending a night with us?|prompt,map,3,2,3,4,@We'd like to stay.,5|
+|checkmoney,40,4||money,-40|...Thank you for choosing us. Your room is the first in the hallway. Have a good night.|break||event,122|
+...|next,null||boxstyle,4||spd,0|He is ignoring you.
+No way, that's too much!
+|boxstyle,4||spd,0|It's locked from the inside.
+We hope you had a pleasant night. Please consider staying with us once more in the future.
+|boxstyle,1||shaky|Halt!|shaky| Only those who have |color,1|proof|color,0| that they have mastered the way of the card may enter!|prompt,map,2,3,9,10,11,@We have proof!,@Proof?,@S-Sorry...|
+Show it to me, then!|pickitem,1,0,true,false,12,11|
+Only those who have defeated all |color,1|Card Masters of Bugaria|color,0| and obtained the proof of their skill may pass beyond this gate!|next|Begone if you have no proof!
+Without proof, you may not pass! Begone!
+|checkvar,0,104,13||checkvar,0,25,16|...What is this!? This is not proof! Don't waste my time!
+...|break||event,122|
+I apologize for my previous behavior, masters.|next|You are welcome in the great hall of the Spy Card Champions! Please proceed.
+You are welcome in the great hall of the Spy Card Champions! Please proceed.
+...That girly doll is not proof!|next,-5,Hurt||boxstyle,0|G-girly?!|next,-4|Woah! Brutal!|next,caller|Don't waste my time! Bring me proof or you shall not pass!
+Man, digging here was a lot of work! The tunnel goes all the way under the lake!|next|We had to patch for leaks pretty frequently... I hope we never have to do |line|that again!
+I don't know why the Queen wants to make a tunnel here... This is a privately owned Island.|next|I heard she paid over a million berries to get the tunnel done here... |line|Kinda wish they'd gone to our city.
+|wavy|Ohohoho!|wavy| I have come from very far away to see the card tournaments held here!|next|They say you need to prove yourself by defeating the four |line|masters to enter...|next|But even before challenging them, you need an invite card from someone who's already defeated them.|next|It's so alluring! So exclusive!|line||wavy|Ohohoho!|wavy|
+What the-
+What are you doing here?! This is my room!|next||shaky|Aaaah! You destroyed the wall! You think I won't mind because |line|I'm rich!?|shaky||next|How dare you! I thought you were decent bugs!|next,-5,WeakBattleIdle|W-We're sorry! I saw a gap, and I just felt the urge to dig!|next,-4,Angry|Yeah. You've really gotta complain to management.|next,caller|And you're blaming ME for the hotel's faults!?|next,-6|Err, no...just...|next,caller||shaky|I'VE LOST MY TEMPER! WE'RE DUELING!
+Ugh. You could've let me win, you know...|next,-6|We ARE sorry, but no.|next,caller|...|wavy|*Sigh*|wavy|. I'll go tell management about the gap...|next,-5|We're...we're truly sorry!|next,caller|Whatever. Get out. I've got to prepare for the tournament.
+You seriously think I want to talk?|next||wavy|*Sigh*|wavy| ...Why did I teach you how to play...
+|tail,-6|Carmina's a pretty formidable duelist.|next,-4|And she can fight well, too!|next,-5|Team, perhaps we should discuss Carmina...outside of her room?
+I heard one top card player is somewhere around Bugaria looking for challengers.|next|Whoever it is, It is the only way to get an invitation to the card challenge, unless you have thousands of berries.
+Please watch yourselves. I pride myself on keeping these halls clean.
+I've lived in luxury since birth. It's all so mundane... And others work their whole lives to be rich?|next|If only they knew it's nothing special... So depressing...
+|tail,-4||anim,-4,Angry|...Bugs that look down on others...|anim,-4,Flustered|Are the |shaky|worst|shaky|!|next,-5||anim,-4,Angry|Vi, what's gotten into you?|next,-4|I can tell he only treats others nice if they've got berries! It's disgusting!|next,-6|Since getting here is so expensive, he probably just thinks we're being cheap...
+Is that...custom made armor? To guard a card game?|next,-6|Are you implying Spy Cards does not deserve such a thing?|next,-5|Ah, um...|next,-4|Of course it doesn't! It's just a children's card game!|next,-6|Tch. You're so clueless...
+|tail,-4|...|next,-6|What's up? Fancy a bowtie too?|next,-4|I just think it's weird. Leaving the Hive just to work for someone else...|next,-5|She seems quite proud and content. Perhaps it was her dream?|next,-4|Maybe...I don't get it, though...
+|tail,-6|All this Ant Kingdom personnel disrupt things a bit, don't you think?|next,-4|Yeah. They still gotta pretty up stuff around the tunnel.|next,-5|It's a small sacrifice. Surely the guests will understand!
+|tail,-4|Complaining that she has everything... There's no way |line|I'm gonna feel sorry for her.|next,-6|Her problems are...not relatable, yeah.|next,-5|We will probably never understand how she feels, but...|next||anim,-5,WeakBattleIdle|Does that truly mean we can't try to empathize...?
+|tail,-6|What's that in her hand?|next,-5|Oh, that's a fan! They've become quite trendy lately.|next|You wave them quickly to blow refreshing air into your face!|next,-6|Interesting invention...|next,-4|It's not hot in here though. She's probably just showing off...
+I wish Ms. Amber could enjoy the resort...|next,-4|She's probably getting paid a billion berries to come here, it's fine!|next,-6|You're sure it's not a billion berries to GET here...?
