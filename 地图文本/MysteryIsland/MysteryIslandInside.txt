@@ -1,0 +1,2 @@
+|checktrue,502,1|The beat comes from here! We must climb to the top!|next,-6|We might need a special ice move for this...|next,-4,Angry|(Bleh...|anim,-4,Flustered|Why can't I hear it!?)
+If...if we weren't explorers, we might have met our end to that spider.|next,-6|We were completely baited by it...|next,-4|Not me. I couldn't hear it at all!|next,-5|What matters is, no other unfortunate soul will meet its end here.
