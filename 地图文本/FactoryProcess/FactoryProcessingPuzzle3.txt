@@ -1,0 +1,1 @@
+|tail,-4|Hmm... So the gate closes when the geyser rises.|next,-6|We can only control so many ice cubes. Let's use that to our advantage.

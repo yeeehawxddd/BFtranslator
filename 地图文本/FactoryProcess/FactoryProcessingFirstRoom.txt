@@ -1,0 +1,12 @@
+|checkflag,211,11|Catching the tram is the best!|fwait,0.2||anim,-4,Happy||minibubble,@I know!,-4| A seat that moves itself...incredible!|next,-6|We almost got a bit dizzy... We've got to catch up to the newest technologies.
+|boxstyle,2||glitchy|Beep beep. Tram System Status: Offline.|next|Contact Malbee for repairs.
+Due to lockdown protocol, some platforms will be routinely shocked. Bee workers, please hover to evade the shock and evacuate safely!@EVENT@S-Shocked!?|next,-4|Whew, good thing I can fly... 
+There's no choice, Vi. You will have to leave us behind!|next,-4,Angry|No way. What if I need to cut or freeze something?
+Leif! Have you gone |shaky|MAD|shaky|!?
+Impressive! W-wait, come back!
+You did the weird thing again!|next,-6|We took some time to think about it... And we can control it.|next|If we hold down |button,5|, we should be able to all cross safely.|next|Can't really jump or walk fast while doing it, though...|next,-5|Incredible! Leif, you may have just saved us a lot of trouble!|minibubble,7,-4||next,-6|Eh, if Gen and Eri got through, we would have found a way. Let's go.
+|anim,-4,Happy|No flying|line|needed!
+Leif can now use the Bubble Shield!|line|Hold |button,5| to protect the party from hazards!|next|You can also move while using it to push away enemies!|next||spd,0||sound,ItemGet0|Leif can also use the |color,1|Bubble Shield|color,0| skill in battle!
+|boxstyle,2||glitchy|Beep beep. Tram System Status: Online.|line|Destination: Pump Room.|next|Board Tram?|prompt,yesno,10,-11|
+|hide||event,68|
+|tail,-4|Alrighty. We're officially in the worker zone! We can just catch the tram and...|next,-5|Doesn't seem to be working, does it?|next,-4,Angry|Argh! Everything's going wrong!|next,-6|Wouldn't be a mission if it was easy. We'll have to walk around normally.

@@ -1,0 +1,11 @@
+|checkflag,221,9||tail,-4|Mothiva sure can run when she's mad.|next,-6|Heheheh.|next,-5|Don't be like this. Can you imagine the fear of being eaten alive?|next,-4|They're fine! Chill out!
+Hmm...Is there nothing here?|next,-4|There's gotta be something, somewhere!|next,-6|Is it that weird for there to be an empty room?|next,-4|...Yes!|next,-5|...|next|Wait... What's this feeling... 
+T-TEAM, WATCH OUT! ABOVE US!
+Eep! I wish it'd been empty after all!|next,-6||boxstyle,0|Ready up, it's coming!
+|wavy|Huff...|wavy|That was intense!|next,-4|...W-Woah! Are those... 
+...Don't say anything.|next,-5|What happened?|next,4|We found this keycard, and then...|next,5||boxstyle,1|DON'T say anything! This is so embarassing! A disgrace!|next,-6||boxstyle,0|A "thank you" would be enough.|next,5||boxstyle,1|N-Never! This NEVER happened! Argh!
+What's HER problem?|next,-5|Humbleness is hard to come by...|next,4,Idle||face,party,4|Well, if she's gone... I guess I can thank you. We really owe you.|next,-6|Hmph. You're welcome.|next,-5|You must have been terrified!|next,4|We were. We really thought that was it for us...|next|Try not to bring it up, okay? Even Mothiva can get very scared.|next,-4|And why shouldn't we?|next,4|Take this.
+...I trust this makes us even?|next,-5,Happy|We were even from the start. Go, you wouldn't want to keep her waiting!|next,4|...See you upstairs, Team Snakemouth.
+Huh.|next,-5|What matters is we've got the card. I'm sure we can save the overseer with this!|next,-6|It'll be so hard not to rub this in her face... Guess we're better than that, though. Let's go.
+I must say this storage room is somehow more grim than the last.|next,-6|It's like the bees went and made their own Snakemouth.|next,-4|Heheh. You'll cheer up when you see this Beemerang trick!
+|boxstyle,3||spd,0|AHEM! Day 63 of the A.D.B.P's halt upgrade testing is progressing smoothly!|next|When the halt stops, it returns a bit behind its launch coordinates...|next|Hawk says it's a malfunction...IT'S A FEATURE!
