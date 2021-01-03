@@ -1,0 +1,14 @@
+The Power Plant is inside the Bee Kingdom's tree, correct?|next,-6|It feels like one more room in the Honey Factory.|next,-4|In a way, it kinda is!
+Drat! The Code 32 alert locked the door and I can't remember how to open it!|next|It's got something to do with all these switches... Think you can figure it out?
+Ah! The door opened! We'll go in after you, okay?
+Door's locked. Guess we're stuck here until a technician opens it.
+Thanks Vi, though Code 32 means hostile forces...|next|G-go on ahead. We'll catch up with you later.
+|tail,-4|Huh. This hole wasn't supposed to be here.|next,-5|Maybe it is what caused the alarm?|next,-6|...We should prepare before we go ahead.
+Vi?! You're the one helping us...?
+Ugh. It seems problems never stop popping up for us to fix!
+|tail,-5|Vi, what is this machine?|next,-4|That's the Energy Converter! It uh...converts all the energy!|next,-6|That's a very helpful description, Vi.|next,-5|It must use the power generated from the windmill to power the Factory's core!|next,-4|Uh...yep! That's what the Power Plant does!|next,-5|It's no wonder many Bees visit the Golden Settlement for the Festival.|next|The winds here play a big part in creating delicious honey!|next,-4|Guess it's why the Bee Kingdom asked Elizant for control of this place.|next,-6|Elizant...Everyone won because she didn't cling to her territory.|next,-4|Bees won the most, cuz we get to make so much honey!|discovery,23||flag,458,true|
+|boxstyle,4||spd,0|The Factory's Energy Converter.
+A giant Midge?! How did it get in there!?
+If a Midge can stop the factory, anything can. We need to build a better system.
+Well, Vi, I guess I was wrong about you. Sorry for doubting you.
+|tail,-4|The Power Plant's way cooler than the factory. |anim,-4,Angry|How come I never got any shifts here!?|next,-6|Those Bees seem to be operating very complex machines. Do you know how to?|next,-4,Sad|I, uh, I'm sure I'd press the right buttons...|next,-5|Thankfully for everyone, exploring's your one true calling!

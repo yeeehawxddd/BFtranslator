@@ -1,0 +1,22 @@
+|checkflag,41,9|Ah, this is where we met Chuck.|next,-4|Oh yeah. Where did he go anyways?|next,-6|Well, he couldn't have gone far?|next,-5|He mentioned building a "cozy" space for explorers. He must be |line|nearby!
+Excuse me, bug of old complexion. Is everything alright?|next,-4||face,-4,-5|Hey! Kabbu! We're supposed to be adventuring! Snakemouth Den? Endless |line|riches?|next,-5|Sorry, Vi. I cannot ignore an old bug in distress.|next,2|First of all, name's Chuck. And I bet I'm younger than both of ya!|line|But if you've gotta know... 
+I'm almost done arranging my cozy rest space for travelers |line|going to Snakemouth Den. I just can't pull out this darn weed!|next,-4|You call this cozy?|next,-5|Chuck, Snakemouth Den is more dangerous than rain on a wedding day. Shouldn't you be warning travelers?|next,2|...Look, will you help me or not?|next,-4||anim,-4,Angry|I'm not doing any pulling. At least not for free.
+Hm. Watch this, Vi. If I press |button,5| near small bushes or rocks... 
+Woah! Nice.|next,-5|Something like this is no match for my horn!
+And you didn't do anything.|halt|
+|anim,-4,Happy||tail,-4,instant|Berries, so many berries!|next,2|Use 'em to buy something nice later, alright?|next,-5|Thank you, we surely will. We'll be going now. Make sure to warn others of the danger!
+Good luck, ye two!
+I'll be! You actually helped me! This made my week!|next,-4|You've got a reward ready, right?|next,-5||anim,-5,Idle|But Vi! Helping others is already its own reward.|minibubble,5,-5||next,-4||destroyminibubble|It's really, really not.|next,2|Hohohoh. No worries. Helpful bugs deserve gratitude! I ain't got much, but please take this.
+This is one of the Ant Kingdom's outskirts.|next,-4|You know what it's not? Snakemouth Den. Let's go!
+|tail,-5||face,-5,-4|Where are you going? Snakemouth is through the north west!|next,-4||face,-4,-5|Uh, yeah. I knew that.
+. 
+.
+.
+.
+.
+.
+.
+|tail,-4|Hey, isn't this the Ant we met at the gate near the association?|next,-5|Indeed. It seems she was reassigned here after we |line|found the artifact.|next,-4|She looks so bored. I guess nothing really happens here.
+Ugh. This post is so boring. No one comes here now that the artifact has been found...|next|At least that old bug that lives nearby says hi sometimes.
+|boxstyle,3||spd,0|As of the latest decree, the path to Snakemouth Den is closed off by |line|the Queen's orders.|next||spd,0|If you have any complaints please direct it to the Ant Kingdom Safety Committee.
+If you are near something that can be interacted with using the horn, |line|a |icon,223| will show up over the party leader's head.
