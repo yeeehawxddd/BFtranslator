@@ -1,0 +1,109 @@
+Goodness! They've truly created an artificial island!|next,-6|Is that...safe?|next,-5|Well, everyone seems quite calm, so...|next,-4|Sorry guys. If it sinks I'm flying away!|next,-6,BattleIdle|No you're not. You're drowning with us.|anim,-4,Flustered||minibubble,@Nooo!,-4||breakend|
+What's it? Want to go back to the mainland?|prompt,map,1.25,2,2,3,@Aye aye!,@Not yet.|
+Board on then!|break||event,107|
+Don't take all day.
+I haven't seen sis since... W-Wait, don't tell me...
+|event,true||align,right,true||tail,-4||face,caller,-4|Heya! Are you the lost sister's uh, sister?|next,caller|I...I...|next,-6|Have some tact, Vi.|next,-5|Pardon her. We're explorers who took your request.|next,caller|Ah...I get it now. Thank you!|next,-4|...So what happened exactly?|next,caller|Um, my sis is super strong and brave. She's always taking care of me...|next|I saw her taking a walk with this |color,1|Wasp|color,0|...|next|I trust her, so I didn't get worried. B-But...|next|She hasn't come back! S-She must've been |wavy|kidnapped|wavy|!|next,-6|How did a Wasp make it here...? This place hasn't been a target at all.|next,-5,Angry|It matters not! We have someone to rescue!|next,caller||anim,-5,Idle|I overheard them mention the |color,1|Wasp Kingdom|color,0|...They've gotta be near it!|next|I-It's my turn to be brave for sis. I'll meet you in the |color,1|Far Grasslands|color,0| entrance!|next,-4,Surprized|Wait, you're going too!?|next,-5|We'll be right there, please be careful!|call,6|
+|flag,638,true||break||hide||fadein,0.1,99,kill||event,false||end|
+I came ALL THE WAY here to make it BIG in the tournament.|next|...They're saying I'm missing a "boss card"!? Hello!? My "Spuder" |line|card's legit!|next|All a conspiracy, I tell ya. Everyone's trying to keep Jerry down!|next|Bleh...time to eat the rage away...
+Everyone on this island always goes on about the rare cherries.|next|But here I am, pondering how they would taste mixed with other rare berries, or even rare seeds.|next|Maybe they can be mixed with some explosives to really blow out the flavor!
+Welcome, to the Tea Heaven.|next|Are you fellow tea lovers? While tea is easy to make from boiling leaves...|next|You have to mix them properly to bring out their true flavor.|next|Would you fancy some? Press |button,4| near a brew to let me know.
+Want a cup of |string,0|?|line|That will cost you |currency,var,10|.|prompt,yesno,11,12|
+|checkmoney,var,10,13||checkinvqtd,0,full,39||money,var,-,10||additem,0,var,0|Thank you. Here you go, an authentic cup of the best tea in Bugaria! Please come back!
+You should reconsider... Tea always calms everyone.
+Umm... Sorry. My tea can't go any lower in price.
+Team Snakemouth, fancy meeting you here. If you are interested in taking any requests, check out the board.
+Taking that request?|prompt,yesno,16,17|
+We're counting on you.
+Ok.
+Well, here we are. If you ever want to head back, you know where to find me.
+Hello! I've got the coolest merch of all!|next,-5|No Bug Rangers... hard pass from me.
+|hide||event,162|
+Hello! I've got the coolest merch of all!|next,-4|Hey! This must be the place!|next,-6|If you sell any toys, we demand you show them to us.|next,caller|What a cute little trio! This one's just for you all!
+Hmm, well. It's no Bug Ranger merchandise, but...|next,-4,Happy|Shut it, Kabbu. It's perfect! How much is it?|next,caller|This is an exotic toy that took four moons to weave, using rare materials |line|from the eastern border.|next|It's at half price today, for 400 berries.
+Four... hundred... 
+...V-Vi...|next,-6|You've got uh, anything more accessible?|next,caller|This one's on sale! My prices start at 600, you know.|next,-6|Welp. We've hit a dead end.|next,-5|There must be some other merchant...|next,caller|None as good as I, I assure you!|next,-4|......|next,-5|Y-You tried, Vi. It's going to be okay.|next,-6|We'll figure something out.|next,-4,Idle|I'll take it.
+Here. 400 berries. Just take them before I regret it!|next,caller|This is one purchase you won't regret!
+Pleasure doing business!
+You... had that many berries on you?|next,-5|Our funds are fine, so...|next,-4,Angry||face,-4,-5|It's my savings.|next|I wanna be rich, okay? So I can travel, eat well, buy cool stuff...|next|So no one can say I can't do something!|next|But it takes a really long time...|next,-5|And you've taken such a great chunk of them for this?|next,-4|Jaune's dumb. She doesn't get me at all!|next||anim,-4,Sad|But I've known her all my life, so...I want to fix things.|next|We're an awesome team! So I'll raise the berries again.|next,-6|But friendship is priceless, right? We're impressed.|next,-5|I'm...I'm moved to tears...|next,-4,Angry|Let's get back to Ann so we can do all the trades!
+|tail,-4|That's a |wavy|very|wavy| round Beetle! Kinda looks like a big Tangy Berry!|next,-5|I heard that to the far east there is a land where bugs are shaped like fruit, perhaps he came from over there.|next,-6|We must visit that land sometime, do you think they have bug shaped fruits there?|next,-5|I'd rather not find out... 
+Yar, landlubbers! Skirby here's got some high quality |color,1|Tangy Berries|color,0|, straight from the eastern lands!|next|It is 40 berries for each! Want some?|showmoney||prompt,map,1.15,2,30,31,@Aye aye!,@Nay Mate.|
+|checkmoney,40,32||checkinvqtd,0,full,33||money,-40|Aye! Here yer go!|break||giveitem,0,77,34|
+Shiver me timbers! These are really rare an' not found anywhere else! Well, yer loss.
+What's that?! Not enough gold? Well, no sale for you!
+What the- yer have nowhere to carry that! Make some room!
+If yer still have some gold left, yer better buy some more!
+|flag,501,true||define,15,s||define,14,d||flip,d,true||flip,s,true||igcolmove,15||igcolmove,15||parent,14||align,right,true,2.5||tail,s,instant|Oh, Team Snakemouth. Taking a short break?|next,-6|It's doing us much good. Are you vacationing as well?|next,d|Nah. We're trying to get a boat!|next,-5|A-A boat? What for?|next,s|There is more to Metal Lake than this resort.|next|We've heard a powerful monster lies hidden in a nearby island's cave.|next,d|Anyone who's gone after it ended up missing!|next,-4,Sad|Woah... As if lakes weren't bad enough already.|next,-6|Thanks. We'll keep it in mind while traveling.|next,-5|If you find a boat, please be safe!|next,s|That we will. If you find a boat, be safe as well.
+The sea may be dangerous, but something about it is so alluring...
+Maybe we should finish a quest or two sometimes. Then we could buy the boat...
+It's Stratos and Delilah.|next,-4|Wonder what they are doing here...
+Looks like you can't carry it... But please remember to come back to try out some of my tea!
+Whew. It's nice to finally be back home! That trip through Bugaria had its issues, but it was fun in the end!
+|wavy|WOOOOAH!|wavy| I-It is my first time here on Metal Island!|next|I never thought I'd see the day! Everything is |wavy|GREAT!|wavy|
+I thought I'd get tired of Metal Island but NOPE! I just got access to|line|the card tournament inside the hotel!|next|Ahh, what FUN! I can't wait to share this with my sisters when I return to the Ant Kingdom!
+Hmph. You look like you have light pockets.|next|You won't get much enjoyment here unless you have many berries to spare.
+Wasps are attacking? It doesn't really concern me. We pay the |line|guards well here.
+Now that the Wasp Kingdom is cool with the Ant Kingdom, we are getting more tourists.|next|Great, the more money comes in, the better!
+My mom said that I could spend these Dark Cherries on whatever I want!|line|I wonder what I should try next...
+Howdy y'all. John here's enjoying Master Slice's food.|next|I may be far from the ol' Golden Hills, but I still thank good Venus before each meal!
+|hide||event,214|
+|shaky|Ooooh...|shaky| Oh, hm. Hello.
+Can I interest you in some wares?
+Right now...I have this |string,0||line|for sale. That will be |currency,var,0|!
+Gimme!
+No way!
+Oh! Thank you. Here it is.
+Oof. Don't just say that to an old bug!
+Oof. You don't have enough berries...
+Oof. You can't carry it. How sad.
+I still have something to sell that might interest you. Come back later if you want to know what it is, will ya?
+You sure got everything I had! Thanks for coming all the way over to|line|talk to me.|next|No one seems to care about an old bug anymore... |next|Bugs these days are always so busy betting on those card games, I don't get the appeal at all!|next|Oh, here I go rambling again. Please make sure to visit in the future!
+I don't have anything else to sell, but you lot remind me of this fly lad I met once.|next|Poor boy went crazy over an old crown I fished out of the lake. Paid me hundreds of berries for that junk.|next|I wonder what became of him after that... Last I heard he headed north or something...|next|Oh, don't mind me. Just going back to my memories! Go on, you lot! Have fun with all that stuff!
+Do you want some other trinket I have?
+fancy trinket
+weird berry
+last item
+Welcome to Metal Island. The safest, fanciest area in all of Bugaria!
+|boxstyle,3||spd,0|"To Mothington X, who dreamed of making this haven a reality."|discovery,44|
+|tail,-4|Woah! Dark Cherries are super expensive, y'know!? And he's got tons!|next,-6|He doesn't seem too excited about it.|next,-4,Angry|Bleh...rich kids don't know how good they have it.
+Rails haven't been built yet, so please be careful while walking |line|on the pier!
+|tail,-6|Hmm. Does a place like this truly need guards?|next|Feels like the price of the ferry weeds out troublemakers already.|next,-5|They're insurance. If a rich evildoer came along, who would |line|protect Metal Island!?|next,-4,Happy|...Us! We'd get rich!|anim,-5,WeakBattleIdle|
+Bleh. This island is a symbol of empty consumerism...But it has good food.
+|tail,-6|Hmph. If you're going to complain, you should stay firm and |line|skip the food.|next,-5|...Well, have you TASTED Master Slice's food!? It's...it's exquisite!|next,-4|I thought you were the one with like, dignity and stuff, Kabbu.|next,-5|E-Err... I-It's just food...
+|tail,-6|The smell's nice. We don't come across tea this high quality often.|next,-5|Ah...it's true. A nice, relaxing brew would do wonders for my wings!|next,-4|I want a super spicy one! To get me all pumped up!
+|tail,-4|Woah! Samira's here!? Did she get a discount!?|next,-5|She must be doing incredibly well!|next,-6|These are really high profile clients. It's thanks to you, Vi.|next,-4,Happy|Nah. It's all 'cuz she worked hard!
+Heheh. It's nice to meet other first time visitors!|next,-6|Yeah. Everyone else seems used to the glamour.|next,-4|I don't think I'll ever get tired of eating fancy stuff! ...You think she will?
+|tail,-4|That's a lot of Mothiva dolls.|fwait,0.2||anim,-4,Angry| Ew.|next,-6|...What's that other plush? Looks a bit like Venus.|next,-5|Perhaps it is another culture's harvest Goddess!|next,-4,Idle|Huh. Wonder if this one's real, too...
+Hm. Would explorers truly take requests in such a place?|next,-6|You're eyeing up the board. Don't act like you're not going to.|next,-5,WeakBattleIdle|I-I've been caught...!
+|tail,-4|You can't sell items with vague descriptions! It's bad business!|next,-5|B-But what could they be!? Are you not curious!?|next,-6|Hand over your berries, Kabbu. We'll handle the funds.|next,-5,Angry||shaky|N-NO! I NEED TO KNOW WHAT HE SELLS!|shaky|
+Did you hear? Elizant II's lifting the ban soon!|next|I can't wait to visit the Ant Plaza!
+These two may not be certified explorers, but I feel like they're comrades!|next,-4|They saw everything, without being able to fight! It's nuts!|next,-6|We hope they can hang around the Ant Plaza soon...
+This Beetle exudes...a business aura. Importance!|next,-4|Hey, those medals he's wearing..."VIP"!|next,-6|You seem to be right, Kabbu. This must be a very influential bug.|next,-4|Heheh. Hope he posts a quest. Think of the reward!
+|boxstyle,4||spd,0|Master Slice is ignoring you. He's completely focused in his cooking!
+|tail,-6|That slicing technique...it's like Kut's.|next,-4|They look alike too. He's probably like, his master!|next,-5|I heard Kut and his master got into a fight...|next|There's many things I'd love to ask him, but he seems quite focused. Let's let him cook peacefully!
+|tail,-4||anim,-4,Happy|Howdy, y'all! Heheheh.|next,-6|Oh dear. Are you going to start speaking like that?|next,-4|Maybe.|next,-5|It's not like I mind, but...it'd be a bit weird?|next,-4|Y'all don't know nothing 'bout what you're discussin'!|next,-6,BattleIdle|Stop.
+"Spuder"? Did he mean...the Spider boss card!?|next,-6|No way, that card's got the wrong colors. It's a fake.|next,-4|People care enough to make fakes of these...?
+|tail,-6|He's here, too? Now we know he's a true gourmet.|next,-4|What, just 'cuz he spends money to eat?|next,-6|Many people boast being refined, but wouldn't make the sacrifice to travel here.|next,-5|Truth be told, I do believe I enjoy eating...|next|But if our travels hadn't brought us here, I wouldn't have tried to eat Master Slice's food!|next,-4|You two think about this way too hard...
+|tail,-6|Seems our intruding didn't hurt their relationship.|next,-5|I'm so relieved! If I was the cause for a breakup, I...|next,-4,Happy|...'d apologize a lot. Right?|next,-5,WeakBattleIdle|...Yes.
+Metal Island's nice, but...I wish we could get a house in the Wasp Kingdom...
+Mmm...I'm glad sis is doing fine.|next|I gotta start thinking of moving, though. Can't be a third wing forever!
+Let's be patient, Rebelle. We'll live together soon!
+|tail,-6|She's a bit stressed for someone in a vacation island.|next,-5|Something must be troubling her... Are we able to help?
+|tail,-6|Figures a food blogger would visit Metal Island.|next,-4|A food what?|next,-5|Yel's a critic who judges others' food, choosing to recommend or warn against establishments.|next,-4|WOAH! That sounds like Leif's dream job!|next,-6|We're probably too picky for that...
+Incredible! Amazing! I'm so lucky to have lived until today!|next,-6|Someone's happy.|next,caller|Who wouldn't after eating Master Slice's food!|next,-4|It's pretty good!|next,caller|It's only natural, having taught 5-star chefs such as Kut...|next|Now I can blog his recipes for the common folk!|next,-5|...Err, won't he get upset?|next,caller|"None can cook like me, anyways!" ...Is what he said.|next,-6|And he's probably not wrong.|next,caller|I've collected many recipes while blogging.|next|If you want any, I can share them with you! ...For a price.|next,-4,Angry|It's always for a price...|minibubble,@You're talking!?,-5||flag,695,true||breakend|
+|event,220|
+Oh, it's you. I don't really have anything to teach you anymore...|next,-5|W-We just wanted to say hi...|next,caller|You...you did? ...|wavy|*sniff*|wavy||next,-4,Angry|You were supposed to feel happy!
+Oh, it's you. Feeling like buying a recipe from my blog?
+Hand one over! (5 berries)
+Give us EVERYTHING!
+Nah. Just saying hi.
+Oh! Um...hi.|next,-4|Blogging seems really fun.|next,caller|It really is! You need a strong stomach, though...
+I made my price quite clear... This wasn't easy to get!
+That's what I like to hear! Today's recipe is... |string,0|!
+By mixing |string,1| with |string,3||line||string,2|, the results|line|are incredible!|call,104|
+By cooking only |string,4| |string,1|,|line|the results are incredible!|call,104|
+|minibubble,@Interesting...,-6||breakend|
+Woah, you sure? That's uh... That's like |var,0| recipes.|line||var,1| berries sound fair?
+I'll be here if you get any culinary urges!
+I knew blogging would make me rich someday...! Here we GO!
+|wavy|Huff... Huff...|wavy||next,-4|You uh, didn't have to explain all of them in one go...|next,caller|Nonsense... How else would you cook them properly!?|next,-5|We'll make you proud!|next,-6|We better do. We're so hungry now...
