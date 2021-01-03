@@ -1,0 +1,33 @@
+This is it. Their hall of blazing glory!|next,-4|It looks a little...normal, you know? |next,-6|They must've chosen to keep it outdated. In the name of culture.|next,-4,Angry|That just sounds lazy!|next,-6|Don't let historians hear you...|minibubble,@Whatever.,-4||breakend|
+Some say regular Termites aren't fit for combat.|next|To them I say - meet my blade and be proven wrong!
+|tail,-4|This guy's cool. I like him.|next,-5|Feeling a bit identified, I presume.|next,-4,Happy|Yup! I'm all for those who say "shut up and watch me do great!"|next,-6|For everyone's sake, let's hope we don't need to beat him down then.
+|call,8|Oh hey. Welcome to the Colosseum.|next|Right now we don't have any fights happening... Come back later when we do!|next,-4,Angry|Aww...|call,7|
+|checkmapflag,0,9,true||mapflag,0,true||call,8|Hm... You're the Ant Kingdom knights? A bit scrawny...out of shape.|next,-5|Excuse me?|next,caller|It's whatever. Everyone's looking forward to a new challenger.|next||goto,9|
+Don't take too long. The king gets grumpy.|call,7|
+Alright. Please cross through the left door.|next|I placed a bet on you for kicks and giggles, so good luck.|next,-4|If I give you some berries, can you bet higher and pay me later?|next,caller|...No.|minibubble,@Aww...,-4||break||destroyminibubble||event,163|
+|break||resetcamera||end|
+|camoffset,0,3.5,-8|
+|call,8|You ready to go? You'll do three straight fights when you're in.|prompt,map,2,2,5,6,@We'll shop a bit.,@Beatdown time!,$0|
+|call,8|Oh hey, you won. Talk about lucky!|next|Come back later if you want to fight again. If you keep it up I'll keep betting on you!|call,7|
+|tail,mothiva||size,0.5||wavy|*Grumble* Stupid crowd...|wavy||next,zasp||size,1|We'll go on ahead.|next,-6|No weird tricks.|next,mothiva|Just shut up. I don't want to hear you ever again. Ugh. BYE.|next,-4,Angry|Poor you... 
+I feel so tired...but we did it!|next,-4,Idle|No time for the inn! Let's get going to the palace!
+Only audience or contestants!
+Oh! You're the ones that saved us from the Wasp Kingdom! Thanks again!
+Aaah! You're Team Snakemouth! Do you plan on fighting in the Colosseum?
+Wow! I never knew you were this strong!
+I was right to bet on you, got a lot of berries! Keep up the good work!
+Hmph. They said that workers aren't strong enough to fight...|line|I will show them!
+Hello there! Going to try the Colosseum? Make sure to stock |line|up before you do!
+Ah, hello again! Are you planning on trying on the Colosseum?|next||goto,-48|
+|call,8|Challengers! Have you come to try the Colosseum once more?|prompt,map,0,2,22,23,@Yes!,@No!|
+I knew I could count on you! Head through the left door once you're ready!|break||event,163|
+Too bad. I'm sure many want to see you return to the ring!|call,7|
+You see that picture on the back? That was a legendary champion that beat the Colosseum 5 years consecutively!|next|He suddenly disappeared though. I wonder if new challengers will take that picture now.
+|shaky|Ah! Team Snakemouth!|shaky| |wavy|I am your number one fan!
+I was right to bet on you! Here is some berries from what I got!|break||giveitem,-1,50,27|
+Come back again if you want more berries!
+Ouch. Good thing I didn't bet on you this time!|next|If you want to retry just talk to me.
+|tail,-4,Happy|You go, super regular normal dude!|next,-5|Vi's found a hero, eh?|next,-4,Angry|Wha-No! I'm my own hero! I should be HIS hero!|next,-6||wavy|*Sigh*.|wavy|
+I-Is it okay for children to witness such battles?|next,-6|Weren't you inspired by plays and books?|next,-5,Angry|That is completely different to a Colosseum!
+|tail,-6|Getting paid to run this place could be chill. We may consider it if we quit exploring.|next,-5|Is that so? I've always thought of being a gardener.|next,-4|I don't wanna ever quit exploring! ...But, y'know, I'd run a shop.
+|tail,-6|These two have pretty much seen the whole continent.|next,-4|Except the Ant Kingdom...|next,-5|...Maybe if we find the Everlasting Sapling, we could revoke that ban?
