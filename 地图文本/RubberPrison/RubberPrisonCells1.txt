@@ -1,0 +1,3 @@
+Being here makes me so uneasy...|next,-6|Why? It's not like someone like you would ever end up behind bars.|next,-5, WeakBattleIdle|Just from the idea of it...!
+Phew. All prisoners are back in their cells! Sure hope they don't break out again!
+|boxstyle,3||spd,0|⇦ Cafeteria|line|⇨ Giant's Lair Bridge

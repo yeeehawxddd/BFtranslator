@@ -1,0 +1,7 @@
+|tail,-6|Working in a prison isn't glamorous at all.|next,-4|You think the Queen sends the lazy guards here?|next,-5|Mantaining this prison is not a game! She must send her best!|next,-6|(Why not both?)
+|boxstyle,3||spd,0|⇦ Gym|line|⇨ Security Room
+|boxstyle,3||spd,0|Remember to put equipment back after using it! Others will use it after you!
+|boxstyle,3||spd,0|⇨ Warden's Office|line||halfline|Warning! The bridge shows signs of weakness, careful when crossing!
+Can't believe this happened... So humiliating!
+|tail,19,instant|No means no! Until you pay off the machine you broke, you can't go back in!|next,20|Are you serious!? Community Service doesn't pay well at all!
+|tail,-4|So prisoners can earn berries, huh.|next,-6|Cheap labor for the good of those they've wronged.|next,-5|Well, something good's come out of villainy...

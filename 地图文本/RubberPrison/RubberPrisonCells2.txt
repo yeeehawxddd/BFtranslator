@@ -1,0 +1,11 @@
+This security is impressive! Yet it couldn't stop the Wasps at all...|next,-4|Well, duh. They fly.|next,-6|We've got magic shields, too.|next,-5,WeakBattleIdle|S-So I am the only one stopped by it, huh...
+|boxstyle,3||spd,0|When will someone fix the 3rd floor bridge? That thing looks like it could break down at any moment!
+My sentence is over in two days, no way I'm escaping now, go away!
+Great, because of that ruckus my sentence got extended! And I was about|line|to get out too...
+|boxstyle,3||spd,0|⇦ Cafeteria, Cells|line|⇧ Gym, Security|line|⇨ Giant's Lair Bridge
+|tail,-6|We've got to respect these two not taking the chance to run.|next,-5|Perhaps they've truly taken our words to heart!|next,-4|Wonder if Maki'll give 'em a second chance...
+...Look, we're just waiting for this to blow over. Let us be.
+You put us here, so...don't expect us to be happy to see you.
+|tail,-4|It's kinda weird to not have to fight.|next,-5|Some people do regret their actions. We must allow them to make amends.|next,-6|...At least while their crimes are small enough to forgive.
+That was some ruckus... Anyways, just leave us alone.
+Wasps or guards... We'd have stayed here anyways.

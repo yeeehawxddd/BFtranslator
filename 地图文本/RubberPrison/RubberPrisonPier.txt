@@ -1,0 +1,4 @@
+|tail,-4|So many bridges! This prison is huge!|next,-5|Are there truly so many wicked in Bugaria?|next,-6|Well...if they're all here, we wouldn't notice.
+W-We made it! I trust the Termites, but I'm glad to leave |line|the submarine.|next,-6|Your fears aside, could you tell us a bit more about Rubber Prison? It's new to us.|next,-4|Oh, I know this one! It's the prison where they put |wavy|aaaall|wavy| the bad bugs!|next,-6|Things got that bad after Elizant went to sleep?|next,-5|So it seems. It's quite the secure facility, yes? The Wasps taking over is quite troublesome.|next,-4|Meh. We'll just snoop around and beat 'em up. It's what we do!|next,-6|Heh, that's a good plan.|next,-5|Let's go, team! We must clear the way for the others!
+|boxstyle,3||spd,0|⇨ Library
+Oh no! It is as I feared! The old bridge fell!|next|How are we supposed to reach the office now!? I can't fly!

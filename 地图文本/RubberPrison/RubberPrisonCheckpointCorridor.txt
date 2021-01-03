@@ -1,0 +1,4 @@
+|tail,-6|Not one. Not two. THREE gates.|next,-4|It's a prison, what'd ya expect!?|next,-5|Being an upstanding citizen has its perks...I'd loathe to be imprisoned here.
+Well, we managed to retake control of the prison...|next|We must now retake the Queen's trust.
+|boxstyle,3||spd,0|The prison's gates are |color,1|all|color,0| controlled by the grey switches.|next|Please ask management for access, to prevent getting trapped inside.
+|boxstyle,3||spd,0|Explorers and Visitors, do not lose your permit.|next|Otherwise, we must assume you are a prisoner. Have a good day.

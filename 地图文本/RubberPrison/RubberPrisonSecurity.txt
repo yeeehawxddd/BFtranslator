@@ -1,0 +1,19 @@
+|checktrue,553,14||tail,-4|Why's this the security room? It doesn't seem special at all...|next,-6|There must be something hidden around here.
+Warning: Main Power Generator is damaged.|line|Please turn on backup power to continue...
+|tail,-4|Isn't the power on? Why's it not working?|next,-6|Eh. Just kick it.|next,-5|This is valuable government property! We can't just-|fwait,0.1||blank||tail,-6|...Just kick it!
+Backup Power Online.
+|tail,-4|Woah, it actually worked!|minibubble,@See?,-6||next,-5|...Whatever. Let us see what we can do with this terminal...|breakend|
+Toggle positions of the cafeteria tables?
+|shaky|Argh!|shaky| The Wasps trapped us here! Something is blocking the door and|line|we can't get out!
+I know we're in a difficult situation, but this here is the backup generator room.|next|The Wasps damaged the computer, but the only way to turn the backup power on is to spin that crank.|next|Do you have any way to do it?
+Nice. The computer should be working again.|next|It's an old piece of junk, though. If it doesn't turn on even with the power, just smash it until it works.
+I'm the security chief here, or at least I WAS. After this, I am totally retiring. What a humiliating situation.
+|tail,-6|Oof. Must suck to work here and be trapped in a tiny room.|next,-5|Let's beat the Wasps so we can save these Ants!
+We need to improve the surveilance systems, this tragedy must not repeat!
+I can't believe it! The door is still busted! We have to inform the capital to send a technician immediately!
+Next time I go back to the capital, I'm definitely handing out my resignment letter...
+A machine that can show what occurs in another location! Incredible!|next,-6|It's impressive, but kinda creepy. Imagine a room where you can see everywhere at once.|next,-4|That's just Venus with eyes, right?|next,-6|...Well, yes.
+|checkflag,680,18||tail,-6|How nice of him to stay. Perhaps he's curious about the technology.|next,-4|I'd never leave with THAT salary...|next,-5|How much does the Hive pay, Vi?|next,-4|...Not enough.
+|align,left,true||face,caller,-1|All seems to be in order now!|next|These devices are similar, yet so different to Termite computers...|next,-5|Machines never cease to impress me!|next,caller|...Huh, what's this? |next|Some prisoners should've been let out already...|next,13||wavy|*grumble*|wavy| Management ignored me on that...|next,caller|One, two... There. Clean record!|next,-6|Yay.|next,caller|It seems this place could use more of my help, so I'll stay a while.|next|...And it pays like 80 berries an hour.|next,-4|WOAH! Tech pays a LOT!|next,-6|Gonna pick up science, Vi?|next,-4|...Nope.|next,-5|Well then... Let's get going, team!|flag,680,true|
+These really aren't that different. I wonder if it's just a coincidence...
+What could a Termite be doing here?|next,-6|He seems about done tinkering with that machine. Let's find out.
