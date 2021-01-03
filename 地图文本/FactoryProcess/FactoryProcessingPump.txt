@@ -1,4 +1,0 @@
-|checkflag,211,2|The pump is fixed! It feels good to help.|next,-4|Heheh. Malbee was super impressed! Honey won't pool |line|up anymore, too.|next,-6|Don't let it get to your head... 
-|boxstyle,2||glitchy|Beep beep. Pump Status: Offline. Honey stability critical.|next|Contact Malbee for repairs.
-|tail,-4|This is the Connecting Room! But...the pump seems to be broken. |line|Uh oh.|next,-6|The factory must've shut it down.|next,-5|How could you tell, Vi?|next,-4,Sad|The Honey levels are a bit weird. It's pooling up.|next,-4,Flustered|...If it keeps up, honey's gonna pile up in the basement! Abomihoneys can come out!|next,-6|We still don't get why that happens.|next,-4,Sad|It's dangerous, okay? Be careful!
-|boxstyle,2||glitchy|Beep beep. Pump Status: Online. Honey path to storage working normally.
