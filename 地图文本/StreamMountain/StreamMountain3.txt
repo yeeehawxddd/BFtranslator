@@ -1,0 +1,1 @@
+Up, and up we go! To the very toppest of tops!|next,-4|You're getting way too excited there, buddy.|next,-6|Nonsense. We will proclaim ourselves conquerors of this heap, and |line|none will stop us.|next,-5|Well said! Let us climb with haste!|minibubble,@Okay...,-4||breakend|

@@ -1,0 +1,2 @@
+|checktrue,496,1||tail,-4|Stream Mountain's depths are super lame! Where's the treasure!?|next,-6|Be careful, everyone. We feel extremely powerful magic!|next,-5|If even Leif is wary, we'd best be on guard. Watch your step, Vi!
+With the beast defeated, this is nothing more than a puddle.|next,-6|Mhm. Let's go back. Might as well raise the water and drown this place in history's waves.|next,-4|Why're you two being all sappy...?
