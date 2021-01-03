@@ -1,0 +1,1 @@
+|tail,-4,WeakBattleIdle|I-I-It's c-c-coold...!|next,-5|Jump and stretch, Vi! You must keep your body warm!|next,-6|You seem fine, Kabbu. The chub must be helping.|next,-5,Angry|It's muscle!

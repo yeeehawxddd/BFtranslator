@@ -1,0 +1,78 @@
+|checktrue,586,19|This place...|next,-6|Is this...?
+|tail,-4|This is...a village?
+|tail,guard1|HALT! OR BE IMPALED!
+|tail,maki|...! Roaches!|next,-4|No way!|next,-6|So some didn't vanish after all.
+|tail,elder|Hmph. You did halt. You may be just. Or simply cowards.|next,elizant|Please, allow us to explain the situation. We're short on time.|next,guard2|Bleh. There's nothing to explain. Everyone's after the sapling today!|next,maki|The sapling? It is real, then?|minibubble,@...,elizant||next,elder||flip,elder|Silence. You've spoken too much!|next,guard2|...S-Sorry, Elder.|next,elder||flip,elder|You come with that crook?|next,elizant|No! Please, in the name of my people, allow me to explain...
+|tail,elder|I see...|next|To think that after uneventful generations guarding the sapling...|next|So many would come for it in just one day.|next,guard1|That "Wasp" King you're talking about snuck past us while we dealt with his troops.|next,guard2|He used them like pawns... Not caring about their lives at all.|next,mothiva|Disgusting. How can he treat his loyal followers like that!?|next,-4||flip,-4|Huh. You do have a heart!|next,maki||flip,-4|Please, allow us to go after him!|next,elder|And what will you do when you get the sapling from him?|next|Just what are you planning to do with our sacred treasure!?|minibubble,@...,-6|
+|tail,elizant|...I...|next|I had a dream. To use its power to fulfill my wishes...|next|But the lust for that power has only brought turmoil to Bugaria.|next|I will destroy it!
+|tail,-6|But...what about your mother!?|next,elizant||face,elizant,-6|She entrusted her dream to me. And I've fulfilled it.|next|The land teemed with explorers searching for the ultimate treasure.|next|She...would be proud of me. She deserves to rest.|next,elder||face,elizant,elder|How dare you spin your words as noble! The sapling is SACRED!|next,guard1|Elder! If they destroy it...what will be of us? Our life's purpose?|next,elder|That crook may be mad, but he wouldn't desecrate our treasure like |line|you! Humph!
+We have been protecting the sapling for generations.|next|Its power is too strong for any bug to handle... Because of it, we are the last Roaches in these lands.|next|Please destroy it once and for all. We cannot do that ourselves.
+I assume there are Roaches living in other lands.|next|Wherever they are, what purpose did they find without the sapling...?
+Our folklore warns that abusing the sapling's power would cause the end of Roach kind.|next|Our ancestors took it and hid it here from the rest of the Roaches that wanted its power.|next|The Roaches researching that sapling in "Snakemouth"... What |line|happened to them?
+|checkflag,532,10|...You reek of our old kind. You've seen what has become of them, right?|next|When our ancestors took the sapling away, the other Roaches tried to recreate it...|next|I can only imagine it didn't end well, and I don't pity them. They had it coming.
+That "Wasp" King guy... He was not really a wasp, was he?
+That "Wasp" King... He was wearing our Ancient Crown!|next|It's not quite an artifact, but maybe it should've been sealed away rather than tossed out...
+You. Blue guy. I can feel you swimming in Roach magic. Where did|line|you get that?|anim,-6,WeakBattleIdle|
+You're lucky I didn't have to let out my prized Scorpion after you.
+This lift should carry you back to the ancient entrance. You'll hop in?|prompt,yesno,17,18|
+|hide||event,201|
+It's my duty to watch over this lift. Ask me anytime.
+So some Roaches were alive after all...|next,-6|It's surreal, they're just like the ones from our time.|next,-4,Sad|...How long have they had to deal with Dead Landers?
+I'm still in awe from this village...|next|But we will have time for sight-seeing later. Let's go |line|after the Wasp King.
+So the Elder let you pass... Stay safe in the Sapling Plains.
+What a dumb delay... I'm ready to fight alongside Maki!
+|wavy|Muuh...
+This place is a bit of a drab... But I've been to worse places.|next|Maybe I should tour here sometime to try to liven things up!
+Even though it's safe here, we cannot relax. Can I protect Mothiva from what's ahead...?
+I can't even remember the last time I saw a non-Roach, wish we had met under better circumstances.
+|tail,guard2|You heard the elder. She never changes her mind. You won't pass!|next,-4,Angry|We'll just have to knock-|next,-5|No, Vi! This is not the way to solve this!|next,elizant|They are blinded by their devotion...understandable.|next,-6||face,elizant,-6|Elizant, our Queen...We will support you. We must plead our case once more.|next,zasp,Angry|I guess the others and I will make ourselves cozy for now...
+|break||anim,this,Idle||end|
+You can sit around, we know how dreadful the land is.|next|But we won't let you pass through.
+You don't look like you'd last a minute out there. Shows what I know...
+Alright! I'm getting closer!
+We eat the same things every day of our life. It's normal for us.|next|And you speak of fancy chefs? Wonder what that's like...
+Scorpions are dangerous? Please. Compared to the Dead Landers, they're|line|the tamest of the tame.
+|hide||event,202|
+|tail,elder|My word is final! We won't let you through!|next,maki|Please, you must listen!|next,elizant||face,party,elizant|Team Snakemouth, you're here. Perhaps you have some words of persuasion?|next,-4|Yeah, it's called the Beemer- |anim,-5,Angry||flip,-5||minibubble,@Stop it!,-5||fwait,0.5||anim,-4,Flustered|Ow!|next,-6|A few, if you'll allow us.|next,elizant|...Please.
+|tail,-6||flip,-5,false|.|flip,-5,false|.|flip,-5,false|.|flip,-5,false||next|This is something only Vi and Kabbu knew, but... We are not of this|line|time.|next|We served under the first Queen Elizant.|next,elizant|W-What!?|next,maki|Is this true, Kabbu!?|next,-5|Y-Yes. It was not our secret to tell.|next,-6|The Roaches used to roam Bugaria, even if they secluded |line|themselves a bit.|next|When we were found, we discovered they'd all disappeared... And|line|no one knew why.|next||checktrue,532,37||goto,38|
+But during our travels, we found a laboratory...|next|Roaches had experimented on others, creating vile monsters!|next,elder|What...?|next,-6|All in the hope of replicating a fraction of the sapling's power!|next,-6||goto,39|
+But it's not just the Roaches, many teams have vanished since then.|next,elder|What's your point?|next,-6||goto,39|
+What good has the Sapling done anybody all these moons?|next|All it's done is plunge explorers into danger. And now that mad King's gone crazy for power...|next|Even our late queen was tempted by the promise of eternal life. The sapling's only hurt others by existing!|line|Even you!|next|You live trapped in this forsaken place, guarding an ancient temptation!|next,elder|......|next,elizant||face,party,elizant|Leif... Thank you for your words.|next||face,party,elder|Won't you reconsider, Elder?|next,elder|...|next|When I was born, my mother said: "The sapling is the key to everything."|next|"Good, evil...it all comes from this sapling. It is sacred."|next|"So sacred that we endure to protect it."|next|And so we have, for so long...|next|But you're right, aren't you? What good has it done us?|next|Every time a child strays too far, never to be seen again...|next|It's the sapling's fault! Sacred, my husk!|next,-5|T-Then, you'll reconsider!?|next,null||bleep,@37|W-Wait!
+|tail,guard|Elder, are you sure!? What will become of us!?|next,elder|We will find a new purpose!|next|One that doesn't doom us to live on the edge of violence.|next|One that lets us enjoy the plains of legends again!|next,maki||flip,elder|Elder, thank you...|next,elizant|You are welcome in our Kingdom, to explore that possibility.|next,guard|I...I can't believe it...|next,elder|We'll let you pass to the Sapling Plains.|next|Go destroy that sapling. Our new future depends on it.|next,-4|We coulda done it sooner! Let's run!|next,-5|Vi really doesn't get politics, does she?|next,-6|That's why she's our Vi. Let's finish this.
+|tail,elder|...So that's it, then. The Everlasting Sapling is no more...
+|tail,roachguy||flip,elder|What should we do now, Elder? What are we meant to protect?|next,elizant||flip,elder|This is still your home, sapling or not. You can protect it with heart.|next|But if you'd like to visit greener pastures...|next|You are welcome in Bugaria. All of our Kingdoms would have you.|next,elder|Bugaria... We've only heard the tales our ancestors left us.|next|I fear I've grown too used to this small town and its Scorpions.|next|I will be okay, staying here.|next,roachguy|Elder...|next,elder||flip,elder|Everyone! You are not bound to this land any longer.|next|You need not fight monsters and forage for food.|next|Nor fear sleeping in case of an attack...you're free.|next|Those who wish to go to Bugaria, don't stay fearing for my sake.|next|After all, you can always visit!|next,roachguy|...Thank you. Thank you, our elder!|next,otherroach|No offense, but I'm outta here!|next,bigroach|I can't leave the Scorpions, but thanks for offering.|next,otherroach|I'll miss mine, but I want to see the world!|next,-6|Our Queen, you've caused quite a stir.|next,-4|It's cuz they can have adventures now, too!|next,-5|Heheh. Indeed. It makes me want to go beyond Bugaria as well!|next,elizant||flip,elizant|Team Snakemouth! We depart! We have a feast to attend to!|next|I trust you won't keep us waiting!|next,mothiva|Or I'll start the show without you, don't doubt it!|next,maki|Well, I've got quite the report to write, so...|next,kina|I'll help you! We're not missing the food!
+|tail,zasp|Heheheh. Mothiva's in quite the mood.|next|I'm just glad we survived. All thanks to you.|next,-5|You helped us as well! It was truly a team effort!|next,zasp|...Let's work together again, sometime.
+|tail,-4|Aww, why can't he be nice with Mothiva around?|next,-6|Dunno. Pride or something?|next,-5|As long as we know his true feelings, it's fine!|next,-6|There's a lot we want to say, but...let's go celebrate.|next,-4|Heck yeah! I'm super hungry!|next,-5|Thank you, Vi...Leif...for helping me experience the adventure of a lifetime.|next||anim,-5,WeakBattleIdle|If my team could see me now...I hope they'd be happy for me.|next,-6|More than that, they'd be proud.|next,-4|Yeah! You're a super explorer now!|next,-5,Happy|...Heheh. No, just part of an incredible team!|next|Now, for our final mission: Let's head to the castle!
+|color,4|Battling through Rubber Prison and the Dead Lands, Team Snakemouth discovered the Roaches' Village.|next||color,4|Resolving to destroy the Everlasting Sapling, they faced the Wasp King with determination.|next||color,4|And so, after a long journey and many harsh fights, Team Snakemouth and their comrades defeated the Wasp King.|next||color,4|Although the Everlasting Sapling's chapter has closed, a new one begins.|next||color,4|...It's time to celebrate!
+|anim,this,Sad|T-That |string,0| is only|line||currency,var,1|!|line|W-Will you take it?|prompt,yesno,47,48|
+|checkmoney,var,10,49||checkinvqtd,0,full,50||money,var,-,10||additem,0,var,0||anim,this,Happy|Y-You can do it!|call,28|
+P-Please! Make sure y-you're prepared!|call,28|
+|anim,this,Sad|S-Sorry... I'll need berries to pay for therapy!|call,28|
+|anim,this,Sad|Y-Your bag's full! |anim,this,Happy|P-Please... Let me help you!|call,28|
+|checkmapflag,0,55,true|It's hard to trust outsiders, but... Do you need to rest?|prompt,yesno,52,53|
+I'm hoping you don't snore...|break||mapflag,0,true||innsleep|
+Don't push yourselves.
+|checkmapflag,0,55,true|Welcome, brave outsiders. Do you need to rest?|prompt,yesno,52,53|
+Everything's in order... Hope you're energized.
+Looking for the Elder? She just went on through here.
+Looking at that |string,0|?|line|I THINK it's worth |currency,var,1|. |line|Do you agree?|prompt,yesno,58,59|
+|checkmoney,var,10,61||checkinvqtd,0,full,62||money,var,-,10||additem,0,var,0||goto,31|
+Aww, you could've played along...
+Sis tells me I missed a lot while foraging! The sapling's GONE!?|next|And we can finally explore other lands... I need some savings to travel around.|next|Your kingdom deals in "berries", right? Help me out here!|next|If you want to buy something, press |button,4| near it.
+Hey, trading only works if you have enough berries! Help me out here!
+I finally have a "customer", and their bag's full...?
+|tail,42|H-Hey...|next,43|We...We somehow made it through! But it's too much!|next,42|We believe in you! You can do it!
+I believe myself an able fighter! But this land is brutal...|next|I will entrust the Ant Kingdom's future to you, Team Snakemouth.
+Whew. I'm glad I've met Levi. He's saved me so many times...|next|We've got to get through this!
+Our comrades are hurt...|next,-6|Without them, we'd be even more hurt, as well...|next,-4,BattleIdle|Grr...That dumb Wasp King's the reason everyone got hurt! I'll show him!
+Ngh... That King's strength... The constructs must be going wild...!
+|tail,-6|The Roaches fight the Dead Landers frequently, yet they're this hurt...|next,-5,Angry|The Wasp King will answer for this!
+|shaky|Urk... What strength that King held... What a monster...!
+|wavy|Ow...|wavy| That fire magic... It's something else...
+|tail,-4|Is the Elder like...the Roach Queen?|next,-6|Doesn't seem that way. Everyone just seems to respect her very much.|next,-5|A Queen chosen by the people... In the north, we also had such a system...
+A world without the Sapling... I still struggle to imagine it...
+|tail,-4|Scorpions as PETS!? That's nuts!|next,-5|Their cuteness could stand to be a bit higher...|next,-6|Bleh. After the desert we hoped we'd never see one again.|next,-5,Surprized|By the Queen! I never did ask!|next||anim,-5,Idle|D-Does your back hurt?|next,-4,Sad|O-Oh yeah...|next,-6|We're fine. Thanks for worrying, though.
+Leif, your words were of great help. We can now finish this without needless conflict!
+|tail,-6|Even in such a wasteland, some find a way to be fashionable.|next,-4|You gotta find SOME joy with all these monsters...|next,-5|Making the best out of these conditions is commendable. And that |line|goes for all Roaches!
+|tail,-4|It's super dangerous, but they're all pretty calm...|next,-6|When you live surrounded by danger, it seems you get used to it?|next,-4|No way! I could never get used to the Dead Landers!|next,-5|And yet, they've had no choice...
+|tail,-6|When in blazes did Ms. Amber follow us here!?|next,-4,Surprized|H-Hey, that's right! How did she cross!?|next,-6|This commitment to her job has turned absurd!|next,-5,WeakBattleIdle|E-Even though she's acting strong, she's shaking...

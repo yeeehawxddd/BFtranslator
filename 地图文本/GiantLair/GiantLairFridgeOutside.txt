@@ -1,0 +1,22 @@
+|checktrue,593,8||tail,-4|Look, there's light over there!|next,-5|Civilization? We must check it out!
+|tail,mothiva|This place is absolutely DREADFUL! I've sung in worn down|line|pubs fancier than this.|next,kina|Those Dead Landers aren't anything to mess with, either.
+|tail,elizant|I pray we won't run into too many of them climbing this behemoth.|next,zasp|It seems to be a machine. The giants handled power at such a large scale...
+|tail,-5|A-And it's a bit chilly near it!|next,-6|It reminds us of the Lost Sands' Castle.|next,-4|Well, whatever. It can be as tall and as cold as it wants. We're gonna climb it!|next,mothiva|Such a simple mind...|minibubble,@Muh muh muh!,Yin||next,maki|Let's go in, then...|fademusic,0.1||anim,this,BattleIdle|! Wait!@EVENT@|next,elizant|What is it?|next,maki|Everyone, we've been surrounded!
+|tail,-4|E-Eep! What the heck!? When!?|next,-6|We should fall back!|next,zasp|There's no way out. They've completely pincered us!|next,-5|Everyone, there is no choice! We fight as one!|next,elizant|Well spoken, my knight. I shall assist thee as well!
+|tail,zasp|Good thing the others stayed back. That was close...|next,mothiva|N-Not at all...|minibubble,6,mothiva||next,maki,Idle|Everyone, you did splendidly. The coast is clear!|next,kina,Idle|Well, duh. You were with us!|next,elizant|Let's press forward. We need to find a way to get the others to come over.|next,-6|We were fortunate to have help...|next,-5|The Dead Landers must be slowing the Wasp King down as |line|well. Let's catch up!
+|wavy|Phew...
+|tail,-5|Say, Zasp... Where are the other explorers?|next,caller|They stayed behind. The Dead Landers were too tough for them.|next,-6|Maybe we can open a path for them to come over?|next,caller|Maybe. But this place is...something else. For once, I fear for our safety.|next,-4|It's gonna be fine! We've all gotten super strong!|next,caller|...Thanks.
+By Venus, if we'd been ambushed alone...|next,-4|We woulda been fine!|next,-6|It's fine to admit we needed help, Vi.|next,-4|...I know, but I don't wanna think we woulda lost!
+Such a massive machine...for us. The legends say the giants were huge, so these machines must've been normal sized for them.|next|Handling such great power, how could they have vanished?|next|And with the state this place is, how could it happen in such a terrible way?
+Even though it's super old, that machine's still working. The giants made pretty sturdy stuff!
+...|wavy|Muh! Muh muh muh!
+We must press on! We cannot let the Wasp King get to the sapling before us!|next,-5|(Climbing that thing will be a monumental task, however...)
+At least with everyone here, this place feels less oppressive.|next,-6|It's only getting more dangerous as we go.|next,-4|We can't stop! If the Wasp King can, we totally can too!
+Z-Zasp, comb my fluff! I must look dashing when we take down that tyrant!|next,-6|Are you, uh, nervous?|next,caller|N-No! It's gonna be fine! It's gonna be fine...|next,-5|...It will. I promise. We will protect you!|next,caller|We...we don't need it! Seriously!|next,-4|Heheh. We're gonna do it anyways!
+"You can't lose hope, not here." ...How inspiring, Leif!|next,-6|Shh...|next,-4|Heheh, you're blushing!|next,-6|...Just pray for the crops, Vi.
+I'll stay here, overseeing their growth.|next|I promise to run if there's any danger.
+After so much work... We may yet live to see crops in these plains.|next,-6|Don't let us hold you up. We're pretty excited too.|next,-4|Yeah! And don't forget th-
+W-Why are these beasts here!?|next,1000|D-Do they want these seeds...!?|next,-4|N-Never! Let's beat 'em up!|next,-6|Good plan.
+|wavy|Huff... Huff...|wavy||next,1000|It was wise to test outside of the village...|next||face,party,1000|Will...more come?|next,-6,Idle|...We don't know.|next,1000|Perhaps, as you said, this is a terrible idea...|next,-4,Flustered|You can't give up NOW! You've gotta try!|next,-5,Idle|Roy. Even if it's risky... It's your dream, isn't it?|next,1000|...|next|Here goes nothing...!
+...Haha. Well, they do take time to grow, you know?|next,-6|All we can do now is pray.|next,-4|I'm sure it'll work!|next,-5|And if it doesn't we'll try again!|next,-6|You can't lose hope, not here.|next,caller|...Thank you.|next|The Queen gave me this, but I truly wish to give it to you.
+I'll stay here, overseeing their growth.|next|I promise to run if there's any danger.|next,-4|You can do it!|next,caller|Thank you... The future seems much brighter now.
