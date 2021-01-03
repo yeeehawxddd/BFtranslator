@@ -1,0 +1,82 @@
+|tail,-6|H.B.'s lab is impressive, but we'd rather not be here...|next,-5|Her proposition was quite startling, but at least she didn't press the issue.|next,-4|Maybe she can open you up Kabbu, to find out why you're so nice!|next,-5|Not in a million moons!
+Invalid User. Access Denied.
+Welcome, Vi, Kabbu and Leif!|line|This is the B.O.S.S. terminal!|next|How can I assist you today?|checkflag,163,3||goto,4,keep|
+|prompt,map,1.7,3,6,7,8,@Single Battles,@Rush Mode,5|
+|prompt,map,2.5,5,6,17,7,18,8,@Single Battles,@Single Battles - EX,@Rush Mode,@Rush Mode - EX,5|
+Cancel
+|color,5||optiontovar,0|Single Battle Mode selected. Please select category for Battle:|goto,11,keep|
+|color,5||optiontovar,0|Rush Mode selected. Please select category for Battle:|goto,11,keep|
+|color,5||setvar,0,-1||setvar,1,-1||flag,162,false|Logging off. Entering idle mode... 
+Mini-Bosses
+Bosses
+|prompt,map,1.25,3,12,12,8,9,10,5|
+|optiontovar,1||end|
+Zasp and Mothiva
+Zasp and Mothiva #2
+Zasp and Mothiva #3
+Please select which enemy you wish to engage in battle from the available list below.|line|Press |button,5| to cancel the operation:
+|color,5||optiontovar,0|Single Battle EX Mode selected. Please select category for Battle:|goto,11,keep|
+|color,5||optiontovar,0|Rush EX Mode selected. Please select category for Battle:|goto,11,keep|
+Reading Crystal Data...... Done.|line|Logging in... 
+Very well! Please proceed to the Arena to battle!|next,1||boxstyle,0||glitchy|Let's go, everyone!
+There is a total of |var,4| available enemies in the selected category.|line|Are you ready to start?|prompt,map,0.5,2,-11,8,@Yes,@No|
+Good job everyone! That was a fierce battle.|next||checkmapflag,0,71||checktrue,166,71|If you want to retry any of your battles, just come back and check the B.O.S.S.!
+Well, you can't always win, can you?|next|Maybe rearrange your Medals or train a bit more and try again later?
+Oho! Good work!
+We are ready!
+Heal up first! (@EVENT@ left)
+No, that's enough.
+Alright then, here it comes!
+Very well, a bit of healing coming up!|break||hide||heal||fwait,0.6||end|
+I understand. Well, if you want to retry, just check out the B.O.S.S. at any time.
+Hey there folks! Any questions about the B.O.S.S. program?|prompt,map,4,4,32,33,34,35,@B.O.S.S. program?,@How does it work?,@Do we get anything from it?,@We're good.|
+Yes, what B.O.S.S. stands for is...|next|"Battery|line| Operated|line| Super|line| Simulator"!|next|With it, you can simulate old battles you have recorded in the crystals on your permit.|next|I still don't know how the crystal works, but just being able to read this data is fascinating!|next|In return for letting me test and study the crystals, you are free to |line|use the B.O.S.S. any time you want.|next|And should you do well in Rush Mode, I'll give you prizes! It's |line|a great deal!|next|Just check the computer over there to start it.
+B.O.S.S. will read the crystals on your explorer permit and load data from strong foes you have faced in the past.|next|With that, you can refight old battles at any time you want!|next|The HoloMachine is not perfect, though. It flickers a bit way too much for my liking... But it works well enough.|next|You will keep items you had at the start of the run, so you won't lose any after the session.|next|But used items stay used in Rush Mode until you either finish it or quit, so watch out for that!
+Yes! You will get some EXP from battles, but since those are simulations, the amount you get is very reduced.|next|But if you do well in Rush Mode, I can give you some Medals and goodies I have stored. Tempting, right?|next|Losing battles won't penalize you, so there is no risk involved as well.|next|It's a safe way to see how much you've grown!
+Very well. If you want to try it out, check the computer over there.
+So that's what the readings meant...|next,-5|Doctor, is Leif okay?|next,1|According to the tests, ancient crystal fragments lie within you. If |line|I'm not wrong, you can use magic?|next,-6|Yeah. After we woke up in Snakemouth, it just suddenly |line|came to us.|next,-4|So that wasn't a super bad lie?|next,-6||face,-6,-4|...You still doubted us?|next,-5|Given the weirdness of it, I'd tally it to healthy skepticism.|next,1||face,-6,1|Magical powers are a common side effect of a body being linked to these crystals.|next|Although there's still something our scanner couldn't identify. Something else may be inside your body.|next,-6|Something else?
+There's so much data to sort through...It feels like I'll never finish!
+But there's still |var,9| battle(s) left!|line|Are you ready?|string,3|
+Impressive! You've exceeded my expectations. |line|Have a little something, it's on me.
+...If you'd let me put you under for a while, I could look into it.|next,-6||flip,-6|Er, put us |flip,-6|under?|next,1|You know. Fast asleep.
+Then we explore your insides after cutti-
+W-What!?|minibubble,@Woah!,-4||next,-5|Leif, you had this sort of power?
+N-No. It's weird. We just moved on our own...|next|...Sorry. We don't know what happened. We're not too keen to be put under, however.|next,1,Idle|An involuntary self-defense mechanism...|next|Leif, was it? Give it some thought. Your condition is fascinating.|next,-4,Sad|I'm starting to get worried...|next,-6,Idle||face,-6,-4|Don't be. We feel fine.|next,-5,Idle|We're getting closer to the truth, although there's much left to answer...|next,1||face,-6,1|Well, I think we'll leave it at that for today. Sorry for distressing you.|next,-6|It's okay, really... Thanks.|next,-4,Angry|Welp... We're going to be late to the meeting, aren't we?|next,1|Ah, yes. The Ant Kingdom brought the materials for the key replacement, right?|next|I've heard there's |color,1|four other explorers|color,0| looking around the Hive.|next|Could you round them up in front of the throne room? I'll meet you there when I finish some things up.|next|Crow!
+C-called me, doctor?|next,1|Round up the data! We have work to do.|next,3|Ah! Y-Yes, doctor!
+Great... A walk around the Hive.|next,-6||face,-6,-4|Can't be the worst thing. We'd like to get to know this place.
+Leif can now use |color,1|Bubble Shield Lite|color,0| in battle!
+I still need some time to process the data, could you find the other explorers?|next|They should be around the Hive somewhere.
+I will meet up with you soon, just head to the factory.
+|align,left,true||flip,caller,false|Ah, you're here!|next|Thanks for the help in the factory.|next,-5|It was nothing, doc.|next,caller|Anyway. I wanted to show you something...|next|You see this big machine behind me?|next,caller|This special machine lets you |color,1|refight old foes|color,0| you've met on |line|your journey!|next,-6|Is that possible?|next,caller|Yes! As long as we can get |color,1|a crystal which recorded your fights|color,0|.|next|You know ancient crystals have the ability to |color,1|record|color,0| their surroundings, right?|next|The roaches used them all the time to store data.|next|My machine can read said data to recreate certain moments of the past.|next|All that is needed is to find a crystal that recorded what you have seen on your journeys.|next,-5|Where would we find said crystal?|next,caller|Well, you're explorers, right?|next|You probably already have something that has crystals in it.|next,caller,Angry|Fufu...I will be waiting for you to figure it out!|next,-4,Angry|Can't you just tell us...?|flag,219,true|
+|align,left,true||flip,caller,false|So? Have you found something with crystals that recorded your fights up to now?|pickitem,1,0,true,false,51,52|
+|checkvar,0,27,53||checkvar,0,29,78||checkvar,0,37,78||checkvar,0,116,78||checkvar,0,109,78||checkvar,0,150,78||checkvar,0,151,78||checkvar,0,146,78|That won't do. Don't you have anything with crystals in it?
+Bring me a crystal, and the machine will do the rest!
+Bingo! Authentic permits given to exploration teams house crystals in them!|next|It must be overflowing with combat data!|next,-4|I don't get how that works...|next,caller|You don't need to understand. Fufufu... Just check the computer behind |line|me to start the B.O.S.S. program!|next,-6|Technology has advanced at an incredible pace...|next,caller|Indeed. I've registered you all under the B.O.S.S. terminal already.|next|If you have any questions about it, just come and ask me! I'm so eager to see it in action!|flag,161,true|
+...! Y-you're card players?|next,-6|Yes. You know any Card Masters?|next,caller||checkflag,299,55||goto,56|
+Well, I'm a bit busy...I-I can help you find them later.|flag,246,true|
+|checkflag,299,55|Y-yes, I do. The Card Master is, um...|break||flag,400,true||event,106|
+It's me!|minibubble,@Not this again...,1||next,-5|This dueling aura!|next,caller|When it comes to cards...I won't hold back! I won't be defeated!|next,-6|We expect nothing less of a card master!|minibubble,@Please be quiet...,1||next,caller|Prepare as you must. This will be a duel for the ages!|break||anim,caller,Idle||flag,247,true||end|
+|tail,caller,BattleIdle|You ready for a real duel!?|prompt,map,2,2,59,60,62,63|
+|anim,caller,BattleIdle|Do your worst!|next||cardbattle,this,-1,@1||tail,caller||battlewon,65||goto,67|
+|anim,caller,Idle|W-well... Come back if you change your mind.|breakend|
+Hey Leif. Come for a rematch?|minibubble,70,1||prompt,map,2,2,64,60,62,63|
+Bring it on!
+Not yet.
+|anim,caller,BattleIdle|Now we're talking! Time for you to lose!|next||cardbattle,this,-1,@1||tail,caller||battlewon,65||goto,66|
+|anim,-6,WeakBattleIdle|You're no match for me at all!|next,-4,Angry|I liked her more when she was quiet.|next,-6|That really was a great duel, we can't deny it.|next,caller|Come back when you have better cards! |anim,caller,Idle|T-That should help a little.
+Darn, I lost again...H-Here, you won this!|break||giveitem,-1,10,-11|
+|anim,caller,KO||shaky|Ugh... How could I be defeated...|shaky||next,-6|You're the strongest opponent we've faced.|next,caller|...|anim,caller,Idle||shaky|Sigh.|shaky| The doctor's gonna make fun of me later...|minibubble,@Yup.,1||next|But that was a great duel! U-Um, I'll upgrade your card now.|break||event,106|
+Huh? You're missing some Card Masters? Did you confuse Chuck for me?|next,-5|Not exactly... Don't worry about it.|next,caller|Well, um, if you're up for a rematch|minibubble,@Nooo!,1|... Just talk to me, ok?
+And that's it. You've got a full card!|next|Show it to the old sailor at the pier. He'll take you to Metal Island for real cheap!|next,-4,Happy|Really? That's awesome!|next,-6|We can finally test our mettle against the tournament's best.|next,caller|Good luck! You're strong, Leif. B-but you're gonna need it!
+Dangit, Crow!
+Here is something for your trouble!|string,4|
+If you want to try again, just start up the B.O.S.S. once more! Can't wait to see how you will perform next time!
+Awesome work! Seems like you're just breezing though huh?|next|Guess I'll make the |sound,ItemGet1||color,1|EX Mode|color,0| option available!|next|Just start another session with the B.O.S.S. after this one is over to |line|try it out!
+Kali and Kabbu
+Cenn and Pisci
+Team Maki
+Cross and Poi
+Hm. That is indeed a crystal, but it hasn't recorded much battle data.|next|Do you not have something |color,1|every explorer earns at the start of their |line|journey|color,0|?
+H.B.'s running poor Crow ragged!|next,-6|Science looks like a lot of hard work.|next,-4|It's like uh...the thinking version of exploring!
+|tail,-6|So Professor Honeycomb's not the only prestigious researcher around.|next,-4|Those two are always fighting...if they're so smart, they should act more grown up!|next,-5|(C-Coming from you, Vi!?)
+Woah! That medal looks cool!|next,-6|Let's snatch it.|next,-5,Angry|No! Let's see if we can convince H.B. to give it to us somehow.
