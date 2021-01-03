@@ -1,0 +1,1 @@
+This looks like a job for the Beemerang.|next,-4|Mhm! The professor's upgrades actually helped out a ton!|next,-6|We should probably start thinking up a performance report for when we see her again...|next,-4,Sad|Uh...report? Right...|next,-5|We will deal with that later. Let's focus on the mission!

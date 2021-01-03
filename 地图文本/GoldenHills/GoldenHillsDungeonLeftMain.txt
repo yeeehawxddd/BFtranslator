@@ -1,0 +1,1 @@
+|tail,-6|What a vast space.|next,-5|It doesn't seem like there's a way to cross...|next,-4|Nah, it's fine. I see a lot of cranks!|next|I just have to be smart with the Beemerang!|next,-6|You mean the A.P.B.D.?|next,-5|Isn't it the A.B.D.P.?|next,-4,Angry|It's the Beemerang!

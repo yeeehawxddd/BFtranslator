@@ -1,0 +1,5 @@
+The Golden Settlement is a pioneer of wind-based energy, isn't it?|next,-4|Uh huh. And for heavier stuff, they wind up cranks to move around.|next,-6|It's a pretty clever way to move about. The bee engineers deserve some praise.|next,-4|Eh, it's nothing special.|next,-5|Most bees can fly. It's no wonder you wouldn't see the greatness in these inventions!|anim,-4,Angry||minibubble,@Hmph.,-4||breakend|
+|boxstyle,3||spd,0|Golden Settlement Ahead.
+|wavy|Zzz...|wavy||next,-5|Darn. With the worker sleeping, how will we operate the cranks?|next,-4,Happy|Leave it to me! Beemerang Express is go! |face,-4,-6|For a small fee!|face,-6,-4||anim,-6,BattleIdle||next,-4,Idle|...Of 0 berries!
+|tail,-6|Sleeping on the job is so lazy... Maybe we should throw some |line|ice on him.|next,-4|Oh, we could cover his face with honey!|next,-5|Stop it! You will do none of these things!
+|wavy|Zzz...|wavy||next,-4|He's still at it!|next,-5|Maybe we always catch him on his break hour...|next,-6|That's just convenient enough to be true, isn't it?

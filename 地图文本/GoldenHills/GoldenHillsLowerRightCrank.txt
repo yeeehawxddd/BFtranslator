@@ -1,0 +1,1 @@
+|tail,-6|Those flowers are dripping dew...how refreshing.|next,-4|Ugh, I'm getting Snakemouth flashbacks...|next|I need to make sure to stay dry!|next,-5,Happy|Silly Vi. Let's make sure to utilize that water wisely to explore the area!|next,-6,BattleIdle|It's been a while since we froze stuff... We're looking forward to it.

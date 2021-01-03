@@ -1,0 +1,2 @@
+|checktrue,88,1||tail,-6||anim,-6,Hurt||wavy|Fraghstek, ituyel miyurk...|wavy||next,-4,Sad||face,-4,-6|Leif, you're speaking weird again...|next,-6,WeakBattleIdle||face,-6,-4|S-Sorry. It's been happening randomly...|next,-5||face,-5,-6|This area's magic is too potent... Let's try to finish the mission quickly.
+Leif, you don't feel weird anymore?|next,-6|It's only weird when we feel new magic. Then it just kinda goes away.|next,-4|Phew. It'd be bad if you couldn't be near the artifacts at all!

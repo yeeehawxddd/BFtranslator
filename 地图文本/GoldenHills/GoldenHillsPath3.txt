@@ -1,0 +1,3 @@
+What a huge gap!|next,-6|This place IS known for its hills.|next,-4|No problem for me. I can just fly over em!|next,-6|...What about us?|next,-5|You would not abandon us, would you Vi?|next,-4,Flustered||anim,-5,Happy|I apologized for Snakemouth already! I'm not going to abandon |line|you!|minibubble,@...,-6||next||destroyminibubble||end|
+|boxstyle,3||spd,0|Golden Settlement Ahead.
+|boxstyle,3||spd,0||center|WARNING! |line|Do NOT cross the spike pit!
