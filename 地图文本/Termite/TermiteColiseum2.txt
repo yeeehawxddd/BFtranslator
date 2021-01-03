@@ -1,0 +1,59 @@
+Tattle Line
+My dear workers, scientists, Termites of every kind!|next|Today is a battle unlike those you're used to seeing!|next|The honor of our kingdom is on the line!|next|These |wavy|foreign|wavy| knights claim they can best our best of the very best!
+Boo!
+Get 'em |line|soldiers!
+No way!
+Wow... 
+And what better way to test that claim...|next|Than with the ancient tradition of our ancestors!|next|A good old PUBLIC FISTICUFF!
+WOO!
+YEAH!
+FISTS!
+LET'S GO!
+How many rounds will they get through I wonder...|next|Without further ado, let's begin!
+From the left gate...Vi the Bee, Kabbu the Beetle, and Leif the Moth!|line|Team Snakemouth!
+We should've picked another name. Didn't expect us to get famous.|next,-5|It fits us perfectly. Focus on the battle.|next,-4|We'll do awesome like always!
+Now, from the right gate! Let's warm up our visitors, shall we!?|next|They shall face fierce beasts from the Forbidden Lands!
+|halfline|Now, BATTLE!!!
+Child's play.
+WOO!
+VI!
+KABBU!
+LEIF!
+YEAH!
+LET'S GO!
+Hmph. Child's play indeed! It's time for our second act!|next|You will now face Cross and Poi! The bravest of our border guards!
+Well, it's nice to see you again.|next,poi|We won't go easy on you, give it your all.|next,-5|It was your trust that got us this far. We will honor you with a good fight!|next,-4|Yeah, yeah. Let's go!
+H-Hngh...|next,poi|I-Incredible...|next,-5|Please forgive us for having to beat you up.|next,-6|Eh, it's all in good sport.
+Wow... 
+They beat Poi!
+Even Cross!?
+No way... 
+H-Hmph! So you have some skill!|next,1||boxstyle,0|Oh my... Dear, Poi and Cross are not easily beat.|next,0||boxstyle,1|W-Whatever! You're not claiming victory so easily!|next|Now, you will face a captured creature that instills fear in the most hardened veteran!|next,1||boxstyle,0|Oh!? You'll... Are you sure!?|next,0||boxstyle,1||shaky||size,1.5||halfline|UNLEASH THE PRIMAL WEEVIL!
+...Oh. He doesn't know, huh.|next,-4|We've gotta beat it AGAIN!?
+|wavy|No, no no!|wavy| What a dull show, don't you all think?|next|My dear public deserves better, so much better!
+That voice!
+Is that!?
+She's...!
+That's right! It's me! Your one! Your only! The most loved in the |line|Termite Kingdom!
+MOTHIVA!!
+|shaky|O-Oh!!! It's Mothiva!|shaky||next,1||boxstyle,0||wavy|Ohohoho!|wavy| Her voice is smooth as ever!
+Sup.|next,-5|W-What are you doing here!?|next,mothiva|No way we'd let you steal any Queen's graces.|next|When I heard you were coming...I just had to crash this party!|next,-6|What do you gain from making this harder for us?|next,-4|Yeah! We're on the same team!|next,zasp,BattleIdle|This show is to prove the enemy's strength. But also your strength, Team Snakemouth.|next|If we defeat you, we'll show we're superior to you.|next,mothiva|And then the Queen's gonna HAVE to tag us along!|next,-5|This is ridiculous! You realize you could be dooming us all!?|next|What if the Termite King loses trust in the Queen!?|next|What if you lose to the Wasp King without our help!?|next|Have you gone completely, utterly insane!? Have you lost all intelligence!|next,mothiva|Yikes. You're overthinking this WAY too much.|next|The Ant Kingdom's way better in our hands than with you LOSERS.|next,-5|We have SAVED YOUR LIFE BEFORE, you WITCH!|next,mothiva|I said we'd NEVER speak of that again!|next,-6|...Zasp. You've helped us many times. Can't you talk some sense |line|into her?|next,zasp|Don't misunderstand. I'm not doing this only for Mothiva.|next|...Although it's a pretty big reason.|next,-4|Ugh, I want the Primal Weevil back.|next,mothiva|Just SHUT UP and fight, you cowards! Let's get the crowd |line|WILD AND CHEERING!
+|size,0.75|(T-team Snakemouth!)
+Hehehehe! I agree! Anything to see Mothiva perform!|next,1|How serendipitous. I'm looking forward to this.|next,0||boxstyle,1|The fight starts...NOW!
+|shaky|N-Ngh... Grrr!!!!... Hurk...|next,zasp|Mo... thiva...|shaky||next,-5||wavy|Huff... Huff...|wavy|is this...|anim,-5,Idle|enough for you!?|next,-6|C-Come on. Just drop it.|next,-4,Flustered|I'm not even tired yet! You'd better give up!
+|boxstyle,1||shaky|GRRRRRRR!!!|shaky||next||boxstyle,0|Fine. Fine! Whatever! ...I give up. You win. Are you HAPPY now!?|next,zasp|I concede. Team Snakemouth. Today you're better than us.|next||size,0.5||wavy|...What a pathetic end... 
+What an incredible battle! Bugaria holds so much strength!|next||boxstyle,1||shaky|I-I mean...|shaky|hmph. Not a bad showing!|next,1||boxstyle,0|Hehehe. Oh my dear... 
+...|next||flip,mothiva|Ohohoho! Thank you everyone! We're all the best, aren't we?|next|Make sure to come to my next show! You'll get even closer to me!
+TEAM SNAKEMOUTH!!!
+Whoops, guess there's a new hot band in town.|next,mothiva,Angry||flip,mothiva|What the...I can't believe they're cheering for YOU!|next,-5|Justice is quite popular with the crowd!|next,mothiva|Maybe Termites just have awful taste! Ugh!|next,zasp||flip,zasp|Mothiva, you'll always have your true fans...|size,0.5|Like me.|next,mothiva,Idle||size,1||flip,mothiva|C-Come on, everybody! Say my name one more time!
+This concludes today's battle. Team Snakemouth, please meet us back at |line|the Royal Chamber.|next,1|Theatrics aside, there are serious things to discuss. You fought well. |line|We shall see you there.
+My dear workers, scientists, Termites of every kind! Team Snakemouth|line|is back to challenge our Colosseum once more!|next,1|Let's see if they are up for the task!
+A shame it was captured just for this.|next,-4|It loves fighting, don't feel sorry for it! Let's go!
+Hmph! A shame! Was their previous victory a fluke?|next||faketail||bleep,1|Oh well. There is always next time!
+That's a wrap.
+Well done! I guess today, victory goes to...|line|Team Snakemouth!|next,1|That was a great show! Do come fight whenever!
+Here we go again.|next,-4|Time to let off some steam!
+(M-Mothiva!)
+Well, it's nice to see you again...again.|next,poi|We've learned from last time. We'll give it our all!|next,-5|We've grown too. Be ready!
+H-Hngh...|next,poi|N-Not again...|next,-6|Good fight. Let's do it again sometime.
+Now, for the main attraction!|next,1||boxstyle,0|My favorite part!|next,0||boxstyle,1||shaky||size,1.5||halfline|UNLEASH THE PRIMAL WEEVIL!

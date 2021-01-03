@@ -1,0 +1,71 @@
+|tail,-6|The Bee Kingdom's also inside a structure, but it feels way more|line|oppressive in here.|next,-4|Well, duh. My Kingdom's full of paint and happy stuff. This city's all dull!|next,-5|Some bugs are born in such a place, and don't get to see the lush Bugarian Outskirts...|next,-6|Most Termites don't like sunlight, we hear. So they probably don't mind this.|next,-4|Some bugs are really weird. It's that culture thing, I guess.
+Ahead is the Royal Chamber, mind your manners in there.|next|We won't hesitate in throwing you out the door.
+Normally outsiders aren't allowed in the Royal Chamber.|next|You have come with the Ant Queen, so you're an exception.|next|Still, behave yourselves in front of the Queen and King!
+Down this path is the Colosseum and the pier, feel free to visit them.
+Behave yourself while inside the city!|next|If you want to leave just go through this gate here.
+|anim,this,Idle||end|
+|anim,caller,Happy|Hello. Welcome to the T-Mart. What will it be?|prompt,map,2.7,3,7,8,9,@We're here to buy.,@We're here to sell.,@Just browsing.|
+You know how to use the self checkout, right? Just press |button,4| near |line|an item. |break||goto,5|
+H-Huh? This store doesn't really do that... |break||checkinvqtd,0,0,14|But if you have something I like, I'll buy it.|pickitem,0,0,true,true,10,11|
+Alright then.|break||goto,5|
+I suppose I can give |currency,var,10||line|for that |string,0|.|line|Sounds like a fair price, doesn't it?|prompt,yesno,18,11|
+...Aww...|break||goto,5|
+|boxstyle,2||glitchy|Beep Beep. |string,0|.|line||currency,var,1|.|line|Will you take it?|prompt,yesno,13,21|
+|checkmoney,var,1,15||checkinvqtd,0,full,16||money,var,-,1||additem,0,var,0|Transaction complete.
+Wait, you don't have anything... What are you trying to pull|line|here?|break||goto,5|
+|anim,this,Sad|Beep. Beep. Insufficient funds. Please come back another time!|break||anim,this,Idle||end|
+|anim,this,Sad|Beep. Beep. User cannot carry any more. Please make some room and |line|come back!|break||anim,this,Idle||end|
+|tail,-4|Malbee would stomp her if she read on the job at the factory!|next,-5|This store seems mostly automated, so she mustn't have much to|line|do.|next,-6|That's worrying... Will there be a shop with no one running it at some point?|next,-5|Silly Leif. Gadgets could never replace our fellow bug!
+|money,var,10||removeitem,0,var,0|Thanks! |break||checkinvqtd,0,0,19|I suppose you have more stuff to sell?|pickitem,0,0,true,true,10,11|
+And uh, don't tell my boss.|break||goto,5|
+What a dull existence. I need news. More news... I must fix this board...
+Please check our other wares!
+Team Snakemouth, your job is complete. Thank you for your service.|next|I hope you'll meet me at the table for the negotiations.|next,-4|See you there, Lisa!|next,15|...Yes, see you there.
+Did you really just call the Ant Queen "Lisa"?|next,-5|It's too informal!|next,-4|You two gotta learn to relax! Let's look around and catch up!
+Wait, wait wait! Is that the |wavy|Ant Queen|wavy|?!|next||wavy|O. M. G!|wavy| Can't wait to tell my friends on the Termanet about the incoming war!
+What's that? You lot are going to take on the Colosseum?|next|Ha! Tough luck! Our soldiers will destroy you, and we will record it and share all over the Termanet!|next|Can't wait to text my friends about this!
+So this rectangular gadget provides swift news to the populace?|next,-4||checkflag,409,70|No need to wait for the guards to change the leaves!|next,-6|This bug seems addicted to the flux of information.|next,-5|Let's hope the screen doesn't get broken again anytime soon... 
+|tail,-4,Flustered|What's THIS poster doing here!?|next,-6|Kabbu, you said they were isolationist.|next,-5|It's, uh, complicated. You can get in, so long as you're not an Ant.|next|But it's still a long process. Her idol status could've helped?|next,-4,Angry|I don't get politics... 
+|tail,-4|DineMite's the cheapest place around! And yum!|next,-6|We cannot help but pity this poor worker.|next,-5|The conditions don't seem too bad?|next,-6,WeakBattleIdle|It's the music! We'd go insane after a few hours!|next,-4|When you put it that way... At least I know how to annoy you now!|next,-6|Don't. We'll freeze your mouth.|next,-5|This place makes you cranky... Let's order and get out!
+Ah! You're the Colosseum champions!|next|I was always rooting for you! Please, sign me up an autograph so I|line|can brag to all my friends at the Termanet!
+|shaky|Work work work... So much work... So little time...
+I have successfully connected the main board with all help boards across Bugaria.|next|With this, we can finally see all those who are in need...
+Do you want to take on that request?|prompt,yesno,33,34|
+Excellent. I shall add it to your pending quests.
+Your call, but you should take on that request.
+...TermaNet?|next,-4|No clue.|next,-6|Seems to be a technology unique to this land. For communication.|next,-4|We should tell H.B. about it!|next,-5|(I...I don't get how it works.)
+S-Sir! Please, sit down for a bit!|next,-4|He's super ignoring you.|next,-6|Overworking's global, huh.|next,-5|You can't work if you collapse! Sir, please listen to |wavy|meeeee!|wavy||next,-4|Kabbu's nagging's global too...
+I lost a bet and ended up having to wear this. I've really grown to like it, though!
+Tch. I'm tired of DineMite, but cooking's such a drag...
+They don't have DineMite in your town? Wow, how do you EAT!?
+The Termite Kingdom's quite impressive, but all this store food |line|makes me miss Fry's cooking.|next,-6|Machines can't really match Kut's expertise.|next,-4|Or Crisbee's baking! Um, guess we know where to go after the mission.
+|tail,-4|Is it uh, healthy to just eat one food?|next,-6|Delicious as it may be, we reckon it's not.|next,-5|We don't even know what's in it...!
+Hm. I quite dig this fellow's style.|next,-4|He looks lame. You've got bad taste.|minibubble,@Oof...,-5||next,-6|Respectfully, Vi? You don't know the first thing about fashion.|anim,-4,Flustered||minibubble,@Hey!,-4||breakend|
+|showmoney|Welcome to DineMite! Your one stop for fresh, delicious, quality food!|next|Our MiteBurger's 15 berries. Sounds good, don't it?|prompt,map,0,3,44,62,45,@Mite Burger - 15 berries,@Spicy Fries - 12 berries,@We'll come back.|
+|checkmoney,15,46||checkinvqtd,0,full,47||money,-15|ONE MITEBURGER COMING UP!|next||giveitem,0,154,45|
+Come again, for an explosive dining!
+That ain't enough. Sorry, but the discounted burger ended last week.
+You wanted takeaway with no space? Come DineMite later?
+H-hey. You took my request...didn't you...?!|next,-5|Indeed. What seems to be troubling you?|next,caller|I haven't been able to sleep well for a while... And it is starting to affect my work performance!|next|But I cannot stop! I-I must work, or else...!!|next,-4|Geez, you gotta learn to take it slow, dude!|next,caller|I can't! I must...|next,-6|Look, maybe we can deal with your sleep issues first. Any clues on what it can be?|next,caller|...Y-yes. I have heard that if you mix something that can cause sleep with flour, it can make a special recipe that allows anyone to sleep well!|next|I love sweets, so maybe you can get one of those for me?|next,-5|It is worth a try. We will come back if we find anything.|flag,625,true|
+H-hey! Did you bake the sweets?|pickitem,0,51,50|
+G-geez... Did you forget what it was? It was some sleeping thing with flour...
+|checkvar,0,147,52||goto,50|
+|flag,626,true||removeitem,0,147|Y-yes! ...But wait!|next|What if I eat one of those and oversleep...?!|next,-4,Angry|Look, it's what you wanted. You can't just ask for more stuff in the |line|same job!|next,caller|But I cannot miss work! Wait, I know!|next|I heard there is a way to make some |shaky|shocking|shaky| candy with electric stuff and flour!|next,-6|Uh, are you sure that's safe to consume?|next,caller|If I eat both this cake and the shocking thing, maybe...|next|I'll be able to sleep for one second and be shocked awake right after!|next,-4,Flustered|That doesn't make any sense!|next,-5|W-we'll see what we can do about that. Please wait a little more...|minibubble,@Seriously!?,-4||breakend|
+Do you have the |shaky|shocking|shaky| thing?|pickitem,0,55,54|
+Come on... I need to sleep or I will go crazy! But I can't just sleep like this!
+|checkvar,0,75,56|That doesn't look too appetizing... It needs to be some |shaky|shocking|shaky| candy!
+|flag,627,true||removeitem,0,75|Ah! That looks good! I will try this right when I go to bed!|next,-4|So... Will you give us the reward or not?|next,caller|Yes, thanks! It's not much, but it might help you!|break||giveitem,2,1,57|
+I hope my work efficiency improves after this, maybe I will finally|line|get that promotion!|next,-6|Heavens, we hope they don't promote you into more work...|next,-5,WeakBattleIdle|I'm so worried...|completequest,59|
+Hopefully my work performance will increase! If not, at least the sweets were nice...
+These lands have a unique fruit. The Termites call it a "Squash". |next|They are harvested from the Plumplings that roam around the wilds.|next|Cooking it by itself is already good, but mixing it up with Flour makes something really great.|next|What if one mixed a Squash with some defense boosting ingredient?|next|My appetite flares up just thinking about it...
+|tail,-6|This guy is even here...|next,-4|Where there is food, there he is.|next,-5|You have to admire his dedication to his culinary quest.
+|tail,-6|Samira's doing well enough to afford an escort here, huh.|next,-4,Happy|Hard work always pays off!
+|checkmoney,12,46||checkinvqtd,0,full,47||money,-12|ONE ORDER OF FRIES COMING UP!|next||giveitem,0,66,45|
+|bleep,13,1.75|...I have a friend that lives in the Forsaken Lands...|next|She is really shy, and hides herself beyond the dense fog.|next|I should visit sometime soon.
+|bleep,13,1.75|Ah, you've been to where my friend is, haven't you?|next|I was thinking about going there myself right now... Would you like me to show you the way?|goto,68,keep|
+Ok. Let's depart right away.|break||flag,675,true||warp,189|
+Oh, sorry for asking then.
+|tail,-6|We wonder if those scarves are the fashion around here.|next,-4|Most likely. I don't like them much, though.|next,-5|If you want, Leif, we could look around and buy you one.|next,-6|No, thank you. We were just wondering.
+|prompt,yesno,65,66|
+|bleep,13,1.75|Hello there. Do you want to come with me to visit my friend again?|goto,68,keep|
+Or uh, it did. Guess it's not working right now...

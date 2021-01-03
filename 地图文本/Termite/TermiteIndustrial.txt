@@ -1,0 +1,112 @@
+|tail,-4|Awesome! They've got conveyors on the floor!|next,-6|Very convenient. A lot of Termites must move about daily here.|next,-5|The air is thicker here... Is it fog or smoke?|next,-4|There's a lot of pipes and stuff. Probably smoke.|next,-6|We hope their researchers aren't taking air for granted... 
+Which floor would you like to go to?
+You are already on that floor!
+1F
+2F
+5F
+Roof
+|boxstyle,3||spd,0|Colosseum AHEAD! Challengers, please register at the front desk!
+Sometimes I wonder what is beyond this dome...|next|To see what the sky really looks like... 
+|anim,caller,Idle|.........|call,33|
+|flag,387,true||define,31,s||define,32,d||flip,d,false||flip,s,false||igcolmove,31||igcolmove,32||parent,31||align,left,true,2.5||tail,s,instant|Hey. Fancy meeting you here.|next,-5|Stratos! Delilah! What are you doing here?|next,d|We were examining the old ruins at the corners of the Forsaken Lands!|next|Way back in Bugaria's beginnings, they say Ants camped there on the way to what would become the Ant Kingdom.|next,-6|Oh, we've heard of that. They abandoned that area pretty quickly. The Forsaken Lands were too harsh.|next,s|Mhm. It seems a weird tribe of bugs has set foot in there now.|next|It was quite unsettling how they stared at us without saying anything... |line|So we left.|next,d|Yeah, be careful if you happen to wander near there! Those bugs smell like trouble!|next,-4|How do you even get there anyway? N-Not because we're |line|planning to go or anything.|next,d|There's this place with many strong wind currents...it should be west from there.|next|...Seriously, though. Be careful near that place.|next,-5|We will not carelessly ignore your warnings. Thank you for the information!
+You should pack up before you leave to the old city.|next|I get a really bad feeling about that place.
+To reach the old city you just need to keep going west.|next|Be careful, though! Those bugs there are real weirdos!
+|checkanim,caller,100,14||mapflag,1,true||checkmapflag,0,15|Oh! Welcome! This is the Dome Hotel. A night is 5 berries per bug, so|line|15 for you three! Will you stay?|showmoney||prompt,yesno,16,17|
+|hide||anim,caller,101||fwait,0.5||hide||anim,caller,0||flag,400,true||goto,13|
+I hope you had a pleasant nap. Come back soon!
+|checkmoney,15,18||money,-15|That's 15 berries accounted for! Your room is on the 2nd floor, pleasant dreams!|break||goto,19|
+Okay. Come back if you feel sleepy!
+Sorry...it doesn't look like you have enough... Maybe next time.
+|mapflag,0,true||innsleep,-36.7,9,14.65,true,-41.45,9,11,-34.5,9,16|
+This service could be so much better...|wavy|sigh|wavy|. Can't I do anything else?|break||blank||checktrue,407@409,21||end|
+|flag,408,true||event,true||align,left,true||flip,caller,false||tail,-5|You seem...familiar. Have we met before?|next,-4|Never seen a Termite before coming here, so...|next,-6|...Oh, you're from that sign at the inn.|next,caller|Pardon me? The inn? Could you mean the inn in Defiant Root?|next,-5|Right! You do bear a heavy resemblance!|next,caller|He didn't take the sign down? That guy...|next,-4|Why'd you come here? Doesn't seem much cooler.|next,caller|I wanted to offer a genuine, warm inn experience in this kingdom.|next|But a lot of tourists want something different, like an apartment.|next|Ironically, many come to enjoy our grey skies... So business struggles.|next|I've set a colleague to run it for me, and it's like I'm not even needed.|next,-4|Why not go back?|next,caller|...|next,-6|Doesn't seem like you're happy here, and you're missed there.|next,-5|And if you'd allow me to intrude - missed a lot!|next,caller|......You're right. I really was a fool...|next|I had everything I ever wanted, and I left it for this whim of mine.|next|I've heard the Ant Kingdom's |line|doing escorts. I think I'll take the |line|first trip back!|next,-6|We'll see you back at Defiant Root, maybe.|next,-5,Happy|(He's going to be jolly!)|breakend||event,false|
+Thank you for reaching out. This must have been fate...
+|tail,-4|What's he looking at? It's just the dome ceiling.|next,-6|Some call it day-dreaming, Vi.|next,-4,Happy|Oh, it's like when I think of being super rich and famous!|next,-5|Err, yes. Let's go with that.|next,-4,Idle|I hope his dreams come true. Mine sure are!|next,-6|(You're not half-bad sometimes.)
+|tail,-6|Careful, everyone. We may be cut just by standing near this dude.|next,-5|He does seem very uh, sharp and volatile.|next,-4,Angry|You're scared of a random guy after all the stuff we've beat up!?|next,-5,WeakBattleIdle|Let us please stay away, alright? I'm tired of random fights... 
+Welcome to the Colosseum! Will we crown our 24th champion today!?
+.........|next,-5|Uh...excuse us...|next,caller|.......|next,-6|We heard you have the blackest paint. We're interested in that.|next,caller|......I have no business with you. Scram, if you know what's better for you.|next,-4,Sad|Eep! B-but we need the paint!|next,caller|.........|next,-5|Uh, let's leave him alone, team...|next,-6|We need the paint, Kabbu.|next,-5|I know, but it doesn't seem like we can get it now...|next|Let's ask Artia what to do and come back later...|flag,433,true||call,33|
+.........|next,-5|Let's ask Artia what to do and come back later...|call,33|
+...We no longer have any business between us. Leave.|call,33|
+.........|setvar,0,0||pickitem,1,30,30|
+|checkvar,0,138,31|........You'd better leave if you want to see tomorrow...|call,33|
+.......!|next,-4|Huh, we got a response!|next,caller|........Fine. Here is the paint. But I do this favor for Reed, not for you.|break||removeitem,1,138||giveitem,1,139,32|
+...We no longer have any business between us. Leave.|next,-4|Gee, what a moody fellow.|next,-5|Well we got the paint, let's deliver it.|flag,434,true||call,33|
+|break||anim,caller,100||end|
+Outsiders, huh? Came to watch a Colosseum match? Didn't know it was that popular.
+Keep going down this path to reach the Colosseum, the conveyors should make the trip short.
+Everything seems to be in order here. Keep it that way, will you?
+Oh, new roommates? That machine over there can combine items if you want.|next|It doesn't taste as good as something prepared by a chef, but it|line|gets the job done.
+The city is nice and all but I wish it was...less gray, y'know?
+I came all the way from the Golden Settlement.|next|It wasn't fun getting lost in the Forsaken Lands, but it was worth it to |line|see everything the city has to offer!
+Nero...why have you wandered so far from me?|next|Coming of age rites be darned, what will I do if something happens to you?
+|align,right,true||face,caller,-1||tail,-4|Hiya! You're Layna, right?|next,caller|Huh? Who are you?|next,-5|We're Team Snakemouth. We've come to aid in your request.|next,caller,Idle|Really? I didn't expect anyone to take notice of it so quickly! Thank you!|next,-6|You lost your pet, right? Hits close to home. We'll get it back to you.|next,caller|Nero doesn't trust others. If you find him, he will flee quite quickly.|next|...So I'll go with you. Without making sure he's safe, I can't go home|line|on good conscience.|next,-5|Are you sure of this? The Forsaken Lands are quite dangerous!|next,caller|It's the only way. I know I'm asking a lot, but...|next,-4,Happy|It'll be fine! Nothing we can't handle!|next,caller|Thank you, once again.|next,-5|Is there any place Nero likes to run off too?|next,caller|Well, |color,1|south of the pumpkin patch|color,0|, there's a place Nero really likes.|next|Do you know where that is?|next,-6|Yeah, we went across it while coming here. Shall we depart?|next,caller|Mhm. Let's go.|break||flag,465,true||follow||end|
+|tail,-6|What a warm glow.|next,-5|I've never seen anything like this! Could she be one of the 10 sorcerers?|next,-4|Nah. It's a firefly! Sis told me some bugs in other regions glow in the dark and stuff.|next,-6|Ice magic sucks. We want to glow in the dark.|next,-5|For the sake of our missions, please keep the ice magic...
+I'm itching to visit the Colosseum. It's the only landmark I've got left here.|next|It may be a bit too violent for Nero, though...
+|tail,43||face,43,44|Brother! You mustn't forget your lunch this time!|next,44|Hmph. Worry not, this time I won't forget!|minibubble,@Uh huh.,43||breakend|
+Argh! I can't believe it! He left without his lunch AGAIN!|next|Finding him will be a pain...
+Ah. You're the Ant Kingdom explorers that beat the Colosseum!|next,-5|Heheh, yes! We saw your request. Your brother left without lunch?|next,caller|Mhm. He's always rushing! And then faints from exhaustion in the wilderness.|next|I can't deliver today, it's too busy. I'll pay a pretty berry if you take this to him.|next,-4|Alrighty! Where's his post?|next,caller|Hm... Today he was supposed to patrol around the broken bridges in the Forsaken Lands. |next|Just walk west from where the Weevils hang around. He should've |line|made it before fainting.|next|He's strong, but...please hurry.|break||giveitem,1,145,47|
+|tail,-6,instant|This smells pretty good, wow.|next,caller|He's annoying, but I do love him! It's my super nutritious survival box!|next,-5|Leave it to us!|flag,475,true|
+Please hurry. He must've passed out from hunger by now, west from where the Weevils hang around.
+Brother made it back safe and sound! ...Thank you, and best of luck.
+Can't believe I forgot to eat again... Sometimes I just get so pumped up to|line|patrol I rush outta here!
+Hello there. Have you ever heard of these creatures called "Seedlings"?|next|They exist all over Bugaria and beyond, and they adapt easily to their surroundings, so many subspecies |line|of them exist!|next|I'd love to catalogue them all, but I am so busy here I cannot leave...
+Hello! You're the champions from the Ant Kingdom, aren't you?|next,-4|And you're the Seedling guy, right? You're in SUPER LUCK!|next,-4,Happy|We've been fighting Seedlings for ages!|next,caller|Mhm! Seedlings have so many variations, too many for me to |line|research on my busy schedule!|next|So I want you to gather some data on their behaviors for me! Don't worry though, it's easy!|next|Just defeat them in battle and your experiences should write themselves!|next|I'd like to have data of 50 Seedling individuals, any species|line|of them will do.|next|Once you have that, talk to me and I will give you your reward!|next,-6|Sounds simple enough. Let's go trample them.|next,-5,WeakBattleIdle|(50...So much violence!)
+Oh? Already done?|next|Excellent! This seems to be enough data for me to study the Seedlings! Thank you!|next|Take this as a token of my appreciation, I made it during my spare|line|time. I'm sure it will be very helpful on your quest.
+Oh? Already done?|next|...Seems like you didn't get enough data... |next|I still need @var@ Seedlings to complete my research! Check how many you have in your library.
+|hide||event,160|
+|tail,-4||anim,-4,Happy|Heheheh. I knew those Seedlings would be good for something someday!|next,caller|Once again, thank you!|completequest,47|
+Your help will lead to many advances in Seedling Research!|next|I hope that Medal's been more than worth it!
+It seems you can cook with this machine. Would you like to put |line|something in?
+What would you like to put in the machine?
+Would you like to add something else?
+Press |button,5| to cancel.
+Would you like to cook with|line|@VAR1@ and @VAR2@?
+Would you like to cook the|line|@VAR1@?
+You beat Poi and Cross!? I can't believe I missed that...
+Woah. Never expected tourists to be the 24th champions!
+|wavy|Sigh...|wavy| No matter what I do lately, Terrie just won't smile!|minibubble,67,24||breakend|
+|wavy|*Grumble*
+What're you looking at?|next,-5|You seem to be upset. I was wondering if I could help you?|next,caller|No. You can't. Scram.|next,-5|W-Wait, I...|next,25|Don't mind her. She's been so cranky!|next|You'd have to be some sort of Colosseum hero just to make her |line|look at you.|next,-6|A bit cranky, eh Vi.|next,-4,Angry|What, you tryin' to say something?|next,-5|...A hero...|flag,515,true|
+...
+|align,right,true||tail,25,instant|Oh, aren't you the foreign champions?|next,24|C-Champions? Woah...|next,-6|Guess we've met her standards.|next,24|Not just champions! You're like, the Bug Rangers!|next,-4|Wha? Termites know the Bug Rangers?|next,25|Not many... Mostly some old timers, back before things got really strict.|next|There was this one show, everyone really talked about it for a while.|next,24|I didn't know you were real!|next,-4|Heheheh.|next,-6|Sorry, but it's just a coincidence.|next,24|...Bleh.|next,-5|Could you let us know what troubles you, at least?|next,24|Y-You'll laugh at me.|next,-4|I promise Kabbu and Leif won't.|next,24|Look, I've been saving berries for a whole moon.|next|I was going to buy a |color,1|Green Ranger Plush|color,0|! There's only 10, y'know?|minibubble,@...,-5||next|But the day I saved up enough, someone snatched it! I'm so angry!|next,-6|That sucks.|next,-4|Dunno if we can help...|next,-5||destroyminibubble|...We'll, um, see what we can do. Try to cheer up, alright?|next,24|Easy to say...|flag,516,true|
+It would be great if I got a plushie for Terrie... But they are |line|so hard to find...
+What is it?|pickitem,1,73,69|
+|checkvar,0,25,74|Is this a consolation prize? Cuz I don't want it.
+|align,right,true||removeitem,1,25||tail,-4,instant||face,-4,-5||face,-5,-6|Woah, wait.|next,-6|Kabbu, are you sure? For a kid you just met?|next,-5||face,-5,-4|Team, don't worry.|next|The Rangers inspired me to explore, yes.|next|But...I don't need them anymore. Think of all we've been through.|next|The Spider, the machines and bandits...the Beast.|next|We did that all together, and they were real adventures.|next|We've...we've surpassed the Bug Rangers.|next|So it's time to hand this down, so that a new child may dream of exploring!|next,-6|...|next,-4|...Kabbu...|next,caller||face,party,caller|Y'all okay there?|next,-5|I've got something for you!|next,caller,Happy||anim,25,Happy|NO WAY! NO WAY NO WAY NO WAY!|next,25|Oh dear! You found one!?|next,caller|IS IT REALLY FOR ME!?|next,-5|Indeed! Someday, you can be as strong as him!|next,25|H-How much was it?|next,caller|I'm gonna go get my savings!|next,-5|It's free, don't worry.|next|Use those berries for some good food!|next,caller|Really...?|next,-4|Y-Yeah! On the house!|next,-6|But you've got to take good care of it.|next,caller|I will! It's gonna look like new every day!|next,25|T-Thank you. We don't meet kind bugs every day!|next,-5|It was nothing. We do need to get going, however.|next,-4|And they say money can't buy happiness.|next,-6|Tch. How dare Kabbu be this cool...|next,-5|Heheh. Onward to our next good deed!|flag,410,true|
+Come back anytime! I won't be grumpy anymore!
+Life's much livelier now, thank you!
+|tail,-4|Who'd ever wanna research dumb Seedlings?|next,-6|First of all, they're adorable.|next,-5|Don't forget, what we take for granted is most exotic to them!
+|tail,-4|There's already guards here. What's his job supposed to be?|next,-6|Probably a cleaner, after all the fighting.|next,-5|He could help carry in supplies, too!|next,-4||wavy|Boooooring.|wavy|
+I can't believe someone can forget to eat!|next,-6|Mhm.|next,-4|Yup.|next,-5|...Anyways, let's go.
+|checktrue,408,92|Haven't we seen her somewhere?|next,-4|Uh, maybe? I dunno...|next,-6|Hmm...HMM...
+|tail,-4,Angry|15 berries!? Why is it so expensive!?|next,-6|Maybe there's higher demand?|next,-5|At least we've made good savings during our journeys, so...|next,-4,Flustered|Just 'cuz we're richer doesn't mean we should be spending more!!!
+|tail,-4|Even the Termites get tourists? Wasn't this uh, iso...isole...|next,-6|Isolationist.|next,-5|It's a rough trip, but only Ants were truly banned from this kingdom.|next,-4|Good thing our team's not banned anywhere!
+|checktrue,410,84|That child looks so...disheartened.|next,-6|Go, Kabbu. Don't let us stop you.|next,-4|Don't take |wavy|toooooo|wavy| long!
+|tail,-6|You're strong, Kabbu. We would've kept our toy.|next,-4|Yeah...you have like, a being nice superpower!|next,-5|Look at how happy she is! You can't tell me it wasn't worth it?|next,-4|...Yeah, it was.|minibubble,@Yup.,-6||breakend|
+|checktrue,410,84||tail,-6|This society is advanced, but it seems some bugs do struggle.|next,-5|Is it just part of industrialization?|next,-4|Or they're super competitive!|next,-5|...Rather than discuss their situation, let's try to improve it!
+S
+Hu-ha! Ha-Hu! |line||wavy|Domination~!|wavy|
+So I was born to be a soldier? Not buying it. I hate fighting...
+|tail,-4|If he doesn't wanna fight, he shouldn't!|next,-6|Thought you were all about smackdowns.|next,-4|But I LIKE smackdowns! I do them 'cuz I want to!|next,-5|I too, believe we should all choose our fate.|next,-6|It's easier now than it was back then, let us tell you that.
+What determination! She won't stop!|next,-6,BattleIdle|Let's go, Kabbu!|anim,-5,Hurt| |line||shaky|HU-HA! HA-HU!|anim,-5,Surprized||line|DOMINATION~!|shaky||next,-5,WeakBattleIdle|N-NGH! H-HE'S TOO FAST! BUT I...|anim,-5,Angry||shaky|I WILL NOT LOSE!|shaky||minibubble,@...Ok.,-4||breakend| 
+|align,right,true||face,caller,-1||tail,-4|Woah, you travelled all the way here!?|next,caller|Well, what's a journey without some risk?|next|I don't regret it. The Termite Kingdom has a very different vibe.|next|It's technological and convenient, but it feels a bit lonely...|next,-5|Have you found what you were looking for, Kenny?|next,caller|...Yeah. I'm satisfied at having seen this beautiful world.|next,-6|Where will you stay, in the end?|next,caller|Let's say the end's at the beginning.|next,-4|Uh, we'll see you there, then?|next,caller|Yeah. I'll head there after I visit the Coliseum. I hope we'll meet again.|flag,602,true|
+(Let's drop by Defiant Root soon...!)
+|currency,var,10|.|prompt,yesno,94,95|
+|checkmoney,var,10,96||checkinvqtd,0,full,97||money,var,-,10||additem,0,var,0|...There.
+...
+...Not enough.
+...No space.
+The bomb master is a very busy bug! Just be done with your purchase and leave!
+Yet another explosion-free day!
+The Ant Tunnels sound quite convenient. Sadly, I'm not a |line|certified explorer...
+|tail,-6|You've gotta respect their commitment to trade.|next,-4|Well, making a profit's hard work!|next,-5|I'm just glad the snail made it here safely...
+Harumph...the Termite market demands many different things.|next|We'll have to study more to make a profit here...
+Got a berry to spare?|showmoney||prompt,yesno,104,105|
+|checkmoney,1,95||money,-1|T-Thank you...|flag,649,true|
+|tail,-5|Sorry, maybe in the future...|next,caller|Right...
+...May the blessings of our ancestors be with you.
+|tail,-5|The Colosseum is MASSIVE! Even the Anthill Palace does not quite reach this scale.|next,-6|Such a large building, just to celebrate fighting...|next,-4|What's wrong with that? Showing off your cool moves is great!|next,-5|I guess it'd depend on how willing the fighters are...|next,-6|Elizant...we wonder what your thoughts on this building were?|discovery,43||flag,655,true|
+|boxstyle,4||spd,0|The Colosseum, one of the Termite Kingdom's most important locations.
+|tail,-4||anim,-4,Sad|...|next,-6|What, you don't take kindly to beggars?|next,-4|If I want berries, I go and earn them!|next|...But he looks like he can't, it must be rough...|next,-5|Vi... Let's share what we can!|anim,-4,Idle||minibubble,@Yeah!,-4||breakend|
+|boxstyle,3||spd,0|I'm off to investigate those mysterious Mothflies. Should be back|line|before dinner!
+|tail,-6|This shop doesn't have the most welcoming staff, does it?|next,-5|They're quite reserved despite selling such explosive items...|next,-4|Eh, it's whatever. A deal's a deal!

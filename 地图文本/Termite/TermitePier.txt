@@ -1,0 +1,23 @@
+|tail,-4,Angry|They have a pier too! We should've just ferried in.|next,-5|I don't think their pier is very inviting...|next,-6|There's some catapults and everything. We would've gotten sunk.|next,-4,Flustered|What's the point of a pier if there's no boats!?|next,-5|I'm sure they've got plenty use out of this area without opening it up for tourism.|next,-4||shaky|Don't explain it!|shaky| I just want to feel mad about it!
+|boxstyle,3||spd,0|Water Treatment Station.
+One must always stay vigilant!|next|Any unknown ships coming in? |shaky|KERPLOW!|shaky| Fire the catapults!
+Performance is above expected today. We'll get to store some water for harsher times.
+|tail,-6|Nice glasses.|next,-5|This must be a Termite in charge of this big machine.|next,-4|He mentioned water, right? So this pumps water everywhere?|next,-6|With so many tall places, it must be helpful to not have to come down.|next,-4|They've got nothing on our super honey network!
+You've arrived! Behold, our Subaquatic Maritime Neotransport!
+It's...like nothing we've seen. For better or worse.|next,-5|It can truly travel under the tides?|next,caller|Give it a whirl. You'll have the time of your life.|next|Bugs have never been able to travel this way!|next,-4,Angry|Wew...okay. I'm gonna trust it.|next,-4,Idle|We can finally go get the Everlasting Sapling!|next|And beat up the King, too!|next,-6|This long journey's nearing its end.|next,-5|But we must not rest until we're victorious!|next,elizant|It's a bit too early to rally.|next|Let's head to the Outskirts Pier. We must pick up our reinforcements.|next,caller|It's a very intuitive tech. You can move as you usually would.|next|Just dive with |button,5| when there's danger. Just in case!|next,-6|Let's 'give it a whirl', then. Time's running out.
+Press |button,5| to submerge to avoid danger, and don't worry, the sub can|line|take a beating!
+Let's hurry to the Outskirts Pier, it should be just north of here.
+|hide||event,165|
+It's so monotonous treating the water every day.|next|I hope that someday I get the chance to go outside and visit Bugaria.
+Bugaria...I wonder what it is like.
+I'm so excited!
+Hmm... Bugaria should be the perfect place to expand my business...|next|Oh, you're the winners of the Colosseum, right? So you will take us to Bugaria, yes?|next|Let's get going, time is money!
+|tail,-6|What fancy clothing.|next,-5|This Termite seems to be rich...I wonder what he deals with.
+These girls... They look exactly the same! They're twins!|next,-4|The Termite Gen and Eri!|next,-6|One of them's missing a blue ribbon, eh...
+Finally! My time has come! Let's get going!
+I-I'm scared of water...|next|But I really want to swim... 
+The Subaquatic Maritime Neotransport is simple to use.|line|Whenever you need to submerge, just press |button,5|!
+|tail,-6|You can do it. Just...dip your arms in the water.|next,-4|You hate water, stop telling him to swim.|next,-6|But he doesn't. Y'know, it'd be nice to see him triumph over his fear...|next,-5|We...we should take a swim too! To inspire him!|next,-6|...No.|anim,-4,Happy|
+These machines distribute and clean the water, but we're still breathing in tons of smoke.|next|Couldn't they make an anti-smoke gadget?
+So they're exchanging their air for many commodities...|next,-4|The Bee Kingdom just throws all the smoke into the sky!|next,-6|...Why not just live in the open like the Golden Settlers?
+Oh, I'm so excited!|next,-4|To ride the sub?|next,-5|N-No. That's terrifying, actually...|next,-6|...|next,-5|Scientists are coming with us! There will be a technological exchange!|next,-6|Oh, right. That's pretty exciting, actually.|minibubble,@It is?,-4||breakend|

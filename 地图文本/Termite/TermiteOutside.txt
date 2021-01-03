@@ -1,0 +1,6 @@
+|tail,-4|The Termites live here? Really?|next,-6|Not the most inviting of entrances, that's for sure.|next,-5|Do not judge, my friends. Some of the most astounding technology lays beneath this dome!|next,-4|You can be smart and look ugly, you know...|next,-5|That's not what I...|wavy|*Sigh*|wavy||checkflag,384,4|
+You're here, good.|next,1|You're free to go in. But Ant Queen... I'd suggest you go directly |line|to the castle.|next|It's straight ahead from the plaza. The less people see you, the less fuss there will be.|next,1000|I understand. We thank you once more.|next,0|We've had many years of peace. Don't make us regret letting you in.|next,-5|(To treat a Queen in that manner...)
+Behave yourselves while in the dome...
+We're watching over you so no funny business!
+|minibubble,5,1000||breakend|
+|wavy|(*snicker*)
