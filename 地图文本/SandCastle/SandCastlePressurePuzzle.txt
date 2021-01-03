@@ -1,0 +1,3 @@
+|tail,-4,Angry|I don't get it.|next,-6|Thinking's about the only thing that can stop you, huh.|minibubble,@Shut it.,-4||next,-5|Easy now. We cannot just aimlessly press plates. There must |line|be a clue somewhere!|breakend|
+|boxstyle,3||spd,0|"First we felt cold at the tip of our hands... Before it turned into drops|line|sinking in the sand."
+|boxstyle,3||spd,0|"Then we felt the cold at our feet... Before locking the way."

@@ -1,0 +1,2 @@
+|tail,-4|That's one big ice cube!|next,-6|It's more of a rectangular cuboid, Vi.|anim,-4,Angry||minibubble,@The heck!?,-4||next,-5|It seems quite easy to push...I just wish I could ride it as it sled by!|breakend|
+|boxstyle,3||spd,0|"Warning: High humidity area. Regular mantainance of cryocrystal |line|must not be neglected."

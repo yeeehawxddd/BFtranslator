@@ -1,0 +1,1 @@
+|tail,-6|We do wonder why the roaches liked building so many statues...|next,-4|I mean, if I was rich I'd build a ton of me too!|next,-5|Unrelated to riches, this seems to be more of a cultural matter. Hopefully not greed or arrogance...|anim,-4,Angry||minibubble,@Oi...,-4||breakend|

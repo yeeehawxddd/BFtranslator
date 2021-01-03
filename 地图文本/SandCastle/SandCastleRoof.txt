@@ -1,0 +1,1 @@
+|tail,-4|Ah. Fresh air!|next,-5|We can see all of the desert from here. It's quite soothing...|next,-6|Maybe we could come back. It's not like anyone owns the place.|next,-4,Happy|This is now my castle! Dibs!

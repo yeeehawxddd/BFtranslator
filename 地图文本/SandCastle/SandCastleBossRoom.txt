@@ -1,0 +1,12 @@
+|checkflag,38,10||tail,-6|The rock we found here was quite beautiful.|next,-5|Maybe explorers would mistake it for the artifact?|next,-4|I sure would have. Glad to have Leif's gibberspeak!|minibubble,@Hmph.,-6||breakend|
+|boxstyle,2||bleep,@2||anim,-6,BattleIdle||anim,-5,BattleIdle||anim,-4,Surprized||shaky|Hjers bnmjk, trekaj!|shaky| |wavy|Rjkehoa ONJARLEHK!!!|wavy||next,-4,Flustered||face,-4,-6||boxstyle,1|Leif! Don't try to scare us!|next,-5,Angry||boxstyle,0|That's not Leif!|minibubble,2,-4||next,-6||face,-5,-6|Correct. That's not even how we speak. That's Roach dialect.|next|"This place is not for bugs. |shaky||anim,-5,105|Leave or be |anim,-6,117|BURIED!!!"|shaky||next,-5,WeakBattleIdle|D-Did you need to scream as well?|next,-6,Idle|Well, yes.|next,-4,Happy|Eh, just one more warning on the heap. Let's get that artifact!
+|anim,-4,Sad|Oh.
+|shaky||bleep,@2||boxstyle,2|Rjkehoa ONJARLEHK!!!|line|Rjkehoa ONJARLEHK!!!|line|Rjkehoa ONJARLEHK!!!
+|tail,-5|Is that... Is that a roach?|next,-4|It's just a fancy Cursed Cloth!|next,-6|We can feel it... Its magic is just like ours!|next|Our answers must be here. We won't be stopped by it!|minibubble,@Let's go!,-5||breakend|
+|shaky|...Kuh...|shaky||next,-6|Tell us. How did you get your magic? Who did this to you?|next,caller|........  . . .
+Curses...|minibubble,7,-5||next,-4|Hey, look! It's the artifact!|next,-5||destroyminibubble|Don't despair yet, Leif. It may hold some answers!|next,-4,Happy|Go get it before I do!
+Leif... 
+Huh. This isn't the artifact...|anim,-4,Angry||minibubble,@Huh?,-4||next,-5|What? Then what could it be?|next,-6|We don't know. But this doesn't have the same feeling as the others... 
+Maybe it's up ahead? I really hope there's not another cloth...|next,-6|There must be a reason this stone is here, though.|next,-5|Let us ask Neo later. For now, we've got to push through.|minibubble,11,-4||breakend|
+|tail,-4|Now it's really feeling like a throne room!|next,-5|What are those boxes? I've never seen something like it.|next,-6|It does give kind of a bad vibe. Stay sharp.
+Mhm! Off|line|we go!
