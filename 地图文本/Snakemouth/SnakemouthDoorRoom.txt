@@ -1,0 +1,9 @@
+|checkflag,41,8||tail,-6|This room brings back bad memories.|next,-5,WeakBattleIdle|Agreed. Just thinking about it makes my back hurt!|next,-4,Happy|Oh yeah. I heard a bounceshroom showed up down there after the flood!|next|We can go down whenever we need to!|next,-6|We would really prefer not to...|next,-5,Idle|Besides, I feel as though this room is hiding more secrets than we can imagine!|next,-4,Idle|Fine, fine. We'll walk around!
+A mushroom?|next||tail,-4||anim,-4,Flustered||boxstyle,1|What!? We did all this for |shaky|THAT!?|shaky||next|Seriously? It wasn't even a rare item. Heck, it wasn't even a rare mushroom!|next|Who designed this place!? I will sting them in the face! I'll tear the |line|place |shaky|DOWN!|shaky||next,-5||boxstyle,0|Come now, Vi. Unfortunate as it may be, let's pick it up and start looking again!|minibubble,@Grr!!!,-4||next||destroyminibubble||end|
+Huh? What?
+|boxstyle,1||shaky|IYAAAAAAAAAAAA-|shaky||fwait,2||end|
+Phew. That was close.|next||hide||minibubble,6,-5,-0.5||waitminibubble||tail,-4|Kabbu! Are you okay!?|next||hide||minibubble,7,-5,-0.5||waitminibubble||tail,-4|I guess he is. Hmm...|next||flip,-4|This is the perfect time to go home. |flip,-4|I don't like the look of that place... 
+But I'm his reliable teammate...|next|...I'm going to regret this...
+|wavy|Hrgrgh...|wavy|
+|wavy|Mrggfgh...|wavy|
+We've reached a dead end.|next||tail,-4|But it's ancient ruins, so not really.|next||tail,-5|Right. If we leave no stone unturned, we will open a path!

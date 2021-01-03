@@ -1,0 +1,2 @@
+|name,kabbu|@Test for global tag system@
+|name,vi|Ok Kabbu, that's nice. Look at this: @Woooah!

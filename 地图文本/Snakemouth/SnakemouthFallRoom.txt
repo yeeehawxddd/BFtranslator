@@ -1,0 +1,35 @@
+|checkflag,27,20|This is that blasted spider's den.|next|I really don't want to stay here any longer.|next||tail,-4|No kidding. Can we just go?
+Nghgh...|next||tail,-4|No rush. I can wait.
+|anim,-5,WeakBattleIdle|Oof! I am lucky this mushroom broke my fall.|next||tail,-4|I would have carried you, but you seem really heavy...|next,-5||anim,-5,Idle|I assure you I am lighter than I seem.|minibubble,@Uh huh.,-4||next,-4||destroyminibubble|Anyways,|flip,-4| this place is really creepy.|next,-5|I must agree. And there doesn't seem to be a way back up for me. |line|We will have to look around.|next,-4||face,-4,-5|Let's be careful, okay? You were almost a goner!
+Yikes... Is that a moth?|next||tail,-5|By the Queen! What a terrible fate... A moment of silence, in solidarity for a fallen explorer.
+...|fwait,2||blank||wavy|Zzz...|Wavy|
+|boxstyle,1||anim,-4,Surprized||anim,-5,Hurt|WAIT! HE'S ALIVE!|next||tail,-5||anim,-5,Idle|Quick! We must free him!|next||tail,-4||face,-4,-5||boxstyle,0||anim,-4,BattleIdle||flip,-4|Okay, I'm just going to see if the Beemerang can cut through web...|next||tail,-5|I will make sure there are no other |flip,-5|surviv-|fwait,0.6||end|
+|boxstyle,1||shaky|Vi! Watch out!
+|anim,-4,Surprized||shaky|A... A... A spider... 
+How could a beast so huge sneak up on us!?|next,-4,Flustered||face,-4,-5||boxstyle,1|Kabbu! We've got to run! Treasure ain't worth this!|next,-5||boxstyle,0|It's not that! We can't abandon this poor moth to his fate!|next,-4,Surprized|I...I...
+Everyone, I...I failed. You wasted your hopes on me...
+Vi!?|next,-4|Look, I-|next,-5|By the holy jaws of the Queen, Vi! You left me to my fate! You are vile!
+|tail,-4||anim,-4,Flustered|H-Hey! I was going to apologize! And I came back, right?|next|You pushed me away from the web, but I still left, so I'm-
+I will properly scold you later. The situation is dire, but I've got a plan.|next|We will attack the |color,1|web|color,0| holding the moth while battling the spider.|next,-4|And we bail when we free him?|next,-5|Precisely. Except we'll run together, this time. Without leaving anyone behind.|minibubble,34,-4||breakend|
+|boxstyle,1|Begone, wretched beast!
+|boxstyle,1|Kabbu! I'm done here!|face,-5,-4||minibubble,@Well done!,-5||next||boxstyle,0||destroyminibubble||end|
+|boxstyle,1||shaky||halfline||size,1.2|Let's get outta here!!!
+|wavy|Huff... Huff... 
+Gee, glad it's too fat to come in here.|next|Um, Kabbu?|face,-5,-4| Sorry for running away...|next,-5|...|wavy|Sigh.|wavy||fwait,0.1| Very well. You are forgiven, Vi. It was understandable.|next,-4,Flustered|Took you long enough! Most people would be crying at getting |line|rescued!|minibubble,@...,-5||breakend|
+You're awake!|next||tail,1||anim,1,Hurt||wavy|...|break||anim,-4,Surprized|Mjaj? Ajeukx, yrdiuf.|line|...Ghsiaoenbx? |wavy||next,-4||face,1,-4|What the... Hey! |anim,-4,Sad|You okay? You hit your head?|next||tail,1||wavy|Jsgsn. Sjaika? Hsjaosidjs...?|wavy||next||face,1,-5||tail,-5|Could this moth be speaking in an ancient tongue? Perhaps he is of the fabled tribes lurking underground.|next||tail,1||anim,1,WeakBattleIdle|...N-no. We can speak Bugnish.|next||tail,-4||face,1,-4|Do you need like, a minute?|next||tail,1|......No.|next||hide||fwait,0.5||anim,1,Idle||fwait,0.5||hide||music,Moth|We are fine now.|next||face,1,-5||tail,-5|Thank goodness, you had us quite worried.|next||tail,1||flip,1|Where are we? |flip,1|Where is the spider?|next,-5|Right...let's get you up to speed.
+This crystal... It's an ancient artifact. Although it's too heavy to carry.|next|It was used to |color,1|record|color,0| where people have walked through.|next|Since this one is yellow, it will |color,1|heal our HP and TP|color,0| too. Try smacking it sometime.|next||tail,-5|Alright. Now let us depart for real!
+We're trapped. Well, I am.|next|How shameful, to make Vi come to such a dangerous place.|next||tail,-4|Look, I can take care of myself. Don't make me regret coming with you.|next||tail,-5|Sorry, I shouldn't undermine your choice. Let's press forward!
+|tail,-6|This is the spider's den. Also known as our second home.|next||tail,-4|It must have sucked, being trapped in that web.|next||tail,-5|Not really, it was surprisingly cozy.|next||tail,-6|Mhm. Quite good to nap in.|next||tail,-4|Seriously!?|next||tail,-6|If we stay any longer, you'll get to enjoy the soft silk, too.|next||tail,-4|No no no no NO! We're |shaky|leaving!
+|boxstyle,1|Leave us alone already, monster! 
+Truly? It seems we owe our life to you, Vi.|minibubble,24,-5||next||destroyminibubble||tail,-4|No big deal. |anim,-4,Angry|It sucks that we're trapped, though.|next||destroyminibubble||tail,-5||face,1,-5|Were you looking for treasure as well, alongside fellow explorers? Err, what's your name?|next||tail,1|Leif is fine. And somewhat. A scouting mission, in fact.|next,-4||face,1,-4|You've got some luck to be alive... Did you learn anything scouting? About the artifact?|next||tail,1|Artifact? If it is here, it's probably ahead.|next,-5||face,1,-5|If we work together, we will surely find both it and the exit!
+Seriously!?|halt|
+We have little choice. We will accompany you.|next||tail,-5|Can you fight?|next||tail,1|...Not really part of scouting. |next||tail,-4||anim,-4,Flustered|Seriously!? You came into this place without knowing how to fight!?|next||tail,-5|Make sure to stay behind us, so we can protect you. |next||tail,1|How reassuring.|next||tail,-4||anim,-4,Idle||face,1,-4|Ok. We've spent too much time here. |flip,-4|Let's look for the exit!
+Wait.|next||tail,-5||face,-5,1||face,-4,1|Is something the matter?
+This has to be some cruel irony...|line|However, I can't give up, even if I'm alone!
+I-It's too much by myself, after all...
+Vi! Vi, wait! Curses!
+H-Here it comes. Let's do this!
+|wavy|Cough cough
+Let's turn over a new leaf, Vi. This moth is our priority.
+|tail,-4,Angry|You wanna get eaten by the spider!? We're not going back!
+I apologized already!|halt|

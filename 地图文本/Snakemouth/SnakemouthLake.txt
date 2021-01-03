@@ -1,0 +1,27 @@
+|checkflag,16,10||tail,-6|The spores in this room are quite nice.|next,-4|Yep. Blue and pretty.|next|Like that convenient ice magic you pulled off here.|next,-5|It's made you more than formidable at combat.|next,-4|If anything, it'll be easier to get out now.|next,-5|Indeed. If we stick together, we should be able to do it.|next,-6|As long as we can keep control over it... 
+|checkflag,25,-23||boxstyle,3||spd,0|You can |color,5|switch|color,0| your party order during battle using the strategy flower.|next||spd,0||color,5|Whoever is in front|color,0| receives a |color,5|bonus to attacking power,|color,0| in return said person is |color,5|targeted more often by enemies.|color,0||next||spd,0|You |color,5|can't switch|color,0| if |color,5|someone has exhausted all their turns.|color,0|
+|checkflag,25,-23||boxstyle,3||spd,0|Pressing |button,5| in battle allows you to |color,5|change who is currently acting|color,0| without changing the party order.|next||spd,0|Each party member has |color,5|different ways of attacking,|color,0| and different reaches for their attacks and skills.|next||spd,0|Mind who is currently acting to not waste actions on the wrong enemy.
+|checkflag,25,-23||boxstyle,3||spd,0|Hitting an enemy outside of battle will |color,5|stun|color,0| it for a short amount of time.|next||spd,0|Entering battle while an enemy is stunned grants |color,5|one more action|color,0| to |line|the party leader.
+|checkflag,25,-23||boxstyle,3||spd,0||color,5|Frozen enemies|color,0| can't be stunned, but |color,5|can be climbed on or used to hold switches.|color,0|
+Nice work, everyon-
+Leif! Watch out!
+|boxstyle,1|What the heck!?|next,-5,Idle||boxstyle,0|By the great antcestors... what kind of sorcery is that!?|next||tailextra,0|We, uh, are unsure? This is new.|next,-4,Flustered|You seriously expect us to believe that!?|next||tailextra,0|We mean it, it's the truth.|next,-5|Magic's no common feat. There are less than ten known sorcerers in history!|next,-4,Angry|You're not some criminal with a HUGE bounty, are you?|next||tailextra,0|You seriously believe that?
+We will talk later. I take it you can fight now?|next||tailextra,0|We'll try.
+|face,-6,-4|Goodness, that magic isn't a joke.|next,-6|It's pretty cool.|next,-5|If you truly couldn't do it before, this den is hiding more secrets than I first thought.|next,-4,Angry|Everything's just too suspicious. I don't believe Leif yet.|next,-6|We're telling the truth. If we had ice magic, that accursed spider wouldn't have caught us.|next,-5|I say, let's focus on getting out alive. We can collect our thoughts when we're safe.|next,-6|Very well. If you need us to freeze anything, press |button,5| while |line|we are leading.|next,-4,Idle|I guess it's fine for now. Onward! |flip,-4||anim,-4,Flustered|I can almost smell the treasure!
+This room seems surprisingly straightforward.|next,-4|No issues here. I needed a break from all the death traps.|next||gettail,2|It's a good chance to stretch our legs.|next,-5|Leif. If you need to take a break, let us know. Vi will carry you.|next,-4,Angry|That is not happening.|next||gettail,2||wavy|Oh, the fatigue, it kicks in...|wavy||next,-4,Flustered|I said it's not happening!
+|boxstyle,1||shaky|Help! The monsters are after me!|shaky||next,-5||boxstyle,0|Don't worry, we will take care of them for you, just hide somewhere safe!
+|checkregional,3,11||checkregional,7,11||hide||event,31|
+|gettail,62|There! I see him on a corner in this room! We must hurry!
+Brother! Oh, you're safe!|next,caller|S-Sis!
+How DARE you run off alone!? What if you got HURT!|next,caller,Angry|I just wanted to get you a present!|next||gettail,62|I don't need presents! I need you to be safe!|next|You're all I have left...|next,caller,Sad|Sis... 
+How touching...|next,-5|Let's give them some time to talk.
+S-Still. I got you this!
+O-Oh, my favorite!|next,caller|I'm sorry for running off. |break||anim,caller,Angry|But I'm mad at you too!|next|You give me most of the food, and then pretend you're not hungry!|next||gettail,62|...|next,caller,Sad|I-I'm not a kid. I can help you out too. We're a family.
+Yes. You're right. I will depend on you a bit more from now on... 
+I uh, don't want Sis to pay the reward. It's my fault she had |line|to come here.|next|Is this enough? I found it while exploring... 
+|tail,-6|Um. Yes, thank you.|next,-5|That is more than enough. Thank you, brave lad.|next,-4,Flustered|Come on, let's get out of here before more monsters appear!|prompt,map,3,2,24,25,@Let's get out of here!,@Not yet.|
+This kid is in danger! It's not time to talk!
+|checkregional,3,22||checkregional,7,22|Dib is safe. Let's reunite these two already.
+|tail,-5|Alright, let's get out of here!
+|tail,-6|We're not going yet. We still have business here.|minibubble,26,-4||next,caller|Aw, chucks. It would help to have you lot with us, but I guess we can return by ourselves.|next||gettail,62|We will be alright, see you back at the Ant Kingdom.|next,-6|...Take care, you two. You'll be fine if you're together.
+|anim,-4,Angry|Really?

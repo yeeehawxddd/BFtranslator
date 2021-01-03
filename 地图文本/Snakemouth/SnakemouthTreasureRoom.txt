@@ -1,0 +1,24 @@
+By Venus! Have we finally...|next,-4|It's the treasure room! We did it! We super ultra mega did it! Yeah!|next,-6|It's too early to celebrate.|next,-5|Leif is right. This place has been consistently dangerous. We must |line|stay vigilant.|next,-4|Last one to the treasure is a FAT STINKBUG!|next,-5|Fat!? |menu,46,1|, wait!|next,-6|... 
+|checkflag,41,0||tail,-6|This place sure is nicer without spiders and floods.|next,-5|It's quite nostalgic.|next,-4|Why ARE we here, though?|next|It's not like treasure is going to suddenly appear.|next,-5|Sometimes, it is about the journey, not the destination.|next,-6|Very funny, Kabbu.|next,-4|Screw that. If there's no treasure let's just get out.|next,-5|(I never get to have any fun...)
+Hey look!
+Is that the artifact?!|next,-5|Looks like it. Let's take a closer look.
+Could this be the artifact? Some sort of mask?|next,-4|It doesn't really seem special. Or valuable.
+|wavy|Sueska? |anim,-4,Surprized||anim,-5,Surprized|Mijrelf ytrik...|wavy||next,-4||menu,48,1|?!|next,-5|Are you alright!?|next,-6,WeakBattleIdle|Y-Yes... This mask has very potent magic. We reacted strongly to it...|next,-5,Idle|That settles it, then. This is probably the real artifact.|next,-4,Idle|Dibs. Leif shouldn't touch it anyways.|next,-5||face,-5,-4|The Queen has claimed it already, Vi.|minibubble,6,-6||next,-4|Yeah, yeah. Whatever.|breakend|
+The Queen...|halt|
+You have found the|line|  |color,1|Ancient Mask|color,0|!
+Eep!
+What!?
+Oh dear.
+Curses! It's a trap!|next,-4,Flustered|We need to leave!|minibubble,23,-6||breakend|
+YOU!|next,-4|S-Seriously!? The spider!?|next,-5|This is the worst possible timing!|next,-6,BattleIdle||boxstyle,0|We disagree. It's the perfect time for payback!
+If it won't let us escape, we might as well defeat it.|next,-4|B-But last time we had to run!|next,-5,BattleIdle|We are stronger now, Vi. And Leif is with us. Some battles we cannot run from!
+G-Gah! Alright! |anim,-4,BattleIdle|Let's take it out, before the room floods!
+SCREEEE!!!
+We... We did it! For real this time!
+Heheheh... Hahahaha!|next|We really did it! What a scare...but working together, we were victorious!|next||anim,-5,WeakBattleIdle|We did it...|next,-6||anim,-5,Idle||face,-5,-6||face,-4,-6|Thank you. We don't know much of what's happened to us. But beating up that spider was great stress relief.|next,-4|No problem! I was gonna beat |line|it up anyways!
+And we got the treasure, too!
+C-Curses! We forgot about the flood!|next,-6|We should probably leave while we can.
+...Aw, heck.
+Aaaaaaaaaaah!
+The adventurous duo, Vi and Kabbu, dove into Snakemouth Den for their team's first exploration mission.|next|A place known for having consumed any previous explorer that|line|dared to enter.|next|Even so, the team stuck together, and were surprised with a new friend, Leif.|next|Together, they found one of the fabled artifacts that the Ant Queen has been looking for.|next|Triggering a trap, they defeated the vile spider before being swept away.|next|What will happen to this trio who met due to chance? Will they stick together in their journey?|next|Little do they know, that their adventure is just starting...|next||spd,0||fadeletter||center||line|End of Chapter 1.|fwait,2|
+And quickly.|halt|
