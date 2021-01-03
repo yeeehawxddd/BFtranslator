@@ -1,0 +1,103 @@
+|tail,-4|Here it is! The secret place for those who live dangerously!|next,-6|...And we're to believe you were a member of this club?|next,-5|It explains your combat abilities...|next,-4,Happy|Surprised, huh?
+|checktrue,588,92|Come to ol' uncle Shades for the latest, hottest Medals around, haven't you? |shaky|Kehehe!|shaky||prompt,map,0,3,7,-199,8,@Wha'cha sellin'?,-195,@We're just browsing.|
+That's |anstring,0| |string,0| Medal!|wait,0.1||line|For only |var,10| |icon,110,0.6|, it can be yours...|prompt,map,2.25,2,3,4,@Gimme! Gimme!,@Not this time., bub.
+|checkvar,atleast,14,var10,5||setvar,sub,14,var,10||shaky|Kehehe!|shaky| Here you go my lovelies...|break||removebadgeshop,1,var,0||kill,caller||giveitem,2,var,0,6|
+Kehehe. Okay. Your loss.
+|wavy|Oh hoho!|wavy| Not enough! |shaky|Not enough!|shaky||line||wait,0.1|Too bad, I guess!
+Come back if you still have any berries left to spend! |wavy|Kehehe!
+|shaky|Kehehe!|shaky| You can see all I'm offering right over there!|line|Press |button,4| on whatever ya fancy!|next|I have lots of Medals and I like to change my stock now and then, so keep coming! |wavy|Keep coming!|wavy||next|Maybe sometime there will be something you fancy? |shaky|Kehehehehe!|shaky||next|Oh, and I only accept |icon,110,0.6| |color,1|Crystal Berries|color,0| here! Don't give me those |line|crummy common berries! |shaky|Kehehe!|shaky|
+Alright! Alright! |shaky|Kehehe!|shaky| But you should buy now while you still can! |wavy|Kehehehehe!|wavy|
+|tail,-4|Shades' business is booming as always.|next,-5|You know, Vi...given the nature of this place, can we be sure he's acquired all this legally?|next,-4|Shh. Keep it up and they'll throw you out!|next,-6|That's useful to know... 
+|tail,-4|The bar's pretty full... Bea must be working really hard today.|next,-6|Bea...is a Bee, right? She looks a bit strange.|next,-5|White bees... In the north, they tend to work outside of Hives.|next,-4|Uh huh. Dunno where she's from, though.|next,-6|A renegade Bee, doing whatever she wants. She's a bit like you, Vi.|next,-4|Heheheh. Sounds right to me!
+|tail,-4|Running a bar sounds super fun!|next,-6|You'd run just about any business that'd pay well, huh.|next,-5|Vi, I support you, but...conduct clean business!
+|tail,-4|Ugh, can we not deal with Reed? I'm allergic to bouncers.|next,-6|We shudder just thinking what you did to get on his bad side...|next,-5|...Indeed. Given the nature of this place, it's actually quite impressive that you had to be thrown out.|next,-4|I didn't do anything! I just forgot the code!|next,-6|Sure thing, Vi. Sure thing.
+|tail,-5|...? Okay, I need some help. I can't figure out what type of bug this lady is...|next,-6|Hmm...maybe she's a Moth?|next,-4|No way.|next,-6|We could just ask her...|next,-5|N-No! It will make us seem so uncultured! I'd rather never know... 
+|tail,-4|Sometimes I see this Beetle at Fry's. He eats pretty much anything...|next,-6|Ah, a true gourmet. We may have things in common.|next,-4|Yeah. You're both weirdos, alright.|next,-6|... 
+Ahh, Doppel's Berry Juice. It has that little kick the competition just can't offer me...!
+|align,left,true||face,caller,-1|Psst.|next,-6|Huh?|next,caller|You're explorers, right?|next,-4|Well, yeah. You new here?|next,caller|You could say that... I've got a nice deal for you. Very nice.|next,-5|This seems incredibly shady, par for the course...|next,caller|Shady? Gosh, no. I'm an honest informant!|next|I'm sure there's enemies you've forgotten to Spy...|next|For a few berries, I'll give you information about one of them.|line|Randomly.|next,-6|Randomly? How does that even work?|next,caller|Trade secret.|next,-4|Uh...sure. We'll check it out later or something.|next,-5|(Venus, I hope not.)|flag,65,true|
+|hide||event,65|
+Hmph. Behave, Vi. My work's daunting enough without having to |line|keep my eye on you.|next,-6|Yeah, Vi. You better behave.|next,-4,Angry||face,-4,-6|Shush. I'm not going to do anything.|next,-5|Worry not, bouncer. We will make sure to stay in your good graces.
+|showmoney|Hey y'all. Reckon you'd like some of Doppel's good old Berry Juice? It'd be 12 berries.|prompt,map,2.5,2,20,21,@Sure thing partner.,@No thanks mate.|
+|checkmoney,12,22||checkinvqtd,0,full,23||money,-12|Have a nice chug!|next||giveitem,0,39,24|
+Alright. Just give me a holler if ya get thirsty.
+Hold up. Ain't gonna give this thing away for free!
+Ah shucks. You don't have no space. Holler at me later.
+Alright. Just give me a holler if ya get thirsty again.
+Hey there. Come for some spy data?
+I have this one you still do not have... How about |currency,var,0| for it? Deal?
+Oh! Here, I have this super rare spy you didn't get yet!|next|Since this one is rare, how about|line||currency,var,0| for it? Deal?
+...Sorry, it doesn't seem like I have anything that might interest you right |line|now.
+Oh, too bad. You don't have enough.
+Alright, here you go!
+Maybe next time then?
+Thanks, nice doing business with you!
+Thanks again for helping us out with Scarlet.|next|We will resume our search for him...|anim,caller,WeakBattleIdle|once we recover from our injuries.
+|tail,-5|Celia, may I ask you a question?|next,caller|What is it, Kabbu?|next,-5|Does the Queen know of this place?|next,caller||shaky|SHH!|shaky| Don't mention her, you will get us kicked out!|next,-5|O-oh. Sorry.|next,-6|We assume this means "no".
+So even Levi has his shady side too...|next,-6|You sound disappointed.|next,-5|While he may not be one of the top explorers, I still looked up to him...|next,-4|Come now, Kabbu. Everyone needs a bit of danger in their lives!|next|Besides, you're here too now, so don't think you're always sparkly clean.|next,-5,WeakBattleIdle|...You're right...|minibubble,37,-5||break||destroyminibubble||end|
+I wonder how many Ants know of this place.|next,-4|Quite a lot. I've seen some come now and then.|next,-5|No, what I mean is...the Anthill is just close by... How come the Ants didn't dig tunnels through here yet?|next,-4|That's classified information, Kabbu. You better drop it before they|line|hear us.|next,-6|That only makes us want to know why more.
+|wavy|*Sob*
+|shaky|SHADES!|shaky| You sold me stolen stuff!|next,caller||boxstyle,0||shaky|Kehehe...|shaky|So you've noticed, Vi? Should you be surprised?|next,-4|Do you know how much trouble I almost got in!?|next,4|Kehehehe. It's all part of doing business here. And before you ask, |line|I never give out refunds! |shaky|Kehehehehe!|shaky||next,-4,Angry|Grrr!|next,-6|Uh, is this your...friend, Vi?|next,-4|Not anymore.|next,4|Ow, really? That hurts, you know?|next,-5|Shades...you sell Medals and trinkets, yes?|next,-6|Pretty rare ones, from the looks of it.|next,4||shaky|Kehehe!|shaky| Good eye, my cold friend!|next|Welcome to Shades' rare Medal shop, where only the rarest of the rarest Medals are for sale!|next,-5|These are likely stolen, but...! They seem like they'd cost so many berries!|next,4|Berries? No, nono! No, my round friend.|next|We only accept very top quality|line||icon,110,0.6| |color,1|Crystal Berries|color,0| here!|next|Normal berries are for chumps, Crystal Berries are where it is at!|next,-6|We did find a few, but... Are we really going to buy from a thief?|next,4|Kehehehe. If it makes you feel better, not ALL of them are stolen...|next,-4,Happy||face,-4,-5|...It's for the mission, right?|next,-5||wavy|Sigh...|wavy|Alright. For the mission.|next,4||shaky|Every bug's got a price!|shaky| You chose a good shop to bet your integrity on!|next|Just stand near what you want and press |button,4| to check it out! |shaky|Kekekehehehe!|shaky||next,-5|I immediately regret this.|next,-6|For the mission, Kabbu. For the mission.
+|hide||event,83|
+|face,caller,-4|...Howdy, look what the wind brought back.|next,-4,Angry|Hi, Doppel.|next,-6|Another ladybug? We thought...|anim,-4,Sad||face,caller,-5||minibubble,@!,caller||next,-5||face,-5,-6|What are you saying, Leif? This Doppel sir is a fine Beetle.|next,-6|...Kabbu.|next,-5|What?|next,-6|...Nothing. It's nothing.|next,-4,Idle||face,-5,-4|A-Ahahaha, anyways... Um, this is Doppel! He runs the bar.|next,caller|That I do. Give the folks a bit more space to be free. Rowdier.|next,-5|Err... What do you mean, Doppel?|next,caller|We handle jobs no one else can, pardner. Those too dangerous for the regular explorer.|next|And in exchange, we get some nice favors with the Queen's folks...|next,-4,Happy|And a big bunch'a berries!|next,-6|Sounds interesting. What kind of jobs, then?|next,caller|Monsters. The type that wipe out squads by themselves.|next,-5|...|next,caller|Scared?|next,-4|As if!|next,caller|If you want to know more, mates...check the board here.|next|And come see me if you complete any of them.|next,-5|...We will. Team, let's get rid of those pests.|next,-6|Someone's pumped...|next,-4|Agreed! Let's go get rich!|next,-4,Idle|Er...carefully!
+Back already?
+You haven't defeated the remaining bounties yet. When you do, we can talk about a reward.
+Interested in that quest?|prompt,map,2.25,2,44,45,@We will do it!,@Not now.|
+Alrighty. I'm counting on you.
+No rush.
+Have you no etiquette? If you have any business with me, talk to me from across the table!
+|hide||event,90|
+You're up for our duel?|prompt,map,3.8,3,50,49,51,@Rematch Time!,@Can you explain the rules again?,@No thanks.|
+Listen closely, rookie!
+Ready yourself. This will be a duel for the books!
+A shame you turned out so spineless... 
+...These aren't nearly enough.|next|Come back once you have one |color,1|Boss Card|color,0|, two |color,1|Miniboss Cards|color,0| and one |color,1|Enemy Card|color,0|.|next|There's someone selling spies here, if you're in a rush.|minibubble,57,-4||next||destroyminibubble||end|
+If you're ready for the real thing, let's get it started.
+|tail,14|A challenge? Bring out your deck. Let us duel with honor.|next,-4|Um, what?|next,-5|What's a deck?|next,14|Tch. Have you come to waste my time, then? I live and die by the card.|next|If you're not here to play, leave.|next,-6|Sounds interesting. Won't you tell us more? We may surprise you.|next,14|You expect me to teach a newbie the ropes?|next|...Well, sure. It's been a slow day.|next|The first thing you'll need is a proper deck of cards.|next,-4,Angry|We aren't gonna have to buy some, are we?|next,14|Decks are built from |color,1|Enemy Spy Data|color,0|. You should hold a few right now, even.|next,-5,Happy|Oh, yes! I do love spying!|next,14||anim,-5,Idle|You'll need at least one |color,1|Boss Card|color,0|, two |color,1|Miniboss Cards|color,0| and one |color,1|Enemy Card|color,0|.|next|Come talk to me when you're ready. I long for battle.|flag,236,true|
+|flag,237,true|...Hmm. Yes, these will do. Although I can't speak of their quality.|next,-6|You'll battle us, then?|next,14|Already? Thought you'd appreciate the basics.|prompt,map,2.2,2,49,56,@Please teach us.,@We studied.|
+|tail,-6|No need. We read up on the game while looking at our cards.|next,14|You're a cheeky one, aren't you? I hope your "studying" proves enough.|next|When you're ready, let us battle!
+|anim,-4,Flustered||wavy|Noooo!
+That was disappointing. But at least it helped pass the time.|next,-6|Tch. We'll get you next time.
+...! I've lost!?|next,-6|So it seems. Good game.|next,14,100|Ahahaha... |wavy|Ahahahahah!|wavy|
+That I did. An excellent duel, Leif.|next,-4|We get anything for winning?|next,-6|Don't bring your greed into our battleground, Vi.|next,14|Mhm. This was nothing more than a duel to clash our wits. To think I'd be bested...|next|But if you really want a prize, there's a big competition on |color,1|Metal Island|color,0|.|next|Rich bugs board the boat on the pier there, and watch us play for sport.|next|The entry is pricey, but nothing compared to the prize.|next,-4|Wait, you can make money playing card games?|next,-6|It sounds fun. Can we enter, then?|next,14|Take this, Leif.
+If you wish to enter...you'll need to fill up that Blank Card.|next|Search for the |color,1|four Card Masters|color,0| across Bugaria. That's all I can say.|next,-5|Could we have a tip, at least? Bugaria is quite vast...|next,14|...Eh, sure. Why not. The first card master...is old. Good luck.
+Heheh. Let's go look for them! You've gotta win that prize!|next,-6|You can keep the prize. We play for glory.|minibubble,63,-5|
+Don't forget the mission... 
+Hang in there!
+Ah...I see you defeated that nasty|line||color,1||string,0||color,0|...|next|May I have that crystal it dropped?
+...Yes, this is a genuine deal. Here is your reward.
+|hide||fwait,0.5||giveitem,-1,50,-11|
+Nice doing business with you. Please find the other bounties and your reward will be waiting.
+|align,left,true|Huh!? That smell......!|next|You've found some Dark Cherries, haven't you?!|next,-5|Uh, well, yes. How did you...|next,caller||anim,-4,Surprized||anim,-5,Surprized||anim,-6,BattleIdle||shaky|SNOOOOOOOORT!|shaky||line|Yes, yes! I can feel their |shaky|SCENT|shaky| all over you!|minibubble,@Gross.,-6||next|I have a lot of Dark Cherries with me, you see... I can smell them from miles away!|next|So rare and valuable... Dear cherry lovers, I'll sell some of mine for 50 berries each!|next,-4,Angry|What?! Can't you lower that a bit?|next,caller|Finding these cherries is no easy task! Even for my expert nose!|next|50 berries. It's a steal.|next,-6|We did hear of some amazing recipes using them... Hmm...|next,caller||wavy|Hyuk hyuk hyuk!|wavy| Please consider it, cherry lovers! It's an amazing deal!|flag,378,true|
+Ah! My dear cherry lovers! My offer still stands for you and you only... 50 berries for these cherries!|showmoney||prompt,map,0,3,71,82,72,@We will take one.,@What can we do with these?,@That's too much!|
+|checkmoney,50,73||checkinvqtd,0,full,75||money,-50|Heh heh! Thank you friends! Here!|break||giveitem,0,121,74|
+|wavy|Hyuk hyuk!|wavy| Well, it's a free kingdom! I'm free to set the prices, and you're free to reject them.|next|But these cherries aren't that easy to find! See you soon, my friends!
+Ah...sorry! You don't seem to have enough for this cherry! Maybe next time, friends?
+I do have a bunch more cherries we can trade, I will always be here for you, cherry lovers!
+What's that? You can't carry it anywhere! Maybe next time, amigos?
+|checktrue,378,77||tail,-4|Huh. This guy's new.|next,-6|He keeps staring at us... Let's see what he wants.
+This uh, peculiar bug seems obsessed with Dark Cherries.|next,-6|They ARE rare and delicious. Don't you wonder where he found so many?|next,-4|Maybe he has like, a secret underground garden full of them!|next,-6|We must find that garden ASAP.|next,-5,Angry|...You're not planning a robbery in front of him, are you!?
+|tail,-4,Angry|Hey, Reed.|next,caller|Vi... What do you want?|next,-5|A-are you Artia's boyfriend?|next,caller|Yes I am... What is that to you? Looking for trouble, chubby?|next,-6|We are doing a request for her. She asked us to get the blackest paint.|next|But the guy that has it doesn't want anything to do with us.|next,caller|I see. I know she wants the paint, but... |next|I really didn't want her to get involved with that guy.|next|I may be a tough guy, but she is my soft spot. Wouldn't want to get her into trouble.|next|But since you're going in her place... I suppose I could assist you.|next|I used to know the guy but we have had a...falling out. So I couldn't get the paint from him anyway.|next|He'd probably do something horrible to me if I went by myself. But he still owes me a favor from long ago...|next|So here, give this to him.|break||giveitem,1,138,79|
+Don't you dare open that, it contains sensitive info. Info for|line|his eyes only.|next|Just give that to him and don't ask questions. He will give you the paint.|next,-6|You know, just saying that makes us even more curious.|next,-4,Idle|Uh, Leif, don't. Alright? Wouldn't want to never be able to sleep again knowing something could happen to us.|next,caller|Listen, just do this and everything will end without issues.|next|I can trust you with that, can't I, Vi?|next,-4|Yeah, yeah. I know, Reed. Just leave it to me.|next,caller|Good.|next,-5|(This is |wavy|sooo|wavy| shady...)|flag,432,true|
+Deliver the note and everything will be fine. Don't you dare open it though.|next,-4|We know, we know.
+Vi, don't think that this favor makes me forgive you for your past |line|deeds.|next,-4,Angry|You tell me every time, Reed.|next,caller|...Still. Thanks.|minibubble,@...!,-4||anim,-4,Happy||breakend|
+Haha! Lots of things! These cherries aren't just an easy way to get cash, y'know?|next|You can bake them, add a bit of explosives, try them out with other |line|ingredients...|next|These ARE rare and expensive, so don't be too liberal with your experiments! |wavy|Hyuk hyuk!|wavy||next|Do mix it with rare ingredients, though! Oh, I don't know... A Tangy |line|Berry, perhaps? |wavy|Hyuk hyuk!
+Well, would you look at that. You actually did it.|next,-4,Happy|Yup! All the baddies are down!|next,-6|You weren't kidding, Doppel. They were quite troublesome to deal with.|next,-5|Knowing Bugaria is safe from those monsters is a great relief!|next,caller|...Ain't that the truth. I'll give you something extra, for all the trouble you've gone through.
+|tail,-4,instant||anim,-4,Happy|Neat! Thanks, Doppel!|next,caller|Take care, you brave bunch.
+You've done Bugaria a great service. Let's see if the Queen |line|takes notice...
+|tail,-6|That's a wrap for the bounties. Thankfully, we had their tips to |line|find them.|next,-4,Sad|It's kinda weird to take all the credit...|next,-5|They're satisfied having found the monsters and sent us to them...|next|I'm grateful, but you're right. |anim,-5,Angry|It's not enough! Bea! |anim,-4,Surprized|Some juice for |line|them!
+Hm. You really went and beat those monsters up.|next|My only regret is I didn't get to see it. Heh.
+Hey, Team Snakemouth! Amazing work out there!|next|Bugaria's way safer now, thanks to you clearing those bounties!
+Ladybugs are free to roam the Ant Kingdom now! The Queen has my |line|gratitude.|next|...Even so, I've gotten used to this place. I hope she won't mind.
+The Queen's earned a lot of respect since dealing with the Wasp King.|next|...She's mellowed out. I hope she can rest easy with the Sapling gone.
+Now that everything's over, perhaps we should drink some juice |line|with Levi and Celia.|next,-6|We owe them a round, anyways. Remember when they helped us |line|save Neo?|next,-4|And they took the hits from Scarlet first!|next,-5,Happy|It's been quite the journey! Heheh... Bea, 5 Berry Juices for us!
+|shaky|Kehehe!|shaky| Vi, you've run me out of stock!|next,-4,Happy|Your fault for selling super good stuff!|next,caller||wavy|Kehehe...|wavy| The new code...it's "|color,1|FRAMEONE|color,0|"!|next,-6|We can already get in, though...|next,caller||shaky|Kehehe...|shaky| There's a "menu" you can input that on.|next,-5|Menu? I do not understand...|next,caller|Keh. Sorry. That's all I know.|next|Thanks for all the business! |shaky|Kehehe!!!
+Those things she's holding...|next,-6|They seem like cards. A game to pass the time?|next,-4|Didn't know you could play cards by yourself...|next,-5,Surprized|Vi, have you never played Solitaire!?|next,-4|Nope.|next,-6|Neither have we.|next,-5,WeakBattleIdle|Ngh... We truly feel "Solitaire" now...
+|event,224|
+...Heheh. Figured you'd take the quest.|next,stratos|You've come to..."entertain" us?|next,-6|If Doppel won't mind a broken table or two.|next,-4|Loser pays the repairs, heheheh...|next,-5|I-Isn't everyone being a bit too eager for violence...|next,delilah|Hey, it's just banter!|next,stratos|Although I do agree with loser paying for repairs.|next,delilah|Just holler when you're ready to fight, alright?
+Ready to go?|next,stratos|You're dear comrades, but we |color,1|won't hold back|color,0|.
+Very well. |anim,stratos,BattleIdle||shaky|I'VE BEEN WAITING TO LET LOOSE!
+|tail,delilah|Take your time! A rushed fight's no good.
+N-No... The bill...|next,-6|Ngh...That's gonna cost us...|next,-5|What power... No wonder they can afford to slack...|next,delilah|That was fun! Let's do it again sometime!
+Mhm.
+H-Heh... As expected of those who beat up the Wasp King.|next,delilah|Aww... I was really hoping we'd win, you know...|next,-4,Happy|You're pretty good!|next,-6,Idle|We can go again anytime.|next,-5,Idle|N-Not anytime! Let's rest a bit!|next,delilah|Time to pick up the tab. Oh, you can have this too!
+|tail,stratos,instant|Thanks for the fun time.
