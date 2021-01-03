@@ -1,0 +1,31 @@
+|checkpos,x,-20,1||checktrue,218,29||tail,-6|Call it a hunch, but we think this is the Overseer's office.|next,-4|Mhm.|next,-5|Incredible! How did you figure it out!?|next,-6|...A hunch.|next,-5|...Oh. Ahem. Vi, there's no way the Overseer would be hiding in here, right?|next,-4|I sure hope so. Would make our life way easier.|next,-6|Then she's definitely not here. But let's look around anyways.
+So many beds! Are these needed with the Hive close by?|next,-4|Workers don't really leave the factory until their shift's over. |line|Sometimes its days long...|next,-6|That sounds suffocating. And illegal.|next,-4|Pays super well, though! And then they go on a huge holiday!|next,-5|How come you didn't become a worker, then? It'd get you all the berries you want.|next,-4,Angry|No way! It's so boring! Once was enough for a lifetime!|next,-4,Flustered|I wanted to fall asleep every second of it! I'd rather be poor!|next,-6|Alrighty then...
+|checkmapflag,0,5|Hey, normally tourists can't sleep here... But it's an emergency. |line|Care for a nap?|prompt,map,0.5,2,3,4,@Yes.,@No.|
+Alright, I'll wake you if something happens.|break||mapflag,0,true||resetregion||innsleep,-58.25,0,1.15,true|
+Do be careful.
+Had a good rest? Hopefully we'll get out soon... 
+Watch out with the honey! It's super-sticky, and the machines here |line|charge it with |color,1|numbing|color,0| electricity!|next|If some turret shoots it at you, make sure to block!
+|tail,-6|A portrait of the overseer? A bit narcissistic...|next,-4|It's not like that. This is the honored employee portrait!|next|Bees that work really hard get to be put up there for a few days.|next,-5|Is there no hall of fame for all the honored employees?|next,-4|Yup. It's inside the Hive though, so you two can't see em.|next,-6|So in our team, Kabbu would be the honored employee?|next,-5|I-I would?|next,-4|No way, it'd be me!|next,-6|(...Awaiting nomination...)|discovery,15||flag,223,true|
+|tail,null||boxstyle,4|This machine is too complex for us... 
+|boxstyle,4|A portrait of the Overseer.
+Psst. Vi. I know we're stuck, but if you need any |color,1|Magic Seeds|color,0|...Fork over 25 berries...|showmoney||prompt,map,2,2,11,12,@Hand it over!,@No way!|
+|checkmoney,25,13||checkinvqtd,0,full,14||money,-25|Alright then... Here it is.|break||giveitem,0,11,-11|
+If you need them just come see me.
+Sorry, can't make the deal any cheaper. Not even for you, Vi.
+Oops. Seems you can't carry anything else.
+Phew, Glad the lockdown's over! Thought we were going to be stuck here forever...|next|What? Magic Seeds? No idea what you're talking about, Vi. H-Hahaha!
+Lockdown's over... Back to work we go!
+Sorry, tourists can't sleep in here. If you get hired back, Vi, I'll make sure to save a bed for you.|next,-4,Angry|Fat chance.
+I'll revise the protocols so that lockdowns won't happen on |line|important days... 
+|tail,-4|That's the overseer!|next,-6|Yeah, we saved her, remember?
+|call,28||tail,10|Oh, Vi! You've come back!|next,-4,Angry|This might pay well, so...|next,-6|The robot things are having issues, yeah?|next,9|Indeed. The Code 32 incident caused plenty of trouble, and I had to fix all of them.|next|The Menders are durable and reliable, but some of them went haywire despite my efforts.|next|I don't have time to look for all of them, so I need you to go in my stead.|next,-5|We're not qualified engineers, so... How do we fix the Menders?|next,9|Easy. Just whack them until their system resets.|next,-5|What? H-Hit them? What about their feelings!?|next,-6|Kabbu, machines don't have feelings.|anim,-5,WeakBattleIdle||minibubble,21,-5||next,9||destroyminibubble|They don't indeed. Just go and reset them, no matter how many whacks it takes.|next|There should be |color,1|3|color,0| around the processing areas of the factory.|next,-4,Idle|You better have a reward ready! Let's move, team!|breakend|
+And if |line|they do...?|halt|
+There are 3 broken Menders in the factory's processing area. Trust me, one |line|look and you'll know which ones broke.
+The Menders normally just follow their programming, but sometimes they can go a bit... crazy.|next|Pay no mind to their babbling while in that state.
+|call,28||tail,9|You've fixed them, haven't you? My radar's confirmed it.|next,-5|It was emotionally draining...|next,10|The Menders weren't made to fight, only to do simple tasks.|next||anim,10,Sad|Thank you. H.B.'s inventions have been going |wavy|way|wavy| out of control recently.|next,9,Angry|Well, I must congratulate you, Vi. I really want you to come back and work for us.|next,-4,Flustered|In your dreams!|next,-4,Happy|Exploring's right where I belong.|next,9,Idle|...Regardless of my bias, it's good to see you've found your calling.|next|You've earned this. Thanks for helping us again.|break||giveitem,2,49,25,-4|
+|tail,-4,Happy|Woah! This one's really rare!|next,10,Idle|It would really be nice to have you back with us, Vi. But I know you'd hate it...|next|Good luck on your adventures!|next,-4|Thanks, chief!|next,-6|Well, we're out. Stay safe.|completequest,35||flag,330,true|
+I do think you've got a future here, Vi.|next,-4,Happy|I'll live. Exploring's way more fun!
+Thank you. That's one less problem to worry about!
+|parent,9||igcolmove,10||align,left,true||face,9,-1||face,10,-1||flag,325,true|
+|tail,-4|We found the Overseer, so...can we leave?|next,-6|Don't like the office much?|next,-4|Yeah. Seriously bums me out...
+|tail,-4|Bleh. Taking her posting is like working for her again...|next,-6|We can charge her extra, if it makes you happy.|next,-4,Happy|Great idea!|minibubble,@You two...,-5||breakend|

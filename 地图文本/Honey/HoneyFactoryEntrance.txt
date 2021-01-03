@@ -1,0 +1,57 @@
+|checktrue,299,51|This trip didn't go as I'd hoped...|next,-4|That's what I get for doing the Queen a favor...|next,-6|It's just another mission. Let's stay focused, and take in the sights.
+|boxstyle,3||spd,0|This way to the Honey Processing area.
+|boxstyle,3||spd,0|This way to the Honey Storage.
+|boxstyle,3||spd,0|This way to the Core.
+|shaky|N-no one panic... It...it will be alright!|next|Dr. H.B. is with us... She will figure something out...!
+|hide||event,80|
+|wavy|Oh nooooooooooooo...|wavy||next|I just got the job, and everything's already ruined. Ruined!|next|Why does this always have to happen to |wavy|meeeeeeee?!|wavy||next|With the factory closed, I can't sell stuff to fill up my quota, and I'll get fired! |wavy|Nooooooo!|wavy||next,-4|Err, management doesn't have quotas during emergencies...|next,caller||wavy|Huuu...|wavy||next,-5|Some make believe won't hurt, Vi. Miss, we'd love to shop here, if you'd have us.|next,caller|Y-you will...?|next||anim,caller,Idle|A-Alright. If there's customers, I can't mope around! I'll set the shop up!
+This is the way to the factory core, but only the overseer can open the door.|next|...I've never actually seen the core itself before. Wonder how it looks like.
+Oh no! The overseer's stuck in the storage! We can't gain access to the core without her!
+The path on the right leads to the overseer's office.|next|Maybe you can find something to help there?
+Find the overseer. Meanwhile, I will be working on the replacement key.
+...This looks so complicated... B-but I can do it... 
+Hmmm... Maybe the overseer's through here?
+Door's locked. Needs a card or something... Where could it be?
+|shaky|M-my training didn't cover this... 
+Mothiva and that wasp guy entered the storage just before the lockdown...|next|Maybe they had something to do with it?
+|boxstyle,6||color,5||glitchy|
+Wow! So many tourists! This is the famous Honey Factory! |next|Amazing, right? |line|Here's where we produce all of Bugaria's honey!|next|Oh, um. Ignore this pile of scrap. Some explorer left it here and |line|walked out...|minibubble,18,16||next|Anyway! I'm Tuvi, your delightful tour guide. While the incredible Doctor builds our new core, I'll show you around to lots of fun!|next,13|Yeehaw! Can't wait!|next,11||face,party,11|Sounds like a good opportunity, doesn't it? Science is incredible, but |line|not the best spectator sport.|next|@EVENT@By the time the tour is done, I'll have assembled everything.|next|So go on, have fun!|next,-5|Thank you, Doctor. We will enjoy this for sure!|next,-6|Knowing how the honey is made... This is an opportunity we|line|cannot miss.|next,-4|It's seriously nothing that cool...|next,-5||face,-5,-4|Maybe for a bee. For us, it's a great experience!|next,-4,Happy|Alright, alright. Geez... It'll be fun, I guess.
+Boring.|fwait,1.5||blank|Let's go, Zasp!
+Uh... What?
+Warning! Warning!|next|Factory has been compromised! Alert Code 32 Engaged!|next|Complete Factory Lockdown in Effect!
+|shaky|W-w-w-w-w-w-w-what!?|shaky||next,11|What...? But Code 32 is...|next,-4,Flustered||face,party,11|Doc! What's going on?!|next,11,Idle|Code 32 means... The factory has been attacked by hostile forces!|next|But how? We didn't see anyone on our way here...|next,-5,Idle|Doctor, we must leave! We can retrieve the artifact later!|next,11|Indeed. It's not just us, tourists and workers need to evacuate too.|next||face,party,17||anim,-6,Idle||anim,-4,Angry|Guide, do you know where the Overseer is?|next,17|N-no! It's routine checkup time... She could be anywhere!|next,11|...Tch. Without the Overseer, we're stuck.|next,-4,Flustered||face,13,11||face,14,11||face,party,11||shaky|What!?|shaky||next,11|Code 32 will lock down the entire factory for a week.|next|That is, unless the Overseer enters the disarm code.|next,-6|We suggest turning our trip around the factory into a rescue mission.|next,11|...Great idea! Finding her will fix all our problems, really.|next,13|A-Alright. We'll help!|next,11||anim,-4,Idle|With such a capable group of explorers here, we should be okay.|next|For now I will work on the core's replacement... You should focus |line|on the rescue mission.|next,14,Idle|Let's do this!|next,-4|You heard that, Mothiva? Let's-|flip,-4||next||anim,-4,Flustered||flip,-5||flip,-6||flip,13|Wait, where is she? Where's Zasp?|next,13|Huh, he's gone too...|next,-4,Flustered|I bet they have something to do with this...!|next,-6|For this once, probably not... Guess we'll have to search for them too.|next,-4|Cuz we didn't have enough to do... Let's go, team!
+Ah! The door! Thanks, Team Snakemouth!|next,13|Heheh. It's our time to shine, Eri! Can't let them do everything, right?|next,14|Y-You sure we won't get in the way?|next,13|Relax. It's just a factory! Let's go in and do what we can!
+Uh oh... The factory's super dangerous! It's full of sentry bots!|next,-5|W-What!? Team, we must give chase!
+|boxstyle,6||color,5||glitchy|Welcome to the trendiest shop in all of Bugaria!
+|checktrue,299,53|Poor miss Amber's been trapped as well!|next,-6|Thankfully. It'll be handy to take our items from storage.|next,-5|Think about her feelings!|next,-4|I dunno. She seems fine to me... Does she even know there's a lockdown going on?|next,-6|If she doesn't, we better not tell her.
+|tail,-6|Look at 'em go.|next,-5|Goodness... They're assembling the pieces at an unbelievable pace!|next,-4|Looks like a bunch of junk. Is this really going to make a new core?|next,-5|I can't wait to see the end result!
+|checkflag,176,28||checktrue,299,52||tail,-4|Yikes... Why'd you have to say that, Kabbu? Now we HAVE to |line|buy things.|next,-5|Vi, we cannot leave until we complete our mission. More supplies |line|will be helpful!|next,-4|I mean, it's not like we walked in here with our pockets empty.|next,-6|And if we run out of berries, it will be hard to get more.|next,-5|Let's just be very responsible with our exploration funds, then.
+This poor bee is distressed! We simply must-|fwait,0.2||blank||tail,-4|Yeah, yeah. Let's talk to her.
+|checktrue,299,56||tail,-4|Poor Tuvi...|next,-5|It must be rough, being a tour guide.|next,-6|What about us? We're the one cleaning up the mess... 
+Seems at least one is frazzled...|next,-6|It'd be weird if everyone stuck to protocol. 
+Heya. This is the famous Factory Gift Shop!|next|If you want a delicious honey treat, stand next to it and press |button,4| to call me.
+That genuine, Bee Kingdom produced |string,0| costs|line||currency,var,1|! Interested?|prompt,map,2.3,2,33,34,@We will take one!,@Just lookin'|
+|checkmoney,var,1,35||checkinvqtd,0,full,36||money,var,-,1||additem,0,var,0|Thanks for your purchase!
+Well, looking's free...
+S-Sorry. If I give it away, I'll get fired!
+Hey, you need some space for that!
+Oof... That lockdown really scared me. I feel like it took a few years of my life away... 
+That was the first time I've seen the core!|next|...It's nothing special, really. Bummer...
+Man. This lockdown is going to make me miss my favorite show... 
+I'll catch my show just in time! Thanks, Vi. |next|Just a few minutes longer, and I woulda missed it. I'm super in your debt!
+Mothiva and the other dude are back! They seem a bit upset though. |line|And drenched in honey.
+I went into the storage to check if everything was alright, but there's honey everywhere!|next|Do you know how long it'll take to clean that up!?
+I'm glad we could help! If only we knew where the Overseer was... 
+Uhh, Zasp and Mothiva... Did we upset them somehow?
+You didn't hear it from me, but Gen doesn't like honey much.|next|Guess this lockdown isn't going that great for her... 
+Oh, you found Mothiva! Would you know why she looks so angry?
+...We owe you nothing.
+Hmph. How long until we can go home!? Find the overseer already!
+Took you long enough! Let's finish this dumb trip!
+What a scare... I hope that Code 32 doesn't happen again.
+Phew. Glad the lockdown's over.|next,-6|Now we can learn the honey making process at our leisure.|next,-4|Eh. It's better if we get going.
+|tail,-4,Angry|Bleh, the store prices are so high!|next,-6|If we want honey, we could grab some ourselves.|next,-5,Angry|That's theft! Cease and |wavy|desist|wavy|!
+I'm glad Lady Amber is here to help.|next,-6|Do you think the Bee Kingdom pays her to be here?|next,-4|I wonder if we could get paid to make Kabbu carry bags... 
+Malbee? I think she's chatting with the Overseer.
+It's a relief to have other teams here with us...|next,-4|THEY should be relieved we decided to come along!|next,-6|Why not both? We'll have to work together to get through this.|next,-4|Meh. If you say so...
+Tuvi's in high spirits!|next,-6|We're surprised. She looks although nothing's happened.|next,-4|I'm surprised she didn't quit...

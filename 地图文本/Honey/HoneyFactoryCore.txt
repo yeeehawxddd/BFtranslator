@@ -1,0 +1,35 @@
+|checktrue,299,31||checktrue,218,32||tail,-4|This is the core room.|next,-6|Great. It's locked. Let's find the Overseer and get this over with.
+Alright, I will unlock the core now. Are you ready?
+We're ready.
+Not yet.
+Ok, here we go!
+That's fine, you probably need some time to handle the majesty of it!
+|hide||event,99|
+There it is... The factory's core!
+So this is the core... It's a bit unsightly.|next,2|Heh. It was definitely designed with function over form.|next,3|This is such a big day! The core's never been replaced!|next|If this goes awry, the whole factory will explode... 
+WHAT DID YOU SAY!? EXPLODE!?|minibubble,10,7||next,2||flip,2|CROW! I told you that was a 0.004718% chance! Shut up!|next,3|S-Sorry, Doctor...|next,-4,Sad|Phew...I don't want to be here if it's going to blow up!|next,-5,WeakBattleIdle|Oof... Please do not scare us like that.|next,2||wavy|Sigh|wavy|. We'll have a talk later, Crow.|minibubble,11,3||next||flip,2|I was going to give a speech, but the mood's ruined...I'll just replace it now.|minibubble,12,9|
+Seriously!
+Eep!
+(Finally...)
+What is it now!?
+Mothiva! Behind me!
+Oh no, oh no no no no!!!|shaky||next,-5||anim,party,BattleIdle|Everyone, be on guard!
+Hohoho. Calm down. Watch this!|next|Deactivation code 940906!|next,4||boxstyle,7||color,1||glitchy|CORE PROTECTION PROTOCOL: AUTHORITY OVERRIDE.|next||color,1|CODE 32 IN EFFECT.|line|DEACTIVATION COMMMAND REJECTED.|next||color,1|OBJECTIVE: PROTECT CORE AT ALL COSTS!|glitchy||next,2,Surprized||boxstyle,1||color,0|WHY would they ever code that in!? |shaky|...NOW YOU CAN PANIC!|shaky||next,3|Doctor! W-What do we do!?|next,-6||boxstyle,0||anim,9,0|Leave it to us. We'll knock this thing out.|next,-4|Yeah! We ain't leaving without the artifact!|next,8|Team Snakemouth, we're going to have to work together.|minibubble,17,9||next,7,Idle||anim,6,Idle|We're here, too!|next,-5|Everyone... Alright! Take care of all the Bee-Boops! We'll take care of the big one!|next,9,Angry||destroyminibubble|You'd give ME such a simple task?|next,-4|Shut it! They're coming! Just do your job!|next,9|Grr... Whatever, let's go!
+Think of all the fame...|fwait,2||blank|That we'll get|line|for this!
+|boxstyle,7||color,1|MISSION... FAILED... SYSTEM... CRITI... CA... 
+We've done it!|next,9,Angry||flip,party,false||anim,party,0|You should have left the big one to US. And saved us a lot of time!|next,-4,Angry|Shut it, Mothiva.|next,8,Angry|Hmph. Good moves. At the very least we've accomplished our goal.|next,-6|We can agree for once.|next,6||flip,7||flip,6|Uh... Yup! Good job, everyone!|next,9|You did almost NOTHING!|next,7|S-So mean...|next,3||flip,7||flip,6||flip,2||flip,3||flip,-6|W-Well done, teams! We can replace the core now!|next,2|Still, what a shame... Such a beautiful machine reduced to scrap.|next,3||flip,3|W-We'll fix it later, doctor. Could you replace it? I really want to leave!|next,-4|No kidding... Feels like we've been here forever!|next,2|Alright, alright. Here goes nothing. Hope it doesn't explode.|minibubble,20,-6|
+Now you're worried?
+Factory Core Reset Completed.|glitchy||next,2,Happy||boxstyle,0||color,0|There ya go. Bet ya can't tell the difference. I'm a genius!|next,3|Awesome, doctor!
+|anim,-4,Angry|Hey!
+|anim,9,Angry||shaky|WAIT, NO, GIVE IT TO M-
+You have found the|line|    |color,1|Ancient Key|color,0|!
+Team Snakemouth cut across the |line|vast Lost Sands, thwarting a gang |line|of bandits along the way.|next|Despite Vi's foul mood, the team took the Defiant Root's elevator, arriving at the Bee Kingdom.|next|Leif had a scare, but the team |line|learned more about what |line|happened in Snakemouth Den.|next|Vi was convinced to reconcile|line|with her sister, and faced |line|the Queen of all bees.|next|Although the factory tour went a bit awry, the explorers worked together to replace the core.|next|Now, all pieces have been assembled. Is the Everlasting Sapling|line|finally within reach?|next||fadeletter||center||spd,0|End of Chapter 3.|fwait,2|
+|anim,-6,Hurt||wavy|Wusk tav hyr?|wavy||next,2|Fascinating. Your condition... I haven't forgotten. Think about my offer, okay?|next,9,Angry||anim,-6,WeakBattleIdle||boxstyle,1||shaky|ARGH!|shaky||next,-4,Flustered||flip,party|Just ambush us later for it. See how well it goes for you!|next,8,Angry||anim,-6,Idle||boxstyle,0|Hm. You're growing bolder, you brat.|next,-5|N-Now, now. We can all go home, surely that is reason to celebrate!|next,6|You got it! We're going for some Succulent Berries!|next,7|See ya at the palace!
+Ugh... They better mention all the HELP we gave you. Or you'll see.|next,8|Shall we go, Mothiva?|next,9,Idle|Yeah. Whatever. Tomorrow's a new day for glorious fame!
+Oh, right. One last thing. Pass by my lab when you have time. There's something cool I'd like to show you.|next,-4|Sure thing, doc.|next,3|Ah. you're dropping by? I better ask the Queen about the shutdown real quick, then...|next|Um. Thanks for everything, see ya!
+Huff... What an exhausting tour that was. |anim,-5,Idle|But it was fun, too.|next,-4|You've got a real weird idea of fun.|next,-6|We should go hand over this artifact. Let's go, everyone.
+Mission Complete! We can finally leave!|next,9|Yeah, yeah... Can we have the old core? To give to the Queen, of course.|minibubble,22,-4||flip,-4||next,2,Idle||flip,2||flip,3|Of course.
+This is the core room.|next,-4|We know, Kabbu.|next,-6|Back in the day, we heard the factory was powered with caterpillars running to spin wheels...|next,-5|Is that even possible?|next,-4|Yep. But then the core got built a few moons after the roaches disappeared.|next,-5|Bless science. Think of how tired those caterpillars must have been!
+The Overseer's here... Let's exchange the core!
+My hands hurt...but we finished the core in time!
+|tail,-6|They built an ancient artifact replica in...like an hour? Incredible.|next,-5|Bee scientists have truly earned their fame!|next,-4|...Yeah.
