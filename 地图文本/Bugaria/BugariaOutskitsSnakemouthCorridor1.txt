@@ -1,2 +1,4 @@
 I've grown quite fond of this area. It's just so scenic!|next,-4|Well, at least when it's not raining.|next,-5|It's a good thing rain is so uncommon. It gives us ample |line|time to prepare.|next|Let's enjoy the view while we're here.
+我已经开始喜欢这里了。风景真好！|next,-4|嗯，至少没下雨的时候还不错。|next,-5|幸好这里不经常下雨，这样我们就有充足的|line|准备时间了。|next|咱们在这儿欣赏欣赏风景吧。
 |boxstyle,3||spd,0|Hey! Like attacking up close? Annoyed when an enemy is out of|line|reach?|next||spd,0|Ask a friend who can fly or toss something at it to bring it down!|line|Press |button,6| to switch positions in battle and attack!
+|boxstyle,3||spd,0|看这里！想要近距离攻击吗？你是否为够不到敌人而烦恼？|next||spd,0|请会飞的朋友帮忙，或者向敌人扔东西，把它打下来！|line|按|button,6|键在战斗中切换位置，发动攻击！
